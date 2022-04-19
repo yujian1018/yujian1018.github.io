@@ -1,0 +1,25 @@
+# 时序数据库插件
+
+```bash
+psql -U postgres -h 127.0.0.1
+
+create database nyc_data;
+\c nyc_data
+CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;
+
+CREATE TABLE conditions (
+  time        TIMESTAMPTZ       NOT NULL,
+  location    TEXT              NOT NULL,
+  temperature DOUBLE PRECISION  NULL,
+  humidity    DOUBLE PRECISION  NULL
+);
+
+SELECT create_hypertable('conditions', 'time');
+
+
+INSERT INTO conditions(time, location, temperature, humidity)
+  VALUES (NOW(), 'office', 70.0, 50.0);
+
+SELECT * FROM conditions ORDER BY time DESC LIMIT 100;
+
+```

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. 库函数 on My New Hugo Site</title>
+    <link>http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/</link>
+    <description>Recent content in 3. 库函数 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.1 Printf</title>
+      <link>http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/3.1-printf/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/3.1-printf/</guid>
+      <description>Printf General %v 以默认的方式打印变量的值%T 打印变量的类型Integer %+d 带符号的整型，fmt.Printf(&amp;quot;%+d&amp;quot;, 255)输出+255%q 打印单引号%o 不带零的八进制%#o 带零的八进制%x 小写的十六进制%X 大写的十六进制%#x 带0x的十六进制%U 打印Unicode字符%#U 打印带字符的Unicode%b 打印整型的二进制Integer width %5d 表示该整型最大长度是5，下面这段代码fmt.Printf(&amp;quot;|%5d|&amp;quot;, 1)fmt.Printf(&amp;quot;|%5d|&amp;quot;, 1234567)输出结果如下：| 1||1234567|%-5d则相反，打印结果会自动左对齐%05d会在数字前面补零。Float %f (=%.6f) 6位小数点%e (=%.6e) 6位小数点（科学计数法）%g 用最少的数字来表示%.3g 最多3位数字来表示%.3f 最多3位小数来表示String %s 正常输出字符串%q 字符串带双引号，字符串中的引号带转义符%#q 字符串带反引号，如果字符串内有反引号，就用双引号代替%x 将字符串转换为小写的16进制格式%X 将字符串转换为大写的16进制格式% x 带空格的16进制格式String Width %5s 最小宽度为5%-5s 最小宽度为5（左对齐）%.</description>
+    </item>
+    
+  </channel>
+</rss>

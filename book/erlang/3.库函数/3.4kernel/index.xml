@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.4kernel on My New Hugo Site</title>
+    <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/</link>
+    <description>Recent content in 3.4kernel on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</guid>
+      <description>code_server
+库 目录
+库 文件
+%% 第一种热更新方式：
+{Module, Binary, Filename} = code:get_object_code(Module), %获取Module.beam的信息 code:load_binary(Module, Filename, Binary). %load 二进制
+%% 第二种热更新方式：
+code:purge(Module), %杀掉应用old_version的进程 code:load_file(Module). %load_file
+%% 第三种热更新方式：
+code:soft_purge(Module), %清理old_version的代码，如果old_version的代码还在被引用，则返回false code:load_file(Module).
+add_pathz(&amp;ldquo;D:/project/yapp/ebin&amp;rdquo;) 把yapp的ebin文件夹中的文件加载到erlang的环境中 get_path(). 获取加载的erlang模块 which(file). file模块的文件存放位置 clash() 通过code:clash/0 检测代码中是否有module冲突现象</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</guid>
+      <description>Access to TCP/IP Protocols
+peername(State#state.socket) %socket获取登录的ip和端口</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</guid>
+      <description>net_kernel:monitor_nodes(Flag).%调用这个方法来订阅节点状态变动的消息.一个节点加入的时候会向所有的订阅进程发送一个nodeup消息,一个节点断开的时候会发送nodedown消息. [net_kernel:disconnect(X) || X &amp;lt;- nodes() -- [List_of_wanted_nodes]]. net_kernel:allow(Nodes). net_kernel:monitor_nodes(true). init([]) -&amp;gt; ok = net_kernel:monitor_nodes(true), {ok, no_state}. handle_call(_Request, _From, State) -&amp;gt; {noreply, State}. handle_cast(_Msg, State) -&amp;gt; {noreply, State}. handle_info({nodeup, Node}, State) -&amp;gt; rabbit_log:info(&amp;#34;node ~pup&amp;#34;, [Node]), {noreply, State}; handle_info({nodedown, Node}, State) -&amp;gt; rabbit_log:info(&amp;#34;node ~pdown&amp;#34;, [Node]), %% TODO: This may turn out to be a performance hog when there are %% lots of nodes. We really only need to execute this code on %%*one* node, rather than all of them.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</guid>
+      <description>net_adm:ping(Node). </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</guid>
+      <description>error_logger</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</guid>
+      <description>1.error_logger:error_msg( &amp;#34;an error has occurred\n&amp;#34; ). 2.error_logger:error_msg( &amp;#34;~s, an error has occurred\n&amp;#34;, [ &amp;#34;joe&amp;#34; ] ). 3.error_logger:error_report( [{tag1,data1}, a_term, {tar2, data}] ). 4.error_logger:info_msg(FormatStr, Args); 5.error_logger:warning_msg(FormatStr, Args); 6.error_logger:info_report(progress,[{application,test},{started_at, nonode@noh ost}]). error_logger:info_report(crash,[{application,test},{started_at, nonode@noh ost}]). </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</guid>
+      <description>通用OTP应用程序的方函数。
+1.Module:config_change(Changed, New, Removed)一&amp;gt;ok 配置参数发生变化的回调函数。 Module:prep_stop(State)一&amp;gt;NewState 应用程序准备停止的回调函数。 Module:start(StartType, StartArgs)一&amp;gt;{ok, Pid}}{ok, Pid，State}}{error, Reason} 应用程序被启动的同调函数。 Module:start_phase(Phase, StartType，PhaseArgs)一&amp;gt;ok{{error，Reason} 应用程序在扩展方式一日台动的同调函数。 Module:stop(State) 应用程序被停止，执行清除「作的回调函数。 get_all_env(Application)一&amp;gt;Env 获取Application应用程序的所有配置。 get_all_key(Application)一&amp;gt;{ok, Keys}}undefined 获取Application应用程序所有配置的键值。 get_application(Pid } Module)一&amp;gt;{ok, Application}}undefined 获取Pid进程(或Module模块)所属应用程序的名称。 get_env(Application, Par)一&amp;gt;{ok, Val}}undefined 获取Application应用程序Par配置参数的值。 get_key(Application，Key)一&amp;gt;{ok, Val}}undefined 获取Application应用程序Key参数的值。 load(AppDescr, Distributed)一&amp;gt;ok}{error, Reason} 以Distrubuted方式加载AppDescr应用程序。 loaded_applications()一&amp;gt;[{Application, Description, Vsn}] 获取当前已经加载应用程序的列表。 permit(Application，Bool)一&amp;gt;ok}{error, Reason} 将当前结点上Application应用程序的运行权限改为Boolo set_env(Application，Par, Val，Ti rneout)一&amp;gt;ok 将Appliction应用程序的Par配置参数设置为Valo start(Application，Type)一&amp;gt;ok}{error, Reason} 加载并以Type方式启动Application应用程序。 start_type()一&amp;gt;startType}local}undefined 获取当前进程所属应用程序的启动类型。 stop(Application)一&amp;gt;ok}{error, Reason} 停止Application应用程序。 takeover(Application，Type)一&amp;gt;ok!{error, Reason} 以丁ype方式接管Appliction应用程序。 unload(Application)一&amp;gt;ok}{error, Reason} 卸载Appliction应用程序。 upset env(Application, Par, Timeout)一&amp;gt;ok 清除Application应用程序的Par配置参数。 which_applications(Timeout)一&amp;gt;[{Application，Description, Vsn}] 获取当前正在运行的应用程序的列表。 </description>
+    </item>
+    
+  </channel>
+</rss>

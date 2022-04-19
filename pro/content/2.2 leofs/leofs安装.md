@@ -1,0 +1,20 @@
+---
+title: "leofs安装"
+menuTitle: "leofs安装"
+weight: 0
+date: 2019-08-30T15:13:01+08:00
+---
+1.download 源码 git clone <https://github.com/leo-project/leofs.git>
+
+2.需要的依赖项：Erlang
+
+3.打开项目的readme，按照其中安装方法安装
+
+4.
+cd leofs/
+make
+make release
+cp -r package {LEOFS_DEPLOYED_DIR}
+cd {LEOFS_DEPLOYED_DIR}/
+
+![](images/screenshot_1527428834643.png)

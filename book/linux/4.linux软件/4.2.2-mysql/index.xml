@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.2 MySQL on 清水的小站</title>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/</link>
+    <description>Recent content in 4.2 MySQL on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.2.1 my.cnf</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</guid>
+      <description>cnf [mysqld] port = 63099 #端口 max_connections = 1024 #最大连接数量 default-storage-engine=INNODB character-set-server=utf8mb4 collation-server = utf8mb4_unicode_ci slow_query_log = on #开启慢查询日志 long_query_time=3 #3秒以上 #slow-query-log-file = /home/db/madb/log/slow-query.log default-authentication-plugin=mysql_native_password table_open_cache=2000 #表文件句柄缓存（表数据是存储在磁盘上的，缓存磁盘</description>
+    </item>
+    
+    <item>
+      <title>4.2.2 关键字</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <description>WITH -- WITH WITH ali AS (SELECT * FROM rpt_kh_amount_conf) SELECT ali.val FROM ali NOT EXISTS SELECT * FROM `account` a1 WHERE a1.deleted = 0 AND a1.status = 1 AND a1.created_time &amp;gt;= &amp;#39;2021-08-16 14:10:31&amp;#39; AND NOT EXISTS (SELECT 1 FROM account a2 WHERE a2.uid = a1.uid AND a2.deleted = 0 AND a2.created_time &amp;lt; &amp;#39;2021-08-16 14:10:31&amp;#39;) JSON SELECT JSON_EXTRACT(CHARGE_DATA, &amp;#34;$[0].amount&amp;#34;) as &amp;#39;取值&amp;#3</description>
+    </item>
+    
+    <item>
+      <title>4.2.3 日志</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</guid>
+      <description>日志 #日志 SHOW MASTER LOGS; #获取bin日志 SHOW MASTER STATUS;#日志状态 SHOW BINLOG EVENTS [IN &amp;#39;log_name&amp;#39;] [FROM pos] [LIMIT [OFFSET,] ROW_COUNT]; SHOW BINLOG EVENTS IN &amp;#39;mysql-bin.000001&amp;#39; LIMIT 0, 1000;#日志文件内容 FLUSH LOGS;#自此刻开</description>
+    </item>
+    
+    <item>
+      <title>4.2.4 msyqldump</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</guid>
+      <description>msyqldump # 导出数据到文件 mysqldump -uroot -p123456 --host=127.0.0.1 --port=3306 -C --all-databases &amp;gt; /backup/test/${DATE}.sql # 导出数据到远程数据库 mysqldump --default-character-set=utf8mb4 --host=127.0.0.1 -uusername -ppassword --opt dbname | mysql --host=127.0.0.2 -uusernameb -ppasswordb --default-character-set=utf8mb4 -C dbnamenew mysqldump --default-character-set=utf8mb4 --host=192.168.1.46 -P 55001 -uroot -p123456 --opt test | mysql --host=192.168.1.85 -P 55001 -uroot -p123456 --default-character-set=utf8mb4 -C test # --opt命</description>
+    </item>
+    
+    <item>
+      <title>4.2.4 日志</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</guid>
+      <description>主从 #主从</description>
+    </item>
+    
+  </channel>
+</rss>

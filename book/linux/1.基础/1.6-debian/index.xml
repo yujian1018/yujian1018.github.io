@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.6 debian on 清水的小站</title>
+    <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/</link>
+    <description>Recent content in 1.6 debian on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.6.1 sudo提权</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/1.6.1-sudo%E6%8F%90%E6%9D%83/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/1.6.1-sudo%E6%8F%90%E6%9D%83/</guid>
+      <description>如何安装sudo及配置其sudoers文件 #首先登陆超级管理员账户，在 Terminal 命令行内输入 su #“Enter”键后，输入超级管理员密码，即进入roo</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+Name: User0123
+"Short Description": "He is a **jolly good** fellow."
+Achievements:
+  - "Can create a Key, Value list from Data File"
+  - "Learns Hugo"
+  - "Reads documentation"
+
+
+#layout
+<div>Short Description of {{.Site.Data.User0123.Name}}: <p>{{ index .Site.Data.User0123 "Short Description" | markdownify }}</p></div>

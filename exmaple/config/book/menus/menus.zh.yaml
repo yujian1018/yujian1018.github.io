@@ -1,0 +1,16 @@
+docs:
+  - name: "关于 Hugo"
+    weight: 1
+    identifier: "about"
+    url: "/zh/about/"
+
+  - name: "入门"
+    weight: 5
+    identifier: "getting-started"
+    url: "/zh/getting-started/"
+
+  - name: "主题"
+    weight: 15
+    identifier: "themes"
+    post: "break"
+    url: "/zh/themes/"

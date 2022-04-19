@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux系统 on 清水的小站</title>
+    <link>https://linux.01cs.cc/</link>
+    <description>Recent content in Linux系统 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.4.1 zip</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.4.1-zip/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.4.1-zip/</guid>
+      <description>zip用法 zip -r myfile.zip ./* 将当前目录下的所有文件和文件夹全部压缩成myfile.zip文件,－r表示递归压缩子目录下所有文件. zip -r bbb.zip aaa bc.zip bbb 把当前文件</description>
+    </item>
+    
+    <item>
+      <title>1.1 目录结构</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.1-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.1-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</guid>
+      <description>目录结构 目录 说明 / 根目录，只能包含目录，不能包含具体文件。 /bin 存放可执行文件。很多命令就对应/bin目录下的某个程序，例如 ls、cp、mkdi</description>
+    </item>
+    
+    <item>
+      <title>1.2 系统调优</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.2-%E7%B3%BB%E7%BB%9F%E8%B0%83%E4%BC%98/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.2-%E7%B3%BB%E7%BB%9F%E8%B0%83%E4%BC%98/</guid>
+      <description>系统调优 ulimit -a ulimit -n 102400 1.在/etc/rc.local 中增加一行 ulimit -SHn 65535 2.在/etc/profile 中增加一行 ulimit -SHn 65535 3.在/etc/securi</description>
+    </item>
+    
+    <item>
+      <title>1.2.1 修改系统参数</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.2.1-%E4%BF%AE%E6%94%B9%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.2.1-%E4%BF%AE%E6%94%B9%E7%B3%BB%E7%BB%9F%E5%8F%82%E6%95%B0/</guid>
+      <description>修改系统参数 vi /etc/sysctl.conf 修改下列配置(参数根据自己情况修改) kernel.shmmax = 500000000 kernel.shmmni = 4096 kernel.shmall = 4000000000 kernel.sem = 500 1024000 200 4096 kernel.sysrq = 1 kernel.core_uses_pid = 1 kernel.msgmnb = 65536 kernel.msgmax = 65536 kernel.msgmni = 2048 net.ipv4.tcp_syncookies = 1 net.ipv4.ip_forward = 0 net.ipv4.conf.default.accept_source_route = 0 net.ipv4.tcp_tw_recycle = 1 net.ipv4.tcp_max_syn_backlog =</description>
+    </item>
+    
+    <item>
+      <title>1.3 自动化</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.3-%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.3-%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <description>自动启动 # ubuntu vim /etc/rc.local #添加命令 #你想系统启动时自动运行 SSH 隧道，你可以将上面的 autossh 命令添加到 systemd chkconfig --list chkconfig -–list httpd chkconfig –-add httpd chkconfig httpd on chkconfig httpd off chkconfig mysqld on vi</description>
+    </item>
+    
+    <item>
+      <title>1.4 系统设置</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.4-%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.4-%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</guid>
+      <description>系统设置 环境变量 # 所有用户 vim /etc/profile PATH=$PATH:/home/erlang/bin/ source /etc/profile # 当前用户 vim ~/.bashrc export JAVA_HOME=/home/[username]/apps/jdk export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH source ~/.bashrc 修改机器名称 ubuntu sudo vi /etc/hostname centOS sudo hostname Server_192.168.69.171</description>
+    </item>
+    
+    <item>
+      <title>1.5 常用命令</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>常用命令</description>
+    </item>
+    
+    <item>
+      <title>1.5.1 man</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.1-man/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.1-man/</guid>
+      <description>man 通常情况下，man 手册里面的内容都是英文的，这就要求你有一定的英文基础。man 手册的内容很多，涉及了 Linux 使用过程中的方方面面。为了便于查找，</description>
+    </item>
+    
+    <item>
+      <title>1.5.2 用户及文件权限管理</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.2-%E7%94%A8%E6%88%B7%E5%8F%8A%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.2-%E7%94%A8%E6%88%B7%E5%8F%8A%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/</guid>
+      <description>用户和群组 groupadd group_name 创建一个新用户组 groupdel group_name 删除一个用户组 groupmod -n new_group_name old_group_name 重命名一个用户组 useradd -c &amp;#34;Name Surname &amp;#34; -g admin -d /home/user1 -s /bin/bash user1 创建一个属于 &amp;#34;admin&amp;#34; 用户组的用户 useradd user1 创建一个新用户</description>
+    </item>
+    
+    <item>
+      <title>1.5.3 包管理</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.3-%E5%8C%85%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.3-%E5%8C%85%E7%AE%A1%E7%90%86/</guid>
+      <description>包管理 # RPM 包 - （Fedora, Redhat及类似系统） rpm -ivh package.rpm 安装一个rpm包 rpm -ivh --nodeeps package.rpm 安装一个rpm包而忽略依赖关系警告 rpm -U package.rpm 更新一个rpm包</description>
+    </item>
+    
+    <item>
+      <title>1.5.4 性能监控工具</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.4-%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.5.4-%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7%E5%B7%A5%E5%85%B7/</guid>
+      <description>1.Top-Linux进程监控 Linux下的Top命令是一个性能监控程序，许多系统管理员常常用它来监控Linux性能，在许多Linux或者类</description>
+    </item>
+    
+    <item>
+      <title>1.6.1 sudo提权</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/1.6.1-sudo%E6%8F%90%E6%9D%83/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.6-debian/1.6.1-sudo%E6%8F%90%E6%9D%83/</guid>
+      <description>如何安装sudo及配置其sudoers文件 #首先登陆超级管理员账户，在 Terminal 命令行内输入 su #“Enter”键后，输入超级管理员密码，即进入roo</description>
+    </item>
+    
+    <item>
+      <title>2.1.1 终端快捷键</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.1-%E7%BB%88%E7%AB%AF%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.1-%E7%BB%88%E7%AB%AF%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <description>终端快捷键 快捷键 说明 tab 补全 ctrl+a 移动游标到行首 ctrl+e 移动游标到行尾 ctrl+b 向左移动 ctrl+f 向右移动 ctrl+k 删除此处至末尾所有内容 ctrl+u 删除此处至开始所有内容 ctrl+d 删除当前字母</description>
+    </item>
+    
+    <item>
+      <title>2.1.2 通配符</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.2-%E9%80%9A%E9%85%8D%E7%AC%A6/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.2-%E9%80%9A%E9%85%8D%E7%AC%A6/</guid>
+      <description>终端快捷键 字符 含义 * 匹配 0 或多个字符 ? 匹配任意一个字符 [list] 匹配 list 中的任意单一字符 [^list] 匹配 除list 中的任意单一字符以外的字符 [c1-c2] 匹配 c1-c2 中的任意单一</description>
+    </item>
+    
+    <item>
+      <title>2.1.3 关键字</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.3-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.3-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <description>终端快捷键 sh /var/vpn.sh 执行 sh -x vpn.sh 这将执行该脚本并显示所有变量的值。 sh -n vpn.sh 不需要执行脚本只是检查语法的模式。返回所有语法错误 #!/bin/sh #程序必须以下面的行开始</description>
+    </item>
+    
+    <item>
+      <title>2.1.4 语法</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.4-%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.4-%E8%AF%AD%E6%B3%95/</guid>
+      <description>语法 if if ... fi 语句； if ... else ... fi 语句； if ... elif ... else ... fi 语句。 ## 变量 #!/bin/sh a=10 b=20 if [ $a == $b ] then echo &amp;#34;a is equal to b&amp;#34; elif [ $a -gt $b ] then echo &amp;#34;a is greater than b&amp;#34; elif [ $a -lt $b ] then echo &amp;#34;a is less</description>
+    </item>
+    
+    <item>
+      <title>2.1.5 Function</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.5-function/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.5-function/</guid>
+      <description>语法 #!/bin/sh fSum 3 2; function fSum() { echo $1,$2; return $(($1+$2)); } fSum 5 7; total=$(fSum 3 2); echo $total,$?; sh testfun1.sh testfun1.sh: line 3: fSum: command not found 5,7 3,2 5 #!/bin/sh echo $(uname); declare num=1000; uname() { echo &amp;#34;test!&amp;#34;; ((num++)); return 100; } testvar() { local num=10; ((num++)); echo $num; } uname; echo $? echo $num; testvar; echo $num; sh testfun2.sh Linux test! 100 1001 11</description>
+    </item>
+    
+    <item>
+      <title>2.1.6 转译符</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.6-%E8%BD%AC%E8%AF%91%E7%AC%A6/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.6-%E8%BD%AC%E8%AF%91%E7%AC%A6/</guid>
+      <description>转译符 转义字符 含义 \ 反斜杠 \a 警报，响铃 \b 退格（删除键） \f 换页(FF)，将当前位置移到下页开头 \n 换行 \r 回车 \t 水平制表符（tab键） \v 垂直制表符</description>
+    </item>
+    
+    <item>
+      <title>2.1.7 数据结构</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.7-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.7-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <description>数据结构 变量 注意，变量名和等号之间不能有空格，这可能和你熟悉的所有编程语言都不一样。同时，变量名的命名须遵循如下规则： 首个字符必须为字母（a</description>
+    </item>
+    
+    <item>
+      <title>2.3.1 案例Makefile 1</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/2.3.1-%E6%A1%88%E4%BE%8Bmakefile-1/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/2.3.1-%E6%A1%88%E4%BE%8Bmakefile-1/</guid>
+      <description>案例 # See LICENSE for licensing information. DIALYZER = dialyzer REBAR = rebar APPNAME = goldrush all: app app: deps @$(REBAR) compile deps: @$(REBAR) get-deps clean: @$(REBAR) clean rm -f test/*.beam rm -f erl_crash.dump tests: clean app eunit ct eunit: @$(REBAR) -C rebar.test.config eunit skip_deps=true ct: @$(REBAR) -C rebar.test.config ct skip_deps=true build-plt: @$(DIALYZER) --build_plt --output_plt .$(APPNAME)_dialyzer.plt \ --apps kernel stdlib sasl inets crypto public_key ssl compiler syntax_tools dialyze: @$(DIALYZER)</description>
+    </item>
+    
+    <item>
+      <title>Gitea</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/gitea/</link>
+      <pubDate>Fri, 04 Mar 2022 16:03:35 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/gitea/</guid>
+      <description>install # https://gitea.io/zh-cn/ # 初始化数据库 # 下载 wget -O gitea https://dl.gitea.io/gitea/1.16.0/gitea-1.16.0-linux-amd64 chmod +x gitea ./gitea web</description>
+    </item>
+    
+    <item>
+      <title>Ntp</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/ntp/</link>
+      <pubDate>Fri, 04 Mar 2022 09:27:54 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/ntp/</guid>
+      <description>ntpd ntpd服务的相关设置文件如下： 1./etc/ntp.conf：这个是NTP daemon的主要设文件，也是 NTP 唯一的设定文件。 2./usr /share</description>
+    </item>
+    
+    <item>
+      <title>1.1. 文件管理</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.1-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.1-%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <description>tar tar -czf a.tar.gz a/ tar -xzf a.tar.gz # -z 是否同时具有 gzip 的属性？亦即是否需要用 gzip 压缩或解压？ 一般格式为xx.tar.gz或xx. tgz # -j 是否同时具有 bzip2 的属性？亦即是</description>
+    </item>
+    
+    <item>
+      <title>1.2. 目录</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.2-%E7%9B%AE%E5%BD%95/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.2-%E7%9B%AE%E5%BD%95/</guid>
+      <description>cd cd - cd ./ cd ls ls -F ls -l ls -a ls *[0-9]* ls -lSr |more 以尺寸大小排列文件和目录 ls -d pwd pwd basename basename file 返回不包含路径的文件名比如： basename /bin/tux将返回 tux dirname dirname file 返回文</description>
+    </item>
+    
+    <item>
+      <title>1.3 权限</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.3-%E6%9D%83%E9%99%90/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.3-%E6%9D%83%E9%99%90/</guid>
+      <description>权限 ls lrwxrwxrwx 1 yujian yujian 16 12月 11 11:11 .vimrc -&amp;gt; git/config/vimrc drwxr-xr-x 2 yujian yujian 4096 12月 4 15:52 .wireshark/ l rwx rwx rwx 表示是一个链接 第一组字符(2-4)表示文件所有者的权限 第二组字符(5-7)表示</description>
+    </item>
+    
+    <item>
+      <title>1.4 压缩</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.4-%E5%8E%8B%E7%BC%A9/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/1.%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/1.4-%E5%8E%8B%E7%BC%A9/</guid>
+      <description>压缩 tar -zcvf /home/xahot.tar.gz /xahot 把/xahot文件夹打包后生成一个/home/xahot.tar.gz的文件 tar -zcvf this.tar.gz ./*.txt 将当前目录下所有.txt文件打包并压缩归档到</description>
+    </item>
+    
+    <item>
+      <title>1.安装系统</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E6%93%8D%E4%BD%9C/</guid>
+      <description>安装 配置 ssh 证书登录 关闭密码和 root 登录。SSH 登录必须 KEY ，禁用掉密码登录，禁用 ROOT 远程 fail2ban + 防火墙 检测状态 开 ssh 端口访问 数据库除了 bind ，也要用防火墙限制</description>
+    </item>
+    
+    <item>
+      <title>2.1 文档编辑</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2.10 wc</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc/</guid>
+      <description>wc wc -lcw rebar.config rebar.config.script find . -name &amp;#34;*.erl&amp;#34; -or -name &amp;#34;*.hrl&amp;#34;|xargs cat|wc -l #查看所有文件行数 # -c 统计字节数 # -l 统计行数 # -w 统计字数 ls -l | grep &amp;#34;^-&amp;#34; | wc -l # 1、统计当前目录下文件的个数（不包括目</description>
+    </item>
+    
+    <item>
+      <title>2.2 sed</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed/</guid>
+      <description>sed http://man.linuxde.net/sed sed是一种流编辑器，它是文本处理中非常中的工具，能够完美的配合正则表达式使用，功能不同凡响。处理时，把当前处理的行存储在临时缓冲区中，</description>
+    </item>
+    
+    <item>
+      <title>2.3 awk</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk/</guid>
+      <description>awk echo &amp;#39;Adam Bor, 34, IndiaKerryMiller, 22, USA&amp;#39; | awk -F &amp;#39;,&amp;#39; &amp;#39;{print $1 , $3}&amp;#39; ifconfig eth0 |awk -F &amp;#39;inet | netmask &amp;#39; &amp;#39;{print $2}&amp;#39; 获取网卡eth0的ip地址 grep &amp;#39;release&amp;#39; rebar.config | awk -F &amp;#39;&amp;#34;&amp;#39; &amp;#39;{print $2}&amp;#39;</description>
+    </item>
+    
+    <item>
+      <title>2.4 uniq</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq/</guid>
+      <description>uniq # 删除重复的行比如： sort file.txt | uniq uniq [-cdu][-f&amp;lt;栏位&amp;gt;][-s&amp;lt;字符位置&amp;gt;][-w&amp;lt;字符位置&amp;gt;][-</description>
+    </item>
+    
+    <item>
+      <title>2.5 sort</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort/</guid>
+      <description>sort file.txt 对file.txt文件中的行进行排序</description>
+    </item>
+    
+    <item>
+      <title>2.6 grep</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep/</guid>
+      <description>grep grep（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把</description>
+    </item>
+    
+    <item>
+      <title>2.7 tail</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail/</guid>
+      <description>简介 Linux命令：显示文件结尾 命令格式 tail[必要参数][选择参数][文件] 命令功能 用于显示指定文件末尾内容，不指定文件时，作为输入信息</description>
+    </item>
+    
+    <item>
+      <title>2.8 find</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find/</guid>
+      <description>find命令 find命令用来在指定目录下查找文件。任何位于参数之前的字符串都将被视为欲查找的目录名。如果使用该命令时，不设置任何参数，则fi</description>
+    </item>
+    
+    <item>
+      <title>2.9 iconv</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv/</guid>
+      <description>使用iconv库，转换文件编码 #!/bin/sh FILES=$(find . -type f -name &amp;#39;*.*&amp;#39;) for f in $FILES do if test -f $f; then CHARSET=&amp;#34;$( file -bi &amp;#34;$f&amp;#34;|awk -F &amp;#34;=&amp;#34; &amp;#39;{print $2}&amp;#39;)&amp;#34; if [ &amp;#34;$CHARSET&amp;#34; != utf-8 ]; then echo -e &amp;#34;\nConverting $ffrom $CHARSETto utf-8&amp;#34; # iconv -f &amp;#34;$CHARSET&amp;#34; -t utf-8 &amp;#34;$f&amp;#34; -o &amp;#34;$f.temp&amp;#34; iconv -f GBK -t UTF-8 &amp;#34;$f&amp;#34; -o &amp;#34;$f.temp&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>3.1 crontab</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.1-crontab/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.1-crontab/</guid>
+      <description>crontab 每次编辑完某个用户的cron设置后，cron自动在/var/spool/cron下生成一个与此用户同名的文件， 此用户的cron信息都记录在</description>
+    </item>
+    
+    <item>
+      <title>3.2 nohup</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.2-nohup/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.2-nohup/</guid>
+      <description>nohup 用途：不挂断地运行命令。 语法：nohup Command [ Arg &amp;hellip; ] [ &amp;amp; ] 描述：nohup 命令运行由 Command 参数和任何相关的 Arg 参数指定的命令，忽略所有挂断（SIG</description>
+    </item>
+    
+    <item>
+      <title>3.3 xclip</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.3-xclip/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.3-xclip/</guid>
+      <description>xclip xclip剪切板与终端的通道</description>
+    </item>
+    
+    <item>
+      <title>3.4 tmux</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.4-tmux/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.4-tmux/</guid>
+      <description>tmux tmux ls tmux attach 1 tmux new -s session tmux new -s session -d #在后台建立会话 tmux ls #列出会话 tmux attach -t session #进入某个会话 查看/切换session ctrl+b s 离开Session ctrl+b d 重命名当</description>
+    </item>
+    
+    <item>
+      <title>3.5 systemd</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.5-systemd/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/3.%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86/3.5-systemd/</guid>
+      <description>systemd 开机执行shell脚本 sudo vim /home/yujian/tool/exec-shell.service [Unit] Description=exec shell After=network.target [Service] ExecStart=/home/yujian/tool/test.sh [Install] WantedBy=multi-user.target systemctl enable /home/yujian/tool/exec-shell.service # service文件移入系统目录 systemctl start exec-shell.service systemctl stop exec-shell.service systemctl status exec-shell.service systemctl is-active exec-shell.service systemctl disable exec-shell.service # 移除service文件 systemctl</description>
+    </item>
+    
+    <item>
+      <title>4.1 du</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/4.%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/4.1-du/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/4.%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/4.1-du/</guid>
+      <description>du du -h --max-depth=1 du -h --max-depth=0 </description>
+    </item>
+    
+    <item>
+      <title>4.2 mount</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/4.%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/4.2-mount/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/4.%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/4.2-mount/</guid>
+      <description>mount mount /dev/hda2 /mnt/hda2 挂载一个叫做hda2的盘 - 确定目录 &amp;#39;/ mnt/hda2&amp;#39; 已经存在 mount /dev/cdrom /mnt/cdrom 挂载一个cdrom或dvdrom mount /dev/hdc /mnt/cdrecorder 挂载一个cdrw或dvdrom mount /dev/hdb /mnt/cdrecorder 挂载一</description>
+    </item>
+    
+    <item>
+      <title>4.4.4 svn</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.4-svn/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.4-svn/</guid>
+      <description>svn ## 安装svnserver yum -y install subversion ## 初始化 cd project mkdir svn cd svn svnadmin create project_svn ## 启动 svnserve -d -r /root/project/svn svnserve -d -r /root/project/svn --listen-port 8086 svnserve -d -r /root/project/svn checkout svn checkout svn://127.0.0.1/ project_svn ## Vim passwd yujian = enter123 huyuwei = enter123 Vim authz [groups] admin_group = gm,admin,yujian,wumanyu [haowenjiao:/Client] @client =</description>
+    </item>
+    
+    <item>
+      <title>6.1 tcpdump</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump/</guid>
+      <description>tcpdump sudo tcpdump -i lo port 8080 and &amp;#39;tcp[tcpflags] &amp;amp; (tcp-syn|tcp-fin) !=0&amp;#39; -nn 查看本机8080端口的流量 sudo tcpdump -i lo &amp;#39;port 42442&amp;#39; -vvv -XX</description>
+    </item>
+    
+    <item>
+      <title>6.2 curl</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl/</guid>
+      <description>curl linux curl是一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载，所以是综合传输工具，但按传统，习惯称url为下载工具。</description>
+    </item>
+    
+    <item>
+      <title>6.3 ssh</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh/</guid>
+      <description>ssh # 安装 yum install SSH apt install openssl vim /etc/ssh/sshd_config systemctl restart sshd Port 22 #端口 添加一行：Port 23 #多个ssh连接端口 PasswordAuthentication no #禁用密码验证 RSAAuthentication yes #启用密钥验证 PubkeyAuthentication yes AuthorsizedKeysFile .ssh/authorized_keys #指定公钥数据库</description>
+    </item>
+    
+    <item>
+      <title>6.4 tc</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc/</guid>
+      <description>基本用法 tc qdisc show # 显示 tc qdisc add dev eth0 root ...... # 加入 tc qdisc change dev eth0 root ...... # 修改存在的 qdisc ,记的,加入同一条后只能用 change 来修改 tc qdisc del dev eth0 root # 删除 tc qdisc add dev eth0 root netem delay 3000ms 延</description>
+    </item>
+    
+    <item>
+      <title>6.5 firewall</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall/</guid>
+      <description>firewall-cmd firewall-cmd提供了一个动态管理的防火墙，支持网络/防火墙区域来定义网络连接或接口的信任级别。它支持IPv4、IPv6防火墙设置</description>
+    </item>
+    
+    <item>
+      <title>cron</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</guid>
+      <description>acme.sh #!/bin/sh ##crontab -uroot -e ##30 4 * * * sh /root/cron/daily.sh &amp;gt; /root/cron/log_daily.log ## acme.sh curl https://get.acme.sh | sh export Ali_Key=&amp;#34;aaa&amp;#34; export Ali_Secret=&amp;#34;bbb&amp;#34; acme.sh --issue --dns dns_ali -d 01cs.cc -d *.01cs.cc # 手动 dns 方式, 手动在域名上添加一条 txt 解析记录, 验证域名所有权. # 然后 acme.sh 会生成</description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-compose/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-compose/</guid>
+      <description>docker compose 配置文件 version:&amp;#34;3&amp;#34;services:htzx:image:127.0.0.1:15000/htzx/iot-</description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-dockerfile/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-dockerfile/</guid>
+      <description>docker 仓库（registry） # 私有服务：创建私有仓库 docker run -d -p 5000:5000 --restart=always --name registry -v /opt/myregistry:/var/lib/registry registry #重启docker让修改生效 systemctl restart docker.service #Dockerfile打包镜像 https://www.docker.org.cn/docker/docker-206.html vim</description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-%E7%BD%91%E7%BB%9C/</guid>
+      <description>docker 网络 docker network create -d bridge test-net # -d：参数指定 Docker 网络类型，有 bridge、overlay。 docker run -itd --name test1 --network test-net ubuntu /bin/bash #运行一个容器并连接到新建的 test-net 网络 docker run -itd --name test2</description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker/</guid>
+      <description>docker 安装 wget -qO- https://get.docker.com/ | sh sudo service docker start sudo docker run hello-world 镜像控制 docker image list docker image ls # 查看镜像 docker image save centos &amp;gt; docker-centos.tar.gz #导出镜像 docker image rm centos:latest #删除镜像 docker image load -i docker-centos.tar.gz #导入镜像 docker image inspect centos #查看镜像</description>
+    </item>
+    
+    <item>
+      <title>first-content</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</guid>
+      <description>Get Grav   Get Grav with icon  Get Grav with icon right      test expand   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+    </item>
+    
+    <item>
+      <title>frp</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.4-frp/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.4-frp/</guid>
+      <description>frp内网穿透 资料 https://github.com/fatedier/frp 配置 命令 # 通过 ssh 访问内网机器，假设用户名为 test： ssh -i ~/.ssh/id_rsa -oPort=60000 yj@127.0.0.1 安全地暴露内网服务 服务端 [common] bind_port = 44099 # kcp 绑定的是 udp 端口，可以和</description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/git/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/git/</guid>
+      <description>安装 ubuntu sudo apt-get install git #常用命令 git config git clone url git clone &amp;lt;repository::指定远程数据库的 URL&amp;gt; &amp;lt;directory::指定新目录的名称&amp;gt</description>
+    </item>
+    
+    <item>
+      <title>nc</title>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc/</guid>
+      <description>nc 功能说明：功能强大的网络工具 语 法：nc [-hlnruz][-g&amp;lt;网关&amp;hellip;&amp;gt;][-G&amp;lt;指向器数目&amp;gt;][-</description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</guid>
+      <description>nginx使用 ## ubuntu sudo apt install -y libpcre3-dev ./configure --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module make sudo make install Generate Certificates cd /usr/local/nginx/conf openssl genrsa -des3 -out server.key 1024 openssl req -new -key server.key -out server.csr cp server.key server.key.org openssl rsa -in server.key.org -out server.key openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt server { server_name YOUR_DOMAINNAME_HERE; listen 443; ssl on; ssl_certificate /usr/local/nginx/conf/server.crt; ssl_certificate_key</description>
+    </item>
+    
+    <item>
+      <title>nginxError排查</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</guid>
+      <description>nginxError排查 错误描述 {error, socket_closed_remotely} 复现 Leofs（分布式文件存储系统） Gateway_0 192.168.1.16:8080 Gateway_1 192.168.1.17:8080 100w条 每条500字节数据，由erlang httpc post到任意</description>
+    </item>
+    
+    <item>
+      <title>nginxRewrite规则</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</guid>
+      <description>nginxRewrite规则 https://segmentfault.com/a/1190000002797606 location正则写法 一个示例： location = / { # 精确匹配 / ，主机名后面不能带任何字符串 [ configuration A ] } location / { # 因为所有的</description>
+    </item>
+    
+    <item>
+      <title>protobuf</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.5-protobuf/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.5-protobuf/</guid>
+      <description>google protocol buffer 例子 syntax = &amp;#34;proto3&amp;#34;;// 注释 message SearchRequest { // 分配标识号 [1,15] 1byte [16,2047] 2byte 1-2^29=536,870,911 [19000－19999]不可用 (从FieldDescriptor::kFirstReser</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 开机启动</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/</guid>
+      <description>ubuntu18.04 /lib/systemd/system sudo vim rc.local.service [Install] WantedBy=multi-user.target Alias=rc-local.service sudo ln -s rc.local.service /etc/systemd/system/ sudo vim /etc/rc.local #!/bin/sh -e # # rc.local # # This script is executed at the end of each multiuser runlevel. # Make sure that the script will &amp;#34;exit 0&amp;#34; on success or any other # value on error. # # In order to enable or disable this script just change the execution # bits. # #</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 收藏夹 快捷方式</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E6%94%B6%E8%97%8F%E5%A4%B9-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E6%94%B6%E8%97%8F%E5%A4%B9-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/</guid>
+      <description>收藏夹 #应用程序 cd /usr/share/applications vim app.desktop # [Desktop Entry] # Version=1.0 # Type=Application # Name=脑图 # Icon = /home/yj/tool/DesktopNaotu-linux-x64/resources/app/favicon.png # Exec = &amp;#34;/home/yj/tool/DesktopNaotu-linux-x64/DesktopNaotu&amp;#34; # Comment=脑图 # Categories=Development;IDE; # Terminal=false</description>
+    </item>
+    
+    <item>
+      <title>VIM</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.1.2-vim/vim/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.1.2-vim/vim/</guid>
+      <description>http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/ http://www.cnblogs.com/ribavnu/p/3874386.html pathogen 管理插件 cd ~/ mkdir .vim mkdir -p ~/.vim/autoload ~/.vim/bundle cd ~/.vim/autoload/ wget https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim Git:https://github.com/tpope/vim-pathogen ~/.vimrc vim配置文件 call pathogen#infect() call pathogen#helptags() syntax onfiletype plugin indent on vimerl cd ~/.vim/bundlegit clone https://github.com/jimenezrick/vimerl.git vimrc中为vimerl配置文件增加以下配置 filetype plugin indent on let</description>
+    </item>
+    
+    <item>
+      <title>wget</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.6-wget/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.6-wget/</guid>
+      <description>网络管理命令 # 下载整个网页 无法下载通过js引用的文件 wget -r -p -np -k https://developer.zuoshouyisheng.com/ ##=curl==================================================== curl -X PUT -v -d &amp;#39;{}&amp;#39; &amp;#34;http://192.168.67.12:63001/config?a=b&amp;#34; # ss # netstat</description>
+    </item>
+    
+    <item>
+      <title>4.2.1 my.cnf</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</guid>
+      <description>cnf [mysqld] port = 63099 #端口 max_connections = 1024 #最大连接数量 default-storage-engine=INNODB character-set-server=utf8mb4 collation-server = utf8mb4_unicode_ci slow_query_log = on #开启慢查询日志 long_query_time=3 #3秒以上 #slow-query-log-file = /home/db/madb/log/slow-query.log default-authentication-plugin=mysql_native_password table_open_cache=2000 #表文件句柄缓存（表数据是存储在磁盘上的，缓存磁盘</description>
+    </item>
+    
+    <item>
+      <title>4.2.2 关键字</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <description>WITH -- WITH WITH ali AS (SELECT * FROM rpt_kh_amount_conf) SELECT ali.val FROM ali NOT EXISTS SELECT * FROM `account` a1 WHERE a1.deleted = 0 AND a1.status = 1 AND a1.created_time &amp;gt;= &amp;#39;2021-08-16 14:10:31&amp;#39; AND NOT EXISTS (SELECT 1 FROM account a2 WHERE a2.uid = a1.uid AND a2.deleted = 0 AND a2.created_time &amp;lt; &amp;#39;2021-08-16 14:10:31&amp;#39;) JSON SELECT JSON_EXTRACT(CHARGE_DATA, &amp;#34;$[0].amount&amp;#34;) as &amp;#39;取值&amp;#3</description>
+    </item>
+    
+    <item>
+      <title>4.2.3 日志</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</guid>
+      <description>日志 #日志 SHOW MASTER LOGS; #获取bin日志 SHOW MASTER STATUS;#日志状态 SHOW BINLOG EVENTS [IN &amp;#39;log_name&amp;#39;] [FROM pos] [LIMIT [OFFSET,] ROW_COUNT]; SHOW BINLOG EVENTS IN &amp;#39;mysql-bin.000001&amp;#39; LIMIT 0, 1000;#日志文件内容 FLUSH LOGS;#自此刻开</description>
+    </item>
+    
+    <item>
+      <title>4.2.4 msyqldump</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</guid>
+      <description>msyqldump # 导出数据到文件 mysqldump -uroot -p123456 --host=127.0.0.1 --port=3306 -C --all-databases &amp;gt; /backup/test/${DATE}.sql # 导出数据到远程数据库 mysqldump --default-character-set=utf8mb4 --host=127.0.0.1 -uusername -ppassword --opt dbname | mysql --host=127.0.0.2 -uusernameb -ppasswordb --default-character-set=utf8mb4 -C dbnamenew mysqldump --default-character-set=utf8mb4 --host=192.168.1.46 -P 55001 -uroot -p123456 --opt test | mysql --host=192.168.1.85 -P 55001 -uroot -p123456 --default-character-set=utf8mb4 -C test # --opt命</description>
+    </item>
+    
+    <item>
+      <title>4.2.4 日志</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</link>
+      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</guid>
+      <description>主从 #主从</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</guid>
+      <description>tmux-session : tmux-session save and tmux-session restore</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</guid>
+      <description>使用中出现的问题 NOT IN 使用 LEFT JOIN / IS NULL或NOT EXISTS而不是NOT IN NOT IN正如我们之前讨论的那样，由于它处理NULL列表中的值的方式，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</guid>
+      <description>外部表 postgres_fdw 添加extension create extension postgres_fdw; select * from pg_foreign_data_wrapper; 创建远端数据库 create database dblink TEMPLATE template0; 本地创建server select * from pg_foreign_server; create server ex_db foreign data wrapper postgres_fdw options(host &amp;lsquo;127.0.0.1&amp;rsquo;,port &amp;lsquo;5866&amp;rsquo;,dbname &amp;lsquo;highgo&amp;rsquo;); create server mysql_config foreign data wrapper postgres_fdw options(host &amp;lsquo;192.168.69.161&amp;rsquo;,port &amp;lsquo;3306&amp;rsquo;,dbname &amp;lsquo;config&amp;rsquo;);</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</guid>
+      <description>时序数据库插件 psql -U postgres -h 127.0.0.1 create database nyc_data; \c nyc_data CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE; CREATE TABLE conditions ( time TIMESTAMPTZ NOT NULL, location TEXT NOT NULL, temperature DOUBLE PRECISION NULL, humidity DOUBLE PRECISION NULL ); SELECT create_hypertable(&amp;#39;conditions&amp;#39;, &amp;#39;time&amp;#39;); INSERT INTO conditions(time, location, temperature, humidity) VALUES (NOW(), &amp;#39;office&amp;#39;, 70.0, 50.0); SELECT * FROM conditions ORDER BY time DESC LIMIT 100;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/http/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/http/</guid>
+      <description>curl ping curl &amp;#39;http://localhost:8123/ping&amp;#39; select echo &amp;#39;SELECT 1&amp;#39; | curl &amp;#39;http://192.168.1.185:8123/?user=default&amp;amp;password=1Aa_abbccd&amp;#39; -d @- echo &amp;#39;SELECT number FROM numbers LIMIT 10&amp;#39; | curl &amp;#39;http://192.168.1.185:8123/?user=default&amp;amp;password=1Aa_abbccd&amp;amp;database=system&amp;#39; --data-binary @- insert echo &#39;INSERT INTO t VALUES (1),(2),(3)&#39; | POST &#39;http://localhost:8123/?database=test_db&#39; </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/install/</guid>
+      <description>Quick start 安装 https://clickhouse.tech/#quick-start 配置 &amp;lt;http_port&amp;gt;8123&amp;lt;/http_port&amp;gt; &amp;lt;tcp_port&amp;gt;8124&amp;lt;/tcp_port&amp;gt; &amp;lt;mysql_port&amp;gt;8125&amp;lt;/mysql_port&amp;gt; &amp;lt;listen_host&amp;gt;::&amp;lt;/listen_host&amp;gt; 用户 如何生成密码 PASSWORD=$(base64 &amp;lt; /dev/urandom | head -c8); echo &amp;#34;$PASSWORD&amp;#34;; echo -n &amp;#34;$PASSWORD&amp;#34; | sha256sum | tr -d &amp;#39;-&amp;#39; &amp;lt;users&amp;gt; &amp;lt;default&amp;gt; &amp;lt;password&amp;gt;705c37761366c70774b786a9d800af2369759c1fc73ff61f2396648dd5daa5aa&amp;lt;/password&amp;gt; &amp;lt;networks incl=&amp;#34;networks&amp;#34; replace=&amp;#34;replace&amp;#34;&amp;gt; &amp;lt;ip&amp;gt;::/0&amp;lt;/ip&amp;gt; &amp;lt;/networks&amp;gt; &amp;lt;profile&amp;gt;default&amp;lt;/profile&amp;gt; &amp;lt;quota&amp;gt;default&amp;lt;/quota&amp;gt; &amp;lt;/default&amp;gt; &amp;lt;ck&amp;gt; &amp;lt;password_sha256_hex&amp;gt;967f3bf355dddfabfca1c9f5cab39352b2ec1cd0b05f9e1e6b8f629705fe7d6e&amp;lt;/password_sha256_hex&amp;gt; &amp;lt;networks incl=&amp;#34;networks&amp;#34; replace=&amp;#34;replace&amp;#34;&amp;gt; &amp;lt;ip&amp;gt;::/0&amp;lt;/ip&amp;gt; &amp;lt;/networks&amp;gt; &amp;lt;profile&amp;gt;readonly&amp;lt;/profile&amp;gt; &amp;lt;quota&amp;gt;default&amp;lt;/quota&amp;gt; &amp;lt;/ck&amp;gt; &amp;lt;/users&amp;gt; clickhouse-client -h 127.0.0.1 -u log --port 8124 --password ldsLjNhB clickhouse-client -h 127.0.0.1</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.5-elk/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.5-elk/install/</guid>
+      <description>安装 docker安装 docker run -d --restart=always --privileged=true -p 9200:9200 -p 9300:9300 -e &amp;#34;discovery.type=single-node&amp;#34; --name elasticsearch1 -v /data1/project/elk/elasticsearch/config:/usr/share/elasticsearch/config/ docker.elastic.co/elasticsearch/elasticsearch:7.10.2 docker run -d --restart=always --privileged=true --link elasticsearch-1:elasticsearch -p 5601:5601 --name kibana1 docker.elastic.co/kibana/kibana:7.10.2</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</guid>
+      <description>hugo 使用 安装 # 源代码安装 go get -u -v github.com/spf13/hugo # 包安装 https://github.com/gohugoio/hugo/releases hugo version 生成站点 hugo new site /path/to/site hugo new site blog.01cs.cc 创建 themes 目录 cd /path/to/site git init # doc 模板 git clone https://github.com/matcornic/hugo-theme-learn.git git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &amp;#39;theme = &amp;#34;ananke&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml git submodule add https://github.com/spf13/hyde.git themes/hyde echo &amp;#39;theme =</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/etc_/cpp/project_tpl/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/etc_/cpp/project_tpl/readme/</guid>
+      <description>依赖 运行 联系 wuyanyi09@gmail.com</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/etc_/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/etc_/readme/</guid>
+      <description>personal etc </description>
+    </item>
+    
+  </channel>
+</rss>

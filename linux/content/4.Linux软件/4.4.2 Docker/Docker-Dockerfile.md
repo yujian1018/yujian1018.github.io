@@ -1,0 +1,73 @@
+---
+title: "docker"
+menuTitle: "docker"
+weight: 0
+date: 2019-08-30T15:13:01+08:00
+---
+
+# docker 仓库（registry）
+
+```bash
+# 私有服务：创建私有仓库
+docker run -d -p 5000:5000 --restart=always --name registry -v /opt/myregistry:/var/lib/registry registry
+
+
+#重启docker让修改生效
+systemctl restart  docker.service
+
+#Dockerfile打包镜像 https://www.docker.org.cn/docker/docker-206.html
+
+vim Dockerfile
+----------------------------------------------------------------
+FROM nginx #指定基础镜像，FROM必须为Dockerfile非注释行的第一行。
+MAINTAINER      Fisher "fisher@sudops.com" #设置镜像标签
+
+#ENV <key> <value>此方法一次只能设置一个
+#ENV <key>=<value> ... 该方法一次可以设置多个环境变量
+#例：ENV JAVA_HOME=/home/jdk-8
+
+RUN     /bin/echo 'root:123456' |chpasswd
+RUN     useradd runoob
+RUN     /bin/echo 'runoob:123456' |chpasswd
+RUN     /bin/echo -e "LANG=\"en_US.UTF-8\"" >/etc/default/local
+
+USER root #指定运行容器的用户
+WORKDIR /home #工作目录，进入容器后，以 WORKDIR 为当前路径
+
+COPY /usr/local/nginx/html /usr/share/nginx/html
+
+EXPOSE  22 #说明容器暴露的端口，默认协议为 tcp ，若是 udp 协议，则需要在后面添加 udp ，如 80/udp
+EXPOSE  80
+
+VOLUME /var/log #设置挂载点，将容器内的路径挂载到宿主机，该挂载方式是将容器内的路径挂载到docker数据路径下
+
+CMD     /usr/sbin/sshd -D #设置容器启动后默认执行的命令，CMD命令会被docker run的参数覆盖。
+ENTRYPOINT /usr/local/apache-tomcat-8.5.33/bin/startup.sh #和CMD一样，设置容器启动后默认执行的命令，但是该命令不会被docker run覆盖，会始终执行，CMD会被docker run传入的命令覆盖。
+----------------------------------------------------------------
+docker build -t test-static ./test #打包新镜像
+#-t ：指定要创建的目标镜像名
+#./test ：Dockerfile 文件所在目录，可以指定Dockerfile 的绝对路径
+
+docker tag nginx:latest 127.0.0.1:5000/htjicon/nginx
+docker images
+docker push 127.0.0.1:5000/htjicon/nginx #推送到私有仓库
+
+#将新打标签的镜像上传镜像到仓库
+docker push   192.168.1.68:5000/clsn/busybox
+
+
+# 增量打包镜像
+docker ps -a  #查看本地容器
+docker run -it -d centos /bin/bash #启动容器，并进入容器内部系统
+docker  exec  -it   7b88d2a5edc2 /bin/bash # 进入容器内部系统 CONTAINER_ID
+echo "test" > test.txt #修改容器内容
+docker cp custom.conf 容器名称:/etc/nginx/conf.d/
+docker commit -m="has update" -a="runoob" 7b88d2a5edc2 127.0.0.1:5000/htjicon/nginx:v1.3.1  # 产生新的镜像，commit CONTAINER_ID， tag
+#-m: 提交的描述信息
+#-a: 指定镜像作者
+#7b88d2a5edc2 ID
+#127.0.0.1:5000/htjicon/nginx:v1.3.1: 指定要创建的目标镜像名
+docker image ls # 查看镜像
+docker push 127.0.0.1:5000/htjicon/nginx:v1.3.1 #新镜像 推送到私有仓库
+
+```

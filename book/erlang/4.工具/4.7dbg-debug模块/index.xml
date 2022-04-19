@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.7dbg-debug模块 on My New Hugo Site</title>
+    <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</link>
+    <description>Recent content in 4.7dbg-debug模块 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</guid>
+      <description>本地节点监听远程节点的函数被调用事件
+1.远程节点,存在下面函数 player_handler:get_state(Uid).
+2.本地节点。
+erl -name test@127.0.0.1 -setcookie 127001 -remsh &amp;#39;game@127.0.0.1&amp;#39;。连接上远程节点。回退到本地节点 &amp;gt;dbg:tracer(). %启动 &amp;gt;dbg:n(&amp;#39;game@127.0.0.1&amp;#39;). &amp;gt;dbg:p(all, c). &amp;gt;dbg:tpl(player_handler, handle_info, dbg:fun2ms(fun(_) -&amp;gt; exception_trace() end)). &amp;gt; 3.进入远程节点执行
+NaNundefinedplayer_handler:get_state(1). NaNundefined{state, 1} 4.回到本地节点可以看到shell中会打印
+(&amp;lt;4641.47.0&amp;gt;) call player_handler:get_state(1) (&amp;lt;4641.47.0&amp;gt;) returned from player_handler:get_state/1 -&amp;gt; {state, 1} 附上自家项目用的tracer
+t(Mod)-&amp;gt; dbg:tpl(Mod,[{&amp;#39;_&amp;#39;, [], [{return_trace}]}]). t(Mod,Fun)-&amp;gt; dbg:tpl(Mod,Fun,[{&amp;#39;_&amp;#39;, [], [{return_trace}]}]). t(Mod,Fun,Ari)-&amp;gt; dbg:tpl(Mod,Fun,Ari,[{&amp;#39;_&amp;#39;, [], [{return_trace}]}]). p(Max)-&amp;gt; FuncStopTracer = fun (_, N) when N =:= Max-&amp;gt; % 记录累计到上限值，追踪器自动关闭  dbg:stop_clear(), io:format(&amp;#34;#WARNING &amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; dbg tracer stopped &amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;~n~n&amp;#34;,[]); (Msg, N) -&amp;gt; case Msg of {trace, _Pid, call, Trace} -&amp;gt; {M, F, A} = Trace, io:format(&amp;#34;###################~n&amp;#34;,[]), io:format(&amp;#34;call [~p:~p,(~p)]~n&amp;#34;, [M, F, A]), io:format&amp;#34;###################~n&amp;#34;,[]); {trace, _Pid, return_from, Trace, ReturnVal} -&amp;gt; {M, F, A} = Trace, io:format(&amp;#34;===================~n&amp;#34;,[]), io:format(&amp;#34;return [~p:~p(~p)] =====&amp;gt;~p~n&amp;#34;, [M, F, A, ReturnVal]), io:format(&amp;#34;===================~n&amp;#34;,[]); _ -&amp;gt; skip end, N + 1 end, case dbg:tracer(process, {FuncStopTracer, 0}) of {ok, _Pid} -&amp;gt; dbg:p(all, [all]); {error, already_started} -&amp;gt; skip end.</description>
+    </item>
+    
+  </channel>
+</rss>

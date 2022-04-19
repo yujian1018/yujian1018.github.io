@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.1 Redis on 清水的小站</title>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.1-redis/</link>
+    <description>Recent content in 4.1 Redis on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.1-redis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

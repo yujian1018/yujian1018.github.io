@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.3. Makefile on 清水的小站</title>
+    <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/</link>
+    <description>Recent content in 2.3. Makefile on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.3.1 案例Makefile 1</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/2.3.1-%E6%A1%88%E4%BE%8Bmakefile-1/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.3.-makefile/2.3.1-%E6%A1%88%E4%BE%8Bmakefile-1/</guid>
+      <description>案例 # See LICENSE for licensing information. DIALYZER = dialyzer REBAR = rebar APPNAME = goldrush all: app app: deps @$(REBAR) compile deps: @$(REBAR) get-deps clean: @$(REBAR) clean rm -f test/*.beam rm -f erl_crash.dump tests: clean app eunit ct eunit: @$(REBAR) -C rebar.test.config eunit skip_deps=true ct: @$(REBAR) -C rebar.test.config ct skip_deps=true build-plt: @$(DIALYZER) --build_plt --output_plt .$(APPNAME)_dialyzer.plt \ --apps kernel stdlib sasl inets crypto public_key ssl compiler syntax_tools dialyze: @$(DIALYZER)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8.2杂记 on My New Hugo Site</title>
+    <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 8.2杂记 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>8</title>
+      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</guid>
+      <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程.
+  Erlang的容错处理：如果不能完成一个任务就死掉 让其它正常的进程来善后。link函数就是用来建立这种进程间的双向连接来监测非正常退出，并做出处理。
+  side-effect-free无副作用,其中一种定义是说:一个程序执行前后保持程序的状态不变,不改变非局部变量的值,不改变传入参数值,也无I/O
+  Erlang GC的特点是:每个进程独立进行GC ,分代(generational garbage) ,复制回收
+  Erlang的模式匹配作用:1.变量赋值 2.提取变量值 3.控制流
+  ETS也是不参与GC的
+  Erlang是动态强类型的语言 dynamic-strong Typing
+  windows环境Erlang GUI工具:toolbar:start(). tv:start() pman:start(). appmon:start() debugger:start()
+  还有一个WebUI的工具 webtool:start().
+  Erlang属于面向消息的语言,面向消息的语言没有共享对象,进程间交互通过收发消息完成
+  Erlang中一个已经赋值的变量就是一个指针，指向存储值的存储区!
+  单次赋值实际上就是存储区的值不会被修改
+  Erlang不共享内存,也就没有了锁的问题
+  函数子句的顺序匹配的顺序是其在文件中的顺序
+  列表解析的数据生成器部分通过模式匹配也可以是达到数据过滤的目的[X||{a,X}&amp;lt;-[{a,1},{b,12},{c,33},{a,23}]].
+  所有的BIF都在erlang模块中，所以不要奇怪这个模块包含的函数那么杂!
+  bit语法 End-Sign-Type-Unit 一个数据样例： 8/unsigned-little-integer
+  二进制数据中使用的整数都必须要在0到255之间，这是因为二进制数据包含的每个字节都是8位，</description>
+    </item>
+    
+  </channel>
+</rss>

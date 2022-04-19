@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.2.3 PostgreSQL on 清水的小站</title>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/</link>
+    <description>Recent content in 4.2.3 PostgreSQL on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</guid>
+      <description>使用中出现的问题 NOT IN 使用 LEFT JOIN / IS NULL或NOT EXISTS而不是NOT IN NOT IN正如我们之前讨论的那样，由于它处理NULL列表中的值的方式，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</guid>
+      <description>外部表 postgres_fdw 添加extension create extension postgres_fdw; select * from pg_foreign_data_wrapper; 创建远端数据库 create database dblink TEMPLATE template0; 本地创建server select * from pg_foreign_server; create server ex_db foreign data wrapper postgres_fdw options(host &amp;lsquo;127.0.0.1&amp;rsquo;,port &amp;lsquo;5866&amp;rsquo;,dbname &amp;lsquo;highgo&amp;rsquo;); create server mysql_config foreign data wrapper postgres_fdw options(host &amp;lsquo;192.168.69.161&amp;rsquo;,port &amp;lsquo;3306&amp;rsquo;,dbname &amp;lsquo;config&amp;rsquo;);</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</guid>
+      <description>时序数据库插件 psql -U postgres -h 127.0.0.1 create database nyc_data; \c nyc_data CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE; CREATE TABLE conditions ( time TIMESTAMPTZ NOT NULL, location TEXT NOT NULL, temperature DOUBLE PRECISION NULL, humidity DOUBLE PRECISION NULL ); SELECT create_hypertable(&amp;#39;conditions&amp;#39;, &amp;#39;time&amp;#39;); INSERT INTO conditions(time, location, temperature, humidity) VALUES (NOW(), &amp;#39;office&amp;#39;, 70.0, 50.0); SELECT * FROM conditions ORDER BY time DESC LIMIT 100;</description>
+    </item>
+    
+  </channel>
+</rss>

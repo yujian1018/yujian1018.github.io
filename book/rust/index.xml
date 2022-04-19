@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.Rust on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in 3.Rust on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://example.org/1.%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/1.%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91/</guid>
+      <description>linux to windows # rustup target add x86_64-pc-windows-gnu # sudo apt install mingw-w64 vim ~/.cargo/config: [target.x86_64-pc-windows-gnu] linker = &amp;#34;x86_64-w64-mingw32-gcc&amp;#34; ar = &amp;#34;x86_64-w64-mingw32-ar&amp;#34; [target.aarch64-linux-android] linker = &amp;#34;aarch64-linux-android-gcc&amp;#34; ar = &amp;#34;aarch64-linux-android-ar&amp;#34; # 编译 cargo build --target x86_64-pc-windows-gnu </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/6.%E8%B5%84%E6%BA%90/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/6.%E8%B5%84%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>storm1986网游策划设计空间原创文集2007-2010</title>
+      <link>http://example.org/6.%E8%B5%84%E6%BA%90/storm1986%E7%BD%91%E6%B8%B8%E7%AD%96%E5%88%92%E8%AE%BE%E8%AE%A1%E7%A9%BA%E9%97%B4%E5%8E%9F%E5%88%9B%E6%96%87%E9%9B%862007-2010/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/6.%E8%B5%84%E6%BA%90/storm1986%E7%BD%91%E6%B8%B8%E7%AD%96%E5%88%92%E8%AE%BE%E8%AE%A1%E7%A9%BA%E9%97%B4%E5%8E%9F%E5%88%9B%E6%96%87%E9%9B%862007-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>国内网页游戏背景音乐</title>
+      <link>http://example.org/6.%E8%B5%84%E6%BA%90/6.1-%E5%9B%BD%E5%86%85%E7%BD%91%E9%A1%B5%E6%B8%B8%E6%88%8F%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/6.%E8%B5%84%E6%BA%90/6.1-%E5%9B%BD%E5%86%85%E7%BD%91%E9%A1%B5%E6%B8%B8%E6%88%8F%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90/</guid>
+      <description>国内网页游戏使用的背景音乐,大量使用了经典的电影电视的OST,这里简单回顾一下:
+ 首先,一大批网页游戏用的是中国武侠背景,大量的电视武侠电影为此提供了丰富的素材:
+ 仙剑奇侠传（四） - 回梦游仙.wav
+ 何占豪&amp;amp;陈钢 - 少年十五二十时.wav 卢冠廷 - 一生所爱.wav 吕秀龄 - 逆伦.wav 商易 - 小刀会组曲 .wav 喜多郎 - 孙文与庆玲.wav 宗次郎 - 故乡的原风景.wav 徐嘉良 - 仙侣奇缘主题曲音乐.wav 横山菁儿 - 英雄的黎明.wav 胡伟立 - 偷功.wav 胡伟立 - 市集.wav 陈勋奇 - 天地孤影任我行.wav 陈淑桦 - 流光飞舞.wav 鲍比达 - 凡心大动.wav 黄沾&amp;amp; 胡伟立 - 傲气傲笑万重浪.wav 黄英华 - OPENING.wav 黄霑&amp;amp; 鲍比达 - 定情.wav 黄霑&amp;amp;徐克&amp;amp;罗大佑 - 沧海一生笑.wav
+七剑战歌
+2012-6-28 19:51:18 更新:
+Folder PATH listing for volume Zen Volume serial number is 9ED7-E2AC E:.</description>
+    </item>
+    
+  </channel>
+</rss>

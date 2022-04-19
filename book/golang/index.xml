@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.Golang on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in 3.Golang on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.1 Printf</title>
+      <link>http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/3.1-printf/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.-%E5%BA%93%E5%87%BD%E6%95%B0/3.1-printf/</guid>
+      <description>Printf General %v 以默认的方式打印变量的值%T 打印变量的类型Integer %+d 带符号的整型，fmt.Printf(&amp;quot;%+d&amp;quot;, 255)输出+255%q 打印单引号%o 不带零的八进制%#o 带零的八进制%x 小写的十六进制%X 大写的十六进制%#x 带0x的十六进制%U 打印Unicode字符%#U 打印带字符的Unicode%b 打印整型的二进制Integer width %5d 表示该整型最大长度是5，下面这段代码fmt.Printf(&amp;quot;|%5d|&amp;quot;, 1)fmt.Printf(&amp;quot;|%5d|&amp;quot;, 1234567)输出结果如下：| 1||1234567|%-5d则相反，打印结果会自动左对齐%05d会在数字前面补零。Float %f (=%.6f) 6位小数点%e (=%.6e) 6位小数点（科学计数法）%g 用最少的数字来表示%.3g 最多3位数字来表示%.3f 最多3位小数来表示String %s 正常输出字符串%q 字符串带双引号，字符串中的引号带转义符%#q 字符串带反引号，如果字符串内有反引号，就用双引号代替%x 将字符串转换为小写的16进制格式%X 将字符串转换为大写的16进制格式% x 带空格的16进制格式String Width %5s 最小宽度为5%-5s 最小宽度为5（左对齐）%.</description>
+    </item>
+    
+    <item>
+      <title>Go Project Layout</title>
+      <link>http://example.org/go-project-layout/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/go-project-layout/</guid>
+      <description>背景 Go 没有对项目的 layout 有硬性规定，也没有官方版本的 best practice，所以社区内部有几种不同的实践方式，可根据自身需求自行参考。本文仅作简要总结。
+参考方案 根据社区 Standard Go Project Layout 提出的方案，我们可以将一个 Go Project 划分成以下几大目录：
+Go 相关目录 cmd/ 一般来说，如果不是库函数，项目最终都会编译成 1 个或多个二进制可执行文件，每个可执行文件都会对应到一个 main()，而这些可执行文件的入口代码可认为都是一个 application。
+cmd/ 就是用来放这些 application 代码，每个 application 都应对应到 cmd/ 的某个子目录下，比如我这个项目将生成 app1，app2 和 app3，那么目录结构就应该为：
+go-project └── cmd ├── app1 ├── app2 └── app3 应该注意的一点：不宜在 cmd/ 下放过多代码。如果你觉得你的某些代码可公开复用，应放置于 pkg/ 目录中，否则可放置于 internal/ 目录中。
+一个好的工程习惯是：尽可能保持 cmd/ 下的 application 代码，即 main() 入口函数的简单，通过调用其他工程目录下的代码（比如 pkg/ 和 internal/） 来串联整个逻辑。
+internal/ 私有的 application 或者库代码（不希望 package 的接口被扩散到同层目录以外的空间中）。该目录下的代码受限于 Go internal package 机制的限制（见下文），只能被 internal/ 下同层代码所引用。</description>
+    </item>
+    
+  </channel>
+</rss>

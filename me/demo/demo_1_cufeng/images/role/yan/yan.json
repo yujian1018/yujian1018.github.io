@@ -1,0 +1,566 @@
+{
+  "height": 139,
+  "keys": [
+    "stand",
+    "walk",
+    "run",
+    "attack1",
+    "attack2",
+    "attack3",
+    "attack4",
+    "hurt",
+    "fly",
+    "skill1",
+    "skill2",
+    "skill3",
+    "kill"
+  ],
+  "repeat":[
+    "stand",
+    "walk",
+    "run"
+  ],
+  "action": {
+    "stand":30,
+    "walk":18,
+    "run":16
+  },
+  "rect": {
+    "keys": [
+      "attack",
+      "unattack"
+    ],
+    "attack": {
+      "attack1": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              68,
+              73
+            ],
+            "x": 7,
+            "y": 40,
+            "w": 140,
+            "h": 80
+          }
+        }
+      },
+      "attack2": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2",
+            "changeRect3"
+          ],
+          "changeRect1": {
+            "frames": [
+              83,
+              84
+            ],
+            "x": -6,
+            "y": 23,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              85,
+              86
+            ],
+            "x": 58,
+            "y": 39,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect3": {
+            "frames": [
+              87,
+              88
+            ],
+            "x": 35,
+            "y": 94,
+            "w": 100,
+            "h": 40
+          }
+        }
+      },
+      "attack3": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2",
+            "changeRect3"
+          ],
+          "changeRect1": {
+            "frames": [
+              94,
+              95
+            ],
+            "x": -30,
+            "y": -119,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              96,
+              97
+            ],
+            "x": 18,
+            "y": 44,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect3": {
+            "frames": [
+              98,
+              101
+            ],
+            "x": -2,
+            "y": 76,
+            "w": 80,
+            "h": 60
+          }
+        }
+      },
+      "attack4": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              113,
+              120
+            ],
+            "x": 23,
+            "y": 48,
+            "w": 80,
+            "h": 80
+          }
+        }
+      },
+      "skill1": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2",
+            "changeRect3"
+          ],
+          "changeRect1": {
+            "frames": [
+              175,
+              176
+            ],
+            "x": 4,
+            "y": 4,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              177,
+              178
+            ],
+            "x": 23,
+            "y": 16,
+            "w": 80,
+            "h": 110
+          },
+          "changeRect3": {
+            "frames": [
+              179,
+              188
+            ],
+            "x": 18,
+            "y": 42,
+            "w": 80,
+            "h": 110
+          }
+        }
+      },
+      "skill2": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              200,
+              213
+            ],
+            "x": 20,
+            "y": 0,
+            "w": 140,
+            "h": 100
+          }
+        }
+      },
+      "skill3": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              218,
+              233
+            ],
+            "x": -32,
+            "y": 24,
+            "w": 140,
+            "h": 100
+          }
+        }
+      },
+      "kill": {
+        "keys": [
+          "rect1"
+        ],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2"
+          ],
+          "changeRect1": {
+            "frames": [
+              243,
+              249
+            ],
+            "x": -2,
+            "y": -49,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              251,
+              266
+            ],
+            "x": 3,
+            "y": 8,
+            "w": 150,
+            "h": 150
+          }
+        }
+      }
+    },
+    "unattack": {
+      "stand": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              0,
+              29
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "walk": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              0,
+              17
+            ],
+            "x": -16,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "run": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              0,
+              15
+            ],
+            "x": -25,
+            "y": 10,
+            "w": 60,
+            "h": 68
+          }
+        }
+      },
+      "attack1": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2",
+            "changeRect3"
+          ],
+          "changeRect1": {
+            "frames": [
+              64,
+              67
+            ],
+            "x": -6,
+            "y": 15,
+            "w": 35,
+            "h": 100
+          },
+          "changeRect2": {
+            "frames": [
+              68,
+              73
+            ],
+            "x": -2,
+            "y": -13,
+            "w": 60,
+            "h": 80
+          },
+          "changeRect3": {
+            "frames": [
+              74,
+              78
+            ],
+            "x": -17,
+            "y": -15,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "attack2": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2",
+            "changeRect3"
+          ],
+          "changeRect1": {
+            "frames": [
+              79,
+              84
+            ],
+            "x": -10,
+            "y": 22,
+            "w": 35,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              85,
+              88
+            ],
+            "x": 15,
+            "y": 13,
+            "w": 35,
+            "h": 80
+          },
+          "changeRect3": {
+            "frames": [
+              89,
+              90
+            ],
+            "x": 4,
+            "y": 13,
+            "w": 35,
+            "h": 80
+          },
+          "changeRect4": {
+            "frames": [
+              91,
+              91
+            ],
+            "x": 4,
+            "y": 13,
+            "w": 35,
+            "h": 80
+          }
+        }
+      },
+      "attack3": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              92,
+              97
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          },
+          "changeRect2": {
+            "frames": [
+              98,
+              105
+            ],
+            "x": -9,
+            "y": -119,
+            "w": 35,
+            "h": 100
+          },
+          "changeRect3": {
+            "frames": [
+              106,
+              106
+            ],
+            "x": -19,
+            "y": -119,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "attack4": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2"
+          ],
+          "changeRect1": {
+            "frames": [
+              107,
+              122
+            ],
+            "x": 2,
+            "y": 3,
+            "w": 35,
+            "h": 100
+          },
+          "changeRect2": {
+            "frames": [
+              108,
+              109
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "hurt": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": ["changeRect1"],
+          "changeRect1": {
+            "frames": [
+              126,
+              132
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          }
+        }
+      },
+      "fly": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2"
+          ],
+          "changeRect1": {
+            "frames": [
+              133,
+              138
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          },
+          "changeRect2": {
+            "frames": [
+              139,
+              142
+            ],
+            "x": -40,
+            "y": 31,
+            "w": 70,
+            "h": 40
+          }
+        }
+      },
+      "skill1": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1"
+          ],
+          "changeRect1": {
+            "frames": [
+              173,
+              195
+            ],
+            "x": -18,
+            "y": 23,
+            "w": 50,
+            "h": 80
+          }
+        }
+      },
+      "skill2": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1"
+          ],
+          "changeRect1": {
+            "frames": [
+              196,
+              213
+            ],
+            "x": -18,
+            "y": 23,
+            "w": 50,
+            "h": 80
+          }
+        }
+      },
+      "skill3": {
+        "keys": ["rect1"],
+        "rect1": {
+          "keys": [
+            "changeRect1",
+            "changeRect2"
+          ],
+          "changeRect1": {
+            "frames": [
+              196,
+              213
+            ],
+            "x": -31,
+            "y": 17,
+            "w": 80,
+            "h": 80
+          },
+          "changeRect2": {
+            "frames": [
+              238,
+              238
+            ],
+            "x": -19,
+            "y": 19,
+            "w": 35,
+            "h": 100
+          }
+        }
+      }
+    }
+  }
+}

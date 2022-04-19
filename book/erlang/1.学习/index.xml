@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.学习 on My New Hugo Site</title>
+    <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 1.学习 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/1.%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.1安装与运行环境</title>
+      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</guid>
+      <description>Install #ubuntu sudo apt-get install make gcc openssl libssl-dev libncurses-dev libwxgtk3.0-dev m4 glibc-devel build autoconf sudo apt install -y libncurses-dev libwxgtk3.0-dev m4; ## CentOS yum -y install make gcc gcc-c++ kernel-devel m4 ncurses-devel openssl-devel wget https://github.com/erlang/otp/archive/OTP-21.0.tar.gz tar -zxf otp-OTP-21.0.tar.gz cd otp-OTP-21.0 ./otp_build autoconf ./configure --enable-native-libs make sudo make install 依赖库说明    lib库 功能     libncurses-dev 系统的必备库,基础库   build-essential 提供编译程序必须软件包的列表信息   libwxgtk3.0-dev 图形库   libssl-dev 加密库   m4 native 模式 hipe   hipe erlang-base-hipe   fop Apache FOP print formatter (requires Java).</description>
+    </item>
+    
+    <item>
+      <title>1.2编辑器、集成开发环境与其它工具</title>
+      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</guid>
+      <description>编辑器   IDEA
+  VIM
+  VSCode
+  Sublime Text 3
+  side-effect-free无副作用,其中一种定义是说:一个程序执行前后保持程序的状态不变,不改变非局部变量的值,不改变传入参数值,也无I/O
+  1，单进程问题 Erlang虚拟机属于抢占式调度，抢占式调度有很多好处，但是同样也存在这弊端。虚拟机在默认情况下分配个每个进程的资源都是相同的，但是若一个进程（gen_server/event/fsm）要为其他许多进程提供服务，这个进程就极有可能成为整个Erlang系统的瓶颈所在。http://www.cnblogs.com/--00/p/4277640.html
+2，列表解析效率 在Erlang编程语言中，list/string 是非常常见的一种数据类型，list处理的方式几乎都是遍历或者是尾递归，在list规模小的情况下，这种方式几乎不会给大家造成麻烦，但是一旦list的规模很大之后，情况就会变得非常糟糕。如list的“++”操作存在陷阱，erlang:length(List) 存在陷阱，queue:len(Queue)存在陷阱，诸如这种陷阱看起来很细碎，但是如果不好好处理，指不定就容易出现各种让我们摸不着头脑的坑。 前不久，我们刚刚在一个系统中，优化了一个lists:keydelete/3 的操作，大幅度提升了整个接口处理的速度。 当然，这些问题和erts的设计思路有很大的关系，如：private heap，变量不变 &amp;hellip; 。
+3，refc binary binary的存在在一定程度上缓解了list处理带来的“低效率”的问题，但是，refc binary（erlang:byte_size(Binary) &amp;gt; 64的binary）的gc又让人比较蛋疼。Erlang process structure &amp;ndash; refc binary
+4，OOM 在一定程度上，这也是单进程问题的一个附属品。单进程获得虚拟机资源有限，处理性能不足，导致message mail box 的message不断挤压，继而引发large heap，导致整个Erlang 虚拟机crash。最最典型的就是lager了。
+5，Erlang进程CPU消耗度量 一直以来，大家都在社区中试图寻找度量单个Erlang进程CPU的消耗，但是不管是Erlang现在的API函数，还是社区中的方案，都没有提供一种行之有效的方案。为什么？我简单摘抄一段Erlang_IN_Anger中的一段描述吧：
+ It is generally difficult to properly analyze the CPU usage of an Erlang node to pin problems to a specific piece of code.</description>
+    </item>
+    
+    <item>
+      <title>1.3代码编译运行</title>
+      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</guid>
+      <description>安装Erlang后，运行代码，先编译后运行
+在Eshell中编译运行 $erl Erlang (BEAM) emulator version 5.5.1 [source] [async一threads:0] [hipe] Eshell V5.5.1 (abort with }G) 1&amp;gt; c(hello). {ok，hello} 2&amp;gt; hello:start(). Hello world ok 3&amp;gt; c(&amp;#34;test.erl&amp;#34;, [to_core]). 4&amp;gt; c(test). %编译 {ok,test} 5&amp;gt; erts_debug:df(test). %生成opcode ok 自带的编译工具 $ erlc hello.erl $ erlc -h $ erlc -o ebin -I include/ src/*.erl $ erlc +&amp;#34;&amp;#39;S&amp;#39;&amp;#34; mod.erl %产生自解码 .S汇编代码 $ erlc +&amp;#34;&amp;#39;P&amp;#39;&amp;#34; mod.erl $ erlc +&amp;#34;&amp;#39;E&amp;#39;&amp;#34; mod.erl $ erl -noshell -s hello start -s init stop Hello world $erl -eval &amp;#39;io:format(&amp;#34;Memory:~p~n&amp;#34;, [erlang:memory(total)]).</description>
+    </item>
+    
+  </channel>
+</rss>

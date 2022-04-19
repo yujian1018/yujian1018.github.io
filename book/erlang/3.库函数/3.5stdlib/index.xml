@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.5stdlib on My New Hugo Site</title>
+    <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/</link>
+    <description>Recent content in 3.5stdlib on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</guid>
+      <description>dict是动态哈希表实现的字典.在接口上和orddict保持一致,在实现上和array动态扩展的思路类似, 与proplists,orddict相比它能够支持更大的数据量,你可以在数据量膨胀的时候从orddict转为dict.dict使用的是动态哈希技术实现, 理论依据是论文: &amp;ldquo;The Design and Implementation of Dynamic Hashing for Sets and Tables in Icon&amp;rdquo; ,论文地址: http://www.2007.cccg.ca/~morin/teaching/5408/refs/a99.pdf 数组寻址容易,插入和删除困难;链表寻址困难,插入和删除容易;哈希表插入和删除的时间均取决于查找时间.哈希表在数据和数据存储位置之间建立了确定的函数关系,所以获得了高效的查询效率,而线性表和树,数据项在结构中的位置是随机的,和数据项取值没有确定的关系,这种结构上进行查找数据项是基于&amp;quot;比较&amp;rdquo;,查找效率依赖比较次数. 参考资料：http://www.cnblogs.com/me-sa/archive/2012/06/24/erlang-dict.html
+1.Dict = dict:new(). 2.dict:store( key, Value, Dict ). 3.dict:is_key( Key, Dict ). -&amp;gt; true | false 4.dict:find(Key, Dict). == dict:fetch( Key, Dict ). 5.dict:fold(Fun, [], Dict). Fun = fun( I, List ) -&amp;gt; Return = fun(I), [Return | List] end. 6.dict:erase(k1, Dict). 清除Dict中key=k1的数据 7.dict:append( k2,v3, Dict2 ) 向k2追加v3 1.dict可以存储更大的数据 在dict的实现中,Segment,Slot,bucket是三个逐渐逐渐变小的概念 -record(dict, { size=0 %元素的数量  n=?</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</guid>
+      <description>1.{ok,Scanned,_} = erl_scan:string( &amp;#34;1+2*2+(2+4)/2.&amp;#34; ). {ok,[{integer,1,1}, {&amp;#39;+&amp;#39;,1}, {integer,1,2}, {&amp;#39;*&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {&amp;#39;(&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {integer,1,4}, {&amp;#39;)&amp;#39;,1}, {&amp;#39;/&amp;#39;,1}, {integer,1,2}], 1} 2.{ok,Parsed} = erl_parse:parse_exprs(Scanned), {ok,[{op,1,&amp;#39;+&amp;#39;, {op,1,&amp;#39;+&amp;#39;, {integer,1,1}, {op,1,&amp;#39;*&amp;#39;,{integer,1,2},{integer,1,2}}}, {op,1,&amp;#39;/&amp;#39;, {op,1,&amp;#39;+&amp;#39;,{integer,1,2},{integer,1,4}}, {integer,1,2}}}]} 3.erl_eval:exprs(Parsed,[]). {value,8.0,[]} 4.erl_syntax:abstract(T::term()) -&amp;gt; syntaxTree() {ok, T1, _} = erl_scan:string( &amp;#34;aaa,bbb.&amp;#34; ). 5. erl_parse:parse_term(T1). T1的末尾必须是 {dot, 1} </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</guid>
+      <description>写文件 file:open( FileName, [append]|[write]|[read] ) file:open(?FilePath, [write, {encoding, utf8}]) tool_log( Res, State )-&amp;gt; {ok, S} = file:open(get_path(&amp;#34;../doc/tool_log.txt&amp;#34;), [append]), io:format( S, &amp;#34;~p:~n{~p, ~p}~n&amp;#34;, [ erlang:localtime(), Res, State ]), file:close( S ). file:open(File, [raw, binary]). 2.file:write( IoDevice, Bytes ). file:write_file( FileName, Bytes ). 可以保存图片 ###读文件
+file:open( FileName, read ). {ok,&amp;lt;0.547.0&amp;gt;} io:read( &amp;lt;0.547.0&amp;gt;, &amp;#39;&amp;#39; ). {ok,{1,&amp;#34;买星马AK-8880&amp;#34;}} ile:read_file(FileName ) file:read_file( &amp;#34;E:\a.xml&amp;#34; ). {ok,&amp;lt;&amp;lt;&amp;#34;&amp;lt;xml&amp;gt;\r\n&amp;lt;name&amp;gt;yujian&amp;lt;/name&amp;gt;\r\n&amp;lt;/xml&amp;gt;&amp;#34;&amp;gt;&amp;gt;} file:consult( FileName ) case file:consult( Doc ) of {ok, [FileConent]} -&amp;gt; FileConent; Other -&amp;gt; Other end.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</guid>
+      <description>file utilities, such as wildcard matching of filenames filelib:ensure_dir( &amp;#34;test/c/a.txt&amp;#34; ). %在pwd()目录下查看是否存在存在该目录，如果不存在新建目录，不新建文件  filelib:file_size( &amp;#34;text.txt&amp;#34; ). 127 filelib:is_dir( &amp;#34;test/c&amp;#34; ). true filelib:is_dir( &amp;#34;text.txt&amp;#34; ). false filelib:is_file(&amp;#34;test/c/&amp;#34;). true filelib:is_file(&amp;#34;text.txt&amp;#34;).true filelib:is_regular(&amp;#34;log/ssl.log&amp;#34;). true filelib:is_regular(&amp;#34;log/&amp;#34;). false filelib:last_modified(&amp;#34;log/ssl.log&amp;#34;). {{2015,10,29},{17,51,38}} filelib:wildcard(&amp;#34;log/*&amp;#34;). [&amp;#34;log/ssl.log&amp;#34;] filelib:wildcard(&amp;#34;lib/*/ebin/*.beam&amp;#34;). filelib:wildcard(&amp;#34;lib/*/src/*.?rl&amp;#34;) filelib:wildcard(&amp;#34;lib/*/src/*.{erl,hrl}&amp;#34;) filelib:wildcard(&amp;#34;lib/*/{src,include}/*.hrl&amp;#34;). filelib:wildcard(&amp;#34;lib/*/{src,include}/*.{erl,hrl}&amp;#34;) filelib:wildcard(&amp;#34;lib/**/*.{erl,hrl}&amp;#34;) ? %Matches one character. * %Matches any number of characters up to the end of the filename, the next dot, or the next slash. ** %Two adjacent *&amp;#39;s used as a single pattern will match all files and zero or more directories and subdirectories.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</guid>
+      <description>平衡二叉树</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</guid>
+      <description>server() -&amp;gt; LSock = listen(), {ok, Sock} = gen_tcp:accept(LSock), {ok, Bin} = do_recv(Sock, []), ok = gen_tcp:close(Sock), Bin. listen() -&amp;gt; {ok, LSock} = gen_tcp:listen(5678, [binary, {packet, 4}, {active, false}]), LSock. client() -&amp;gt; SomeHostInNet = &amp;#34;localhost&amp;#34;, {ok, Sock} = gen_tcp:connect(SomeHostInNet, 5678, [binary, {packet, 0}]), ok = gen_tcp:send(Sock, &amp;#34;Some Data&amp;#34;), ok = gen_tcp:close(Sock). do_recv(Sock, Bs) -&amp;gt; case gen_tcp:recv(Sock, 0) of {ok, B} -&amp;gt; do_recv(Sock, [Bs, B]); {error, closed} -&amp;gt; {ok, list_to_binary(Bs)} end. gen_tcp:listen中使用的options [binary, {packet, 4}, {active, true}, {reuseaddr,true}, {delay_send,true}] %% {active,true} 创建一个主动套字节(非阻塞) %% {active,false} 创建一个被动套字节(阻塞) %% {active,once} 创建一个主动套字节仅接收一条消息,如想接收下一条必须再次激活(半阻塞) %%{packet, 4} 表示每一个消息都是从一个4字节长的头部开始 意味着每个包有4个字节的包头，代表长度 </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</guid>
+      <description>Generic Server Behaviour
+一般服务行为（通用服务器行为）</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</guid>
+      <description>1、启动 方式一：启动inets应用，一个缺省profile的管理进程将被启动。 inets:start(). 方式二：运行时，动态启动profile停止profile。 动态启动profile：{ok, Pid} = inets:start(httpc, [{profile, foo}]). 动态停止profile：inets:stop(httpc, foo) 或 inets:stop(httpc, Pid). 2、设置 httpc:set_options() -&amp;lt; ok | {error, Reason}参考：http://www.erlang.org/doc/man/httpc.html#set_options-1 3、请求参考：http://www.erlang.org/doc/man/httpc.html#request-1 同步请求：{ok, {{Version, 200, ReasonPhrase}, Headers, Body}} = httpc:request(&amp;#34;http://www.baidu.com&amp;#34;). 等同于 {ok, {{Version, 200, ReasonPhrase}, Headers, Body}} = httpc:request(get, {&amp;#34;http://www.baidu.com&amp;#34;, []}, [], []). 异步请求： {ok, RequestId} = httpc:request(get, {&amp;#34;http://www.baidu.com&amp;#34;, []}, [], [{sync, false}]), receive {http, {RequestId, Result}} -&amp;lt; ok after 500 -&amp;lt; error end. 4.httpc:request(get, {Url, Header}, [{timeout, ?TimeOut}], [{sync, false}]).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</guid>
+      <description>init_parse:ntoa( IP:tuple() ) -&amp;gt; IP:string() </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</guid>
+      <description>init:get_argument( home ). -&amp;gt; {ok,[[&amp;#34;C:\\Users\\Administrator&amp;#34;]]} init:stop().关闭所有的Erlang Application，包括终端 init:i(). 列出网络的连接情况 </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</guid>
+      <description>inet:getifaddrs() 本机所有网卡 inet:getif() 本机网卡ip地址 inet:peername(State#state.socket) </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</guid>
+      <description>io:get_line io:get_line( &amp;#34;gissa line&amp;gt;&amp;#34; ). gissa line&amp;gt; fdfdsfdfdsfds. &amp;#34;fdfdsfdfdsfds.\n&amp;#34; io:get_chars io:get_chars( &amp;#34;me&amp;gt;&amp;#34;,4 ). me&amp;gt;fdfdfdfd. &amp;#34;fdfd&amp;#34; fdfd io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ) io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ). ok,aa&amp;gt;&amp;gt;atom. {ok,atom}. io:fwrite(&amp;#34;843 Error&amp;#34;). io:fwrite(&amp;#34;843 Error&amp;#34;). 843 Errorok io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). 格式化&amp;#34;~32.16.0b&amp;#34;的含义,输出的用长度length为32，转化为16进制，转化时如果遇到空的位，使&amp;#34;0&amp;#34;填充， b输出的英文小写字母，B输出大写字母 %完整的格式化&amp;#34;~Length.P.PadC&amp;#34;  Length输出宽度 P输出精度 Pad填充字符 C是控制字符 io:format( &amp;#34;~c~p~n~f~e~w~p~w~p~B&amp;#34; ) ~ The character ~ is written. c 参数必须是ASCII码，控制输出的精度 io:format( &amp;#34;|~-10.1c|&amp;#34;, [$c] ). io:format( &amp;#34;|~10.1c|&amp;#34;, [$c] ). f 参数必须是float, 输出一个有6个小数位的浮点数 e [-]d.ddde+-ddd, 输出一个以科学记数法表示的总共6位的浮点数 g s 字符串 w Writes data with the standard syntax.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</guid>
+      <description>lists模块的reverse/1经过高度优化，可以在重排lists元素顺序时考虑使用 如果两个list都拥有很多数据，那么请不要使用&amp;rsquo;&amp;ndash;&#39;，而是将数据转化到ordsets，然后调用ordsets:substract/2 调用lists:flatten/1可以将list扁平化，这个操作代价很大，比&#39;++&#39;还要昂贵。下面这些时候我们可以避免：
+将数据发送给port时 调用list_bo_binary/1和iolist_to_binary前  1.all(F, List) -&amp;gt; boolean() &amp;gt; lists:all( fun(X) -&amp;gt; X == 1 end, [1,1,1,1,1] ) -&amp;gt; true &amp;gt; lists:all( fun(X) -&amp;gt; X == 1 end, [1,1,1,1,2] ) -&amp;gt; false. 2.any(Pred, List) -&amp;gt; boolean() &amp;gt; lists:any( fun(X) -&amp;gt; X == 1 end, [2,2,2,2,2] ) -&amp;gt; false &amp;gt; lists:any( fun(X) -&amp;gt; X == 1 end, [1,2,2,2,2] ) -&amp;gt; true. 3.append(ListOfLists) -&amp;gt; List1 &amp;gt; lists:append([[1, 2, 3], [a, b], [4, 5, 6]]) -&amp;gt; [1,2,3,a,b,4,5,6] append(List1, List2) -&amp;gt; List3 &amp;gt; lists:append(&amp;#34;abc&amp;#34;, &amp;#34;def&amp;#34;) -&amp;gt; &amp;#34;abcdef&amp;#34; 4.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</guid>
+      <description>1.find(Key, Map) -&amp;gt; {ok, Value} | error Map = #{&amp;#34;hi&amp;#34; =&amp;gt; 42}, Key = &amp;#34;hi&amp;#34;, maps:find(Key,Map). {ok,42} 2.fold(Fun, Init, Map) -&amp;gt; Acc Fun = fun(K,V,AccIn) when is_list(K) -&amp;gt; AccIn + V end, Map = #{&amp;#34;k1&amp;#34; =&amp;gt; 1, &amp;#34;k2&amp;#34; =&amp;gt; 2, &amp;#34;k3&amp;#34; =&amp;gt; 3}, maps:fold(Fun,0,Map). 3.from_list(List) -&amp;gt; Map List = [{&amp;#34;a&amp;#34;,ignored},{1337,&amp;#34;value two&amp;#34;},{42,value_three},{&amp;#34;a&amp;#34;,1}], maps:from_list(List). #{42 =&amp;gt; value_three,1337 =&amp;gt; &amp;#34;value two&amp;#34;,&amp;#34;a&amp;#34; =&amp;gt; 1} 4.get(Key, Map) -&amp;gt; Value Key = 1337, Map = #{42 =&amp;gt; value_two,1337 =&amp;gt; &amp;#34;value one&amp;#34;,&amp;#34;a&amp;#34; =&amp;gt; 1}, maps:get(Key,Map).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</guid>
+      <description>os:type(). os:cmd(Cmd). os:cmd(&amp;#34;file --mime-encoding -b &amp;#34; ++ FullFile) </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</guid>
+      <description>MODULE SUMMARY
+Functions for Manipulating Sets as Ordered Lists  DESCRIPTION
+Sets are collections of elements with no duplicate elements. An ordset is a representation of a set, where an ordered list is used to store the elements of the set. An ordered list is more efficient than an unordered list. This module provides exactly the same interface as the module sets but with a defined representation. One difference is that while sets considers two elements as different if they do not match (=:=), this module considers two elements as different if and only if they do not compare equal (==).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</guid>
+      <description>proplists:get_value(1,[{1,2},{3,4}], none) -&amp;gt; 2 proplists:get_value(1,[{5,6},{3,4}], none) -&amp;gt; none </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</guid>
+      <description>Queue:列队 1.queue:new(). -&amp;gt; {[],[]} 2.queue:in( {1,2}, {[],[]} ) -&amp;gt; {[{1,2}],[]} queue:in( {a,b}, {[{1,2}],[]} ) -&amp;gt; {[{a,b}],[{1,2}]} queue:in( {3,4}, {[{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{1,2}]} 3.queue:in_r( {c,d}, {[{3,4},{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{c,d},{1,2}]}. 4.queue:out( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{c,d}},{[{3,4},{a,b}],[{1,2}]}} 5.queue:out_r( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{3,4}},{[{a,b}],[{c,d},{1,2}]}} </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</guid>
+      <description>函数式且可扩展的数组模块
+内部实现：tuple
+1.array:new(10, {default, {[], 0}}). -&amp;gt; {array,10,0,{[],0},10} 2.array:set( 0, [1,2,3], Array2 ). -&amp;gt; Array 3.array:get( 0, Array3 ). -&amp;gt; [1,2,3]. 4.array:reset(Index, Array). 清空该列 5.array:from_list(Sub)</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</guid>
+      <description>模块 QLC
+模块描述 Mnesia、ets、dets、etc查询接口
+DESCRIPTION 为Mnesia、ets、dets或者其他的数据类型提供一个迭代器遍历的查询接口
+qlc模块为【QLC Tables】 实现一个快速查询接口，典型的【QLC Tables】包括ets、dets和mnesia表。它也支持用户定义的表，查看Implementing a QLC table部分。 一个查询开始与【QLCs】,【Qlc Tables】中一个查询的答案取决于QLCs约束
+1.Erlang有一个类似SQL的数据检索机制，叫做QLC（Query Interface to Mnesia, ETS, Dets, etc），可用于对Mnesia、ETS/DETS的数据表进行数据检索，包括常见的按指定域排序（ORDER BY）、按条件筛选（WHERE...）以及限制返回的结果长度（COUNT）。看个简单的例子： -module(test). -export([start/0]). -include_lib(&amp;#34;stdlib/include/qlc.hrl&amp;#34;). start()-&amp;gt; QH1 = qlc:q([{X, Y}|| X &amp;lt;-[8,3,6,2], Y &amp;lt;-[b,a,c]]), %以第一个值作为key进行排序  QH2 = qlc:keysort(1, QH1,[{order, ascending}]), QC = qlc:cursor(QH2), %获取前两条记录  qlc:next_answers(QC, 2), %获取剩余的其他记录  qlc:next_answers(QC, all_remainning). 2。再看一个国外网站上的案例： Use QLC&amp;#39;s {unique, true} option (See QLC documentation for more info). I created a mnesia table, called test, with bag semantics.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</guid>
+      <description>9&amp;gt; re:run(&amp;#34;The sick quick brown fox.&amp;#34;, &amp;#34;ick&amp;#34;, [global]). {match,[[{5,3}],[{11,3}]]} 10&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;). [&amp;lt;&amp;lt;&amp;#34;The quick &amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;red&amp;#34;&amp;gt;&amp;gt;|&amp;lt;&amp;lt;&amp;#34; fox.&amp;#34;&amp;gt;&amp;gt;] 11&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;, [{return, list}]). &amp;#34;The quick red fox.&amp;#34; 27&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, &amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;). {match,[{8,11}]} 28&amp;gt; re:split(&amp;#34;this/is/my/path&amp;#34;,&amp;#34;/&amp;#34;). [&amp;lt;&amp;lt;&amp;#34;this&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;is&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;my&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;path&amp;#34;&amp;gt;&amp;gt;] 29&amp;gt; {_, P} = re:compile(&amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;). {ok,{re_pattern,0,0,&amp;lt;&amp;lt;69,82,67,80,164,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,64,...&amp;gt;&amp;gt;}} 30&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, P). {match,[{8,11}]} get_url(String) -&amp;gt; HTTP_regex = &amp;#34;^(H|h)(T|t)(T|t)(P|p)(S|s)*://&amp;#34;, case re:run(String, HTTP_regex) of nomatch -&amp;gt; not_url; {match, _} -&amp;gt; get_url1(String, []) end. 31.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</guid>
+      <description>1.random:uniform( ) -&amp;gt; float(). 随机浮点数 2.random:uniform( N::integer() ) -&amp;gt; integer() -&amp;gt;小于N的随机整数 3.random:seed() -&amp;gt; ran(). 用默认值产生随机数种子。 4.用法 Time = erlang:now(), random:seed( Time ), Ran1 = random:seed( Time ), {New_Num, _} = random:uniform_s( Num, Ran1 ), 看它的代码实现： [plain]view plaincopy uniform() -&amp;lt; {A1, A2, A3} = case get(random_seed) of undefined -&amp;lt; seed0(); Tuple -&amp;lt; Tuple end, B1 = (A1*171) rem 30269, B2 = (A2*172) rem 30307, B3 = (A3*170) rem 30323, put(random_seed, {B1,B2,B3}), R = A1/30269 + A2/30307 + A3/30323, R - trunc(R).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</guid>
+      <description>1.rfc4627:encode( {obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]} ). &amp;#34;{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]}&amp;#34; 2.rfc4627:encode([{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]},{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]}] ). &amp;#34;[{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]},{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]}]&amp;#34;. 3.rfc4627:decode( &amp;#34;{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[1,2],[2,3]]}&amp;#34; ). {ok,{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[1,2],[2,3]]}]}, []} 4.{obj,[{&amp;#34;temp&amp;#34;,&amp;lt;&amp;lt;&amp;#34;interface&amp;#34;&amp;gt;&amp;gt;}, {&amp;#34;serviceUrl&amp;#34;,&amp;lt;&amp;lt;&amp;#34;aaa&amp;#34;&amp;gt;&amp;gt;}, {&amp;#34;existing&amp;#34;,[{obj,[{&amp;#34;a&amp;#34;,&amp;lt;&amp;lt;&amp;#34;b&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;c&amp;#34;,&amp;lt;&amp;lt;&amp;#34;d&amp;#34;&amp;gt;&amp;gt;}]}]}, {&amp;#34;questionList&amp;#34;, [{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;111&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;key&amp;#34;,&amp;lt;&amp;lt;&amp;#34;222&amp;#34;&amp;gt;&amp;gt;}]}, {obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;333&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;key&amp;#34;,&amp;lt;&amp;lt;&amp;#34;444&amp;#34;&amp;gt;&amp;gt;}]}]}]}. &amp;#34;{\&amp;#34;temp\&amp;#34;:\&amp;#34;interface\&amp;#34;, \&amp;#34;serviceUrl\&amp;#34;:\&amp;#34;aaa\&amp;#34;, \&amp;#34;existing\&amp;#34;:[{\&amp;#34;a\&amp;#34;:\&amp;#34;b\&amp;#34;, \&amp;#34;c\&amp;#34;:\&amp;#34;d\&amp;#34;}], \&amp;#34;questionList\&amp;#34;:[{\&amp;#34;question\&amp;#34;:\&amp;#34;111\&amp;#34;, \&amp;#34;key\&amp;#34;:\&amp;#34;222\&amp;#34;}, {\&amp;#34;question\&amp;#34;:\&amp;#34;333\&amp;#34;, \&amp;#34;key\&amp;#34;:\&amp;#34;444\&amp;#34;}] }&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</guid>
+      <description>1.string:len(). 2.string:concat(). --连接 3.string:substr(Str,Start,Length). --Str中从Start开始Length长度 4.string:tokens(Str,List). --从Str中含有List的部分切割 5.string:rstr( String, SubString ). --获取SubString在String中出现的最后一个位置 6.string:join( String, Char ). --input:( [&amp;#34;a&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;], &amp;#34;&amp;lt;br/&amp;gt;&amp;#34; ) -&amp;gt; &amp;#34;a&amp;lt;br/&amp;gt;b&amp;lt;br/&amp;gt;c&amp;#34; 7.string:strip( String ). --去两边的空格 string:strip( String, right|left|both ) --去除右边|左边|两边的空格 string:strip( String, right|left|both, Char() ). --在String中去除Char()符号 string:strip( &amp;#34;.....hello.....&amp;#34;, right, $. ). -&amp;gt;&amp;#34;.....hello&amp;#34; string:left(&amp;#34;Hello&amp;#34;,10,$.). -&amp;gt; &amp;#34;Hello.....&amp;#34; 8.string:str( Str, Ches ) -&amp;gt;Ches 在Str中的位置 9.string:to_lower() string:to_upper() string:to_integer() string:to_float() 10.string:to_integer( &amp;#34;123.456aabb&amp;#34; ). -&amp;gt; {123,&amp;#34;.456aabb&amp;#34;} string:to_float( &amp;#34;123.456aabb&amp;#34; ). -&amp;gt; {123.456,&amp;#34;aabb&amp;#34;} </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</guid>
+      <description>crypto:start(). ssh:start(). {ok, Conn} = ssh:connect(&amp;#34;ip or host name&amp;#34;, 22, [ {user, &amp;#34;the user name&amp;#34;}, {password, &amp;#34;the password&amp;#34;}, {silently_accept_hosts, true}, {user_interaction, false} ]). </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</guid>
+      <description>1.sofs:range(). inout-&amp;gt;sofs:relation([{1,2},{1,3},{2,4},{2,5}]) outout -&amp;gt;{&amp;#39;Set&amp;#39;,[2,3],atom} 2.sofs:relation(). input -&amp;gt;[{1,2},{1,3},{2,4},{2,5}] output -&amp;gt;{&amp;#39;Set&amp;#39;, [{1,2},{1,3},{2,4},{2,5}],{atom,atiom}} 3.sofs:to_external(). input -&amp;gt;{&amp;#39;Set&amp;#39;, [2,3],atom} output -&amp;gt; [2,3] </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</guid>
+      <description>1.sets:add_element( Element, Set1 ). 向集合中添加一個元素 2.sets:del_element( Element, Set1 ). 向集合中減少一個元素 </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</guid>
+      <description>1. supervisor:start_child(admin_sup, [{admin, {admin, start_link, [self()]},perm anent , 2000 ,worker, [admin]}]). -&amp;gt; {ok, Child :: child()} |{ok, Child :: child(), Info :: term()}|{error, startchild_err()} start_child(SupRef, ChildSpec) -&amp;gt; startchild_ret(). SupRef = sup_ref() ChildSpec = child_spec() | (List :: [term()]) child_spec() = {Id :: child_id(), StartFunc :: mfargs(), Restart :: restart(), Shutdown :: shutdown(), Type :: worker(), Modules :: modules()} startchild_ret() = {ok, Child :: child()} | {ok, Child :: child(), Info :: term()} | {error, startchild_err()} startchild_err() = already_present | {already_started, Child :: child()} | term().</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</guid>
+      <description>1.tuple_size 返回元组元素的数目 2.element 返回元组的第N个元素 3.setelement/3 替换元组中的一个元素，返回新的元组 setelement(1, {1,2,3,4,5,6},2 ). -》{2,2,3,4,5,6} 4.erlang:append_element/2 erlang:append_element( {1,2,3,4},4 ) -&amp;gt; {1,2,3,4,4} 5.erlang:delete_element( 1, {a,b,c,d} ). -&amp;gt; {b,c,d} </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</guid>
+      <description>1．Timer：tc（Module，Function，Arguments）-&amp;gt;{Time,Value} 参数使用中括号括起来 测量某函数运行的确切时间。 Example：timer:tc(lists, seq, [1，100000]). 2．timer:apply_after(Time, Module, Fun, Arg). -&amp;gt; {ok,Tref} | {error, Reason} 在Time毫秒后执行特定函数 Time 为毫秒数 3.timer:apply_interval(Time, Module, Fun, Arg). -&amp;gt; {ok,Tref} | {error, Reason} 每隔Time时间执行的特定函数 4.{_, {H1, M1, S1}} = erlang:localtime(), timer:hms( H1, M1, S1 ). 5.T1 = erlang:now(), timer:now_diff( erlang:now(), T1 ). （精确到微秒级） 6.timer:sleep( 3000 ) 7.send_after(Time, Message) == send_after(Time, self(), Message) send_after(Time, Pid, Message) 發送Message到對應的Pid 8.kill_after(Time) -&amp;gt; {ok, TRef} | {error, Reason2} kill_after(Time, Pid) -&amp;gt; {ok, TRef} | {error, Reason2} exit_after(Time, Reason1) -&amp;gt; {ok, TRef} | {error, Reason2} exit_after(Time, Pid, Reason1) -&amp;gt; {ok, TRef} | {error, Reason2} 9.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</guid>
+      <description>unicode:characters_to_list(DatB) erlang csv Result_str = &amp;#34;r1c1,r1c2,r1c3\nr2c1,r2c2,r2c3&amp;#34;, Bom = unicode:characters_to_list(unicode:encoding_to_bom(utf8)), unicode:characters_to_binary(Bom++Result_str, unicode, utf8), </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</guid>
+      <description>Eshell V5.10.2 (abort with ^G)
+1&amp;gt; help().
+** shell 内置命令 **
+b() &amp;ndash; 显示所有绑定的变量
+e(N) &amp;ndash; 重复某次查询 f() &amp;ndash; 释放所有绑定的变量
+f(X) &amp;ndash; 释放某个绑定的变量
+h() &amp;ndash; 显示之前的操作
+history(N) &amp;ndash; 设置保存之前操作命令的条数
+results(N) &amp;ndash; 设置保存之前操作结果的条数
+catch_exception(Bool) &amp;ndash; 设置的执行过程中的异常处理
+v(N) &amp;ndash; 使用某次查询的值 rd(R,D) &amp;ndash; 定义一个 record
+rf() &amp;ndash; 移除所有 record
+rf(R) &amp;ndash; 移除某个 record
+rl() &amp;ndash; 显示所有 record
+rl(R) &amp;ndash; 显示某个 record 信息
+rp(Term) &amp;ndash; 显示某个元组的所有内容
+rr(File) &amp;ndash; 从一个文件或模块读取 record 定义
+** c 模块命令 **</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</guid>
+      <description>实现base 64的编码解码算法，具体细节参考RFC 20450 base64:decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; base64:decode_to_string(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; this is a test! base64:encode(&amp;#34;this is a test!&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;&amp;gt;&amp;gt; base64:encode_to_string(&amp;#34;this is a test!&amp;#34;). -&amp;gt; dGhpcyBpcyBhIHRlc3Qh base64:mime_decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; 对Data数据进行base 64编码。 base64:mime_decode_to_string(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; this is a test! 对以base 64编码过的Base64数据进行解码。 </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</guid>
+      <description>at(Subject, Pos) -&amp;gt; byte() 返回一个二进制数据里指定位置（从 0 开始）的数据（整数的形式），如果 Pos &amp;gt;= byte_size(Subject)，则会发生一个 badarg 的异常错误。 bin_to_list/1,bin_to_list/2,bin_to_list/3 binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, {1 ,3}). -&amp;gt; erl binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, {1 ,33}). -&amp;gt; badarg binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, 1, 3). binary:list_to_bin( List ) -&amp;gt; Bin copy(Bin). 创建二进制数据 Subject 的一个副本。 first(Bin). binary:first(&amp;lt;&amp;lt;&amp;#34;12345&amp;#34;&amp;gt;&amp;gt;). -&amp;gt; 49. last(Bin). binary:last(&amp;lt;&amp;lt;&amp;#34;12345&amp;#34;&amp;gt;&amp;gt;). -&amp;gt; 53 longest_common_suffix(Binaries) -&amp;gt; integer() &amp;gt;= 0 返回在二进制数据列表里最长的公共后缀长度。如果参数不是一个扁平的二进制数据列表，那么将会出现一个 badarg 的异常。 binary:longest_common_suffix([&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;fang&amp;#34;&amp;gt;&amp;gt;]). -&amp;gt; 3 binary:longest_common_suffix([&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;perl&amp;#34;&amp;gt;&amp;gt;]). -&amp;gt; 0 binary:match(&amp;lt;&amp;lt;&amp;#34;abcde&amp;#34;&amp;gt;&amp;gt;, [&amp;lt;&amp;lt;&amp;#34;bcde&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;cd&amp;#34;&amp;gt;&amp;gt;]). -〉{1，4} 在一个二进制数据 Subject 里查找符合一个模式 Pattern 的第一个匹配，用法跟 match(Subject, Pattern, []) 一样。 Binary = &amp;lt;&amp;lt;1, 2, 3, 4, 5, 6, 7, 8, 9, 10&amp;gt;&amp;gt;, &amp;lt;&amp;lt;_:4/binary, Bin:4/binary, _/binary&amp;gt;&amp;gt; = Binary, binary:referenced_byte_size(Bin).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</guid>
+      <description>Command Interface Module
+hepl(). 显示帮助信息 pwd(). 返回当前路径。 cd(Path).
+设置路径 bt(Pid)一&amp;gt;voidU 显示Pid进程的栈回溯信息。 c(File，Options)一&amp;gt;{ok, Module}!error
+使用Options选项编译并加载File文件。 c(test,[&amp;lsquo;S&amp;rsquo;]). %assembler code文件 汇编代码 c(FileName, [to_core]). %会生成中间代码，可以看到一些初步优化后的结果 c(test,[&amp;lsquo;E&amp;rsquo;]). %after all source code transformations have been performed c(test,[&amp;lsquo;P&amp;rsquo;]). %parsed code 语法分析代码 after preprocessing and parse transforms
+flush()一&amp;gt;void() 强制刷新所有发给shell的消息。 i(X, Y, Z)一&amp;gt;void() 显示Pid为&amp;laquo;X.Y.Z&amp;gt;的进程信息。 i()
+ni(). 显示当前系统的信息 l(Module)一&amp;gt;void() 加载或者重新加载Module模块。 lc(Files)一&amp;gt;ok 编译Files列表中的文件。 ls()一&amp;gt;void() 列出当前日录中的文件 ls(Dir)一&amp;gt;void() 列出dir日录中的文件 m()一&amp;gt;void()
+显示当前系统中己加载的模块。 m(Module)一&amp;gt;void() 显示Module模块的信息 memory() 显示当前系统的内存分配情况 memory([Type]) 显示[[Type〕列表中各种内存的分配情况 nc(File) nc(File, Options〕一&amp;gt;{ok, Module}|error 在当前系统的所有的节点上编译并加载File文件 nl (Module)一&amp;gt;void() 在所有的节点上加载Module模块 pid(X, Y, Z)一&amp;gt;pid() 将X, Y, Z转换为PID(进程标识符) q()一&amp;gt;void() 退出，等同于init:stop().</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</guid>
+      <description>date_to_gregorian_days(Date) -&amp;gt; Days 获取到现在为止的天数 date_to_gregorian_days(Year, Month, Day) -&amp;gt; Days datetime_to_gregorian_seconds(DateTime) -&amp;gt; Seconds 获取到现在为止的秒数 day_of_the_week(Date) -&amp;gt; daynum() 获取到现在为止的周数 day_of_the_week(Year, Month, Day) -&amp;gt; daynum() gregorian_days_to_date(Days) -&amp;gt; date() calendar:gregorian_days_to_date( 20000 ) -&amp;gt; {54,10,4} 20000天是多少年多少月多少日 gregorian_seconds_to_datetime(Seconds) -&amp;gt; datetime() calendar:gregorian_seconds_to_datetime( 200000 ) -》{{0,1,3},{7,33,20}} 20万秒是多少年月日，时分秒 is_leap_year(Year) -&amp;gt; boolean() Year年数是否为闰年 iso_week_number() -&amp;gt; yearweeknum() This function returns the tuple {Year, WeekNum} representing the iso week number for the actual date. For determining the actual date, the function local_time/0 is used.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</guid>
+      <description>load_binary purge	Erlang的代码服务器 add_patha(Dir) 将Dit目录添加到代码目录列表的前端 add_pathsa(Dirs) 将Dirs列表中的目录添加到代码目录列表的前端 add_pathsz(Dirs)	将Dirs列表中的目录添加到代码目录列表的末端 add_pathz(Dir)	将Dir目录添加到代码目录列表的末端 all loaded()	获取所有已加载模块的列表 clash()	显示命名冲突检查报告 compiler_dir()	获取编译器的库文件目录 del_path(Name | Dir)	从代码目录列表中删除dir目录 delete (Module)	删除Module模块目前的代码 ensure_loaded(Module)	确保Module模块己经被加载 get_object_code (Module)获取Module模块的BEAM代码 get_path()	获取代码服务器当前的搜索路径 is loaded (Module)	检查Module模块是否已经加载 lib_dir()	获取Erlang/OTP的库文件目录 lib_dir(Name)	获取Name应用程序的库文件目录 load_abs(F们ename)	从filename绝对路径加载BEAM文件 load_binary(Module, Filenarne, Binary)将Binary的BEAM数据载入，Filename为其文件名，Module为模块名 load_file(Module)	从代码目录中加载Module模块 objfile_extension().	获取目标文件的扩展名 priv_dir(Name)	获取Name应用程序的Priv目录 purge(Module)	清除Module模块老版本的代码 rehash()	创建或者重新建立代码目录的缓存 replace_path(Name, Dir)	将代码目录列表中名为Name的目录替换为 root_dir()	获取Erlang/OTP的根目录 set_path(Path)	设置代码服务器的搜索路径 soft_purge(Module)	在没有进程使用的情况下清除Module模块老版本的代码 stick_dir(Dir) unstick_dir(Dir) where_is_file(Filename)	搜索代码目录，获取filename文件名的完整路径 which (Module)	获取Module模块目标代码文件的位置 code:clash/0 %检测代码中是否有module冲突现象 </description>
+    </item>
+    
+  </channel>
+</rss>

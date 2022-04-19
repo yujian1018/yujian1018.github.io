@@ -1,0 +1,53 @@
+
+-- 创建表
+
+-- 创建自增字段
+CREATE SEQUENCE tablename_colname_seq;
+CREATE TABLE tablename(
+    colname integer DEFAULT nextval('tablename_colname_seq') NOT NULL
+);
+
+CREATE TABLE tablename (
+    colname SERIAL
+);
+
+-- 创建序列
+CREATE SEQUENCE name increment by 1 maxvalue 10 minvalue 1 start 1 cycle
+
+-- 下一个值：nextval(regclass)
+-- 当前值：currval(regclass)
+-- 设置值：setval(regclass)
+
+SELECT * FROM sd.ext_codes_id_seq;
+SELECT nextval('sd.ext_codes_id_seq');
+SELECT setval('shipments_ship_id_seq', 1010); -- SELECT nextval('shipments_ship_id_seq'); 1011
+SELECT setval('shipments_ship_id_seq', 1010, false); -- SELECT nextval('shipments_ship_id_seq'); 1010
+
+DROP SEQUENCE sd.ext_codes_id_seq;
+SELECT p.relname, a.adsrc FROM pg_class p
+JOIN pg_attrdef a on (p.relfilenode = a.adrelid) 
+WHERE a.adsrc ~ 'shipments_ship_id_seq'; -- 查看被引用
+
+-- 创建自动更新日期字段
+-- 创建触发器
+create or replace function update_modified_timestamp_column() returns trigger as
+$$
+begin
+    new.modified = current_timestamp;
+    return new;
+end
+$$
+language plpgsql;
+
+
+CREATE TABLE product (
+id INT NOT NULL,
+modified_timestamp TIMESTAMP DEFAULT 'now'::timestamp
+);
+
+CREATE TRIGGER product_update_modified_timestamp
+BEFORE UPDATE ON product 
+FOR EACH ROW EXECUTE PROCEDURE update_modified_timestamp_column();
+
+-- 插入数据时返回数据
+INSERT INTO user_tbl(name, signup_date) VALUES('张三', '2013-12-22') RETURNING *;

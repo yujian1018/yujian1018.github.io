@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.3Erlang多节点 on My New Hugo Site</title>
+    <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</link>
+    <description>Recent content in 4.3Erlang多节点 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</guid>
+      <description>流程：  确保所有的服务器开通ssh服务。 确保主节点服务器可以不使用密码直接链接到从节点 确保主节点服务器使用xw.config配置启动Erl节点，确保xw.config中配置了所有节点的Ip，以及使用erl_boot_server启动节点 注意事项： 保证启动Erlang的linux的用户名所有服务器都一样 保证Erlang安装路径所有服务器都一样  技术文档：   Server: 引导服务器 erl_boot_server %server操作模块，配置加入到主节点的从节点，只有定义该节点后，才能被调用 http://erlang.org/doc/man/erl_boot_server.html
+start_boot_server， boot_server_slaves %erlang start启动时的options http://erlang.org/doc/man/kernel_app.htm
+  Client: 从节点：http://erlang.org/doc/man/slave.html %启动从节点的模块。
+  参考资料 http://cryolite.iteye.com/blog/381758 http://avindev.iteye.com/blog/100113 http://cryolite.iteye.com/blog/376893
+详细流程，以ubuntu12.04-client为例： 1.确保server服务器开通ssh服务。 ~$ps -e |grep ssh  说明只有ssh客户端，能够登陆其他带有ssh服务端的服务器. 安装ssh-server ~$sudo apt-get install openssh-server ~$ps -e |grep ssh  安装成功
+2.确保所有服务器之间可以不使用密码直接互联ssh。ubuntu下安装ssh后会提示输入用户密码 1.生成密匙对。 密匙 从A -&amp;gt; 拷贝到B,A可以不用密码链接到B #ssh-keygen -t rsa //一路回车在当前用户的根目录下的.ssh目录生成id_rsa.pub公钥 2.将公钥放到服务器上（注意存放目录位置） #scp ~/.ssh/id_rsa.pub 用户名@你的服务器的ip:~/.ssh/authorized_keys //将本地生成的公钥拷贝到远程服务器的下并改名为authorized_keys，authorized_keys的权限设置为600，目前的权限是416没有影响 3.ssh Ip -l user 使用user用户登录到ip主机上 4.</description>
+    </item>
+    
+  </channel>
+</rss>

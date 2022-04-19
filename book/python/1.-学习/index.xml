@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1. 学习 on 清水的小站</title>
+    <link>https://python.01cs.cc/1.-%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 1. 学习 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://python.01cs.cc/1.-%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>python</title>
+      <link>https://python.01cs.cc/1.-%E5%AD%A6%E4%B9%A0/python/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://python.01cs.cc/1.-%E5%AD%A6%E4%B9%A0/python/</guid>
+      <description>python环境 问题 获取python2.x版本pip curl &amp;lt;https://bootstrap.pypa.io/get-pip.py&amp;gt; -o get-pip.py python2 get-pip.py psycopg2包安装错误 yum install postgresql-devel pip2 install psycopg2 推送 #配置私有库 [distutils] index-servers = pypi nexus test [pypi] repository:https://pypi.python.org/pypi username:your_username password:your_password [nexus]</description>
+    </item>
+    
+  </channel>
+</rss>

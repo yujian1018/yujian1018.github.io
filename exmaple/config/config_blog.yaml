@@ -1,0 +1,62 @@
+title: "清水的小站"
+baseURL: "https://blog.01cs.cc"
+languageCode: "zh-cn"
+theme: "ananke"
+
+DefaultContentLanguage: "zh"
+SectionPagesMenu: "main"
+
+# this is set low for demonstrating with dummy content. Set to a higher number
+Paginate: 10
+paginatePath: "page"
+
+
+permalinks: # 定义文章访问路径，详细见下文"URL管理" See "content-management/urls/"
+  post: "/:year/:month/:title/" # /:monthname/:day/:weekday/:weekdayname/:yearday/:section/:title/:slug/:filename/
+
+
+googleAnalytics: ""
+enableRobotsTXT: true
+
+languages:
+  zh:
+    title: "清水的小站"
+    weight: 1
+    contentDir: "content_blog"
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+params:
+  text_color: ""
+  author: "清水"
+  favicon: ""
+  site_logo: ""
+  description: "清水的小站"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class: "bg-black"
+  recent_posts_number: 2
+  show_reading_time: true
+
+  # 日期格式化
+  date_format: "2006-01-02 15:04:05 周三"
+
+  ananke_socials:
+    - name: "github"
+      url: "https://github.com/yujian1018"
+
+  custom_css: ["imageList1.css"]
+
+imaging:
+  resampleFilter: "box"
+  # Default JPEG quality setting. Default is 75.
+  quality: 75
+  hint: "photo"
+  anchor: "smart"
+
+  # See https://github.com/disintegration/imaging
+  # CatmullRom is a sharp bicubic filter which should fit the docs site well with its many screenshots.
+  # Note that you can also set this per image processing.
+  resampleFilter: "CatmullRom" #Lanczos

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.工具 on My New Hugo Site</title>
+    <link>http://example.org/4.%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 4.工具 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/4.%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</guid>
+      <description>http://www.erlang.org/doc/efficiency_guide/profiling.html
+11.4 Tools fprof fprof measures the execution time for each function, both own time, that is, how much time a function has used for its own execution, and accumulated time, that is, including called functions. The values are displayed per process. You also get to know how many times each function has been called. fprof is based on trace to file to minimize runtime performance impact. Using fprof is just a matter of calling a few library functions, see the fprof manual page in tools .</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</guid>
+      <description>在Erlang模块被编译之前，首先会被名为epp的Erlang预处理器进行自动处理。这个预处理器会扩展任何存在于源文件中的宏，并且插入任何必需的包含文件。
+通常，你无须关心预处理器的输出，但在一些特殊情况下(例如，你要调试一个有错误的宏)，你可能希望能够保存预处理器的输出。通过命令compile:file(M,[&amp;lsquo;p&amp;rsquo;])可以将预处理器的输出保存在一个文件中。这个命令编译M.erl文件中的所有代码，然后在M.P文件中产生一个列表，存放所有经过扩展的宏和所有已经插入的包含文件。
+erlang的VM作为register based的VM, 大概有400条指令.指令分为hot, normal, cold 3大类别。beam_emu.c是vm的实现，hot和cold指令在编译的时候 由脚本生成的，include到beam_emu去的。 hot是热门的操作如list, tuple操作, cold的就是比较偏的指令。
+erlc +&amp;rdquo;&amp;lsquo;S&amp;rsquo;&amp;rdquo; gram.erl 中间汇编码, 供transform进行处理和编译器进一步生成opcode. http://blog.yufeng.info/archives/34
+erts_debug:df(eg). VM opcode形式, VM就是来解释运行这些code的 http://blog.yufeng.info/archives/498
+1.erts_debug:df(Mod). %生成自解码，vm码
+2.erts_debug:size(MyList).
+3.erts_debug:flat_size(MyList).</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</guid>
+      <description>进入已经启动的节点方法:
+作业（JCL ）模式 使用该功能需要保证cookie一致,并且node的名字的IP保持一致
+$ erl -setcookie abc -name node_1@192.168.1.110 Eshell V5.9 (abort with ^G) $ erl -setcookie abc -name node_2@192.168.1.110 Eshell V5.9 (abort with ^G) (node_2@192.168.1.110)1&amp;gt; node(). %当前这是在node_2 &amp;#39;node_2@192.168.1.110&amp;#39; (node_2@192.168.1.110)2&amp;gt; %Ctrl + G 进入JCL模式  User switch command --&amp;gt; h c [nn] - connect to job i [nn] - interrupt job k [nn] - kill job j - list all jobs s [shell] - start local shell r [node [shell]] - start remote shell q - quit erlang ?</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</guid>
+      <description>rpc:call(Node, Module, Function, Args) -&amp;gt; Res | {badrpc, Reason} Types: Node = node() Module = module() Function = atom() Args = [term()] Res = Reason = term() Evaluates apply(Module, Function, Args) on the node Node and returns the corresponding value Res, or {badrpc, Reason} if the call fails. rpc:cast(). erlang:set_cookie(node(), cookie). erl -sname test -name test@test -setcookie &amp;#39;pwd&amp;#39;	c:nl( Mod ). %slave 模块	slave:start(&amp;#39;10.0.0.252&amp;#39;, slave1, &amp;#34;-setcookie abc -loader inet -hosts &amp;#39;10.</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.4epmd/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.4epmd/</guid>
+      <description>erlang集群是依靠epmd维护的，epmd是erlang集群节点间端口映射的守护进程，负责维护集群内的节点连接，提供节点名称到IP地址及端口的解析服务。
+epmd 自定义端口号 epmd端口配置 默认情况下，epmd绑定在4369端口。但是，端口固定的话，容易遭受攻击，可能导致新节点的认证失败而无法启动，或无法加入集群。或者要在一台机器上部署不同的erlang集群，希望不会互相干扰。
+$ epmd -daemon -port 5000 $ epmd -d -port 5000 #如果想用调试模式启动 epmd 另外，epmd通常伴随着erlang节点启动时自动启动，无须手动处理，所以，这里也可以通过修改erl启动参数以达到自动调整epmd端口。
+$ erl -name hello@127.0.0.1 -epmd &amp;#34;epmd -port 5000 -daemon&amp;#34; 节点启动配置 当epmd端口改变时，erlang节点需要显式指定epmd端口信息。 windwos下启动方式： 1、设置环境变量ERL_EPMD_PORT
+C:\&amp;gt;set ERL_EPMD_PORT=5000 C:\&amp;gt;erl -name hello@127.0.0.1  注意了， 以上命令端口号（这里是5000）前后不能留有空格。 2、设置erlang启动参数
+$ erl -name hello@127.0.0.1 -epmd_port 5000 linux下启动方式：
+1、设置环境变量ERL_EPMD_PORT ERL_EPMD_PORT=5000 erl -name hello@127.0.0.1 2、设置erlang启动参数 erl -name hello@127.0.0.1 -epmd_port 5000 这两种方式是等价的，erlang启动时会做以下处理：
+// erlexec.c  static void add_epmd_port(void) { char* port = get_env(&amp;#34;ERL_EPMD_PORT&amp;#34;); if (port !</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</guid>
+      <description>i.erl
+编译方式: make:all([debug_info]). | c(test.erl,debug_info).
+基本调试方法： im/0:打开调试器 i/1 :把文件添加到调试器中 ni :针对多个Node的用法 n/1 :与i/1相反 nn/1:与ni/1相反 interrepted/0:列出所有要调试的Module file/1:显示源文件 break/2:添加断点 delete_break/2删除断点 break_in/3:在具体函数中添加断点 del_break_in/3:在具体函数中删除断点 no_break/0:删除所有断点 no_break/1:删除某个Module的所有断点 disable_break/2:使某个模块的断点失效 enable_break/2:恢复某个模块的断点 action_at_break/1:设置断点的状态，实验中发现enable不起作用 all_breaks/0:显示所有的断点状态 all_breaks/1:显示指定所有的断点状态 snapshot／0：回放调试进程信息 </description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</guid>
+      <description>1.使用dialyzer需要定义函数的-spec
+2.使用dialyzer
+a.由于我们编写的代码需要使用到Erlang的函数库，在分析时，可以把这些库生成dialyzer能够快速访问的格式，用来加快分析速度，命令
+% 生成plt dialyzer &amp;ndash;build_plt -r /usr/local/lib/erlang/lib/erts-5.7.1/ebin \ /usr/local/lib/erlang/lib/kernel-2.13.1/ebin \ /usr/local/lib/erlang/lib/stdlib-1.16.1/ebin \ /usr/local/lib/erlang/lib/mnesia-4.4.9/ebin \ /usr/local/lib/erlang/lib/crypto-1.6/ebin \ /usr/local/lib/erlang/lib/sasl-2.1.6/ebin
+% 从plt中去处crypto应用 dialyzer &amp;ndash;remove_from_plt &amp;ndash;plt ~/.dialyzer_plt -c /usr/local/lib/erlang/lib/crypto-1.6/ebin
+% 向plt中添加crypto应用 dialyzer &amp;ndash;add_to_plt &amp;ndash;plt ~/.dialyzer_plt -c /usr/local/lib/erlang/lib/crypto-1.6/ebin
+假设我们书写一个简单的module（spec/spec.erl):
+-module(spec). -compile([export_all]). -vsn(&amp;#39;0.1&amp;#39;). -spec index(any(), pos_integer(), [any()]) -&amp;gt; non_neg_integer(). index(Key, N, TupleList) -&amp;gt; index4(Key, N, TupleList, 0). index4(_Key, _N, [], _Index) -&amp;gt; 0; index4(Key, N, [H | _R], Index) when element(N, H) =:= Key -&amp;gt; Index; index4(Key, N, [_H | R], Index) -&amp;gt; index4(Key, N, R, Index + 1).</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</guid>
+      <description>开启 dbg:tracer()
+dbg:p(Item, Flags) dbg:p(Item) -&amp;gt; dbg:p(Item, [m]).
+Item是设定要跟踪的对象,Flags是设置要监听的动作 Item = all %会trace 整个系统所有的进程，同样可以监控整个集群 |new %就会trace 系统在此刻开始所创建的新进程，可以监控整个集群 |existing %会trace 系统此刻之前所创建的进程，可以监控整个集群 |pid() || register_name %则只会trace对应的进程，如果是在集群中，只要节点在traced nodes列表内，可以跨节点trace那个进程. | integer() %the process &amp;lt;0.Item.0&amp;gt; is traced
+| {X, Y, Z} %the process &amp;lt;X.Y.Z&amp;gt; is traced | &amp;ldquo;&amp;lt;X.Y.Z&amp;gt;&amp;rdquo; %as returned from pid_to_list/1, the process &amp;lt;X.Y.Z&amp;gt; is traced
+Flags can be a single atom, or a list of flags Flags = s(send) trace 进程发送的消息 |r(receive) trace 进程受到的消息 |m(messages) trace 进程收的或者发的消息 |c(call） 通过tp/2设置的匹配规则后，可以trace 进程所有的call匹配的动作。 |p（procs） trace 与目标进程相关联的进程 |sos(set on spwan) 使监控的进程所产生的进程继承所以trace flags |sol （set on link） 如果有另外的进程p2 link被监控的进程，p2会继承所有的trace flags |sofs(set on first spawn) 监控第一个创建的进程 |sofl (set on first link) |all 所有的flags |clear 清除所有flags</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</guid>
+      <description>1.Trace Tool Builder（erlang跟踪工具） 主要特性： • 用一个函数调用来跟踪多个节点上的文件端口 • 可以往在formatting过程中读取的记录跟踪信息的文件中写入在额外的信息 • 通过维护历史缓存和处理配置文件来复原以前版本的配置 • 对于连续的跟踪提供了一些简单的支持 • 格式化输出二进制格式跟踪日志和合并多个节点上的日志
+2.ttb 模块 ttb模块是Trace Tool 的使用接口，首先你要启动跟踪：ttb:tracer/0/1/2，对需要跟踪的进程设置跟踪标志：ttb:p/2，然后当跟踪结束时你必须要停止跟踪器：ttb:stop/0/1， 然后格式化跟踪日志(当然必须有东西让你格式化):ttb:format/1/2。 ttb:trace/0/1/2在你需要跟踪的每个节点上启动一个跟踪端口，默认的情况下，跟踪信息被写入到远程节点上的二进制文件里面（the binary trace log）。 ttb:p/2 指定了要跟踪哪个进程，这个方法给与的跟踪标志（Trace flag）指定了在各个进程上要跟踪的内容。你可以调用这个函数多次来跟踪多个不同的进程。 如果你想要跟踪函数调用（换句话说在进程上设置了call跟踪标志），你必须设置跟踪模式（Pattern）在需要被跟踪的函数上，使用ttb:tp 或者ttb:tpl，只有在跟踪模式设置后函数才会被跟踪。跟踪模式指定了如何用 特殊的匹配格式进行跟踪，匹配格式在User&amp;rsquo;s Guide for the erlang runtime system erts. ttb:stop/0/1 停止在所有节点上的跟踪，删除所有的跟踪格式和刷新跟踪端口缓存。 ttb:format/1/2 将二进制格式的日志翻译成可读性较强的格式。默认的情况下显示的跟踪信息是一行文本，但是你也可以写自己的处理方法使得跟踪信息显示的更复杂详细。 跟踪日志甚至可以通过Event Tracer application以图形化的方式呈现出来。注意如果在ttb:stop/1中给与了format选项，那格式化会在ttb停止的时候自动处理。</description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.9etop/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.9etop/</guid>
+      <description>http://erlang.org/doc/apps/observer/etop_ug.html
+平时用的最多的可能就是etop,两种用法: [1] 在/usr/local/lib/erlang/lib/observer-1.0/priv/bin目录下面(视安装情况而异)执行:
+找出cpu占用最高的进程，图形界面输出，每10秒更新一次
+ spawn(fun() -&amp;gt; etop:start([{interval,10}, {sort, runtime}]) end). etop:stop()
+ 找出内存占用较高进程, 输出进程的数量为20，文本形式输出
+ spawn(fun() -&amp;gt; etop:start([{output, text}, {lines, 20}, {sort, memory}]) end).
+etop:stop().
+  spawn(fun() -&amp;gt; etop:start([{output, text}, {interval, 20}, {lines, 20}, {sort, memory}]) end).
+ </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	*{margin: 0;padding: 0;}
+	#console_out{position:fixed;top:0px;right:0px;width:200px;}
+</style>
+	
+</head>
+<body>
+	<div style="width:100%;height:800px;" id="body">
+		<h1>点击我</h1>
+	</div>
+	<div id="console_out"></div>
+</body>
+
+<script type="text/javascript">
+		var bodydiv = document.getElementById("body");
+		var start = {};
+		var move = {};
+		bodydiv.ontouchstart=function(e){
+			var touch = e.touches[0];
+			start[touch.target.id] = [touch.clientX, touch.clientY];
+			console.log( ["start", touch.target.id, touch.clientX, touch.clientY] );
+		};
+		bodydiv.ontouchmove=function(e){
+			var touchMove = e.touches[0];
+	        move[touchMove.target.id] = [touchMove.clientX, touchMove.clientY];
+			e.preventDefault();			
+		};
+		bodydiv.ontouchend=function(e){
+			var id = e.changedTouches[0].target.id; 
+			console.log( ["end", id, start.body, move.body] );
+		};
+</script>
+
+</html>

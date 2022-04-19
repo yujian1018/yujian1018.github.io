@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.4.3 hugo on 清水的小站</title>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/</link>
+    <description>Recent content in 4.4.3 hugo on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>first-content</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</guid>
+      <description>Get Grav   Get Grav with icon  Get Grav with icon right      test expand   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</guid>
+      <description>hugo 使用 安装 # 源代码安装 go get -u -v github.com/spf13/hugo # 包安装 https://github.com/gohugoio/hugo/releases hugo version 生成站点 hugo new site /path/to/site hugo new site blog.01cs.cc 创建 themes 目录 cd /path/to/site git init # doc 模板 git clone https://github.com/matcornic/hugo-theme-learn.git git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &amp;#39;theme = &amp;#34;ananke&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml git submodule add https://github.com/spf13/hyde.git themes/hyde echo &amp;#39;theme =</description>
+    </item>
+    
+  </channel>
+</rss>

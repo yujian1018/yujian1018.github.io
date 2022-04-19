@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.3erts on My New Hugo Site</title>
+    <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/</link>
+    <description>Recent content in 3.3erts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</guid>
+      <description>get_argument( home ). %{ok,[[&amp;#34;C:\\Documents and Settings\\Administrator&amp;#34;]]}  init:get_arguments(). %获取启动的配置参数  </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</guid>
+      <description>apply(M,F,A)要比直接调用调用对应的方法M:F(A1,A2&amp;hellip;)要慢6~10倍，尽量避免使用 BIFs是built-in functions的缩写代表这些方法是Erlang运行时系统的一部分  %% binary_to_list VS bitstring_to_list 1&amp;gt; A = &amp;lt;&amp;lt;1:2, 23:6&amp;gt;&amp;gt;. &amp;lt;&amp;lt;&amp;#34;W&amp;#34;&amp;gt;&amp;gt; 2&amp;gt; B = &amp;lt;&amp;lt;1:2, 23:5&amp;gt;&amp;gt;. &amp;lt;&amp;lt;55:7&amp;gt;&amp;gt; 3&amp;gt; binary_to_list(A). &amp;#34;W&amp;#34; 4&amp;gt; binary_to_list(B). ** exception error: bad argument in function binary_to_list/1 called as binary_to_list(&amp;lt;&amp;lt;55:7&amp;gt;&amp;gt;) 5&amp;gt; bitstring_to_list(A). &amp;#34;W&amp;#34; 6&amp;gt; bitstring_to_list(B). [&amp;lt;&amp;lt;55:7&amp;gt;&amp;gt;] statistics(wall_clock). {11405766,266} 返回指定类型的系统参数，当Type为wall_clock时，返回Erlang虚拟机运行至今所度过的时间和上次执行statistics(wall_clock)到这次执行之间的时间(精确到毫秒级)。 performs CPU time measurements context_switches||exact_reductions||garbage_collection||io||reductions||run_queue||runtime||scheduler_wall_time||wall_clock make_tuple( 2,“1” ) {“1”, “1”} localtime(). now(). localtime_to_universaltime({{1996,11,6},{14,45,17}}). {{年月日}，{时分秒}} 获取8小时时差的时间 list_to_existing_atom() tuple_size/1 byte_size/1 bit_size/1 round(10.5) -&amp;gt; 11, trunc( 10.5 ) -&amp;gt; 10 abs( -10 ) -&amp;gt; 10 12.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</guid>
+      <description>niftest.erl -module(niftest). -export([init/0, hello/0]). init() -&amp;gt; erlang:load_nif(&amp;#34;./niftest&amp;#34;, 0). hello() -&amp;gt; %函数名称  &amp;#34;NIF library not loaded&amp;#34;. /* niftest.c */ #include &amp;#34;erl_nif.h&amp;#34; static ERL_NIF_TERM hello(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[]) { return enif_make_string(env, &amp;#34;Hello world!&amp;#34;, ERL_NIF_LATIN1); } //定义函数 static ErlNifFunc nif_funcs[] = { {&amp;#34;hello&amp;#34;, 0, hello} }; ERL_NIF_INIT(niftest,nif_funcs,NULL,NULL,NULL,NULL) %编译成公共库，需要使用到erl_nif.h  gcc -fPIC -shared -o niftest.so niftest.c -I $ERL_ROOT/usr/include/ %测试  $&amp;gt; erl 1&amp;gt; c(niftest). {ok,niftest} 2&amp;gt; niftest:hello(). &amp;#34;NIF library not loaded&amp;#34; 3&amp;gt; niftest:init().</description>
+    </item>
+    
+  </channel>
+</rss>

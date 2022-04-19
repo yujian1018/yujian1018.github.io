@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.1. 基础教程 on 清水的小站</title>
+    <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 2.1. 基础教程 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.1.1 终端快捷键</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.1-%E7%BB%88%E7%AB%AF%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.1-%E7%BB%88%E7%AB%AF%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
+      <description>终端快捷键 快捷键 说明 tab 补全 ctrl+a 移动游标到行首 ctrl+e 移动游标到行尾 ctrl+b 向左移动 ctrl+f 向右移动 ctrl+k 删除此处至末尾所有内容 ctrl+u 删除此处至开始所有内容 ctrl+d 删除当前字母</description>
+    </item>
+    
+    <item>
+      <title>2.1.2 通配符</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.2-%E9%80%9A%E9%85%8D%E7%AC%A6/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.2-%E9%80%9A%E9%85%8D%E7%AC%A6/</guid>
+      <description>终端快捷键 字符 含义 * 匹配 0 或多个字符 ? 匹配任意一个字符 [list] 匹配 list 中的任意单一字符 [^list] 匹配 除list 中的任意单一字符以外的字符 [c1-c2] 匹配 c1-c2 中的任意单一</description>
+    </item>
+    
+    <item>
+      <title>2.1.3 关键字</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.3-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.3-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <description>终端快捷键 sh /var/vpn.sh 执行 sh -x vpn.sh 这将执行该脚本并显示所有变量的值。 sh -n vpn.sh 不需要执行脚本只是检查语法的模式。返回所有语法错误 #!/bin/sh #程序必须以下面的行开始</description>
+    </item>
+    
+    <item>
+      <title>2.1.4 语法</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.4-%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.4-%E8%AF%AD%E6%B3%95/</guid>
+      <description>语法 if if ... fi 语句； if ... else ... fi 语句； if ... elif ... else ... fi 语句。 ## 变量 #!/bin/sh a=10 b=20 if [ $a == $b ] then echo &amp;#34;a is equal to b&amp;#34; elif [ $a -gt $b ] then echo &amp;#34;a is greater than b&amp;#34; elif [ $a -lt $b ] then echo &amp;#34;a is less</description>
+    </item>
+    
+    <item>
+      <title>2.1.5 Function</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.5-function/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.5-function/</guid>
+      <description>语法 #!/bin/sh fSum 3 2; function fSum() { echo $1,$2; return $(($1+$2)); } fSum 5 7; total=$(fSum 3 2); echo $total,$?; sh testfun1.sh testfun1.sh: line 3: fSum: command not found 5,7 3,2 5 #!/bin/sh echo $(uname); declare num=1000; uname() { echo &amp;#34;test!&amp;#34;; ((num++)); return 100; } testvar() { local num=10; ((num++)); echo $num; } uname; echo $? echo $num; testvar; echo $num; sh testfun2.sh Linux test! 100 1001 11</description>
+    </item>
+    
+    <item>
+      <title>2.1.6 转译符</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.6-%E8%BD%AC%E8%AF%91%E7%AC%A6/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.6-%E8%BD%AC%E8%AF%91%E7%AC%A6/</guid>
+      <description>转译符 转义字符 含义 \ 反斜杠 \a 警报，响铃 \b 退格（删除键） \f 换页(FF)，将当前位置移到下页开头 \n 换行 \r 回车 \t 水平制表符（tab键） \v 垂直制表符</description>
+    </item>
+    
+    <item>
+      <title>2.1.7 数据结构</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.7-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.1.-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/2.1.7-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <description>数据结构 变量 注意，变量名和等号之间不能有空格，这可能和你熟悉的所有编程语言都不一样。同时，变量名的命名须遵循如下规则： 首个字符必须为字母（a</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.7 ubuntu on 清水的小站</title>
+    <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/</link>
+    <description>Recent content in 1.7 ubuntu on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ubuntu 开机启动</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/</guid>
+      <description>ubuntu18.04 /lib/systemd/system sudo vim rc.local.service [Install] WantedBy=multi-user.target Alias=rc-local.service sudo ln -s rc.local.service /etc/systemd/system/ sudo vim /etc/rc.local #!/bin/sh -e # # rc.local # # This script is executed at the end of each multiuser runlevel. # Make sure that the script will &amp;#34;exit 0&amp;#34; on success or any other # value on error. # # In order to enable or disable this script just change the execution # bits. # #</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 收藏夹 快捷方式</title>
+      <link>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E6%94%B6%E8%97%8F%E5%A4%B9-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/1.%E5%9F%BA%E7%A1%80/1.7-ubuntu/ubuntu-%E6%94%B6%E8%97%8F%E5%A4%B9-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/</guid>
+      <description>收藏夹 #应用程序 cd /usr/share/applications vim app.desktop # [Desktop Entry] # Version=1.0 # Type=Application # Name=脑图 # Icon = /home/yj/tool/DesktopNaotu-linux-x64/resources/app/favicon.png # Exec = &amp;#34;/home/yj/tool/DesktopNaotu-linux-x64/DesktopNaotu&amp;#34; # Comment=脑图 # Categories=Development;IDE; # Terminal=false</description>
+    </item>
+    
+  </channel>
+</rss>

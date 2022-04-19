@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.2OTP模块 on My New Hugo Site</title>
+    <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/</link>
+    <description>Recent content in 3.2OTP模块 on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</guid>
+      <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程. 负责进程创建职责的是Erlang VM中的Scheduler spawn第三个参数是List,这个调用的时候注意!! Spawning a process will never fail!!! receive子句的处理逻辑抽取为一个独立的方法是推荐的做法 receive如果接受到没有匹配任何子句的消息,那么这条消息就会保存在mailbox,长此以往就会耗尽内存系统崩溃之险; 消息发送的速度快于进程处理的速度就会增加CPU上的消耗,因为会反复扫描mailbox Not handling unknown messages should therefore be treated as a bug. 匹配未知消息会导致难以发现错误,所以这些位置要记录日志 选择性接受和mailbox这两个东西就解决了消息接受缓冲区的问题 A race condition occurs when the behavior of a system depends on the order in which certain events occur: these events “race” to influence the behavior. 上面两个不失败的设计原则是为了解除进程依赖:另外一个进程的创建和接受消息是否成功不影响当前进程的正常执行 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}退出消息的格式包含的信息:谁因为什么退出了 process_flag(trap_exit, true).退出截获的决策当然是在生命周期的早期进行配置。所以一般出现在init阶段。 截获到底做了一件什么事情呢？把退出消息放在进程收件箱中当成一个普通的消息来处理。这就相当于我们把异常信息放在返回结果中的情况 receive接收并处理退出信号,退出消息被截获就不再传播 link是双向的,monitor是单向的,被监控的进程死掉后,监控进程会收到 {&amp;lsquo;DOWN&amp;rsquo;,Reference,process,Pid,Reason} 消息 如果接收到{&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}的进程没有trap_exit,而且Reason不是normal,这个进程就会终止掉并继续传播这个退出消息 所有的BIFs的执行都是原子性的,所以spawn_link不等同于spawn 和 link的组合调用 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}Reason如果是kill,关联进程无论是否trap_exit都会死掉 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}Reason如果是normal,关联进程trap_exit会收到一条{&amp;lsquo;EXIT&amp;rsquo;, Pid, normal}消息,如果没有trap_exit什么都不会发生  spawn spawn( fun() -&amp;gt; loop/1 end ) spawn( fun loop/1 ).</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</guid>
+      <description>start() -&amp;gt; register( mnesiaDBA_pub_clear, spawn( fun()-&amp;gt; loop() end ) ). stop() -&amp;gt; rpc( {stop, &amp;#34;stop&amp;#34;} ). rpc(Request) -&amp;gt; mnesiaDBA_pub_clear ! {self(), Request}, receive {mnesiaDBA_pub_clear, Res} -&amp;gt; Res; Other -&amp;gt; io:format(&amp;#34;server is different:~p~n&amp;#34;, [Other]) end. loop() -&amp;gt; receive {ClientPid, {table, Table}} -&amp;gt; Res = filter(Table), ClientPid ! {mnesiaDBA_pub_clear, Res}, loop(); {ClientPid, {stop, Stop}} -&amp;gt; ClientPid ! {mnesiaDBA_pub_clear, &amp;#34;pid stopping reason:&amp;#34; ++ hd(io_lib:format(&amp;#34;~p~n&amp;#34;, [Stop]))}; {ClientPid, Other} -&amp;gt; ClientPid ! {mnesiaDBA_pub_clear, &amp;#34;arg is error:&amp;#34; ++ hd(io_lib:format(&amp;#34;~p~n&amp;#34;, [Other]))}, loop() end.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</guid>
+      <description>{application,%进程名称% [{description,&amp;quot;Yaws applications 中文语义切词系统&amp;quot;}, {vsn,&amp;quot;1.0.0&amp;quot;}, {modules,[ %所有需要加载的模块]}, {registered, [%注册进程%]}, %填写的注册进程trap_exit才会被设置为true（待验证） {mod,{framenet_sup,[]}}, %定义应用程序启动时的入口函数 {applications,[kernel, stdlib, yaws]}]}. %该应用程序依赖哪些应用程序 启动Erlang 是如果代码都已经自动加载，可以简写.app文件 {application,admin, [{description,&amp;quot;Yaws applications 公共模块系统&amp;quot;}, {vsn,&amp;quot;1.0.0&amp;quot;}, {modules,[]}, {registered, [admin,mnesiaDBA_pub_sup]}, {mod,{admin,[]}}, {applications,[kernel, stdlib, yaws]}]}.  如果仅仅是将一系列的模块打包在一起,并不需要启动application,那么只需要在app文件中移除掉{mod,{Module,Args}}配置节即可.这种Libiary Application典型范例就是stdlib.  </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</guid>
+      <description>-module( admin_app ). -behaviour(application). -export( [start/2, stop/1] ). start(_Type, _State) -&amp;gt; %%初始化的数据  io:format( &amp;#34;admin_app111~p~n222~p~n&amp;#34;, [ _Type, _State ] ), admin_sup:start(). stop(_State) -&amp;gt; ok. 1&amp;gt;application:start(log4erl). 我们就从这一行命令开始说起吧,回车之后可以把log4erl应用程序启动起来.Erlang/OTP中的能完成特定功能集合的组件被称为application. ,application是Erlang代码和功能组织的形式之一([Erlang 0015]Erlang OTP设计原则).application的设计目的是通过运行一个或者多个进程来完成一定功能.为了能够管理这些进程的生命周期,需要通过supervisor进行管理. application:start(log4erl). Start_Type = permanent||transient||temporary application:start(log4erl,temporary). Start_Type==permanent 应用程序终止之后所有其它的应用程序和运行时系统都会死掉; Start_Type==transient 应用程序终止的原因是normal,这个消息会报出来但是其它应用程序不会重启,如果应用程序终止的原因不是normal,其他应用程序和运行时也会跟着死掉; Start_Type==temporary 应用程序死掉会报错误出来但是其它应用程序不受影响. 注意实践过程中很少使用transient参数,因为进程树崩掉的时候,进程正常退出原因是shutdown不是normal, 这个我之前的文章提到过:[Erlang 0017]Erlang/OTP基础模块 proc_lib 无论使用哪种类型启动,直接调用stop方法关闭application是不会影响到其它应用程序的. 之前遇到过一个比较严重的问题导致应用崩掉,当时就有同事问为什么erlang的进程还在,或者说运行时还活着?其实就是因为我们启动应用程序的时候默认使用了temporary; </description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</guid>
+      <description>%% @author : 余健 &amp;lt;yujian1018@gmail.com&amp;gt; %% @创建时间 : 2014-04-14 %% @doc : 如果该系统是一个application，该模块设置该application的监督树，监督树的功能就只是提供监控树，不要添加其他的功能 -module(admin_sup). -behaviour(supervisor). -export([start/0, init/1]). start() -&amp;gt; Args = [], io:format( &amp;#34;111~p~nArgs:~p~n&amp;#34;, [self(), Args] ), supervisor:start_link({local,?MODULE}, ?MODULE, Args). % Supervisor init(Args) -&amp;gt; io:format( &amp;#34;222~p~nArgs:~p~n&amp;#34;, [self(), Args] ), Server1 = {admin, {admin, start_link, [Args]}, temporary, 2000, worker, [admin]}, Server2 = {mnesiaDBA_pub_sup, {mnesiaDBA_pub_sup, start,[]}, permanent, infinity, supervisor, [mnesiaDBA_pub_sup, supervisor]}, {ok, {{one_for_one, 0, 1}, [Server1, Server2, Server3]}}. mnesiaDBA_pub_sup.erl init([]) -&amp;gt; % Supervisor  Server1 = {mnesiaDBA_public, {mnesiaDBA_public, start_link,[]}, permanent, 30000, worker, [mnesiaDBA_public, gen_server]} {ok, {{simple_one_for_one, 3, 10}, [Server1 ] } }.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</guid>
+      <description>%%%------------------------------------------------------------------- %%% @author yujian1018@gmail.com %%% @doc %%% %%% Created : 20. 八月 2018 下午3:31 %%%-------------------------------------------------------------------  -module(srv_trie4). -behaviour(gen_server). -export([start_link/0, init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]). -export([ start/0, stop/0, select/3 ]). start() -&amp;gt; mnesia:start(). stop() -&amp;gt; gen_server:call(?MODULE, stop). %% @doc Args参数可以列表表示项，Tuple表示参数只有一个。 select(Module, FunC, Args) -&amp;gt; gen_server:call(?MODULE, {Module, {FunC, Args}}). start_link() -&amp;gt; gen_server:start_link({local, ?MODULE}, ?MODULE, [], []). init([]) -&amp;gt; erlang:process_flag(min_bin_vheap_size, 1024 * 1024),%消息和binary内存,减少大量消息到达或处理过程中产生大量binary时的gc次数  erlang:process_flag(min_heap_size, 1024 * 1024),%堆内存：，减少处理过程中产生大量term，尤其是list时的gc次数  erlang:process_flag(priority, high),%进程优先级：，防止特殊进程被其它常见进程强制执行reductions  erlang:process_flag(scheduler, 1),%进程调度器绑定：，当进程使用了port时，还需要port绑定支持，防止进程在不同调度器间迁移引起性能损失，如cache、跨numa node拷贝等，当进程使用了port时，主要是套接字，若进程与port不在一个scheduler上，可能会引发严重的epoll fd锁竞争及跨numa node拷贝，导致性能严重下降  {ok, #{}}.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</guid>
+      <description>%%%------------------------------------------------------------------- %%% @author yujian %%% @doc %%%------------------------------------------------------------------- -module(test_fsm). -behaviour(gen_fsm). -export([start_link/0, init/1, handle_event/3, handle_sync_event/4, handle_info/3, terminate/3, code_change/4]). -export([send_event/1, role_login/2, role_logined/2, role_ping_role/2 ]). -define(SERVER, ?MODULE). -record(state, {}). start_link() -&amp;gt; gen_fsm:start_link({local, ?SERVER}, ?MODULE, [], []). init([]) -&amp;gt; io:format( &amp;#34;111:~n&amp;#34; ), {ok, role_login, #state{}}. handle_event(_Event, StateName, State) -&amp;gt; io:format( &amp;#34;222:~w~n&amp;#34;, [[_Event, StateName, State]] ), {next_state, StateName, State}. handle_sync_event(_Event, _From, StateName, State) -&amp;gt; io:format( &amp;#34;333:~w~n&amp;#34;, [[_Event, _From, StateName, State]] ), Reply = ok, {reply, Reply, StateName, State}.</description>
+    </item>
+    
+  </channel>
+</rss>

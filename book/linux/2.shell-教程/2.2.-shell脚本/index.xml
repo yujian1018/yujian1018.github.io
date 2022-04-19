@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.2.Shell脚本 on 清水的小站</title>
+    <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/</link>
+    <description>Recent content in 2.2.Shell脚本 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.安装系统</title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E6%93%8D%E4%BD%9C/</guid>
+      <description>安装 配置 ssh 证书登录 关闭密码和 root 登录。SSH 登录必须 KEY ，禁用掉密码登录，禁用 ROOT 远程 fail2ban + 防火墙 检测状态 开 ssh 端口访问 数据库除了 bind ，也要用防火墙限制</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</guid>
+      <description>tmux-session : tmux-session save and tmux-session restore</description>
+    </item>
+    
+  </channel>
+</rss>

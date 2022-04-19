@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4.Linux软件 on 清水的小站</title>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/</link>
+    <description>Recent content in 4.Linux软件 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ntp</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/ntp/</link>
+      <pubDate>Fri, 04 Mar 2022 09:27:54 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/ntp/</guid>
+      <description>ntpd ntpd服务的相关设置文件如下： 1./etc/ntp.conf：这个是NTP daemon的主要设文件，也是 NTP 唯一的设定文件。 2./usr /share</description>
+    </item>
+    
+    <item>
+      <title>4.4.4 svn</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.4-svn/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.4-svn/</guid>
+      <description>svn ## 安装svnserver yum -y install subversion ## 初始化 cd project mkdir svn cd svn svnadmin create project_svn ## 启动 svnserve -d -r /root/project/svn svnserve -d -r /root/project/svn --listen-port 8086 svnserve -d -r /root/project/svn checkout svn checkout svn://127.0.0.1/ project_svn ## Vim passwd yujian = enter123 huyuwei = enter123 Vim authz [groups] admin_group = gm,admin,yujian,wumanyu [haowenjiao:/Client] @client =</description>
+    </item>
+    
+    <item>
+      <title>cron</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</guid>
+      <description>acme.sh #!/bin/sh ##crontab -uroot -e ##30 4 * * * sh /root/cron/daily.sh &amp;gt; /root/cron/log_daily.log ## acme.sh curl https://get.acme.sh | sh export Ali_Key=&amp;#34;aaa&amp;#34; export Ali_Secret=&amp;#34;bbb&amp;#34; acme.sh --issue --dns dns_ali -d 01cs.cc -d *.01cs.cc # 手动 dns 方式, 手动在域名上添加一条 txt 解析记录, 验证域名所有权. # 然后 acme.sh 会生成</description>
+    </item>
+    
+    <item>
+      <title>frp</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.4-frp/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.4-frp/</guid>
+      <description>frp内网穿透 资料 https://github.com/fatedier/frp 配置 命令 # 通过 ssh 访问内网机器，假设用户名为 test： ssh -i ~/.ssh/id_rsa -oPort=60000 yj@127.0.0.1 安全地暴露内网服务 服务端 [common] bind_port = 44099 # kcp 绑定的是 udp 端口，可以和</description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</guid>
+      <description>nginx使用 ## ubuntu sudo apt install -y libpcre3-dev ./configure --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module make sudo make install Generate Certificates cd /usr/local/nginx/conf openssl genrsa -des3 -out server.key 1024 openssl req -new -key server.key -out server.csr cp server.key server.key.org openssl rsa -in server.key.org -out server.key openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt server { server_name YOUR_DOMAINNAME_HERE; listen 443; ssl on; ssl_certificate /usr/local/nginx/conf/server.crt; ssl_certificate_key</description>
+    </item>
+    
+    <item>
+      <title>nginxError排查</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</guid>
+      <description>nginxError排查 错误描述 {error, socket_closed_remotely} 复现 Leofs（分布式文件存储系统） Gateway_0 192.168.1.16:8080 Gateway_1 192.168.1.17:8080 100w条 每条500字节数据，由erlang httpc post到任意</description>
+    </item>
+    
+    <item>
+      <title>nginxRewrite规则</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</guid>
+      <description>nginxRewrite规则 https://segmentfault.com/a/1190000002797606 location正则写法 一个示例： location = / { # 精确匹配 / ，主机名后面不能带任何字符串 [ configuration A ] } location / { # 因为所有的</description>
+    </item>
+    
+    <item>
+      <title>protobuf</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.5-protobuf/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.5-protobuf/</guid>
+      <description>google protocol buffer 例子 syntax = &amp;#34;proto3&amp;#34;;// 注释 message SearchRequest { // 分配标识号 [1,15] 1byte [16,2047] 2byte 1-2^29=536,870,911 [19000－19999]不可用 (从FieldDescriptor::kFirstReser</description>
+    </item>
+    
+    <item>
+      <title>wget</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.6-wget/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.6-wget/</guid>
+      <description>网络管理命令 # 下载整个网页 无法下载通过js引用的文件 wget -r -p -np -k https://developer.zuoshouyisheng.com/ ##=curl==================================================== curl -X PUT -v -d &amp;#39;{}&amp;#39; &amp;#34;http://192.168.67.12:63001/config?a=b&amp;#34; # ss # netstat</description>
+    </item>
+    
+  </channel>
+</rss>
