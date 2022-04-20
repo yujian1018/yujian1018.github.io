@@ -42,16 +42,16 @@ case ${ARG_1} in
     rm -rf book
     mkdir book
 
-    cd blog && hugo && cd ../ && mv blog/public me
-    cd cpp && hugo && cd ../ && mv cpp/public book/cpp
-    cd erlang && hugo && cd ../ && mv erlang/public book/erlang
-    cd game && hugo && cd ../ && mv game/public book/game
-    cd golang && hugo && cd ../ && mv golang/public book/golang
-    cd html5 && hugo && cd ../ && mv html5/public book/html5
-    cd linux && hugo && cd ../ && mv linux/public book/linux
-    cd pro && hugo && cd ../ && mv pro/public book/pro
-    cd python && hugo && cd ../ && mv python/public book/python
-    cd rust && hugo && cd ../ && mv rust/public book/rust
+    cd blog && hugo --config ../config.yaml,config.yaml && cd ../ && mv blog/public me
+    cd cpp && hugo --config ../config.yaml,config.yaml && cd ../ && mv cpp/public book/cpp
+    cd erlang && hugo --config ../config.yaml,config.yaml && cd ../ && mv erlang/public book/erlang
+    cd game && hugo --config ../config.yaml,config.yaml && cd ../ && mv game/public book/game
+    cd golang && hugo --config ../config.yaml,config.yaml && cd ../ && mv golang/public book/golang
+    cd html5 && hugo --config ../config.yaml,config.yaml && cd ../ && mv html5/public book/html5
+    cd linux && hugo --config ../config.yaml,config.yaml && cd ../ && mv linux/public book/linux
+    cd pro && hugo --config ../config.yaml,config.yaml && cd ../ && mv pro/public book/pro
+    cd python && hugo --config ../config.yaml,config.yaml && cd ../ && mv python/public book/python
+    cd rust && hugo --config ../config.yaml,config.yaml && cd ../ && mv rust/public book/rust
 
     ;;
 
