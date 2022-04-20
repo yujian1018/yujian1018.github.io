@@ -13,6 +13,22 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then # Windows NT操
     os_type="MINGW32_NT"
 fi
 
+
+# 主题
+# [submodule "themes/hugo-theme-learn"]
+# 	path = themes/hugo-theme-learn
+# 	url = https://github.com/matcornic/hugo-theme-learn.git
+# [submodule "themes/ananke"]
+# 	path = themes/ananke
+# 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+# [submodule "themes/vno-hugo"]
+# 	path = themes/vno-hugo
+# 	url = https://github.com/xslingcn/vno-hugo.git
+# [submodule "themes/hugo-theme-tokiwa"]
+# 	path = themes/hugo-theme-tokiwa
+# 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+
+
 # 编译 make rebuild cc
 # 部署 init:初始化 install:安装
 # 压缩 zip release tag_del
