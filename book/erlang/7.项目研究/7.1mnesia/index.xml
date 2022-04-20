@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>7.1Mnesia on My New Hugo Site</title>
+    <title>7.1Mnesia on 清水的小站</title>
     <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/</link>
-    <description>Recent content in 7.1Mnesia on My New Hugo Site</description>
+    <description>Recent content in 7.1Mnesia on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/index.xml" rel="self" type="application/rss+xml" />
@@ -17,14 +16,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</guid>
-      <description>ETS基础 ETS查询时间是常量,例外是如果使用ordered_set查询时间与logN成正比(N为存储的数据量)
-ETS Table由进程创建,进程销毁ETS Table也随着销毁,在使用Shell做ETS实验的时候要注意一下,Table的拥有关系可以give_away 转交给其它进程
-一个Erlang节点的ETS表的数量是有限制的,默认是1400个表,在启动erlang节点之前修改 ERL_MAX_ETS_TABLES参数可以修改这个限制ejabberd社区站点上总结的性能调优中提到了这一点,点击这里查看: http://www.ejabberd.im/tuning
-ETS表不在GC的管理范围内，除非拥有它的进程死掉它才会终止；可以通过delete删除数据 目前版本,insert和lookup操作都会导致对象副本的创建,insert和lookup时间对于set bag duplicate_bag都是常量值与表大小无关.
-并发控制：所有针对一个对象的更新都被保证是原子的、隔离的：修改要么全部成功要么失败。也没有其它的中间结果被其它的进程使用。有些方法可以在处理多个对象的时候保证这种原子性和隔离性。
-在数据库术语中隔离级别被称作序列化，就好像所有隔离的操作一个接一个严格按照顺序执行。
-在遍历过程中,可以使用safe_fixtable来保证遍历过程中不出现错误,所有数据项只被访问一遍.用到逐一遍历的场景就很少，使用safe_fixtable的情景就更少。不过这个机制是非常有用的，还记得在.net中版本中很麻烦的一件事情就是遍历在线玩家用户列表.由于玩家登录退出的变化,这里的异常几乎是不可避免的.select match内部实现的时候都会使用safe_fixtable
-set,ordered_set,bag,duplicate_bag	指定创建的table类型 public,private,protected	指定table的访问权限，若是public表示所有process都可以对该table进行读写(只要你知道TableId或者TableName)，private表示只有创建表的process才能对table进行读写，而protected则表示所有的process都可以对表进行读取，但是只有创建表的process能够对表进行写操作（ps: ets table仅可以被同一个erlang node中的processes共享） named_table	若指定了named_table这个属性，就可以使用表名(也就是new函数的第一个参数Name)对表进行操作，而无需使用TableId {keypos,Pos}	上面说到，我们默认使用tuple中第一个元素作为Key，那么是否可以修改这个规则呢？自然可以，使用{keypos,Pos}即可，其中Pos就是表示使用tuple中第几个元素作为Key {heir, Pid, HeirData},{heir,none}	这个heir属性指明当创建table的process终止时，是否有其他process来继承这个table，默认值是{heir,none},表示没有继承者，所以当创建表的process终止时，表也随之被delete；若我们指定了{heir,Pid,HeirData}，那么当创建表的process终止时，process identifer为Pid的process将会收到一个消息：{&amp;#39;ETS-TRANSFER&amp;#39;,tid(),FromPid,HeirData},这样表的拥有权就转交了，我们可以看下面这段测试代码 match(Tab, Pattern, Limit) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; match(Continuation) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; match_object(Tab, Pattern, Limit) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; match_object(Continuation) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; select(Tab, MatchSpec, Limit) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; select(Continuation) -&amp;gt; {[Match],Continuation} | &amp;#39;$end_of_table&amp;#39; ets:all() 列出所有的ETS Table ets:i() 给出一个ETS Table的清单 包含表的类型,数据量,使用内存,所有者信息 ets:i(zen_ets) 输出zen_ets表的数据 ets:info(zen_ets) 单独查看一个ETS Table的详细信息 表被锁了可以使用ets:info(zen_ets,fixed)查看, 看表里面是否存在键值为Key的数据项.</description>
+      <description>ETS基础 ETS查询时间是常量,例外是如果使用ordered_set查询时间与logN成正比(N为存储的数据量) ETS Table由进程创建,进程</description>
     </item>
     
     <item>
@@ -33,8 +25,7 @@ set,ordered_set,bag,duplicate_bag	指定创建的table类型 public,private,prot
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</guid>
-      <description>schema -&amp;gt; 分布式信息
-mnesia:create_schema(NodeList).	该函数用来初始化一个新的空模式,在 Mnesia 启动之前这是一个强制性的必要步骤。 Mnesia 是一个真正分布式的数据库管理系统,而模式是一个系统表,它被复制到 Mnesia 系统的所有节点上。 如果 NodeList 中某一个节点已经有模式,则该函数会失败。该函数需要 NodeList 中所有节点上的 Mnesia 都停止之后才执行。应用程序只需调用该函数一次,因为通常只需要初始化数据库模式一次 mnesia:delete_schema(DiscNodeList)	该函数在 DiscNodeList 节点上删除旧的模式, 它也删除所有旧的表和数据。 该函数需要在所有数据库节点(db_nodes)上的Mnesia 都停止后才能执行 mnesia:delete_table(Tab).	该函数永久删除表 Tab 的所有副本 。 mnesia:clear_table(Tab).	该函数永久删除表 Tab 的全部记录 mnesia:move_table_copy(Tab, From, To).	该函数将表 Tab 的拷贝从 From 节点移动到 To 节点。表的存储类型{type}被保留,这样当移动一个 RAM 表到另一个节点时,在新节点上也维持一个 RAM 表。在表移动的过程中仍然可以有事务执行读和写操作 。 mnesia:add_table_copy(Tab, Node, Type).	该函数在 Node 节点上创建 Tab 表的 备份。Type 参数必须是 ram_copies 、 disc_copies 或者是 disc_only_copies。如果我们加一个系统表 schema 的拷贝到某个节点上,这意味着我们要 Mnesia 模式也驻留在那里。这个 动作扩展了组成特定 Mnesia 系统节点的集合 。 mnesia:del_table_copy(Tab, Node).</description>
+      <description>schema -&amp;gt; 分布式信息 mnesia:create_schema(NodeList). 该函数用来初始化一个新的空模式,在 Mnesia 启动之前这是一个强制性的必要步骤。 Mnesia 是一个真正分布式的数据库管理系统,而模式是一个系统表</description>
     </item>
     
     <item>
@@ -43,7 +34,7 @@ mnesia:create_schema(NodeList).	该函数用来初始化一个新的空模式,�
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</guid>
-      <description>mnesia:create_table(Name, Opts). [ {type, bag||set||ordered_set|| duplicate bag}, %默认值 set *{disc_only_copies||disc_copies||ram_copies, NodeList}, %默认值是 [node()],可以同时新建三种类型的表  {index,AttributeNameList}, %AttributeNameList 是一个原子类型的属性名列表  {snmp, SnmpStruct} %SnmpStruct 在 SNMP 用户指南中描述，表示该表可以立即通过简单网络管理协议(SNMP)来访问  {local_content, true} %表名对所有 Mnesia 点可见,但是内容对每个节点都是唯一的。这种类型的表只能在本地进行存取 *{attributes, record_info( fields, itemGene )}, {record_name, Name}, %指定表中所有记录的通用名  [{frag_properties, [{n_fragments, 20}, {n_disc_copies, 1}, {node_pool, [node()]}]}, ] set -&amp;gt; 每一个元组的键值都不能相同 ordered_set -&amp;gt; 元组会进行排序 bag -&amp;gt; 多个元组可以有相同的键值,一条记录确定唯一性 duplicate_bag -&amp;gt; 多个元组可以有相同的键值，同一个元组可以在表中出现多次 local_content -&amp;gt; 应用需要一个其内容对每个节点来说在本地都是唯一的表，这种类型的表只能在本地进行存取 frag_properties %分片属性  mnesia:create_table( table_name, [{ram_copies, [a@yujian,b@yujian]}] ).建表 mnesia:system_info().</description>
+      <description>mnesia:create_table(Name, Opts). [ {type, bag||set||ordered_set|| duplicate bag}, %默认值 set *{disc_only_copies||disc_copies||ram_copies, NodeList}, %默认值是 [node()],可以同时新建三种类型的表 {index,AttributeNameList}, %AttributeNameList 是一个原子类型的属性名列表 {snmp, SnmpStruct} %SnmpStruct 在 SNMP 用户指南中描述，表示</description>
     </item>
     
     <item>
@@ -52,7 +43,7 @@ mnesia:create_schema(NodeList).	该函数用来初始化一个新的空模式,�
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</guid>
-      <description>查询 mnesia:add_table_index( test, name). mnesia:del_table_index( test, name). mnesia:index_read(Table, Arg, Attr). 建表时，为该表建立索引使用元组{index, [attr1, attr2,....} mnesia:index_match_object( alias, Pattern, #alias.alias_name, read ). fun() -&amp;gt; mnesia:write( New ) end fun() -&amp;gt; mnesia:read( { table, Id } ) end fun() -&amp;gt; mnesia:delete( {product, Id} ) end fun() -&amp;gt; [R] = mnesia:read( table, Id, write ), New = R#table{ Id = Ids }, mnesia:write( New ) end. 先做读取操作，参数write为下面的mnesia:write做准备 do:q -include_lib( &amp;#34;stdlib/include/qlc.hrl&amp;#34; ). select(StringBin )-&amp;gt; Fun = fun( Key ) -&amp;gt; binary:match( Key, StringBin ) =/= nomatch end, do( qlc:q([ UUID||#test_select{key= UUID} &amp;lt;- mnesia:table( test_select ), Fun(UUID)]) ).</description>
+      <description>查询 mnesia:add_table_index( test, name). mnesia:del_table_index( test, name). mnesia:index_read(Table, Arg, Attr). 建表时，为该表建立索引使用元组{index, [attr1, attr2,....} mnesia:index_match_object( alias, Pattern, #alias.alias_name, read ). fun() -&amp;gt; mnesia:write( New ) end fun() -&amp;gt; mnesia:read( { table, Id } ) end fun() -&amp;gt; mnesia:delete( {product, Id} ) end fun() -&amp;gt; [R] = mnesia:read( table, Id,</description>
     </item>
     
     <item>
@@ -61,14 +52,7 @@ mnesia:create_schema(NodeList).	该函数用来初始化一个新的空模式,�
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</guid>
-      <description>dump_log_time_threshold %转储间隔次数 dump_log_write_threshold %转储次数 dc_dump_limit %出发dump的默认值，当filesize(.DCL) &amp;gt; filesize(.DCD) / dc_dump_limit，把*.DCL的记录存储到*.DCD文件中
-application:set_env( mnesia, dc_dump_limit, 40 ), application:set_env( mnesia, dump_log_write_threshold, 10000 ),
-mnesia在频繁操作数据的过程可能会报错：** WARNING ** Mnesia is overloaded: {dump_log, write_threshold}，可以看出，mnesia应该是过载了。这个警告在mnesia dump操作会发生这个问题，表类型为disc_only_copies 、disc_copies都可能会发生。 如何重现这个问题，例子的场景是多个进程同时在不断地mnesia:dirty_write/2 mnesia过载分析 1、抛出警告是在mnesia 增加dump worker的时候
- mnesia_controller.erl 抛出警告是当Worker的#dump_log.opt_reply_to 未定义，仔细看这里的代码，这一步先检查了dumper_queue里的worker 所以，mnesia抛出过载警告有2个条件： 1）当worker的#dump_log.opt_reply_to 未定义 2）dumper_queue有相同操作（InitBy）的worker
-2、那什么样的worker的#dump_log.opt_reply_to 未定义？
-代码也在mnesia_controller.erl，这里add的worker的dump_log.opt_reply_to 未定义，而{async_dump_log, InitBy} 就是 mnesia:dirty_write/2的过程中调用 mnesia_controller:async_dump_log(write_threshold) 产生的。
-就是说，mnesia:dirty_write/2会触发异步dump操作，而只有异步的dump会导致mnesia抛出过载警告
-3、看一下，mnesia什么时候会修正worker？ 代码也在mnesia_controller.erl，在dump完成时，mnesia会修改worker的dump_log.opt_reply_to，然后移出dumper_queue 从上面可以得到结论，mnesia:dirty_write/2的操作是会触发异步dump操作，每次dump操作mnesia都会加到dumper_queue队列，mnesia通过检查dumper_queue是否存有相同操作的worker来检查是否过载 mnesia dump分析 mnesia数据存储实际上使用的是ets和dets，对于ram_copies类型的表使用ets；disc_copies表也使用ets，通过 dump将数据保存到*.DCD（disc copy data）文件来持久化，中间可能会用*.DCL（disc copy log）转储；而disc_only_copies表使用的是dets，保存的文件为*.DAT。 表类型不同，mnesia记录数据的过程也不同，这里先讨论mnesia 记录disc_copies数据的过程。 1、mnesia 记录disc_copies数据有2个过程： 1）操作先记录到日志文件LATEST.LOG，然后再dump到*.DCD文件，同时清除LATEST.LOG 2）把修改同步到ets表中 2、mnesia disc_copies表数据dump过程 1）将日志文件LATEST.</description>
+      <description>dump_log_time_threshold %转储间隔次数 dump_log_write_threshold %转储次数 dc_dump_limit %出发dump的默认值，当filesize(.DCL) &amp;gt; filesize(.DCD) / dc_dump_limit，把*.DCL的记录存储</description>
     </item>
     
     <item>
@@ -77,11 +61,7 @@ mnesia在频繁操作数据的过程可能会报错：** WARNING ** Mnesia is ov
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</guid>
-      <description>原文链接：http://hideto.iteye.com/blog/235413
-本章描述了构建分布式、容错的Mnesia数据库相关的高级特性： 1）索引 2）分布和容错 3）表分片 4）本地内容表 5）无盘节点 6）更多的schema管理 7）Mnesia事件处理 8）Mnesia应用调试 9）Mnesia里的并发进程 10）原型
-1，索引 如果我们知道record的key，那么数据获取和匹配在执行起来都很高效 相反如果不知道record的key，那么表里所有的record都必须搜索 当表越来越大时，表的搜索就越来越耗时 Mnesia的索引就是用来解决这个问题的 下面的两个方法对已有的表操作索引：
-1. mnesia:add_table_index(Tab, AttributeName) -&amp;gt; {aborted, R} | {atomic, ok} 2. mnesia:del_table_index(Tab, AttributeName) -&amp;gt; {aborted, R} | {atomic, ok}  这两个方法对AttributeName定义的域加索引和删除索引： 1. mnesia:add_table_index(employee, salary)
-Mnesia的索引用于以下3个方法： 1）mnesia:index_read(Tab, SecondaryKey, AttributeName) -&amp;gt; transaction abort | RecordList 通过在索引里查询SecondaryKey来找到primary key，这样就能避免对整张表穷举搜索 2）mnesia:index_match_object(Pattern, AttributeName) -&amp;gt; transaction abort | RecordList 通过Pattern里的AttributeName域查找secondary key，然后找到primary key 3）mnesia:match_object(Pattern) -&amp;gt; transaction abort | RecordList 该方法可以使用任何索引 2，分布和容错 Mnesia是分布式、容错的DBMS，可以以多种方式在Erlang节点上备份表 Mnesia程序员不需要了解不同的表位于哪里，只用在程序里指定表的名字 这就是“位置透明”： 1）数据位于本地节点还是远程节点对程序员没有影响，只不过远程节点会慢些 2）数据库可以重新配置，表可以在节点之间移动，这些操作不影响用户程序 每张表有许多系统属性，如index和type 在表创建之时表属性就指定了，例如创建拥有两个RAM备份的新表： 1.</description>
+      <description>原文链接：http://hideto.iteye.com/blog/235413 本章描述了构建分布式、容错的Mnesia数据库相关的高级特性</description>
     </item>
     
     <item>
@@ -90,11 +70,7 @@ Mnesia的索引用于以下3个方法： 1）mnesia:index_read(Tab, SecondaryKey
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</guid>
-      <description>解决方案：erl -name a@yujian
-1.在两台机器上分别建立各自一个节点，我使用我的电脑和我后面的电脑 我的机器 test机器  这时运行： mnesia:create_schema( [ yujian@yujian, test@DP-201001010138 ]).出现错误 我猜测可能是test@DP-201001010138这个名称的问题，把这个名称修改掉，修改成test@test 然后重新试验下 2台机器之间有错误了 该问题，出现原因未知
-第二次试验信息：a机器：erl -name a@yujian -setcookie abc b机器:erl -name b@yujian -setcookie abc 此次解决方案：a机器代码修改：erl -sname a -setcookie abc b不变化 这时我准备在我的机器上启2个节点 ok 这时mnesia:start().需要注意 然后创建表 mnesia:create_table( baikefileRecord, [{disc_only_copies, [ yujian@yujian, test@yujian ]}, {attributes, record_info( fields, baikefileRecord )}]).
-mnesia:start(). mnesia:system_info(). 以task_to_file表为例，首先确保2个节点上的这张表都为空， 然后向一个节点的表中插入数据，我想yujian@yujian这个节点中插入了10条数据，选择出来 然后再test@yujian节点上查看这个节点上现在是否有数据 悲剧了同步更新了 在没有插入数据的节点上删除操作，更新操作，都会同步更新所有的节点 好吧现在的结论是：分布式的节点中每一张的数据都会更新成同样的数据
-细节 关闭已经打开的yaws服务器 第一台机器(hz-ejabberd-web1) 进入到/home/project/文件夹下 yaws &amp;ndash;sname computera &amp;ndash;mnesiadir /httx/project/Mnesia.nonode@nohost &amp;ndash;erlarg &amp;ldquo;-setcookie wexin&amp;rdquo; 进入yaws后，前缀 执行下面函数 mnesia:stop().</description>
+      <description>解决方案：erl -name a@yujian 1.在两台机器上分别建立各自一个节点，我使用我的电脑和我后面的电脑 我的机器 test机器 这时运行： mnesia:create_schema( [ yujian@yujian, test@DP-201001010138 ]).出现错误 我</description>
     </item>
     
     <item>
@@ -103,8 +79,7 @@ mnesia:start(). mnesia:system_info(). 以task_to_file表为例，首先确保2�
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</guid>
-      <description>数据分片：本质把一张表分成多张表， 当使用mnesia:activity/4操作数据时，分片属性被使用，会到多张表中进程操作
-mnesia:activity/4 WriteFun = fun( Keys ) -&amp;gt; [ mnesia:write( {table_name, K, -K} ) || K&amp;lt;- Keys] end. mnesia:activity( sync_dirty, WriteFun, [ lists:seq(1,256) ], mnesia_frag ). %写入数据，[ lists:seq(1,256) ]是数据内容 mnesia:change_table_frag(Tab, Change) {activate, FragProps} %激活一个现存表的分片属性,FragProps 应为 {node_pool, Nodes} 或是空  deactivate %解除表的分片属性, 片断的数量必须是 1 。没有其它表在其外键中引用此表  {add_frag, NodesOrDist} %加一个新的片断到分片表。 在老的片断中的全部记录将被重新处理并且其中一半的记录将被移送到新(最后的)片断。 所有通过外键引用此表的其它分片表将自动获得新的片断,其记录也将用与主表相同的方式动态重新处理。 NodesOrDist 参数可以是一个节点列表或者是来自于 mnesia:table_info(Tab,frag_dist)函数的结果 。 NodesOrDist 参数被看作是一个根据新副本首先 进 入的主机为最优来排序的有序节点列表。 新片断将获得与第一个片断同样数量的副本(看n_ram_copies , n_disc_copies 和 n_disc_only_copies)。 NodesOrDist 列表必须至少包含一个需要为每个副本分配的单元。 del_frag %从分片表删除一个片断。在最后这个片断的所有记录将被移到其它片断之一。所有通过其外键引用此表的其它分片表将自动丢失其最后的片断,其记录也将用与主表相同的方式动态重新处理。  {add_node, Node} %增加一个新节点到节点池 node_pool 。 新的节点池将影响从函数.</description>
+      <description>数据分片：本质把一张表分成多张表， 当使用mnesia:activity/4操作数据时，分片属性被使用，会到多张表中进程操作 mnesia:activity/4 WriteFun = fun( Keys ) -&amp;gt; [ mnesia:write(</description>
     </item>
     
     <item>
@@ -113,12 +88,7 @@ mnesia:activity/4 WriteFun = fun( Keys ) -&amp;gt; [ mnesia:write( {table_name, 
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</guid>
-      <description>读锁。在记录的副本能被读取之前设置读锁。.
-写锁。当事务写一条记录时,首先在这条记录的所有副本上设置写锁。
-读表锁。如果事务要扫描整张表来搜索一条记录,那么,对表里的记录一条一条的加锁效率很低也很耗内存(如果表很大,读锁本身会消耗很多空间)。因此,Mnesia 可以对表设 置读锁。
-写表锁。如果事务要写大量的记录到表里,则可以对整张表设置写锁。
-粘(Sticky)锁。即使设置锁的事务终止后,这些写锁也会一直保留在节点上。
-mnesia的锁机制： 读锁、写锁、读表锁、写表锁、粘锁 mnesia:transactionm( fun() -&amp;gt; mnesia:s_write( #test{ id=123 } ) end) s_write/1函数用粘锁来代替write/1普通的锁 在本地节点上该粘锁效果和普通的锁一样，但是在多节点上，该表被复制后，粘锁一直存在，使用普通的锁需要在其他节点上新建 mnesia:read_lock_table(Tab) 在表Tab上加读锁 mnesia:lock( {table, Tab}, read||write ) mnesia:write_lock_table(Tab) 在表Tab上加写锁 </description>
+      <description>读锁。在记录的副本能被读取之前设置读锁。. 写锁。当事务写一条记录时,首先在这条记录的所有副本上设置写锁。 读表锁。如果事务要扫描整张表来搜索一</description>
     </item>
     
     <item>

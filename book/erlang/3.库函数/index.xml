@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3.库函数 on My New Hugo Site</title>
+    <title>3.库函数 on 清水的小站</title>
     <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/</link>
-    <description>Recent content in 3.库函数 on My New Hugo Site</description>
+    <description>Recent content in 3.库函数 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +16,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</guid>
-      <description>ctrl+G 按c
-Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&amp;hellip;&amp;hellip; 解决cmd卡死的问题。（win下面ctrl+G 回车）
-&amp;lt;&amp;lt;A:32,B:32,C:32&amp;gt;&amp;gt; = crypto:strong_rand_bytes(12) . &amp;lt;&amp;lt;42,136,117,238,28,89,154,241,88,189,70,139&amp;gt;&amp;gt; %找出消耗内存最多的进程 lists:reverse(lists:keysort(2,[{P, erlang:process_info(P, heap_size)} || P &amp;lt;- erlang:processes()])). %%找到最消耗内存的ETS表 lists:reverse(lists:keysort(2,[{T, ets:info(T, memory)} || T &amp;lt;- ets:all()])). </description>
+      <description>ctrl+G 按c Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&amp;hellip;&amp;hellip; 解决cmd卡死的问题。（win下</description>
     </item>
     
     <item>
@@ -28,17 +25,7 @@ Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</guid>
-      <description>ASN.1（抽象语法标记：Abstract Syntax Notation One) 是一套标准，是描述数据的表示、编码、传输、解码的灵活的记法。它提供了一套正式、无歧义和精确的规则以描述独立于特定计算机硬件的对象结构。
-asn1rt:info/1
-返回模块的编译信息
-asn1rt:load_driver/0
-加载链接驱动
-asn1rt:unload_driver/0
-卸载链接驱动
-asn1rt:utf8_binary_to_list/1
-把一个 utf8 编码的二进制数据转为一个 unicode 列表
-asn1rt:utf8_list_to_binary/1
-把一个 unicode 列表转为一个 utf8 二进制数据</description>
+      <description>ASN.1（抽象语法标记：Abstract Syntax Notation One) 是一套标准，是描述数据的表示、编码、传输、解码的灵活的记法。它提供了一套正式、无歧义和精确的</description>
     </item>
     
     <item>
@@ -56,7 +43,7 @@ asn1rt:utf8_list_to_binary/1
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</guid>
-      <description>crypto:hash(md5, Bin||Str). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;Mac:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), lists:flatten(io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). md5(S) -&amp;gt; Md5_bin = erlang:md5(S), Md5_list = binary_to_list(Md5_bin), lists:flatten(list_to_hex(Md5_list)). list_to_hex(L) -&amp;gt; lists:map(fun(X) -&amp;gt; int_to_hex(X) end, L). int_to_hex(N) when N &amp;lt; 256 -&amp;gt; [hex(N div 16), hex(N rem 16)]. hex(N) when N &amp;lt; 10 -&amp;gt; $0 + N; hex(N) when N &amp;gt;= 10, N &amp;lt; 16 -&amp;gt; $a + (N - 10). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;M:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), Integer_to_hex( M, 32 ). integer_to_hex(I, Len) -&amp;gt; Hex = string:to_lower(erlang:integer_to_list(I, 16)), LenDiff = Len - length(Hex), case LenDiff &amp;gt; 0 of true -&amp;gt; string:chars($0, LenDiff) ++ Hex; false -&amp;gt; Hex end.</description>
+      <description>crypto:hash(md5, Bin||Str). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;Mac:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), lists:flatten(io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). md5(S) -&amp;gt; Md5_bin = erlang:md5(S), Md5_list = binary_to_list(Md5_bin), lists:flatten(list_to_hex(Md5_list)). list_to_hex(L) -&amp;gt; lists:map(fun(X) -&amp;gt; int_to_hex(X) end, L). int_to_hex(N) when N &amp;lt; 256 -&amp;gt; [hex(N div 16), hex(N rem 16)]. hex(N) when N &amp;lt; 10 -&amp;gt; $0 + N; hex(N) when N &amp;gt;= 10, N &amp;lt; 16 -&amp;gt; $a + (N - 10). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;M:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), Integer_to_hex( M, 32 ). integer_to_hex(I,</description>
     </item>
     
     <item>
@@ -65,9 +52,7 @@ asn1rt:utf8_list_to_binary/1
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</guid>
-      <description>port(socket)调优
-示例：服务器监听端口，接受客户端请求。典型应用场景web服务器，需要实现高吞吐，低延迟的目标
-Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_send,true}, {high_watermark,64 * 1024}, {send_timeout, 30000}, {send_timeout_close, true}, {keepalive, true}]) 参数详解: binary:接收到客户端的消息后，作为binary来处理，binary在erlang中是很高效的数据结构，超过64字节，就是全局保存的，因此在很多操作下是不需要复制的，仅仅复制binary的指针即可，详细请搜索refc binary，注意：binary大量使用需要有丰富的经验，不然可能会内存泄漏 reuseaddr:允许系统复用port,对于高吞吐的系统，这个参数很重要,请搜索:linux port 复用 nodelay:开启linux中的TCP_NODELAY参数，请搜索:TCP_NODELAY 40毫秒延迟 delay_send:默认的erlang port消息发送，是直接发送，若失败则排队处理，然后由调度器进行队列poll操作，如果设置为true,那么就不尝试直接发送，而且扔进队列，等待poll，开启选项会增加一点点消息延迟，换来吞吐量的大量提升 high_watermark:port的发送缓存，缓存满了后，下次发送会直接阻塞，直到缓存低于某个阈值low_watermark。如果是密集网络IO系统，请增大该buffer,避免发送阻塞 send_timeout:在high_watermark中提到了发送阻塞，如果阻塞超过这个时间，那么就会超时，发送直接返回,停止发送 send_timeout_close:如果发生了send_timeout同时设置了send_timeout_close选项，那么超时后，会直接关闭socket.如果发送进程不是很重要，例如web用户进程，强烈建议开启这个选项，当发送30秒超时的时候，就说明该用户出现了很大的麻烦，断开连接是最理想的做法，否则可能出现很多奇怪的bug. keepalive:遵循HTTP/1.1协议的keepalive规定,这个根据业务需求选择是否开启,如果同一个客户端会连续发起http请求，那么建议设置为true,避免多次TCP握手 </description>
+      <description>port(socket)调优 示例：服务器监听端口，接受客户端请求。典型应用场景web服务器，需要实现高吞吐，低延迟的目标 Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_send,true}, {high_watermark,64</description>
     </item>
     
     <item>
@@ -76,8 +61,7 @@ Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_s
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</guid>
-      <description>写测试模块的时候不必频繁导出函数 –compile(export_all) 就可以导出所有函数
-编译模块 1.-compile( export_all ) 2.-compile( {parse_transform,Module} ). Module:parse_transform/2 auses the parse transformation function Module:parse_transform/2 to be applied to the parsed code before the code is checked for errors. 在编译器检查错误之前会把所有代码送入 Module:parse_transform/2，所以 Module:parse_transform/2的返回值需要是代码串 例子： a.erl -compile( {parse_transform,b} ). b.erl -export( [parse_transform/2] ). parse_transform( Code, Option ) -&amp;gt; Fun(), Code. file(File, Options) -&amp;gt; CompRet {outdir,Dir} export_all {i,Dir} {d,Macro} {d,Macro,Value} from_core (t_lib, [to_core]). c(t_lib, [from_core]). </description>
+      <description>写测试模块的时候不必频繁导出函数 –compile(export_all) 就可以导出所有函数 编译模块 1.-compile( export_all ) 2.-compile( {parse_transform,Module} ). Module:parse_transform/2 auses the parse transformation function Module:parse_transform/2 to be applied to the parsed code before</description>
     </item>
     
   </channel>

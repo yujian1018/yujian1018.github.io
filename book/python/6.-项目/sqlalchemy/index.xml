@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on 清水的小站</title>
-    <link>https://python.01cs.cc/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/</link>
+    <link>https://yujian1018.github.com/book/python/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/</link>
     <description>Recent content in Python on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="https://python.01cs.cc/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.com/book/python/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://python.01cs.cc/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/query/</link>
+      <link>https://yujian1018.github.com/book/python/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/query/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://python.01cs.cc/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/query/</guid>
+      <guid>https://yujian1018.github.com/book/python/6.-%E9%A1%B9%E7%9B%AE/sqlalchemy/query/</guid>
       <description>查询 query = (session .query(User) .filter(User.username == &amp;ldquo;asd&amp;rdquo;) .filter_by(username=&amp;quot;asd&amp;rdquo;) #上面两个都是添加where .join(Addreess)#使用ForeignKey .join(Addreess,Add</description>
     </item>
     

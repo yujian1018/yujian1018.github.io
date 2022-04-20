@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2.3 Ejabberd on My New Hugo Site</title>
+    <title>2.3 Ejabberd on 清水的小站</title>
     <link>https://yujian1018.github.io/book/pro/2.3-ejabberd/</link>
-    <description>Recent content in 2.3 Ejabberd on My New Hugo Site</description>
+    <description>Recent content in 2.3 Ejabberd on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/pro/2.3-ejabberd/index.xml" rel="self" type="application/rss+xml" />
@@ -36,9 +35,7 @@ adhoc_local_items(Acc, From, To, Lang) -&amp;gt; Adhoc adhoc_sm_items(Acc, From,
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.3-ejabberd/mod_echo.erl/</guid>
-      <description>Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/mod_echo.erl
-Ejabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-contrib
-基于现在的扩展模式，做出的通用性的拓展功能 </description>
+      <description>Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/</description>
     </item>
     
   </channel>

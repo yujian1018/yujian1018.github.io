@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1.4 数据结构 on My New Hugo Site</title>
+    <title>1.4 数据结构 on 清水的小站</title>
     <link>https://yujian1018.github.io/book/pro/1.4-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
-    <description>Recent content in 1.4 数据结构 on My New Hugo Site</description>
+    <description>Recent content in 1.4 数据结构 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/pro/1.4-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />

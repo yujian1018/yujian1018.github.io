@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2.2 leofs on My New Hugo Site</title>
+    <title>2.2 leofs on 清水的小站</title>
     <link>https://yujian1018.github.io/book/pro/2.2-leofs/</link>
-    <description>Recent content in 2.2 leofs on My New Hugo Site</description>
+    <description>Recent content in 2.2 leofs on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/pro/2.2-leofs/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +16,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs/</guid>
-      <description>LeoFS is a highly available, distributed, eventually consistent object/blob store. If you are searching a storage system that is able to store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. Leofs是一个高可靠性、分布式、最终一致性的对应存储。如果你需要一个存储系统用来存储巨量的各种类型的文件比如图片、视频、大文件等等。leofs适用于这种情况
-功能设计</description>
+      <description>LeoFS is a highly available, distributed, eventually consistent object/blob store. If you are searching a storage system that is able to store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. Leofs是一个高可靠性、分布式、最终一致性的对应存储</description>
     </item>
     
     <item>
@@ -27,7 +25,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofsshell%E5%91%BD%E4%BB%A4/</guid>
-      <description>Shell Description 一般命令 leofs-adm status [] • Retrieve status of every node (default)检索所有节点的状态 • Retrieve status of the specified node 检索特定节点的状态 leofs-adm whereis • Retrieve an assigned object by the file-path 检索指定的object的路径 LeoFS Storage MQ Operation [1.2.0-] leofs-adm mq-stats • See the statuses of message queues used in LeoFS Storage leofs-adm mq-suspend • Suspend a process consuming a message queue • Active message queues only can be suspended • While suspending, no messages are consumed leofs-adm mq-resume • Resume a process consuming a message queue Recover Commands leofs-adm recover-file • Recover an inconsistent object specified by the file-path leofs-adm recover-node • Recover all inconsistent objects in the specified node leofs-adm recover-ring • Recover rings of the specified node leofs-adm recover-cluster • v1.</description>
+      <description>Shell Description 一般命令 leofs-adm status [] • Retrieve status of every node (default)检索所有节点的状态 • Retrieve status of the specified node 检索特定节点的状态 leofs-adm whereis • Retrieve an assigned object by the file-path 检索指定的object</description>
     </item>
     
     <item>
@@ -36,8 +34,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofsstorage_shell/</guid>
-      <description>Shell Description 描述 leofs-adm detach • Remove the storage node from the LeoFS storage cluster 移除 • Current status: running | stop 可以使用 leofs-adm rollback storage_0@127.0.0.1 恢复（当node状态是detach时）
-leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This command is NOT similar to the detach command, just only to suspend the node. • While suspending, it rejects any requests • Current status: running leofs-adm resume • Resume a storage node until a finished maintenance 恢复 • Current status: suspended | restarted leofs-adm start • Start LeoFS after distributing the RING from LeoFS Manager to LeoFS Storage and Gateway 第一次启动时，初始化数据库以及数据 leofs-adm rebalance • Commit detached and attached nodes to update the cluster and Ring(routing-table) 在node加入集群或者离开集群时，需要调用该命令来重新刷新ring • Rebalance objects in the cluster which is based on the updated cluster topology • Current status: attached</description>
+      <description>Shell Description 描述 leofs-adm detach • Remove the storage node from the LeoFS storage cluster 移除 • Current status: running | stop 可以使用 leofs-adm rollback storage_0@127.0.0.1 恢复（当node状态是detach时） leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This command is NOT similar to the detach</description>
     </item>
     
     <item>
@@ -46,10 +43,7 @@ leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This com
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E5%AE%89%E8%A3%85/</guid>
-      <description>1.download 源码 git clone https://github.com/leo-project/leofs.git
-2.需要的依赖项：Erlang
-3.打开项目的readme，按照其中安装方法安装
-  cd leofs/ make make release cp -r package {LEOFS_DEPLOYED_DIR} cd {LEOFS_DEPLOYED_DIR}/</description>
+      <description>1.download 源码 git clone https://github.com/leo-project/leofs.git 2.需要的依赖项：Erlang 3.打开项目的readme，按照其中安装方法安装 cd leofs/ make make release cp -r package {LEOFS_DEPLOYED_DIR} cd {LEOFS_DEPLOYED_DIR}/</description>
     </item>
     
     <item>
@@ -58,8 +52,7 @@ leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This com
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/</guid>
-      <description>http://leo-project.net/leofs/docs/installation/install_4.html
-Firewall Rules In order for LeoFS to work correctly, it is necessary to set and check the firewall rules in your environment as follows: Subsystem Direction Ports Notes LeoFS Manager-Master Incoming 10010/* Manager console LeoFS Manager-Master Incoming 4369/* Erlang Port Mapper LeoFS Manager-Master Incoming 4020/* SNMP Listen Port LeoFS Manager-Master Outgoing */4369 Erlang Port Mapper LeoFS Manager-Slave Incoming 10011/* Manager console LeoFS Manager-Slave Incoming 4369/* Erlang Port Mapper LeoFS Manager-Slave Incoming 4021/* SNMP Listen Port LeoFS Manager-Slave Outgoing */4369 Erlang Port Mapper LeoFS Storage Incoming 4369/* Erlang Port Mapper LeoFS Storage Incoming 4010/* SNMP Listen Port LeoFS Storage Outgoing */4369 Erlang Port Mapper LeoFS Gateway Incoming 8080/* HTTP listen port LeoFS Gateway Incoming 8443/* HTTPS listen port LeoFS Gateway Incoming 4369/* Erlang Port Mapper LeoFS Gateway Incoming 4000/* SNMP Listen Port LeoFS Gateway Outgoing */4369 Erlang Port Mapper ALL Both [1] Erlang RPC to others [1] Port range can be specified by setting the kernel variables ‘inet_dist_listen_min’ AND ‘inet_dist_listen_max’ Example %%% This forces Erlang to use only ports 9100&amp;ndash;9105 for distributed Erlang traffic.</description>
+      <description>http://leo-project.net/leofs/docs/installation/install_4.html Firewall Rules In order for LeoFS to work correctly, it is necessary to set and check the firewall rules in your environment as follows: Subsystem Direction Ports Notes LeoFS Manager-Master Incoming 10010/* Manager console LeoFS Manager-Master Incoming 4369/* Erlang Port Mapper LeoFS Manager-Master Incoming 4020/* SNMP Listen Port LeoFS Manager-Master Outgoing */4369 Erlang Port Mapper LeoFS Manager-Slave Incoming 10011/* Manager console LeoFS Manager-Slave Incoming 4369/* Erlang Port Mapper LeoFS</description>
     </item>
     
   </channel>

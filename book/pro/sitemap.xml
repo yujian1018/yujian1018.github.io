@@ -153,11 +153,6 @@
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/</loc>
-    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
@@ -193,6 +188,11 @@
   </url>
   
   <url>
+    <loc>https://yujian1018.github.io/book/pro/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yujian1018.github.io/book/pro/readme/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
@@ -204,10 +204,6 @@
   
   <url>
     <loc>https://yujian1018.github.io/book/pro/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yujian1018.github.io/book/pro/tags/</loc>
   </url>
   
 </urlset>

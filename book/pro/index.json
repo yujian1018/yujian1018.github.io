@@ -1,0 +1,288 @@
+[
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.1-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
+	"title": "1.1 基础知识",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.2-%E7%BD%91%E7%BB%9C/",
+	"title": "1.2 网络",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.3-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/",
+	"title": "1.3 操作系统",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.4-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/",
+	"title": "1.4 数据结构",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.5-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/",
+	"title": "1.5 数据挖掘",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.6-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/",
+	"title": "1.6 软件架构",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/",
+	"title": "2.1 yaws",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/",
+	"title": "2.2 leofs",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.3-ejabberd/",
+	"title": "2.3 Ejabberd",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.4-cowboy/",
+	"title": "2.4 cowboy",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.5-kbengine/",
+	"title": "2.5 kbengine",
+	"tags": [],
+	"description": "",
+	"content": "    http://www.kbengine.org/ C++ python           "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.6-rebar/",
+	"title": "2.6 rebar",
+	"tags": [],
+	"description": "",
+	"content": "https://github.com/basho/rebar/\n配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample\n使用案例： http://dhq.me/build-compile-eunit-release-erlang-application-with-rebar\n1.git clone git://github.com/basho/rebar.git\n2.cd rebar ./bootstrap\nRecompile: src/rebar ==\u0026gt; rebar (compile) ==\u0026gt; rebar (escriptize) Congratulations! You now have a self-contained script called \u0026ldquo;rebar\u0026rdquo; in your current working directory. Place this script anywhere in your path and you can use rebar to build OTP-compliant apps.\n  ./rebar -h ./rebar compile eunit\n注意：rebar编译一定需要是application的文件结构，即必须包含：_app.erl_app.src_sup.erl\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.7-graphicsmagick/",
+	"title": "2.7 GraphicsMagick",
+	"tags": [],
+	"description": "",
+	"content": "开源的图像处理软件 GraphicsMagick官网 GraphicsMagick编程接口\nGraphicsMagick 命令行参数，说明文档\nGraphicsMagick的命令概览 [ convert | identify | mogrify | composite | montage | compare | display | animate | import | conjure ]\nconvert：转换图像格式和大小，模糊，裁剪，驱除污点，抖动，临近，图片上画图片，加入新图片，生成缩略图等。 identify：描述一个或较多图像文件的格式和特性。 mogrify：按规定尺寸一个图像，模糊，裁剪，抖动等。Mogrify改写最初的图像文件然后写到一个不同的图像文件。 composite：根据一个图片或多个图片组合生成图片。 montage：创建一些分开的要素图像。在含有要素图像任意的装饰图片，如边框、结构、图片名称等。 compare：在算术上和视觉上评估不同的图片其它的改造图片。 display：如果你拥有一个X server的系统，它可以按次序的显示图片 animate：利用X server显示动画图片 import：在X server或任何可见的窗口上输出图片文件。 你可以捕获单一窗口，整个的荧屏或任何荧屏的矩形部分。 conjure：解释执行 MSL (Magick Scripting Language) 写的脚本。\n需要安装的依赖库函数 png http://www.libpng.org/pub/png/pngcode.html apt-get install libpng www.zlib.net yum install libpng-devel jpg http://www.remotesensing.org/libtiff/ apt-get install libtiff yum install libtiff-devel\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.1/",
+	"title": "2.7.1",
+	"tags": [],
+	"description": "",
+	"content": "   显示图像文件详细信息 gm identify a.jpg     更改当前目录下*.jpg的尺寸大小，并保存于目录.thumb里面 gm mogrify -output-directory .thumbs -resize 320x200 *.jpg   将三幅图像和并为一副图像 gm montage -mode concatenate -tile 3x1 image1.ppm image2.ppm image3.ppm concatenated.miff   显示图像 gm display \u0026lsquo;vid:*.jpg\u0026rsquo;   格式转换 gm convert a.bmp a.jpg || gm convert a.bmp a.pdf（转换为pdf)   调整图像dpi和大小 gm convert -density 288 -geometry 25% image.gif image.gif（缩小为原先的1／4，并且dpi为288）gm convert -resize 640x480 image.gif image.gif（转换为640x480的图像)   在图像上添加文字 gm convert -font Arial -fill blue -pointsize 18 -draw \u0026ldquo;text 10,10 \u0026lsquo;your text here\u0026rsquo;\u0026rdquo; test.tif test.png   从gif文件中抽取第一帧 gm convert \u0026ldquo;Image.gif[0]\u0026rdquo; first.gif   建立gif图像 gm convert -delay 20 frame*.gif animation.gif gm convert -loop 50 frame*.gif animation.gif（让动画循环50次）gm convert -delay 20 frame1.gif -delay 10 frame2.gif -delay 5 frame3.gif animation.gif（对每一帧手动指定延时）   截屏 gm import a.jpg 用鼠标点击所要截取的窗口，或者选择截屏区域，保存为a.jpg gm import -frame a.jpg 保留窗口的边框    "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.2/",
+	"title": "2.7.2",
+	"tags": [],
+	"description": "",
+	"content": "GraphicsMagick缩放比例的精准控制 原始图片是input.jpg，尺寸：160x120只缩小不放大 gm convert input.jpg -resize \u0026ldquo;500x500\u0026gt;\u0026rdquo; output_1.jpg 加了\u0026gt;,表示只有当图片的宽与高，大于给定的宽与高时，才进行“缩小”操作。 生成的图片大小是：160x120，未进行操作 如果不加\u0026gt;,会导致图片被比等放大。\n等比缩图 （缺点：产生白边） gm convert input.jpg -thumbnail \u0026ldquo;100x100\u0026rdquo; output_1.jpg\n生成的图片大小是：100x75 非等比缩图，按给定的参数缩图 gm convert input.jpg -thumbnail \u0026ldquo;100x100!\u0026rdquo; output_2.jpg\n生成的图片大小是：100x100 （缺点：长宽比会变化） 裁剪后保证等比缩图\ngm convert input.jpg -thumbnail \u0026ldquo;100x100^\u0026rdquo; -gravity center -extent 100x100 output_3.jpg 生成的图片大小是：100x100，还保证了比例。不过图片经过了裁剪，剪了图片左右两边才达到1:1 （缺点：裁剪了图片的一部分） 填充后保证等比缩图\ngm convert input.jpg -thumbnail \u0026ldquo;100x100\u0026rdquo; -background gray -gravity center -extent 100x100 output_4.jpg 生成的图片大小是：100x100，还保证了比例，同时没有对图片进行任何裁剪，缺失的部分按指定颜色进行填充。 （缺点：要填充颜色，和第一种方法基本一样） 裁剪、填充相结合\ngm convert input.jpg -thumbnail \u0026ldquo;10000@ -background gray -gravity center -extent 100x100 output_5.jpg 生成的图片大小是：\n100x100，这次保证了大小和比例，其中的10000就是100x100的乘积，同时在填充和裁剪之间做了一个平衡。 （缺点：最差的方法） 位深度32 转为24 IE6,7,8不支持显示“位深度32”的图片，但IE9、火狐、谷歌浏览器就可以显示。 使用GM,把“位深度32”的图片转换为“位深度24”的图片 输入图片zzz.jpg就是“位深度32”的图片，输出图片 zzz_out.jpg就是“位深度24”的图片 gm convert -resize 100x100 -colorspace RGB zzz.jpg zzz_out.jpg 转完后，图片的颜色会有轻微变化。\n原始图片（input.jpg：160x120）\n缩略图1 gm convert input.jpg -thumbnail \u0026lsquo;100x100\u0026rsquo; output_1.jpg 实际生成的图片大小是：100x75，也就是说说按此命令，会保持图片比例不变生成缩略图。这样很不错，但是有一个潜在的问题：我们不能简单明 了的知道图片的最终大小，结果是前端显示的时候，无法设置img标签的width和height属性，如果我没记错的话，一般是推荐设定width和 height属性的，否则浏览器渲染起来可能会稍稍慢一点 缩略图2 gm convert input.jpg -thumbnail \u0026lsquo;100x100!\u0026rsquo; output_2.jpg 这次实际生成的图片大小按定义来，但图片变形了，有时候这是不能接受的。 缩略图3 gm convert input.jpg -thumbnail \u0026lsquo;100x100^\u0026rsquo; \\ -gravity center -extent 100x100 output_3.jpg 这次不仅保证了大小，还保证了比例。不过图片经过了裁剪。 缩略图4 gm convert input.jpg -thumbnail \u0026lsquo;100x100\u0026rsquo; \\ -background gray -gravity center -extent 100x100 output_4.jpg 这次不仅保证了大小，还保证了比例，同时没有对图片进行任何裁剪，多余的部分按指定颜色进行填充。 缩略图5 gm convert input.jpg -thumbnail \u0026lsquo;10000@\u0026rsquo; \\ -background gray -gravity center -extent 100x100 output_5.jpg 这次保证了大小和比例，其中的10000就是100x100的乘积，同时在填充和裁剪之间做了一个平衡。\n补充：如果想让用户手动裁剪头片的话，imgAreaSelect是个好选择。\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.3/",
+	"title": "2.7.3",
+	"tags": [],
+	"description": "",
+	"content": "1.编译成动态库。 ./configure \u0026ndash;enable-shared make sudo make install\n编写一个例子 gcc -o demo demo.c -O GraphicsMagick-config --cppflags --ldflags --libs 执行时出现：libGraphicsMagick++.so.12: cannot open shared object file: No such file or directory\n原因应该是“原因可以归结为一句话：程序没有找到动态链接库，虽然这个动态链接库存在，但是默认情况下，编译器只会使用/lib和/usr/lib这两个目录下的库文件\n所以需要添加lib库的路径 vim /etc/ld.so.conf\n加入路径： /usr/local/lib\nldconfig\n然后就可以正常使用了\n动态库：在程序执行时加载，所以可以编译成功，在执行时提示没有找到该动态库链接\n2.多核心 OpenMP export OMP_NUM_THREADS=4 %用来设置使用几个核心\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.4/",
+	"title": "2.7.4",
+	"tags": [],
+	"description": "",
+	"content": "terminate called after throwing an instance of \u0026lsquo;Magick::WarningCoder\u0026rsquo; what(): Magick: profile matches sRGB but writing iCCP instead (q1_80x80_100%.png) reported by coders/png.c:1076 (PNGWarningHandler)\nhttp://my.oschina.net/1pei/blog/479162#OSC_h1_1\nlibpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的profile使用D50 whitepoint, 而D65才是标准。这种profile由Adobe Photoshop使用, 虽然缺省在png图片中并不嵌入该profile。最简单的方法是从图片中删除内嵌的profile，但这会导致颜色有稍许偏差（当有颜色校正系统时）。但如果不希望颜色有偏差（例如用于打印输出）， 可以嵌入另一种不同的颜色profile。\n解决方案1: 删除png图片内嵌的iCCP profile sRGB gm convert -strip "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.0.1/",
+	"title": "1",
+	"tags": [],
+	"description": "",
+	"content": "![http://baike.baidu.com/view/453197.htm ]\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/1.0.2/",
+	"title": "1",
+	"tags": [],
+	"description": "",
+	"content": "gitAPI: https://developer.github.com/\n域名\nhttps://example.org/api/\n版本\nAccept: vnd.example-com.foo+json; version=1.0\n路径（Endpoint）\nhttps://api.example.com/v1/zoos https://api.example.com/v1/animals https://api.example.com/v1/employees\nHTTP动词\nGET（SELECT）：从服务器取出资源（一项或多项）。 POST（CREATE）：在服务器新建一个资源。 PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。 PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。 DELETE（DELETE）：从服务器删除资源。 HEAD：获取资源的元数据。 OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。\nGET /zoos：列出所有动物园 POST /zoos：新建一个动物园 GET /zoos/ID：获取某个指定动物园的信息 PUT /zoos/ID：更新某个指定动物园的信息（提供该动物园的全部信息） PATCH /zoos/ID：更新某个指定动物园的信息（提供该动物园的部分信息） DELETE /zoos/ID：删除某个动物园 GET /zoos/ID/animals：列出某个指定动物园的所有动物 DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物\n过滤信息（Filtering）\n?limit=10：指定返回记录的数量 ?offset=10：指定返回记录的开始位置。 ?page=2\u0026amp;per_page=100：指定第几页，以及每页的记录数。 ?sortby=name\u0026amp;order=asc：指定返回结果按照哪个属性排序，以及排序顺序。 ?animal_type_id=1：指定筛选条件\n状态码\n200 OK - [GET]：服务器成功返回用户请求的数据，该操作是幂等的（Idempotent）。 201 CREATED - [POST/PUT/PATCH]：用户新建或修改数据成功。 202 Accepted - []：表示一个请求已经进入后台排队（异步任务） 204 NO CONTENT - [DELETE]：用户删除数据成功。 400 INVALID REQUEST - [POST/PUT/PATCH]：用户发出的请求有错误，服务器没有进行新建或修改数据的操作，该操作是幂等的。 401 Unauthorized - []：表示用户没有权限（令牌、用户名、密码错误）。 403 Forbidden - [] 表示用户得到授权（与401错误相对），但是访问是被禁止的。 404 NOT FOUND - []：用户发出的请求针对的是不存在的记录，服务器没有进行操作，该操作是幂等的。 406 Not Acceptable - [GET]：用户请求的格式不可得（比如用户请求JSON格式，但是只有XML格式）。 410 Gone -[GET]：用户请求的资源被永久删除，且不会再得到的。 422 Unprocesable entity - [POST/PUT/PATCH] 当创建一个对象时，发生一个验证错误。 500 INTERNAL SERVER ERROR - [*]：服务器发生错误，用户将无法判断发出的请求是否成功。\n返回结果\nGET /collection：返回资源对象的列表（数组） GET /collection/resource：返回单个资源对象 POST /collection：返回新生成的资源对象 PUT /collection/resource：返回完整的资源对象 PATCH /collection/resource：返回完整的资源对象 DELETE /collection/resource：返回一个空文档\n最常见的一种设计错误，就是URI包含动词。因为\u0026quot;资源\u0026quot;表示一种实体，所以应该是名词，URI不应该有动词，动词应该放在HTTP协议中。 POST /transaction HTTP/1.1 Host: 127.0.0.1 from=1\u0026amp;to=2\u0026amp;amount=500.00\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.0.1/",
+	"title": "2",
+	"tags": [],
+	"description": "",
+	"content": "1．问题领域——我们的架构是为解决什么类型的问题而设计的？软件架构 一定不是通用的，而是为解决某一类特定问题而设计的。缺少了关于用 来解决哪类问题的描述的架构是不完整的。 2．哲学—— 软件构造方法背后的原理是什么？架构的核心思想是什么？ 3．软件构造指南——我们如何来规划一个系统？我们需要一个明确的软件 构造指南集。我们的系统将由一个程序员团队来编写和维护——所以对 所有的程序员和系统设计者来说，理解系统的架构和它的潜在哲学是很 重要的。从实用性的角度来讲，这些知识以软件构造指南的方式表现出 来更便于维持。一个完整的软件构造指南集包括编程规则集、例子程序 和培训资料等等。 4．预先定义好的部件——以“从一组预先定义好的部件中选择”的方式进 行设计远比“从头设计”的方式要来得容易。Erlang 的 OTP 库包含了一 个完整的现成部件集（称之 behaviour 库），一些常用的系统都可以使用 这些部件构建起来。例如 gen_server 这种 behaviour 就可以用来构建 client-server 系统，gen_event 这种 behaviour 可以用来构建基于事件 （event-based）的程序。关于预定义部件的更完整的讨论见 6.1 节。6.2.2 节将给出一个关于如何使用 gen_server 这种 behaviour 来编写一个服务器 软件的简单例子。 5．描述方式——我们如何描述某一部件的接口？我们如何描述系统中两个 部件之间的通信协议？我们如何来描述系统中的静态和动态结构？为了 回答这些问题，我们将介绍一些专门的符号。其中一些用来描述程序的 API，而其他的则用来描述协议和系统结构。 6．配置方式——我们如何来启动、停止和配置我们的系统？我们可以在系 统工作过程中进行重配置吗？\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.0.2/",
+	"title": "2",
+	"tags": [],
+	"description": "",
+	"content": " 速度  简单的设计 对非线性开发模式的强力支持（允许上千个并行开发的分支）  完全分布式 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）  "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.4-cowboy/cowboy/",
+	"title": "cowboy",
+	"tags": [],
+	"description": "",
+	"content": "Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy\nDispatch组合\n静态文件 erlydtl模块动态文件\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.3-ejabberd/eventslist/",
+	"title": "Eventslist",
+	"tags": [],
+	"description": "",
+	"content": "Here is the list of available events in ejabberd. The types of the corresponding hooks parameters is described below.\nadhoc_local_items(Acc, From, To, Lang) -\u0026gt; Adhoc adhoc_sm_items(Acc, From, To, Lang) -\u0026gt; Adhoc anonymous_purge_hook(User, Server) -\u0026gt; ok c2s_auth_result(bool(), User, Server, IP) -\u0026gt; ok c2s_broadcast_recipients(Acc, Server, StateData, Type, From, Packet) -\u0026gt; [] c2s_filter_packet(Acc, Server, C2SState, Feature, To, Packet) -\u0026gt; bool() c2s_filter_packet_in(Acc, JID, From, To) -\u0026gt; FixedPacket c2s_loop_debug({route, From, To, Packet}) -\u0026gt; ok c2s_loop_debug(Text) -\u0026gt; ok c2s_loop_debug({xmlstreamelement, Packet}) -\u0026gt; ok c2s_post_auth_features(Acc, Server) -\u0026gt; [] c2s_presence_in(Acc, {From, To, Packet}) -\u0026gt; C2SState c2s_stream_features(Acc, Server) -\u0026gt; [] c2s_unauthenticated_iq(Acc, Server, IQ, IP) -\u0026gt; empty | Packet c2s_update_presence(Acc, User, Server) -\u0026gt; Packet caps_update(From, To, get_features(Server, Caps)) -\u0026gt; ok csi_filter_stanza(Acc, Stanza) -\u0026gt; send disco_info(Acc, Host, Module, Node, Lang) -\u0026gt; [] disco_local_features(Acc, From, To, Node, Lang) -\u0026gt; Disco disco_local_identity(Acc, From, To, Node, Lang) -\u0026gt; [] disco_local_items(Acc, From, To, Node, Lang) -\u0026gt; Disco disco_sm_features(Acc, From, To, Node, Lang) -\u0026gt; Disco disco_sm_identity(Acc, From, To, Node, Lang) -\u0026gt; [] disco_sm_items(Acc, From, To, Node, Lang) -\u0026gt; Disco filter_packet(Acc) -\u0026gt; OrigPacket forbidden_session_hook(JID) -\u0026gt; ok http_request_debug({LocalPath, Request}) -\u0026gt; ok local_send_to_resource_hook(From, To, Packet) -\u0026gt; ok muc_filter_message(Stanza, MUCState, RoomJID, FromJID, FromNick) -\u0026gt; Stanza drop muc_filter_presence(Stanza, MUCState, RoomJID, FromJID, FromNick) -\u0026gt; Stanza drop offline_message_hook(From, To, Packet) -\u0026gt; ok presence_probe_hook(From, To, Pid) -\u0026gt; ok privacy_check_packet(Acc, User, Server, PrivacyList, {From, To, Packet}, Dir) -\u0026gt; Auth privacy_get_user_list(Acc, User, Server) -\u0026gt; #userlist{} privacy_iq_get(Acc, From, To, IQ, PrivacyList) -\u0026gt; {result, Packet} | {error, Error} privacy_iq_set(Acc, From, To, IQ) -\u0026gt; {result, Packet} | {error, Error} privacy_updated_list(Acc, PrivacyList, PrivList) -\u0026gt; bool() pubsub_create_node(ServerHost, Host, Node, NodeId, NodeOptions) -\u0026gt; ok pubsub_delete_node(ServerHost, Host, Node, NodeId) -\u0026gt; ok pubsub_publish_item(ServerHost, Node, Publisher, service_jid(Host), ItemId, Payload) -\u0026gt; ok register_user(User, Server) -\u0026gt; ok remove_user(User, Server) -\u0026gt; ok reopen_log_hook() -\u0026gt; ok resend_offline_messages_hook(Acc, User, Server) -\u0026gt; [] resend_subscription_requests_hook(Acc, User, Server) -\u0026gt; [] roster_get(Acc, {User, Server}) -\u0026gt; [] roster_get_jid_info(Acc, User, Server, From) -\u0026gt; []} roster_get_subscription_lists(Acc, User, Server) -\u0026gt; []} roster_get_versioning_feature(Acc, Server) -\u0026gt; [] roster_groups(Acc, ServerHost) -\u0026gt; [] roster_in_subscription(Acc, User, Server, From, SubscriptionInType, Reason) -\u0026gt; bool() roster_out_subscription(User, Server, To, SubscriptionOutType) -\u0026gt; ok roster_process_item(Acc, Server) -\u0026gt; RosterItem s2s_allow_host(Acc, Host, Host) -\u0026gt; Auth s2s_connect_hook(Host, Server) -\u0026gt; ok s2s_loop_debug({xmlstreamelement, Packet}) -\u0026gt; ok s2s_receive_packet(From, To, Packet) -\u0026gt; ok s2s_send_packet(From, To, Packet) -\u0026gt; ok s2s_stream_features(Acc, Server) -\u0026gt; [] set_presence_hook(User, Server, Resource, Presence) -\u0026gt; ok sm_register_connection_hook(SID, JID, Info) -\u0026gt; ok sm_remove_connection_hook(SID, JID, Info) -\u0026gt; ok unset_presence_hook(User, Server, Resource, Status) -\u0026gt; ok user_available_hook(JID) -\u0026gt; ok user_ping_timeout(JID) -\u0026gt; ok user_receive_packet(Packet, C2SState, JID, From, To) -\u0026gt; Packet user_send_packet(Packet, C2SState, From, To) -\u0026gt; Packet vcard_set(User, Server, VCARD) -\u0026gt; ok webadmin_menu_host(Acc, Host, Lang) -\u0026gt; [] webadmin_menu_hostnode(Acc, Host, Node, Lang) -\u0026gt; [] webadmin_user(Acc, User, Server, Lang) -\u0026gt; [] webadmin_user_parse_query(Acc, Action, User, Server, Query) -\u0026gt; []\nHooks parameters data types To = From = JID = ServerJID = #jid (see jlib.h) Packet = Payload = {xmlelement, Name, Attrs, SubEl} IQ = #iq (see jlib.h) Error = ?STANZA_ERROR/3 (see jlib.h) Lang = binary() Dir = in | out Auth = allow | deny PrivacyList = OldPrivacyList = NewPrivacyList = none | #userlist CtlStatus = false | ?STATUS_SUCCESS | ?STATUS_ERROR | ?STATUS_USAGE | ?STATUS_BADRPC (see ejabberd_ctl.hrl) Adhoc = {result, I} | {error, Error} | empty Disco = {result, Items} | {error, Error} Items = Packet Arg = [string()] Node = [string()] ItemID = string() Route = {route, From, To, Packet} RosterItem = #roster (see mod_roster.hrl) Subscription = none | from | to | both | remove SubscriptionInType = subscribe | unsubscribe SubscriptionOutType = subscribed | unsubscribed Reason = binary() Groups = [string()] SimpleJID = FromSubscription = ToSubscription = {User, Server, Resource} User = binary() Server = binary() Resource = binary() Status = binary() SID = {Time, pid()} Time = {MegaSecs, Secs, MicroSecs} (see erlang:now/0) MegaSecs = Secs = MicroSecs = int() Acc = same type as the return type of the function\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.3-ejabberd/hooksformoduledevelopers/",
+	"title": "hooksformoduledevelopers",
+	"tags": [],
+	"description": "",
+	"content": "filter_packet (run_hook) ejabberd_hooks:run_fold(filter_packet, {OrigFrom, OrigTo, OrigPacket}, []).\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/leofs/",
+	"title": "leofs",
+	"tags": [],
+	"description": "",
+	"content": "LeoFS is a highly available, distributed, eventually consistent object/blob store. If you are searching a storage system that is able to store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. Leofs是一个高可靠性、分布式、最终一致性的对应存储。如果你需要一个存储系统用来存储巨量的各种类型的文件比如图片、视频、大文件等等。leofs适用于这种情况\n功能设计\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/leofsshell%E5%91%BD%E4%BB%A4/",
+	"title": "leofsShell命令",
+	"tags": [],
+	"description": "",
+	"content": "Shell Description 一般命令 leofs-adm status [] • Retrieve status of every node (default)检索所有节点的状态 • Retrieve status of the specified node 检索特定节点的状态 leofs-adm whereis • Retrieve an assigned object by the file-path 检索指定的object的路径 LeoFS Storage MQ Operation [1.2.0-] leofs-adm mq-stats • See the statuses of message queues used in LeoFS Storage leofs-adm mq-suspend • Suspend a process consuming a message queue • Active message queues only can be suspended • While suspending, no messages are consumed leofs-adm mq-resume • Resume a process consuming a message queue Recover Commands leofs-adm recover-file • Recover an inconsistent object specified by the file-path leofs-adm recover-node • Recover all inconsistent objects in the specified node leofs-adm recover-ring • Recover rings of the specified node leofs-adm recover-cluster • v1.0.0- Recover all inconsistent objects in the specified cluster Data Compaction Commands Disk Usage leofs-adm du • See the current disk usages leofs-adm du detail • See the current disk usages in the details LeoFS Gateway Operation leofs-adm purge-cache • Remove the cache from each LeoFS gateway leofs-adm remove-gateway • Remove the LeoFS Gateway node, which is already stopped LeoFS Manager Maintenance leofs-adm backup-mnesia • Copy LeoFS’s Manager data to the filepath leofs-adm restore-mnesia • Restore LeoFS’s Manager data from the backup file leofs-adm update-managers • Update LeoFS Manager nodes • Destribute the new LeoFS Manager nodes to LeoFS Storage and Gateway leofs-adm dump-ring (||) • Dump the ring data to the local disk S3-API Commands - User leofs-adm create-user • Register the new user • Generate an S3 key pair (AccessKeyID and SecretAccessKey) leofs-adm delete-user • Remove the user leofs-adm get-users • Retrieve the list of users leofs-adm update-user-role • Update the user’s role • Currently, we are supporting two kinds of roles • 1: General user, 9: Administrator S3-API Commands - Endpoint leofs-adm add-endpoint • Register a new S3 Endpoint • LeoFS’ domains are ruled by this rule leofs-adm delete-endpoint • Remove the endpoint leofs-adm get-endpoints • Retrieve the list of endpoints S3-API Commands - Bucket leofs-adm add-bucket • Create the new bucket leofs-adm delete-bucket • Remove the bucket and all files stored in the bucket leofs-adm get-buckets • Retrieve the list of the buckets registered leofs-adm get-bucket • Retrieve the list of the buckets owned by the specified user leofs-adm chown-bucket • v0.16.5- Change the owner of the bucket leofs-adm update-acl (private | public-read | public-read-write) • v0.16.0- Update the ACL (Access Control List) for the bucket • Available ACL list: ○ private (default) : No one except the owner has access rights ○ public-read : All users have READ access ○ public-read-write : All users have READ and WRITE access Multi Data Center Operation leofs-adm join-cluster 1.0.0- Begin to communicate between the local cluster and the remote cluster leofs-adm remove-cluster 1.0.0- Terminate to communicate between the local cluster and the remote cluster leofs-adm cluster-status 1.0.0- See the current state of cluster(s)\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/leofsstorage_shell/",
+	"title": "leofsstorage_shell",
+	"tags": [],
+	"description": "",
+	"content": "Shell Description 描述 leofs-adm detach • Remove the storage node from the LeoFS storage cluster 移除 • Current status: running | stop 可以使用 leofs-adm rollback storage_0@127.0.0.1 恢复（当node状态是detach时）\nleofs-adm suspend • Suspend a storage node for maintenance 挂起 • This command is NOT similar to the detach command, just only to suspend the node. • While suspending, it rejects any requests • Current status: running leofs-adm resume • Resume a storage node until a finished maintenance 恢复 • Current status: suspended | restarted leofs-adm start • Start LeoFS after distributing the RING from LeoFS Manager to LeoFS Storage and Gateway 第一次启动时，初始化数据库以及数据 leofs-adm rebalance • Commit detached and attached nodes to update the cluster and Ring(routing-table) 在node加入集群或者离开集群时，需要调用该命令来重新刷新ring • Rebalance objects in the cluster which is based on the updated cluster topology • Current status: attached\nleofs-adm compact-start (all|) [] • Remove unnecessary objects from the node delete操作无法删除持久化的数据， • num-of-targets: It controls the number of containers in parallel 使用该命令移除多余的数据 • num-of-compaction-procs: It controls the number of procs to execute the compaction in parallel leofs-adm compact-suspend • Suspend the compaction 压缩挂起 leofs-adm compact-resume • Resume the compaction 压缩重新启动 leofs-adm compact-status • See the current compaction status 目前的状态，包括压缩状态，目前正在压缩的containers in parallel，等待压缩哦containers in parallel • Compaction’s status: idle, running, suspend leofs-adm diagnose-start • v1.1.5- Diagnose data of a target storage node 诊断\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E5%AE%89%E8%A3%85/",
+	"title": "leofs安装",
+	"tags": [],
+	"description": "",
+	"content": "1.download 源码 git clone https://github.com/leo-project/leofs.git\n2.需要的依赖项：Erlang\n3.打开项目的readme，按照其中安装方法安装\n  cd leofs/ make make release cp -r package {LEOFS_DEPLOYED_DIR} cd {LEOFS_DEPLOYED_DIR}/\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/",
+	"title": "leofs端口占用",
+	"tags": [],
+	"description": "",
+	"content": "http://leo-project.net/leofs/docs/installation/install_4.html\nFirewall Rules In order for LeoFS to work correctly, it is necessary to set and check the firewall rules in your environment as follows: Subsystem Direction Ports Notes LeoFS Manager-Master Incoming 10010/* Manager console LeoFS Manager-Master Incoming 4369/* Erlang Port Mapper LeoFS Manager-Master Incoming 4020/* SNMP Listen Port LeoFS Manager-Master Outgoing */4369 Erlang Port Mapper LeoFS Manager-Slave Incoming 10011/* Manager console LeoFS Manager-Slave Incoming 4369/* Erlang Port Mapper LeoFS Manager-Slave Incoming 4021/* SNMP Listen Port LeoFS Manager-Slave Outgoing */4369 Erlang Port Mapper LeoFS Storage Incoming 4369/* Erlang Port Mapper LeoFS Storage Incoming 4010/* SNMP Listen Port LeoFS Storage Outgoing */4369 Erlang Port Mapper LeoFS Gateway Incoming 8080/* HTTP listen port LeoFS Gateway Incoming 8443/* HTTPS listen port LeoFS Gateway Incoming 4369/* Erlang Port Mapper LeoFS Gateway Incoming 4000/* SNMP Listen Port LeoFS Gateway Outgoing */4369 Erlang Port Mapper ALL Both [1] Erlang RPC to others [1] Port range can be specified by setting the kernel variables ‘inet_dist_listen_min’ AND ‘inet_dist_listen_max’ Example %%% This forces Erlang to use only ports 9100\u0026ndash;9105 for distributed Erlang traffic. application:set_env(kernel, inet_dist_listen_min, 9100). application:set_env(kernel, inet_dist_listen_max, 9105).\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.3-ejabberd/mod_echo.erl/",
+	"title": "mod_echo",
+	"tags": [],
+	"description": "",
+	"content": "Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/mod_echo.erl\nEjabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-contrib\n基于现在的扩展模式，做出的通用性的拓展功能 "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/",
+	"title": "yaws",
+	"tags": [],
+	"description": "",
+	"content": "http://yaws.hyber.org/yman.yaws?page=yaws.conf\nyaws默认上传文件大小为：2048 partial_post_size = nolimit 上传的文件无限大 post限制 partial_post_size = 2048\n缓存机制 max_num_cached_files max_num_cached_bytes max_size_cached_file cache_refresh_secs\nmax_connections\nlist_dir errormod_crash = Module errormod_401 = Module errormod_404 = Module Module:out404(Arg, GC, SC)\nArg - a #arg{} record GC - a #gconf{} record (defined in yaws.hrl) SC - a #sconf{} record (defined in yaws.hrl)\nurl重写 appmods = \u0026lt;Path1, Module1\u0026gt; \u0026lt;Path2, Modules2\u0026gt; appmods = \u0026lt;cgi-bin, yaws_appmod_cgi\u0026gt;\nsession 存活时间 keepalive_timeout = 136008*1000\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/",
+	"title": "Yaws_Session用法",
+	"tags": [],
+	"description": "",
+	"content": "设置session时，需要运行 1.\nUrl = \u0026ldquo;/\u0026quot;, [{\u0026ldquo;action\u0026rdquo;, Action}|Data] = yaws_api:parse_query( A ), case Action of \u0026ldquo;reg\u0026rdquo; -\u0026gt; [ {\u0026ldquo;userlogin\u0026rdquo;, UserName}, {\u0026ldquo;password\u0026rdquo;, _Pwd}, {\u0026ldquo;passwordtoo\u0026rdquo;, Pwd}, {\u0026ldquo;Email\u0026rdquo;, Email}, {\u0026ldquo;val\u0026rdquo;,_Val} ] = yaws_api:parse_post( A ), try myuser_mod_manager:reg_user( UserName, erlang:md5( Pwd ), Email ) of Name -\u0026gt; Cookie = yaws_api:new_cookie_session(Name), [ yaws_api:redirect(Url), yaws_api:setcookie(\u0026ldquo;haowenjiao\u0026rdquo;,Cookie) ] catch _:_Why -\u0026gt; mnesiaDBA_pub_function:log( _Why, \u0026ldquo;../doc/logs/myuser.access\u0026rdquo; ), {redirect, \u0026ldquo;/userLogin/userLogin.yaws\u0026rdquo;} end; \u0026ldquo;login\u0026rdquo; -\u0026gt; [ {\u0026ldquo;userlogin\u0026rdquo;, UserName}, {\u0026ldquo;password\u0026rdquo;, Pwd} ] = yaws_api:parse_post( A ), case myuser_mod_manager:login_user( UserName, erlang:md5( Pwd ) ) of true -\u0026gt; {redirect, \u0026ldquo;/\u0026quot;}; false -\u0026gt; {redirect, \u0026ldquo;/userLogin/userLogin.yaws?name=\u0026quot;++UserName++\u0026rdquo;\u0026amp;msg=账户名或密码错误\u0026rdquo;} end end. 2.\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yawsapi/",
+	"title": "yawsapi",
+	"tags": [],
+	"description": "",
+	"content": "1.check_cookie( A ) -\u0026gt; H = A#arg.headers, case yaws_api:find_cookie_val( ?Cook, H#headers.cookie ) of Val when Val /= [] -\u0026gt; case yaws_api:cookieval_to_opaque( Val ) of {ok, Sess} -\u0026gt; {ok, Sess, Val}; { error, { has_session, Sess }} -\u0026gt; {ok, Sess}; Else -\u0026gt; Else end; [] -\u0026gt; {error, nocookie} end. 2.{ok, _Sess, Cookie} -\u0026gt; yaws_api:delete_cookie_session( Cookie ); 删除session 3.yaws_api:new_cookie_session( Sess ). 新建session yaws_api:new_cookie_session( Sess, TTL ). yaws_api:new_cookie_session( Sess, TTL, CleanupPid ). 4.yaws_api:setcookie(\u0026ldquo;haowenjiao\u0026rdquo;,Cookie) -\u0026gt; 估计默认权限为当前文件夹下的所有目录 yaws_api:setcookie( \u0026ldquo;haowenjiao\u0026rdquo;, Cookie, Path ). Path -\u0026gt; session在站点中的权限范围 5.yaws_api:cookieval_to_opaque( CookieVal ). 6.yaws_api:print_cookie_sessions(). 7.yaws_api:replace_cookie_session(Cookie, NewCookie). 替换session\n页面的值的传递 ID = yaws_api:binding(\u0026ldquo;B\u0026rdquo;) P = yaws_api:parse_query(A), L = case lists:keysearch(page, 1, P) of {value, {page, Page}} -\u0026gt; \u0026hellip;.. 当form表单没用method时默认？传值\n1.yaws_api:url_decode(Url), yaws_api:url_encode(Url), 2. out(_Arg) -\u0026gt; L=\u0026quot;http://www.google.com/search?num=20\u0026amp;hl=en\u0026amp;lr=lang_en%7Clang_sv\u0026amp;q=yaws\u0026rdquo;, {redirect, L}. out(_Arg) -\u0026gt; {redirect_local, \u0026ldquo;/redirect2.yaws\u0026rdquo;}.本服务器上 out(_Arg) -\u0026gt; {redirect_local, {any_path, \u0026ldquo;redirect2.yaws\u0026rdquo;}}. [yaws_api:redirect(\u0026quot;/userLogin.yaws\u0026rdquo;)]\n3.yaws_api:binding(\u0026ldquo;A\u0026rdquo;)\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yawsbug/",
+	"title": "YawsBug",
+	"tags": [],
+	"description": "",
+	"content": "1 Failed to load setuid_drv (from \u0026ldquo;/httx/yaws/lib/yaws/priv/lib\u0026rdquo;) : \u0026ldquo;Driver compiled with incorrect version of erl_driver.h\u0026rdquo; 疑似原因： 1.It looks like you\u0026rsquo;ve compiled on one version of Erlang and are trying to run it with different version.（由A版本编译，由B版本运行） 2.安装Aerlang版本，卸载不全，由安装B版本 环境： 1.Erlang版本：R15B01（安装成功） 2.yaws：1.91（安装失败） 目前解决办法：安装yaws1.96版本成功 2 epam.c:2:22: fatal error: pam_appl.h: 没有那个文件或目录 yum -y install pam-devel\n下载 openpam wget http://nchc.dl.sourceforge.net/sourceforge/openpam/openpam-20130907.tar.gz 编译/安装 openpam tar zxvf openpam-20130907.tar.gz cd openpam-20130907 ./configure sudo make install 修改 YAWS cd yaws-1.97/c_src vim epam.c 修改#include \u0026lt;pam_appl.h\u0026gt; 为 #include \u0026lt;security/pam_appl.h\u0026gt; ./configure sudo make install\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yawsehtml/",
+	"title": "YawsEhtml",
+	"tags": [],
+	"description": "",
+	"content": "Data1 ={p, [{style, \u0026ldquo;display:none\u0026rdquo;},{id,\u0026ldquo;nowpage\u0026rdquo;}],[Page]}, {ehtml, Data1} {ehtml, {table, [], {tr, [], [{td, [{width, \u0026ldquo;30%\u0026quot;}], {table,[{border, \u0026ldquo;1\u0026rdquo;}, {bgcolor, beige},{bordercolor, black}], [{tr, [], {td, [], pb(\u0026ldquo;User: ~s\u0026rdquo;, [User])}}] } }, {td, [{align, right}], {img, [{src, \u0026ldquo;junk.jpg\u0026rdquo;}]} }] } } }. "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yawsssibindings/",
+	"title": "YawsSSIbindings",
+	"tags": [],
+	"description": "",
+	"content": "test.yaws out( A ) -\u0026gt; {ehtml,[{ssi,\u0026ldquo;ssi_ex1.txt\u0026rdquo;,\u0026quot;@\u0026quot;,[{\u0026ldquo;a\u0026rdquo;,\u0026ldquo;zippo\u0026rdquo;},{\u0026ldquo;b\u0026rdquo;,\u0026ldquo;我有一头小毛驴\u0026rdquo;}]}]}. ssi_ex1.txt variable a = @a@,b=@b@ test.yaws variable a = zippo,b=我有一头小毛驴\n{ssi, \u0026ldquo;/inc/health_text.inc\u0026rdquo;, \u0026ldquo;%\u0026quot;,[{\u0026ldquo;embed\u0026rdquo;, \u0026ldquo;choosen\u0026rdquo;}]}; {ssi, \u0026ldquo;/inc/health_text.inc\u0026rdquo;, \u0026ldquo;\u0026quot;,[{\u0026quot;\u0026quot;, \u0026ldquo;\u0026quot;}]};\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/",
+	"title": "Yaws页面传值",
+	"tags": [],
+	"description": "",
+	"content": "Post传值 Post = yaws_api:parse_post( A ), Data =[ X|| {, X} \u0026lt;-Post ]。 query 可以接受问好 out(A) -\u0026gt; [{\u0026ldquo;name\u0026rdquo;,Name}|] = yaws_api:parse_query( A ), {bindings, [{\u0026ldquo;A\u0026rdquo;, Name}]}. Post和？都可以使用 case postvar(A,\u0026ldquo;lang\u0026rdquo;) of undefined -\u0026gt; \u0026ldquo;None\u0026rdquo;; {ok, Val} -\u0026gt; Val end yaws_api:queryvar( A, \u0026ldquo;lang\u0026rdquo; ) lang代表form表单的一个name case yaws_api:queryvar(A, \u0026ldquo;userlogin\u0026rdquo;) of undefined -\u0026gt; \u0026ldquo;None\u0026rdquo;; {ok, Val} -\u0026gt; Val\nuserlogin代表form表单的一个name\ncase postvar(A,\u0026ldquo;lang\u0026rdquo;) of undefined -\u0026gt; \u0026ldquo;None\u0026rdquo;; {ok, Val} -\u0026gt; Val\n页面的值的传递 ID = yaws_api:binding(\u0026ldquo;B\u0026rdquo;) P = yaws_api:parse_query(A), L = case lists:keysearch(page, 1, P) of {value, {page, Page}} -\u0026gt; \u0026hellip;.. 当form表单没用method时默认？传值 "
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/",
+	"title": "清水的小站",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/readme/",
+	"title": "项目资料",
+	"tags": [],
+	"description": "",
+	"content": "project_data 项目资料\n"
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/images/",
+	"title": "images",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://yujian1018.github.io/book/pro/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

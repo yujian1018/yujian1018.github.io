@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3. 库函数 on 清水的小站</title>
-    <link>https://python.01cs.cc/3.-%E5%BA%93%E5%87%BD%E6%95%B0/</link>
+    <link>https://yujian1018.github.com/book/python/3.-%E5%BA%93%E5%87%BD%E6%95%B0/</link>
     <description>Recent content in 3. 库函数 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
     
-	<atom:link href="https://python.01cs.cc/3.-%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.com/book/python/3.-%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>python关键字</title>
-      <link>https://python.01cs.cc/3.-%E5%BA%93%E5%87%BD%E6%95%B0/python%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+      <link>https://yujian1018.github.com/book/python/3.-%E5%BA%93%E5%87%BD%E6%95%B0/python%E5%85%B3%E9%94%AE%E5%AD%97/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://python.01cs.cc/3.-%E5%BA%93%E5%87%BD%E6%95%B0/python%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+      <guid>https://yujian1018.github.com/book/python/3.-%E5%BA%93%E5%87%BD%E6%95%B0/python%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
       <description>python关键字 isinstance() 函数来判断一个对象是否是一个已知的类型，类似 type()。 type() 不会认为子类是一种父类类型，不考虑继承关系。 isinstance() 会认为子类是一</description>
     </item>
     

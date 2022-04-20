@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>清水的小站</title>
     <link>https://yujian1018.github.io/book/game/3.%E8%B5%84%E6%96%99/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     
 	<atom:link href="https://yujian1018.github.io/book/game/3.%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
     

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>清水的小站</title>
     <link>https://yujian1018.github.io/book/pro/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/pro/index.xml" rel="self" type="application/rss+xml" />
@@ -26,14 +25,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.6-rebar/</guid>
-      <description>https://github.com/basho/rebar/
-配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample
-使用案例： http://dhq.me/build-compile-eunit-release-erlang-application-with-rebar
-1.git clone git://github.com/basho/rebar.git
-2.cd rebar ./bootstrap
-Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Congratulations! You now have a self-contained script called &amp;ldquo;rebar&amp;rdquo; in your current working directory. Place this script anywhere in your path and you can use rebar to build OTP-compliant apps.
-  ./rebar -h ./rebar compile eunit
-注意：rebar编译一定需要是application的文件结构，即必须包含：_app.erl_app.src_sup.erl</description>
+      <description>https://github.com/basho/rebar/ 配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample</description>
     </item>
     
     <item>
@@ -42,7 +34,7 @@ Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Co
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.1/</guid>
-      <description>显示图像文件详细信息 gm identify a.jpg     更改当前目录下*.jpg的尺寸大小，并保存于目录.thumb里面 gm mogrify -output-directory .thumbs -resize 320x200 *.jpg   将三幅图像和并为一副图像 gm montage -mode concatenate -tile 3x1 image1.ppm image2.ppm image3.ppm concatenated.miff   显示图像 gm display &amp;lsquo;vid:*.jpg&amp;rsquo;   格式转换 gm convert a.bmp a.jpg || gm convert a.bmp a.pdf（转换为pdf)   调整图像dpi和大小 gm convert -density 288 -geometry 25% image.gif image.gif（缩小为原先的1／4，并且dpi为288）gm convert -resize 640x480 image.gif image.gif（转换为640x480的图像)   在图像上添加文字 gm convert -font Arial -fill blue -pointsize 18 -draw &amp;ldquo;text 10,10 &amp;lsquo;your text here&amp;rsquo;&amp;rdquo; test.</description>
+      <description>显示图像文件详细信息 gm identify a.jpg 更改当前目录下*.jpg的尺寸大小，并保存于目录.thumb里面 gm mogrify -output-directory .thumbs -resize 320x200 *.jpg 将三幅图像和并为一副图像 gm montage -mode concatenate -tile 3x1</description>
     </item>
     
     <item>
@@ -51,13 +43,7 @@ Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Co
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.2/</guid>
-      <description>GraphicsMagick缩放比例的精准控制 原始图片是input.jpg，尺寸：160x120只缩小不放大 gm convert input.jpg -resize &amp;ldquo;500x500&amp;gt;&amp;rdquo; output_1.jpg 加了&amp;gt;,表示只有当图片的宽与高，大于给定的宽与高时，才进行“缩小”操作。 生成的图片大小是：160x120，未进行操作 如果不加&amp;gt;,会导致图片被比等放大。
-等比缩图 （缺点：产生白边） gm convert input.jpg -thumbnail &amp;ldquo;100x100&amp;rdquo; output_1.jpg
-生成的图片大小是：100x75 非等比缩图，按给定的参数缩图 gm convert input.jpg -thumbnail &amp;ldquo;100x100!&amp;rdquo; output_2.jpg
-生成的图片大小是：100x100 （缺点：长宽比会变化） 裁剪后保证等比缩图
-gm convert input.jpg -thumbnail &amp;ldquo;100x100^&amp;rdquo; -gravity center -extent 100x100 output_3.jpg 生成的图片大小是：100x100，还保证了比例。不过图片经过了裁剪，剪了图片左右两边才达到1:1 （缺点：裁剪了图片的一部分） 填充后保证等比缩图
-gm convert input.jpg -thumbnail &amp;ldquo;100x100&amp;rdquo; -background gray -gravity center -extent 100x100 output_4.jpg 生成的图片大小是：100x100，还保证了比例，同时没有对图片进行任何裁剪，缺失的部分按指定颜色进行填充。 （缺点：要填充颜色，和第一种方法基本一样） 裁剪、填充相结合
-gm convert input.jpg -thumbnail &amp;ldquo;10000@ -background gray -gravity center -extent 100x100 output_5.jpg 生成的图片大小是：</description>
+      <description>GraphicsMagick缩放比例的精准控制 原始图片是input.jpg，尺寸：160x120只缩小不放大 gm convert input.jpg -resize &amp;ldquo;500x500&amp;gt;&amp;rdquo; output_1.jpg 加了&amp;gt;,表示只</description>
     </item>
     
     <item>
@@ -66,15 +52,7 @@ gm convert input.jpg -thumbnail &amp;ldquo;10000@ -background gray -gravity cent
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.3/</guid>
-      <description>1.编译成动态库。 ./configure &amp;ndash;enable-shared make sudo make install
-编写一个例子 gcc -o demo demo.c -O GraphicsMagick-config --cppflags --ldflags --libs 执行时出现：libGraphicsMagick++.so.12: cannot open shared object file: No such file or directory
-原因应该是“原因可以归结为一句话：程序没有找到动态链接库，虽然这个动态链接库存在，但是默认情况下，编译器只会使用/lib和/usr/lib这两个目录下的库文件
-所以需要添加lib库的路径 vim /etc/ld.so.conf
-加入路径： /usr/local/lib
-ldconfig
-然后就可以正常使用了
-动态库：在程序执行时加载，所以可以编译成功，在执行时提示没有找到该动态库链接
-2.多核心 OpenMP export OMP_NUM_THREADS=4 %用来设置使用几个核心</description>
+      <description>1.编译成动态库。 ./configure &amp;ndash;enable-shared make sudo make install 编写一个例子 gcc -o demo demo.c -O GraphicsMagick-config --cppflags --ldflags --libs 执行时出现：libGraphicsMagick++.so.12: cannot open shared object file: No such file</description>
     </item>
     
     <item>
@@ -83,10 +61,7 @@ ldconfig
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.4/</guid>
-      <description>terminate called after throwing an instance of &amp;lsquo;Magick::WarningCoder&amp;rsquo; what(): Magick: profile matches sRGB but writing iCCP instead (q1_80x80_100%.png) reported by coders/png.c:1076 (PNGWarningHandler)
-http://my.oschina.net/1pei/blog/479162#OSC_h1_1
-libpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的profile使用D50 whitepoint, 而D65才是标准。这种profile由Adobe Photoshop使用, 虽然缺省在png图片中并不嵌入该profile。最简单的方法是从图片中删除内嵌的profile，但这会导致颜色有稍许偏差（当有颜色校正系统时）。但如果不希望颜色有偏差（例如用于打印输出）， 可以嵌入另一种不同的颜色profile。
-解决方案1: 删除png图片内嵌的iCCP profile sRGB gm convert -strip </description>
+      <description>terminate called after throwing an instance of &amp;lsquo;Magick::WarningCoder&amp;rsquo; what(): Magick: profile matches sRGB but writing iCCP instead (q1_80x80_100%.png) reported by coders/png.c:1076 (PNGWarningHandler) http://my.oschina.net/1pei/blog/479162#OSC_h1_1 libpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的profile使用D50</description>
     </item>
     
     <item>
@@ -104,20 +79,7 @@ libpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的pro
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/1.0.2/</guid>
-      <description>gitAPI: https://developer.github.com/
-域名
-https://example.org/api/
-版本
-Accept: vnd.example-com.foo+json; version=1.0
-路径（Endpoint）
-https://api.example.com/v1/zoos https://api.example.com/v1/animals https://api.example.com/v1/employees
-HTTP动词
-GET（SELECT）：从服务器取出资源（一项或多项）。 POST（CREATE）：在服务器新建一个资源。 PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。 PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。 DELETE（DELETE）：从服务器删除资源。 HEAD：获取资源的元数据。 OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。
-GET /zoos：列出所有动物园 POST /zoos：新建一个动物园 GET /zoos/ID：获取某个指定动物园的信息 PUT /zoos/ID：更新某个指定动物园的信息（提供该动物园的全部信息） PATCH /zoos/ID：更新某个指定动物园的信息（提供该动物园的部分信息） DELETE /zoos/ID：删除某个动物园 GET /zoos/ID/animals：列出某个指定动物园的所有动物 DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
-过滤信息（Filtering）
-?limit=10：指定返回记录的数量 ?offset=10：指定返回记录的开始位置。 ?page=2&amp;amp;per_page=100：指定第几页，以及每页的记录数。 ?sortby=name&amp;amp;order=asc：指定返回结果按照哪个属性排序，以及排序顺序。 ?animal_type_id=1：指定筛选条件
-状态码
-200 OK - [GET]：服务器成功返回用户请求的数据，该操作是幂等的（Idempotent）。 201 CREATED - [POST/PUT/PATCH]：用户新建或修改数据成功。 202 Accepted - []：表示一个请求已经进入后台排队（异步任务） 204 NO CONTENT - [DELETE]：用户删除数据成功。 400 INVALID REQUEST - [POST/PUT/PATCH]：用户发出的请求有错误，服务器没有进行新建或修改数据的操作，该操作是幂等的。 401 Unauthorized - []：表示用户没有权限（令牌、用户名、密码错误）。 403 Forbidden - [] 表示用户得到授权（与401错误相对），但是访问是被禁止的。 404 NOT FOUND - []：用户发出的请求针对的是不存在的记录，服务器没有进行操作，该操作是幂等的。 406 Not Acceptable - [GET]：用户请求的格式不可得（比如用户请求JSON格式，但是只有XML格式）。 410 Gone -[GET]：用户请求的资源被永久删除，且不会再得到的。 422 Unprocesable entity - [POST/PUT/PATCH] 当创建一个对象时，发生一个验证错误。 500 INTERNAL SERVER ERROR - [*]：服务器发生错误，用户将无法判断发出的请求是否成功。</description>
+      <description>gitAPI: https://developer.github.com/ 域名 https://example.org/api/ 版本 Accept: vnd.example-com.foo+json; version=1.0 路径（Endpoint） https://api.example.com/v1/zoos https://api.example.com/v1/animals https://api.example.com/v1/employees HTTP动词 GET（SELECT）：从服务器取出资源（一项或多项）。 POST（CREATE</description>
     </item>
     
     <item>
@@ -126,7 +88,7 @@ GET /zoos：列出所有动物园 POST /zoos：新建一个动物园 GET /zoos/I
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.0.1/</guid>
-      <description>1．问题领域——我们的架构是为解决什么类型的问题而设计的？软件架构 一定不是通用的，而是为解决某一类特定问题而设计的。缺少了关于用 来解决哪类问题的描述的架构是不完整的。 2．哲学—— 软件构造方法背后的原理是什么？架构的核心思想是什么？ 3．软件构造指南——我们如何来规划一个系统？我们需要一个明确的软件 构造指南集。我们的系统将由一个程序员团队来编写和维护——所以对 所有的程序员和系统设计者来说，理解系统的架构和它的潜在哲学是很 重要的。从实用性的角度来讲，这些知识以软件构造指南的方式表现出 来更便于维持。一个完整的软件构造指南集包括编程规则集、例子程序 和培训资料等等。 4．预先定义好的部件——以“从一组预先定义好的部件中选择”的方式进 行设计远比“从头设计”的方式要来得容易。Erlang 的 OTP 库包含了一 个完整的现成部件集（称之 behaviour 库），一些常用的系统都可以使用 这些部件构建起来。例如 gen_server 这种 behaviour 就可以用来构建 client-server 系统，gen_event 这种 behaviour 可以用来构建基于事件 （event-based）的程序。关于预定义部件的更完整的讨论见 6.1 节。6.2.2 节将给出一个关于如何使用 gen_server 这种 behaviour 来编写一个服务器 软件的简单例子。 5．描述方式——我们如何描述某一部件的接口？我们如何描述系统中两个 部件之间的通信协议？我们如何来描述系统中的静态和动态结构？为了 回答这些问题，我们将介绍一些专门的符号。其中一些用来描述程序的 API，而其他的则用来描述协议和系统结构。 6．配置方式——我们如何来启动、停止和配置我们的系统？我们可以在系 统工作过程中进行重配置吗？</description>
+      <description>1．问题领域——我们的架构是为解决什么类型的问题而设计的？软件架构 一定不是通用的，而是为解决某一类特定问题而设计的。缺少了关于用 来解决哪类问</description>
     </item>
     
     <item>
@@ -135,7 +97,7 @@ GET /zoos：列出所有动物园 POST /zoos：新建一个动物园 GET /zoos/I
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.0.2/</guid>
-      <description> 速度  简单的设计 对非线性开发模式的强力支持（允许上千个并行开发的分支）  完全分布式 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）  </description>
+      <description>速度 简单的设计 对非线性开发模式的强力支持（允许上千个并行开发的分支） 完全分布式 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）</description>
     </item>
     
     <item>
@@ -144,9 +106,7 @@ GET /zoos：列出所有动物园 POST /zoos：新建一个动物园 GET /zoos/I
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.4-cowboy/cowboy/</guid>
-      <description>Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy
-Dispatch组合
-静态文件 erlydtl模块动态文件</description>
+      <description>Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy Dispatch组合 静态文件 e</description>
     </item>
     
     <item>
@@ -174,8 +134,7 @@ adhoc_local_items(Acc, From, To, Lang) -&amp;gt; Adhoc adhoc_sm_items(Acc, From,
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs/</guid>
-      <description>LeoFS is a highly available, distributed, eventually consistent object/blob store. If you are searching a storage system that is able to store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. Leofs是一个高可靠性、分布式、最终一致性的对应存储。如果你需要一个存储系统用来存储巨量的各种类型的文件比如图片、视频、大文件等等。leofs适用于这种情况
-功能设计</description>
+      <description>LeoFS is a highly available, distributed, eventually consistent object/blob store. If you are searching a storage system that is able to store huge amount and various kind of files such as photo, movie, log data and so on, LeoFS is suitable for that. Leofs是一个高可靠性、分布式、最终一致性的对应存储</description>
     </item>
     
     <item>
@@ -184,7 +143,7 @@ adhoc_local_items(Acc, From, To, Lang) -&amp;gt; Adhoc adhoc_sm_items(Acc, From,
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofsshell%E5%91%BD%E4%BB%A4/</guid>
-      <description>Shell Description 一般命令 leofs-adm status [] • Retrieve status of every node (default)检索所有节点的状态 • Retrieve status of the specified node 检索特定节点的状态 leofs-adm whereis • Retrieve an assigned object by the file-path 检索指定的object的路径 LeoFS Storage MQ Operation [1.2.0-] leofs-adm mq-stats • See the statuses of message queues used in LeoFS Storage leofs-adm mq-suspend • Suspend a process consuming a message queue • Active message queues only can be suspended • While suspending, no messages are consumed leofs-adm mq-resume • Resume a process consuming a message queue Recover Commands leofs-adm recover-file • Recover an inconsistent object specified by the file-path leofs-adm recover-node • Recover all inconsistent objects in the specified node leofs-adm recover-ring • Recover rings of the specified node leofs-adm recover-cluster • v1.</description>
+      <description>Shell Description 一般命令 leofs-adm status [] • Retrieve status of every node (default)检索所有节点的状态 • Retrieve status of the specified node 检索特定节点的状态 leofs-adm whereis • Retrieve an assigned object by the file-path 检索指定的object</description>
     </item>
     
     <item>
@@ -193,8 +152,7 @@ adhoc_local_items(Acc, From, To, Lang) -&amp;gt; Adhoc adhoc_sm_items(Acc, From,
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofsstorage_shell/</guid>
-      <description>Shell Description 描述 leofs-adm detach • Remove the storage node from the LeoFS storage cluster 移除 • Current status: running | stop 可以使用 leofs-adm rollback storage_0@127.0.0.1 恢复（当node状态是detach时）
-leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This command is NOT similar to the detach command, just only to suspend the node. • While suspending, it rejects any requests • Current status: running leofs-adm resume • Resume a storage node until a finished maintenance 恢复 • Current status: suspended | restarted leofs-adm start • Start LeoFS after distributing the RING from LeoFS Manager to LeoFS Storage and Gateway 第一次启动时，初始化数据库以及数据 leofs-adm rebalance • Commit detached and attached nodes to update the cluster and Ring(routing-table) 在node加入集群或者离开集群时，需要调用该命令来重新刷新ring • Rebalance objects in the cluster which is based on the updated cluster topology • Current status: attached</description>
+      <description>Shell Description 描述 leofs-adm detach • Remove the storage node from the LeoFS storage cluster 移除 • Current status: running | stop 可以使用 leofs-adm rollback storage_0@127.0.0.1 恢复（当node状态是detach时） leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This command is NOT similar to the detach</description>
     </item>
     
     <item>
@@ -203,10 +161,7 @@ leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This com
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E5%AE%89%E8%A3%85/</guid>
-      <description>1.download 源码 git clone https://github.com/leo-project/leofs.git
-2.需要的依赖项：Erlang
-3.打开项目的readme，按照其中安装方法安装
-  cd leofs/ make make release cp -r package {LEOFS_DEPLOYED_DIR} cd {LEOFS_DEPLOYED_DIR}/</description>
+      <description>1.download 源码 git clone https://github.com/leo-project/leofs.git 2.需要的依赖项：Erlang 3.打开项目的readme，按照其中安装方法安装 cd leofs/ make make release cp -r package {LEOFS_DEPLOYED_DIR} cd {LEOFS_DEPLOYED_DIR}/</description>
     </item>
     
     <item>
@@ -215,8 +170,7 @@ leofs-adm suspend • Suspend a storage node for maintenance 挂起 • This com
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/</guid>
-      <description>http://leo-project.net/leofs/docs/installation/install_4.html
-Firewall Rules In order for LeoFS to work correctly, it is necessary to set and check the firewall rules in your environment as follows: Subsystem Direction Ports Notes LeoFS Manager-Master Incoming 10010/* Manager console LeoFS Manager-Master Incoming 4369/* Erlang Port Mapper LeoFS Manager-Master Incoming 4020/* SNMP Listen Port LeoFS Manager-Master Outgoing */4369 Erlang Port Mapper LeoFS Manager-Slave Incoming 10011/* Manager console LeoFS Manager-Slave Incoming 4369/* Erlang Port Mapper LeoFS Manager-Slave Incoming 4021/* SNMP Listen Port LeoFS Manager-Slave Outgoing */4369 Erlang Port Mapper LeoFS Storage Incoming 4369/* Erlang Port Mapper LeoFS Storage Incoming 4010/* SNMP Listen Port LeoFS Storage Outgoing */4369 Erlang Port Mapper LeoFS Gateway Incoming 8080/* HTTP listen port LeoFS Gateway Incoming 8443/* HTTPS listen port LeoFS Gateway Incoming 4369/* Erlang Port Mapper LeoFS Gateway Incoming 4000/* SNMP Listen Port LeoFS Gateway Outgoing */4369 Erlang Port Mapper ALL Both [1] Erlang RPC to others [1] Port range can be specified by setting the kernel variables ‘inet_dist_listen_min’ AND ‘inet_dist_listen_max’ Example %%% This forces Erlang to use only ports 9100&amp;ndash;9105 for distributed Erlang traffic.</description>
+      <description>http://leo-project.net/leofs/docs/installation/install_4.html Firewall Rules In order for LeoFS to work correctly, it is necessary to set and check the firewall rules in your environment as follows: Subsystem Direction Ports Notes LeoFS Manager-Master Incoming 10010/* Manager console LeoFS Manager-Master Incoming 4369/* Erlang Port Mapper LeoFS Manager-Master Incoming 4020/* SNMP Listen Port LeoFS Manager-Master Outgoing */4369 Erlang Port Mapper LeoFS Manager-Slave Incoming 10011/* Manager console LeoFS Manager-Slave Incoming 4369/* Erlang Port Mapper LeoFS</description>
     </item>
     
     <item>
@@ -225,9 +179,7 @@ Firewall Rules In order for LeoFS to work correctly, it is necessary to set and 
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.3-ejabberd/mod_echo.erl/</guid>
-      <description>Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/mod_echo.erl
-Ejabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-contrib
-基于现在的扩展模式，做出的通用性的拓展功能 </description>
+      <description>Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/</description>
     </item>
     
     <item>
@@ -236,14 +188,7 @@ Ejabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-co
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/</guid>
-      <description>http://yaws.hyber.org/yman.yaws?page=yaws.conf
-yaws默认上传文件大小为：2048 partial_post_size = nolimit 上传的文件无限大 post限制 partial_post_size = 2048
-缓存机制 max_num_cached_files max_num_cached_bytes max_size_cached_file cache_refresh_secs
-max_connections
-list_dir errormod_crash = Module errormod_401 = Module errormod_404 = Module Module:out404(Arg, GC, SC)
-Arg - a #arg{} record GC - a #gconf{} record (defined in yaws.hrl) SC - a #sconf{} record (defined in yaws.hrl)
-url重写 appmods = &amp;lt;Path1, Module1&amp;gt; &amp;lt;Path2, Modules2&amp;gt; appmods = &amp;lt;cgi-bin, yaws_appmod_cgi&amp;gt;
-session 存活时间 keepalive_timeout = 136008*1000</description>
+      <description>http://yaws.hyber.org/yman.yaws?page=yaws.conf yaws默认上传文件大小为：2048 partial_post_size = nolimit 上传的文件无限大 post限制 partial_post_size = 2048 缓存机制 max_num_cached_files max_num_cached_bytes max_size_cached_file cache_refresh_secs max_connections list_dir errormod_crash = Module errormod_401 = Module errormod_404 = Module Module:out404(Arg, GC, SC) Arg - a #arg{} record GC - a #gconf{}</description>
     </item>
     
     <item>
@@ -252,8 +197,7 @@ session 存活时间 keepalive_timeout = 136008*1000</description>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</guid>
-      <description>设置session时，需要运行 1.
-Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = yaws_api:parse_query( A ), case Action of &amp;ldquo;reg&amp;rdquo; -&amp;gt; [ {&amp;ldquo;userlogin&amp;rdquo;, UserName}, {&amp;ldquo;password&amp;rdquo;, _Pwd}, {&amp;ldquo;passwordtoo&amp;rdquo;, Pwd}, {&amp;ldquo;Email&amp;rdquo;, Email}, {&amp;ldquo;val&amp;rdquo;,_Val} ] = yaws_api:parse_post( A ), try myuser_mod_manager:reg_user( UserName, erlang:md5( Pwd ), Email ) of Name -&amp;gt; Cookie = yaws_api:new_cookie_session(Name), [ yaws_api:redirect(Url), yaws_api:setcookie(&amp;ldquo;haowenjiao&amp;rdquo;,Cookie) ] catch _:_Why -&amp;gt; mnesiaDBA_pub_function:log( _Why, &amp;ldquo;../doc/logs/myuser.access&amp;rdquo; ), {redirect, &amp;ldquo;/userLogin/userLogin.yaws&amp;rdquo;} end; &amp;ldquo;login&amp;rdquo; -&amp;gt; [ {&amp;ldquo;userlogin&amp;rdquo;, UserName}, {&amp;ldquo;password&amp;rdquo;, Pwd} ] = yaws_api:parse_post( A ), case myuser_mod_manager:login_user( UserName, erlang:md5( Pwd ) ) of true -&amp;gt; {redirect, &amp;ldquo;/&amp;quot;}; false -&amp;gt; {redirect, &amp;ldquo;/userLogin/userLogin.</description>
+      <description>设置session时，需要运行 1. Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = yaws_api:parse_query( A ), case Action of &amp;ldquo;reg&amp;rdquo; -&amp;gt; [ {&amp;ldquo;userlogin&amp;rdquo;, UserName}, {&amp;ldquo;password&amp;rdquo;, _Pwd}, {&amp;ldquo;passwordtoo&amp;rdquo;, Pwd}, {&amp;ldquo;Email&amp;rdquo;, Email}, {&amp;ldquo;val&amp;rdquo;,_Val} ] = yaws_api:parse_post( A ), try myuser_mod_manager:reg_user( UserName, erlang:md5( Pwd ), Email ) of Name -&amp;gt; Cookie = yaws_api:new_cookie_session(Name), [ yaws_api:redirect(Url), yaws_api:setcookie(&amp;ldquo;haowenjiao&amp;rdquo;,Cookie) ] catch _:_Why -&amp;gt; mnesiaDBA_pub_function:log( _Why, &amp;ldquo;../doc/logs/myuser.access&amp;rdquo; ),</description>
     </item>
     
     <item>
@@ -262,7 +206,7 @@ Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = ya
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsapi/</guid>
-      <description>1.check_cookie( A ) -&amp;gt; H = A#arg.headers, case yaws_api:find_cookie_val( ?Cook, H#headers.cookie ) of Val when Val /= [] -&amp;gt; case yaws_api:cookieval_to_opaque( Val ) of {ok, Sess} -&amp;gt; {ok, Sess, Val}; { error, { has_session, Sess }} -&amp;gt; {ok, Sess}; Else -&amp;gt; Else end; [] -&amp;gt; {error, nocookie} end. 2.{ok, _Sess, Cookie} -&amp;gt; yaws_api:delete_cookie_session( Cookie ); 删除session 3.yaws_api:new_cookie_session( Sess ). 新建session yaws_api:new_cookie_session( Sess, TTL ). yaws_api:new_cookie_session( Sess, TTL, CleanupPid ). 4.yaws_api:setcookie(&amp;ldquo;haowenjiao&amp;rdquo;,Cookie) -&amp;gt; 估计默认权限为当前文件夹下的所有目录 yaws_api:setcookie( &amp;ldquo;haowenjiao&amp;rdquo;, Cookie, Path ).</description>
+      <description>1.check_cookie( A ) -&amp;gt; H = A#arg.headers, case yaws_api:find_cookie_val( ?Cook, H#headers.cookie ) of Val when Val /= [] -&amp;gt; case yaws_api:cookieval_to_opaque( Val ) of {ok, Sess} -&amp;gt; {ok, Sess, Val}; { error, { has_session, Sess }} -&amp;gt; {ok, Sess}; Else -&amp;gt; Else end; [] -&amp;gt; {error, nocookie} end. 2.{ok, _Sess, Cookie} -&amp;gt; yaws_api:delete_cookie_session( Cookie ); 删除session 3.yaws_api:new_cookie_session( Sess ). 新建s</description>
     </item>
     
     <item>
@@ -271,8 +215,7 @@ Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = ya
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsbug/</guid>
-      <description>1 Failed to load setuid_drv (from &amp;ldquo;/httx/yaws/lib/yaws/priv/lib&amp;rdquo;) : &amp;ldquo;Driver compiled with incorrect version of erl_driver.h&amp;rdquo; 疑似原因： 1.It looks like you&amp;rsquo;ve compiled on one version of Erlang and are trying to run it with different version.（由A版本编译，由B版本运行） 2.安装Aerlang版本，卸载不全，由安装B版本 环境： 1.Erlang版本：R15B01（安装成功） 2.yaws：1.91（安装失败） 目前解决办法：安装yaws1.96版本成功 2 epam.c:2:22: fatal error: pam_appl.h: 没有那个文件或目录 yum -y install pam-devel
-下载 openpam wget http://nchc.dl.sourceforge.net/sourceforge/openpam/openpam-20130907.tar.gz 编译/安装 openpam tar zxvf openpam-20130907.tar.gz cd openpam-20130907 ./configure sudo make install 修改 YAWS cd yaws-1.97/c_src vim epam.</description>
+      <description>1 Failed to load setuid_drv (from &amp;ldquo;/httx/yaws/lib/yaws/priv/lib&amp;rdquo;) : &amp;ldquo;Driver compiled with incorrect version of erl_driver.h&amp;rdquo; 疑似原因： 1.It looks like you&amp;rsquo;ve compiled on one version of Erlang and are trying to run it with different version.（由A版本编译，由B版本运行） 2.安装Aerla</description>
     </item>
     
     <item>
@@ -281,7 +224,7 @@ Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = ya
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsehtml/</guid>
-      <description>Data1 ={p, [{style, &amp;ldquo;display:none&amp;rdquo;},{id,&amp;ldquo;nowpage&amp;rdquo;}],[Page]}, {ehtml, Data1} {ehtml, {table, [], {tr, [], [{td, [{width, &amp;ldquo;30%&amp;quot;}], {table,[{border, &amp;ldquo;1&amp;rdquo;}, {bgcolor, beige},{bordercolor, black}], [{tr, [], {td, [], pb(&amp;ldquo;User: ~s&amp;rdquo;, [User])}}] } }, {td, [{align, right}], {img, [{src, &amp;ldquo;junk.jpg&amp;rdquo;}]} }] } } }. </description>
+      <description>Data1 ={p, [{style, &amp;ldquo;display:none&amp;rdquo;},{id,&amp;ldquo;nowpage&amp;rdquo;}],[Page]}, {ehtml, Data1} {ehtml, {table, [], {tr, [], [{td, [{width, &amp;ldquo;30%&amp;quot;}], {table,[{border, &amp;ldquo;1&amp;rdquo;}, {bgcolor, beige},{bordercolor, black}], [{tr, [], {td, [], pb(&amp;ldquo;User: ~s&amp;rdquo;, [User])}}] } }, {td, [{align, right}], {img, [{src, &amp;ldquo;junk.jpg&amp;rdquo;}]} }] } } }.</description>
     </item>
     
     <item>
@@ -290,8 +233,7 @@ Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = ya
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsssibindings/</guid>
-      <description>test.yaws out( A ) -&amp;gt; {ehtml,[{ssi,&amp;ldquo;ssi_ex1.txt&amp;rdquo;,&amp;quot;@&amp;quot;,[{&amp;ldquo;a&amp;rdquo;,&amp;ldquo;zippo&amp;rdquo;},{&amp;ldquo;b&amp;rdquo;,&amp;ldquo;我有一头小毛驴&amp;rdquo;}]}]}. ssi_ex1.txt variable a = @a@,b=@b@ test.yaws variable a = zippo,b=我有一头小毛驴
-{ssi, &amp;ldquo;/inc/health_text.inc&amp;rdquo;, &amp;ldquo;%&amp;quot;,[{&amp;ldquo;embed&amp;rdquo;, &amp;ldquo;choosen&amp;rdquo;}]}; {ssi, &amp;ldquo;/inc/health_text.inc&amp;rdquo;, &amp;ldquo;&amp;quot;,[{&amp;quot;&amp;quot;, &amp;ldquo;&amp;quot;}]};</description>
+      <description>test.yaws out( A ) -&amp;gt; {ehtml,[{ssi,&amp;ldquo;ssi_ex1.txt&amp;rdquo;,&amp;quot;@&amp;quot;,[{&amp;ldquo;a&amp;r</description>
     </item>
     
     <item>
@@ -300,10 +242,7 @@ Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = ya
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</guid>
-      <description>Post传值 Post = yaws_api:parse_post( A ), Data =[ X|| {, X} &amp;lt;-Post ]。 query 可以接受问好 out(A) -&amp;gt; [{&amp;ldquo;name&amp;rdquo;,Name}|] = yaws_api:parse_query( A ), {bindings, [{&amp;ldquo;A&amp;rdquo;, Name}]}. Post和？都可以使用 case postvar(A,&amp;ldquo;lang&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val end yaws_api:queryvar( A, &amp;ldquo;lang&amp;rdquo; ) lang代表form表单的一个name case yaws_api:queryvar(A, &amp;ldquo;userlogin&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val
-userlogin代表form表单的一个name
-case postvar(A,&amp;ldquo;lang&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val
-页面的值的传递 ID = yaws_api:binding(&amp;ldquo;B&amp;rdquo;) P = yaws_api:parse_query(A), L = case lists:keysearch(page, 1, P) of {value, {page, Page}} -&amp;gt; &amp;hellip;.</description>
+      <description>Post传值 Post = yaws_api:parse_post( A ), Data =[ X|| {, X} &amp;lt;-Post ]。 query 可以接受问好 out(A) -&amp;gt; [{&amp;ldquo;name&amp;rdquo;,Name}|] = yaws_api:parse_query( A ), {bindings, [{&amp;ldquo;A&amp;rdquo;, Name}]}. Post和？都可以使用 case postvar(A,&amp;ldquo;lang&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val end yaws_api:queryvar( A, &amp;ldquo;lang&amp;rdquo; ) lang代表fo</description>
     </item>
     
     <item>

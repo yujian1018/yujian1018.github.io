@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>7.项目研究 on My New Hugo Site</title>
+    <title>7.项目研究 on 清水的小站</title>
     <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/</link>
-    <description>Recent content in 7.项目研究 on My New Hugo Site</description>
+    <description>Recent content in 7.项目研究 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
 	<atom:link href="https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +16,7 @@
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</guid>
-      <description>Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy
-Dispatch组合
-静态文件 erlydtl模块动态文件</description>
+      <description>Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy Dispatch组合 静态文件 e</description>
     </item>
     
     <item>
@@ -28,14 +25,7 @@ Dispatch组合
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
       <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</guid>
-      <description>https://github.com/basho/rebar/
-配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample
-使用案例： http://dhq.me/build-compile-eunit-release-erlang-application-with-rebar
-1.git clone git://github.com/basho/rebar.git
-2.cd rebar ./bootstrap
-Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Congratulations! You now have a self-contained script called &amp;ldquo;rebar&amp;rdquo; in your current working directory. Place this script anywhere in your path and you can use rebar to build OTP-compliant apps.
-./rebar -h  ./rebar compile eunit
-注意：rebar编译一定需要是application的文件结构，即必须包含：_app.erl _app.src _sup.erl</description>
+      <description>https://github.com/basho/rebar/ 配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample</description>
     </item>
     
     <item>

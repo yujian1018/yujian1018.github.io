@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5. 进阶 on 清水的小站</title>
-    <link>https://python.01cs.cc/5.-%E8%BF%9B%E9%98%B6/</link>
+    <link>https://yujian1018.github.com/book/python/5.-%E8%BF%9B%E9%98%B6/</link>
     <description>Recent content in 5. 进阶 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
     
-	<atom:link href="https://python.01cs.cc/5.-%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.com/book/python/5.-%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

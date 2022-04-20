@@ -1,4 +1,4 @@
-baseURL: "https://python.01cs.cc"
+baseURL: "https://yujian1018.github.com/book/python"
 # 分页
 #paginate: 10
 #paginatePath: "page" # Default value: “page” The path element used during pagination (https://example.com/page/2).
