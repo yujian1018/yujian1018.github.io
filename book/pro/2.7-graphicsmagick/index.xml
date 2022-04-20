@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2.7 GraphicsMagick on My New Hugo Site</title>
-    <link>http://example.org/2.7-graphicsmagick/</link>
+    <link>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/</link>
     <description>Recent content in 2.7 GraphicsMagick on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/2.7-graphicsmagick/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/pro/2.7-graphicsmagick/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2.7.1</title>
-      <link>http://example.org/2.7-graphicsmagick/2.7.1/</link>
+      <link>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.1/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.7-graphicsmagick/2.7.1/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.1/</guid>
       <description>显示图像文件详细信息 gm identify a.jpg     更改当前目录下*.jpg的尺寸大小，并保存于目录.thumb里面 gm mogrify -output-directory .thumbs -resize 320x200 *.jpg   将三幅图像和并为一副图像 gm montage -mode concatenate -tile 3x1 image1.ppm image2.ppm image3.ppm concatenated.miff   显示图像 gm display &amp;lsquo;vid:*.jpg&amp;rsquo;   格式转换 gm convert a.bmp a.jpg || gm convert a.bmp a.pdf（转换为pdf)   调整图像dpi和大小 gm convert -density 288 -geometry 25% image.gif image.gif（缩小为原先的1／4，并且dpi为288）gm convert -resize 640x480 image.gif image.gif（转换为640x480的图像)   在图像上添加文字 gm convert -font Arial -fill blue -pointsize 18 -draw &amp;ldquo;text 10,10 &amp;lsquo;your text here&amp;rsquo;&amp;rdquo; test.</description>
     </item>
     
     <item>
       <title>2.7.2</title>
-      <link>http://example.org/2.7-graphicsmagick/2.7.2/</link>
+      <link>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.2/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.7-graphicsmagick/2.7.2/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.2/</guid>
       <description>GraphicsMagick缩放比例的精准控制 原始图片是input.jpg，尺寸：160x120只缩小不放大 gm convert input.jpg -resize &amp;ldquo;500x500&amp;gt;&amp;rdquo; output_1.jpg 加了&amp;gt;,表示只有当图片的宽与高，大于给定的宽与高时，才进行“缩小”操作。 生成的图片大小是：160x120，未进行操作 如果不加&amp;gt;,会导致图片被比等放大。
 等比缩图 （缺点：产生白边） gm convert input.jpg -thumbnail &amp;ldquo;100x100&amp;rdquo; output_1.jpg
 生成的图片大小是：100x75 非等比缩图，按给定的参数缩图 gm convert input.jpg -thumbnail &amp;ldquo;100x100!&amp;rdquo; output_2.jpg
@@ -37,10 +37,10 @@ gm convert input.jpg -thumbnail &amp;ldquo;10000@ -background gray -gravity cent
     
     <item>
       <title>2.7.3</title>
-      <link>http://example.org/2.7-graphicsmagick/2.7.3/</link>
+      <link>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.3/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.7-graphicsmagick/2.7.3/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.3/</guid>
       <description>1.编译成动态库。 ./configure &amp;ndash;enable-shared make sudo make install
 编写一个例子 gcc -o demo demo.c -O GraphicsMagick-config --cppflags --ldflags --libs 执行时出现：libGraphicsMagick++.so.12: cannot open shared object file: No such file or directory
 原因应该是“原因可以归结为一句话：程序没有找到动态链接库，虽然这个动态链接库存在，但是默认情况下，编译器只会使用/lib和/usr/lib这两个目录下的库文件
@@ -54,10 +54,10 @@ ldconfig
     
     <item>
       <title>2.7.4</title>
-      <link>http://example.org/2.7-graphicsmagick/2.7.4/</link>
+      <link>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.4/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.7-graphicsmagick/2.7.4/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.4/</guid>
       <description>terminate called after throwing an instance of &amp;lsquo;Magick::WarningCoder&amp;rsquo; what(): Magick: profile matches sRGB but writing iCCP instead (q1_80x80_100%.png) reported by coders/png.c:1076 (PNGWarningHandler)
 http://my.oschina.net/1pei/blog/479162#OSC_h1_1
 libpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的profile使用D50 whitepoint, 而D65才是标准。这种profile由Adobe Photoshop使用, 虽然缺省在png图片中并不嵌入该profile。最简单的方法是从图片中删除内嵌的profile，但这会导致颜色有稍许偏差（当有颜色校正系统时）。但如果不希望颜色有偏差（例如用于打印输出）， 可以嵌入另一种不同的颜色profile。

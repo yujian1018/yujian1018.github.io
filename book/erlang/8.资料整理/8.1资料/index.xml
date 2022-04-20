@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.1资料 on My New Hugo Site</title>
-    <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/</link>
+    <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/</link>
     <description>Recent content in 8.1资料 on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>8.1.1Erlang的调度原理</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</guid>
       <description>原文 http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html 免爬墙链接 http://www.dikutal.dk/blog/jlouis/how-erlang-does-scheduling
 Jesper Louis Andersen，2013年1月12日
 我用这篇文章解释一下Erlang和其他语言运行时相比不同之处。我还要解释为什么Erlang往往会牺牲吞吐换取更低的延迟。 太长了，我懒得读（译者注：原文TL;DR表示too long, didn’t read。原作者可能是在参与和别人的讨论中写的这篇文章，“懒得读”表现出一种“懒得跟你们争了”的有趣心态。校园网爬墙速度太慢，所以没有验证。）——Erlang和其他语言运行时不同之处在于关注的重点不同。本文描述了为什么进程很少的时候往往看上去似乎性能很差，但是进程很多的时候却表现得很好。
@@ -36,10 +36,10 @@ Erlang是为保证低延迟软实时的特性而精心打造的。2000的reducti
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</guid>
       <description>erlang 是开源的，很多人都研究过源代码。但是，从erlang代码到c代码，这是个不小的跨度，而且代码也比较复杂。所以这里，我利用一些时间，整理下 erlang代码的执行过程，从erlang代码编译过程，到代码执行过程做讲解，然后重点讲下虚拟机执行代码的原理。将本篇文章，献给所有喜欢erlang的人。
 erlang代码编译过程 erlang对开发者是友好的，从erlang程序文件编译成能被erlang虚拟机识别的beam文件，在这个编译过程还对开发者暴露中间代码。借助这个中间代码，我们就可以逐步探究erlang代码的执行过程。 这是erlnag的编译过程，当然，最开始和大多数编译器一样，首先会将程序文件转换成语法树，但这个转换对我们来说阅读的意义不大，所以归结于以上3个过程。
   erlang核心代码 确切的叫法是Core Erlang，使用了类似Haskell 的语法，而且每个变量都用“Let” 声明。在erlang shell通过以下方式可以获取模块的Core Erlang代码，将会生成test.core文件 c(test, to_core). 实际上core文件可以直接编译成beam文件，如下： c(test, from_core).
@@ -55,10 +55,10 @@ File Path beam_makeops erts/emulator/utils/ ops.tab erts/emulator/beam/ beam_opc
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</guid>
       <description>以下是一些Erlang SMP实现的细节和与性能与伸缩性相关一些简单介绍。
 几周之内还有有一个关于多核如何运作以及未来如何发展的更详细的介绍。我打算将一些内容放在我的报告中，将于9月27日的ICFP2008，Erlang Workshop在Victoria BC展示给大家。
 没有SMP支持的Erlang VM只有1个运行在主处理线程中的调度器。该调度器从运行队列（run-queue）中取出可以运行的Erlang进程以及IO任务，而且因为只有一个线程访问他们所以无须锁定任何数据。

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5.进阶 on My New Hugo Site</title>
-    <link>http://example.org/5.%E8%BF%9B%E9%98%B6/</link>
+    <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/</link>
     <description>Recent content in 5.进阶 on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/5.%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</guid>
       <description>1.粘包问题 数据连包问题，这个在client/server的通讯中很常见。就是，当client在极短的时间内发送多个包给server，这时server在接收数据的时候可能发生连包问题，就一次性接收这几个包的数据，导致数据都粘连在一起。
 这里先讨论{packet, raw}或者{packet,0}的情况，分别看下{active, Boolean}的两种方式：
 gen_tcp对socket数据封包的获取有以下2种方式，
@@ -34,10 +34,10 @@ http | http_bin 设置以上参数，收到的数据将被erlang:decode_packet/3
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</guid>
       <description>以发布ping为例 1.获取源码+deps，并且完成编译
 2生成配置文件 cd ~ mkdir rel cd rel ../rebar create-node nodeid=ping
 3.修改原始配置文件, reltool.config lib_dirs %配置deps库路径，必须配置打包应用的路径 {lib_dirs, [&amp;quot;../&amp;quot;, &amp;ldquo;../deps/&amp;quot;, &amp;ldquo;../apps/&amp;quot;]}
@@ -55,10 +55,10 @@ a.修改配置文件 ping.app.src %修改版本号 reltool.config %修改版本�
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</guid>
       <description>erlang心跳机制
 什么是erlang心跳机制？这是erlang运行时系统定期监控系统是否正常运行的程序。 erlang为什么要心跳机制？我们都知道，erlang有很多进程监督树，启动了很多supervisor来保证process的高可靠性， 但如果连emulator也死掉了，那erlang也就回天乏术了， 所以这时只能靠heart 来重新启动erlang。
 1. C:\&amp;gt;erl -heart -env HEART_COMMAND &amp;quot;erl -heart&amp;quot; 2. Eshell V5.10.2 (abort with ^G) 3. 1&amp;gt;  这时候你可以按 CTRL + C 挂起erlang，或者直接关闭 erlang shell 窗口，系统都会重新打开erlang shell
@@ -72,10 +72,10 @@ erlang心跳原理 erlang心跳机制的实现原理是启动一个 heart 进程
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</guid>
       <description>二进制存储
 erlang二进制数据在内存中有两种存在形式，当数据大小不到 64 bytes，就直接存在进程堆内，如果超过了64 bytes，就被保存到进程外的共享堆里，可以给节点内所有进程共享。
 erlang有两种二进制容器：heap binaries和refc binaries。
@@ -87,10 +87,10 @@ refc binaries 官方的叫法是引用计数二进制，就是对于那些超过
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</guid>
       <description>os:timestamp() 获取到的时间为操作系统的时间，不做任何修正；
 而erlang:now()，每次获取都会确保生成了唯一的时间，就是说，erlang:now()在实现上对时间做了一个校正，每次都生成一个单调向前的唯一值。
 主要是这3个特点：
@@ -112,10 +112,10 @@ erlang是怎么校正时间的？ erlang内部时间会和系统挂钟时间保�
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</guid>
       <description>官方文档：http://www.erlang.org/doc/man/erl.html
 erlang启动参数有3种：emulator flags, flags 和plain arguments。
 emulator flags 是以“+”开头的，用来控制虚拟机的行为，附送一个非常实用的例子：
@@ -124,10 +124,10 @@ erl +p 100000 #	最大进程数 erl -pa ebin +K true #开启epoll调度，在lin
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</guid>
       <description>ets表	1400	erl -env ERL_MAX_ETS_TABLES 1000000 erl +e 1000000 并发数	erl +P 1000000 erlang:system_info(process_limit).	2^18=262144 最大值为2^27-1=134217727	erlang实际使用的进程数量限制可能比你设置的要大得多，这是因为erlang运行系统选择的进程数量限制通常是2的幂 有效范围是1024-134217727 打开文件数	linux并发读取文件最大数量 erlang:system_info(min_heap_size). {min_heap_size,233} min_heap_size是进程最小堆大小这个参数两个地方会用到， 第一处是erlang初始化进程堆大小， 第二处是gc后堆收缩后维持的最小值， erlang:system_info(min_bin_vheap_size).	{min_bin_vheap_size,46368}	min_bin_vheap_size是进程最小虚拟二进制堆大小，这两个参数都是以word为单位。 初始化足够大的初始内存，可以减少轻度gc的次数，减少反复申请和回收内存的开销 erlang:system_info(fullsweep_after). {fullsweep_after,65535}	fullsweep_after控制深扫描的频率 这个参数确定多少次gc后执行一次深度gc，默认值为65536，有点大了 erlang:system_info(check_io).	erlang:statistics(garbage_collection).	{433,750604,0}	erlang:statistics(io).	{{input,3020851},{output,31981}}	节点名称限制	一个节点的远程节点的最大数目是由可用于节点名称atom的最大数目的限制，换句话说，节点名称限制数量取决于atom的最大数量。另外，节点名称长度也和atom有关，不能超过255个字符。 节点连接限制	能够同时连接的最大节点数是由节点名称限制，可用端口限制，或者可用socket限制共同决定 atom的最大数量	设置erlang系统最大能够处理的原子（atom）数量，默认是1048576 通过配置erlang启动参数（标志+t）可以改变进程数量限制 一个atom最多能有255个字符 tuple中最大元素数量	2^26=67108863个 二进制数据(binary)的大小限制 32位机器上最大不超过 2^29-1 = 536870911 个字节 64位机器上最大不超过 2^61-1 = 2305843009213693951 个字节 果超出限制，erlang位语法（bit syntax）将无法工作，直接抛出 system_limit 异常 一个Erlang节点最大分配的数据空间大小	Erlang运行时系统可以使用到32（或64）位地址空间，事实上，操作系统对单个进程的使用空间做了限制 同时打开的端口数量限制	erlang对同时打开的端口数量做出了限制。默认是65536，Windows下是8096。有效值范围是1024-134217727 erlang:system_info(port_limit)	可以通过环境变量ERL_MAX_PORTS修改，或者配置erlang启动参数（标志+Q）修改 erlang实际使用的端口数量限制可能比你设置的要大得多，这是因为erlang运行系统选择的端口数量限制通常是2的幂 同时打开的文件和socket数量限制	能同时打开的最大文件和socket数量取决于最大能打开的端口数量，以及操作系统的设定和限制 dets表存储限制	单个dets文件大小不能超过2G，在64位的系统也有此限制，mnesia也受到这个限制 The unit of measurement is memory words.</description>
     </item>
     

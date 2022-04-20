@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5.6Erlang启动 on My New Hugo Site</title>
-    <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
+    <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
     <description>Recent content in 5.6Erlang启动 on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</guid>
       <description>错误日志记录器会产生几种类型的报告： Supervisor报告 在Supervisor启动或者停止被监管的进程时
 Progress报告 每次OTP监管进程启动或者停止的时候会产生这个报告。
 Crash报告 当被监管的进程退出时，如果它的退出原因不是normal或者shutdown，就会产生这个报告。 这三种报告是自动产生的，程序员无需关心。除此之外，当程序显式调用error_handler的方法时，也会产生三种日志报告。通过这三种报告，程序可以记录错误，警报以及提示信息。在这里，这三个术语并没有什么特别的语意，仅仅是程序员可以使用的三种标签，用来标明错误日志条目的自然属性（也就是说，想怎么用，随你）。

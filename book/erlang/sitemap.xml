@@ -3,721 +3,721 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/1.%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.4epmd/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.9etop/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.2network/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.2network/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.4cache/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.4cache/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/5.%E8%BF%9B%E9%98%B6/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/6.%E9%A1%B9%E7%9B%AE/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://yujian1018.github.io/book/erlang/tags/</loc>
   </url>
   
 </urlset>

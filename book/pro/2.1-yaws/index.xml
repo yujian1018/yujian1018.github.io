@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2.1 yaws on My New Hugo Site</title>
-    <link>http://example.org/2.1-yaws/</link>
+    <link>https://yujian1018.github.io/book/pro/2.1-yaws/</link>
     <description>Recent content in 2.1 yaws on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/2.1-yaws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/pro/2.1-yaws/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>yaws</title>
-      <link>http://example.org/2.1-yaws/yaws.conf/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yaws.conf/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/</guid>
       <description>http://yaws.hyber.org/yman.yaws?page=yaws.conf
 yaws默认上传文件大小为：2048 partial_post_size = nolimit 上传的文件无限大 post限制 partial_post_size = 2048
 缓存机制 max_num_cached_files max_num_cached_bytes max_size_cached_file cache_refresh_secs
@@ -29,58 +29,58 @@ session 存活时间 keepalive_timeout = 136008*1000</description>
     
     <item>
       <title>Yaws_Session用法</title>
-      <link>http://example.org/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</guid>
       <description>设置session时，需要运行 1.
 Url = &amp;ldquo;/&amp;quot;, [{&amp;ldquo;action&amp;rdquo;, Action}|Data] = yaws_api:parse_query( A ), case Action of &amp;ldquo;reg&amp;rdquo; -&amp;gt; [ {&amp;ldquo;userlogin&amp;rdquo;, UserName}, {&amp;ldquo;password&amp;rdquo;, _Pwd}, {&amp;ldquo;passwordtoo&amp;rdquo;, Pwd}, {&amp;ldquo;Email&amp;rdquo;, Email}, {&amp;ldquo;val&amp;rdquo;,_Val} ] = yaws_api:parse_post( A ), try myuser_mod_manager:reg_user( UserName, erlang:md5( Pwd ), Email ) of Name -&amp;gt; Cookie = yaws_api:new_cookie_session(Name), [ yaws_api:redirect(Url), yaws_api:setcookie(&amp;ldquo;haowenjiao&amp;rdquo;,Cookie) ] catch _:_Why -&amp;gt; mnesiaDBA_pub_function:log( _Why, &amp;ldquo;../doc/logs/myuser.access&amp;rdquo; ), {redirect, &amp;ldquo;/userLogin/userLogin.yaws&amp;rdquo;} end; &amp;ldquo;login&amp;rdquo; -&amp;gt; [ {&amp;ldquo;userlogin&amp;rdquo;, UserName}, {&amp;ldquo;password&amp;rdquo;, Pwd} ] = yaws_api:parse_post( A ), case myuser_mod_manager:login_user( UserName, erlang:md5( Pwd ) ) of true -&amp;gt; {redirect, &amp;ldquo;/&amp;quot;}; false -&amp;gt; {redirect, &amp;ldquo;/userLogin/userLogin.</description>
     </item>
     
     <item>
       <title>yawsapi</title>
-      <link>http://example.org/2.1-yaws/yawsapi/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yawsapi/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yawsapi/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsapi/</guid>
       <description>1.check_cookie( A ) -&amp;gt; H = A#arg.headers, case yaws_api:find_cookie_val( ?Cook, H#headers.cookie ) of Val when Val /= [] -&amp;gt; case yaws_api:cookieval_to_opaque( Val ) of {ok, Sess} -&amp;gt; {ok, Sess, Val}; { error, { has_session, Sess }} -&amp;gt; {ok, Sess}; Else -&amp;gt; Else end; [] -&amp;gt; {error, nocookie} end. 2.{ok, _Sess, Cookie} -&amp;gt; yaws_api:delete_cookie_session( Cookie ); 删除session 3.yaws_api:new_cookie_session( Sess ). 新建session yaws_api:new_cookie_session( Sess, TTL ). yaws_api:new_cookie_session( Sess, TTL, CleanupPid ). 4.yaws_api:setcookie(&amp;ldquo;haowenjiao&amp;rdquo;,Cookie) -&amp;gt; 估计默认权限为当前文件夹下的所有目录 yaws_api:setcookie( &amp;ldquo;haowenjiao&amp;rdquo;, Cookie, Path ).</description>
     </item>
     
     <item>
       <title>YawsBug</title>
-      <link>http://example.org/2.1-yaws/yawsbug/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yawsbug/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yawsbug/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsbug/</guid>
       <description>1 Failed to load setuid_drv (from &amp;ldquo;/httx/yaws/lib/yaws/priv/lib&amp;rdquo;) : &amp;ldquo;Driver compiled with incorrect version of erl_driver.h&amp;rdquo; 疑似原因： 1.It looks like you&amp;rsquo;ve compiled on one version of Erlang and are trying to run it with different version.（由A版本编译，由B版本运行） 2.安装Aerlang版本，卸载不全，由安装B版本 环境： 1.Erlang版本：R15B01（安装成功） 2.yaws：1.91（安装失败） 目前解决办法：安装yaws1.96版本成功 2 epam.c:2:22: fatal error: pam_appl.h: 没有那个文件或目录 yum -y install pam-devel
 下载 openpam wget http://nchc.dl.sourceforge.net/sourceforge/openpam/openpam-20130907.tar.gz 编译/安装 openpam tar zxvf openpam-20130907.tar.gz cd openpam-20130907 ./configure sudo make install 修改 YAWS cd yaws-1.97/c_src vim epam.</description>
     </item>
     
     <item>
       <title>YawsEhtml</title>
-      <link>http://example.org/2.1-yaws/yawsehtml/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yawsehtml/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yawsehtml/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsehtml/</guid>
       <description>Data1 ={p, [{style, &amp;ldquo;display:none&amp;rdquo;},{id,&amp;ldquo;nowpage&amp;rdquo;}],[Page]}, {ehtml, Data1} {ehtml, {table, [], {tr, [], [{td, [{width, &amp;ldquo;30%&amp;quot;}], {table,[{border, &amp;ldquo;1&amp;rdquo;}, {bgcolor, beige},{bordercolor, black}], [{tr, [], {td, [], pb(&amp;ldquo;User: ~s&amp;rdquo;, [User])}}] } }, {td, [{align, right}], {img, [{src, &amp;ldquo;junk.jpg&amp;rdquo;}]} }] } } }. </description>
     </item>
     
     <item>
       <title>YawsSSIbindings</title>
-      <link>http://example.org/2.1-yaws/yawsssibindings/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yawsssibindings/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yawsssibindings/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yawsssibindings/</guid>
       <description>test.yaws out( A ) -&amp;gt; {ehtml,[{ssi,&amp;ldquo;ssi_ex1.txt&amp;rdquo;,&amp;quot;@&amp;quot;,[{&amp;ldquo;a&amp;rdquo;,&amp;ldquo;zippo&amp;rdquo;},{&amp;ldquo;b&amp;rdquo;,&amp;ldquo;我有一头小毛驴&amp;rdquo;}]}]}. ssi_ex1.txt variable a = @a@,b=@b@ test.yaws variable a = zippo,b=我有一头小毛驴
 {ssi, &amp;ldquo;/inc/health_text.inc&amp;rdquo;, &amp;ldquo;%&amp;quot;,[{&amp;ldquo;embed&amp;rdquo;, &amp;ldquo;choosen&amp;rdquo;}]}; {ssi, &amp;ldquo;/inc/health_text.inc&amp;rdquo;, &amp;ldquo;&amp;quot;,[{&amp;quot;&amp;quot;, &amp;ldquo;&amp;quot;}]};</description>
     </item>
     
     <item>
       <title>Yaws页面传值</title>
-      <link>http://example.org/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</link>
+      <link>https://yujian1018.github.io/book/pro/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</guid>
+      <guid>https://yujian1018.github.io/book/pro/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</guid>
       <description>Post传值 Post = yaws_api:parse_post( A ), Data =[ X|| {, X} &amp;lt;-Post ]。 query 可以接受问好 out(A) -&amp;gt; [{&amp;ldquo;name&amp;rdquo;,Name}|] = yaws_api:parse_query( A ), {bindings, [{&amp;ldquo;A&amp;rdquo;, Name}]}. Post和？都可以使用 case postvar(A,&amp;ldquo;lang&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val end yaws_api:queryvar( A, &amp;ldquo;lang&amp;rdquo; ) lang代表form表单的一个name case yaws_api:queryvar(A, &amp;ldquo;userlogin&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val
 userlogin代表form表单的一个name
 case postvar(A,&amp;ldquo;lang&amp;rdquo;) of undefined -&amp;gt; &amp;ldquo;None&amp;rdquo;; {ok, Val} -&amp;gt; Val

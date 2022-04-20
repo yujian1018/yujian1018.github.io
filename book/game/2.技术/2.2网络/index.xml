@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/</link>
+    <link>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2</title>
-      <link>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.1-%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.1-%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.1-%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.1-%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cs同步</title>
-      <link>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/cs%E5%90%8C%E6%AD%A5/</link>
+      <link>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/cs%E5%90%8C%E6%AD%A5/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/cs%E5%90%8C%E6%AD%A5/</guid>
+      <guid>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/cs%E5%90%8C%E6%AD%A5/</guid>
       <description>帧同步：客户端p2p方式
 cs同步：客户端采集input， 发送给服务器，广播给所有玩家</description>
     </item>
     
     <item>
       <title>客户端服务端互联</title>
-      <link>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.2-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BA%92%E8%81%94/</link>
+      <link>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.2-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BA%92%E8%81%94/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.2-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BA%92%E8%81%94/</guid>
+      <guid>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/2.2.2-%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BA%92%E8%81%94/</guid>
       <description>1.使用长连接 阻塞式、非阻塞式 2.使用短连接</description>
     </item>
     
     <item>
       <title>帧同步</title>
-      <link>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/%E5%B8%A7%E5%90%8C%E6%AD%A5/</link>
+      <link>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/%E5%B8%A7%E5%90%8C%E6%AD%A5/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/%E5%B8%A7%E5%90%8C%E6%AD%A5/</guid>
+      <guid>https://yujian1018.github.io/book/game/2.%E6%8A%80%E6%9C%AF/2.2%E7%BD%91%E7%BB%9C/%E5%B8%A7%E5%90%8C%E6%AD%A5/</guid>
       <description>http://www.gameres.com/thread_476063_1_1.html
 1.帧同步
 原理

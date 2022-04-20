@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://yujian1018.github.io/book/erlang/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>1.1安装与运行环境</title>
-      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</link>
+      <link>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.1%E5%AE%89%E8%A3%85%E4%B8%8E%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83/</guid>
       <description>Install #ubuntu sudo apt-get install make gcc openssl libssl-dev libncurses-dev libwxgtk3.0-dev m4 glibc-devel build autoconf sudo apt install -y libncurses-dev libwxgtk3.0-dev m4; ## CentOS yum -y install make gcc gcc-c++ kernel-devel m4 ncurses-devel openssl-devel wget https://github.com/erlang/otp/archive/OTP-21.0.tar.gz tar -zxf otp-OTP-21.0.tar.gz cd otp-OTP-21.0 ./otp_build autoconf ./configure --enable-native-libs make sudo make install 依赖库说明    lib库 功能     libncurses-dev 系统的必备库,基础库   build-essential 提供编译程序必须软件包的列表信息   libwxgtk3.0-dev 图形库   libssl-dev 加密库   m4 native 模式 hipe   hipe erlang-base-hipe   fop Apache FOP print formatter (requires Java).</description>
     </item>
     
     <item>
       <title>1.2编辑器、集成开发环境与其它工具</title>
-      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</link>
+      <link>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.2%E7%BC%96%E8%BE%91%E5%99%A8%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%85%B6%E5%AE%83%E5%B7%A5%E5%85%B7/</guid>
       <description>编辑器   IDEA
   VIM
   VSCode
@@ -41,20 +41,20 @@
     
     <item>
       <title>1.3代码编译运行</title>
-      <link>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</link>
+      <link>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/1.%E5%AD%A6%E4%B9%A0/1.3%E4%BB%A3%E7%A0%81%E7%BC%96%E8%AF%91%E8%BF%90%E8%A1%8C/</guid>
       <description>安装Erlang后，运行代码，先编译后运行
 在Eshell中编译运行 $erl Erlang (BEAM) emulator version 5.5.1 [source] [async一threads:0] [hipe] Eshell V5.5.1 (abort with }G) 1&amp;gt; c(hello). {ok，hello} 2&amp;gt; hello:start(). Hello world ok 3&amp;gt; c(&amp;#34;test.erl&amp;#34;, [to_core]). 4&amp;gt; c(test). %编译 {ok,test} 5&amp;gt; erts_debug:df(test). %生成opcode ok 自带的编译工具 $ erlc hello.erl $ erlc -h $ erlc -o ebin -I include/ src/*.erl $ erlc +&amp;#34;&amp;#39;S&amp;#39;&amp;#34; mod.erl %产生自解码 .S汇编代码 $ erlc +&amp;#34;&amp;#39;P&amp;#39;&amp;#34; mod.erl $ erlc +&amp;#34;&amp;#39;E&amp;#39;&amp;#34; mod.erl $ erl -noshell -s hello start -s init stop Hello world $erl -eval &amp;#39;io:format(&amp;#34;Memory:~p~n&amp;#34;, [erlang:memory(total)]).</description>
     </item>
     
     <item>
       <title>2.1 Erlang终端</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.1-erlang%E7%BB%88%E7%AB%AF/</guid>
       <description>在unix终端中输入erl来打开Erlang终端。Erlang终端简称（Eshell) 在windows中我们可以通过单击&amp;quot;开始&amp;quot;菜单中的Erlang运行图标来打开。
 当进入Eshell中，请尝试输入一些整数，在表达式的最后需要使用英文句号(句点)来终止，然后按回车键执行：
 1&amp;gt; -234. -234 2&amp;gt; 2#1010. 10 3&amp;gt; $A. 65 如果在输入结束时没有输入句点，那么Eshell就不会对你的输入值进行求值，并会继续接收你后续输入的信息，知道输入句点并且按下回车键执行
@@ -70,10 +70,10 @@
     
     <item>
       <title>2.2 基础语法</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</guid>
       <description>注释 注释不会被编译
 单行注释，你可以在任何地方使用以 %% 开头的单行注释。 多行注释等同于单行注释
 %%  if test(A, B) -&amp;gt; if (A &amp;gt; 1) andalso (B &amp;gt; 1) -&amp;gt; 1; true -&amp;gt; 2 end.  if语句会对Guard子句做catch,所以 if 1/0 -&amp;gt;a; true -&amp;gt;b end.的返回值是b而不是抛出异常 if的Guard子句放在变量里就可以让异常抛出来:G=1/0 , if G-&amp;gt;a; true -&amp;gt;b end. Guard subexpressions resulting in a runtime error are treated as returning false. Guard可以使用, ; 表达多个条件if X=:=1,Y&amp;lt;2;X+Y&amp;lt;4 -&amp;gt;ok; true -&amp;gt;error end.  case a(Arg) -&amp;gt; case Arg of undefined -&amp;gt; A = 1, B = 2; {ok, arg} -&amp;gt; A = 3, B = 4 end, A + B.</description>
@@ -81,19 +81,19 @@
     
     <item>
       <title>2.2.1 异常处理</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.2.1-%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</guid>
       <description>即便是Erlang程序员也难免会写出有问题的程序。代码中的语法错误（和一些语义错误）可以借助编译器检测出来，但程序仍可能含有逻辑错误。对需求理解的偏差或对需求实现的不完备所造成的逻辑错误只能通过大量的一致性测试来检测。其他的错误则以运行时错误的形式出现。 函数是在Erlang进程中执行的。函数可能出于多种原因而失败，比如： * 一次匹配操作失败 * 使用错误的参数调用BIF * 我们可能打算对一个算术表达式求值，然而其中的一个项式并不是数值 Erlang本身当然无法修正这些情况，但它为程序员提供了一些检测和处理失败情况的机制。借助这些机制，程序员可以设计出健壮和容错的系统。Erlang具备如下机制： * 监视表达式的求值 * 监视其他进程的行为 * 捕获对未定义函数的求值 Catch和Throw catch和throw提供了一种表达式求值的监视机制，可以用于 &amp;gt; 处理顺序代码中的错误（catch） &amp;gt; 函数的非本地返回（catch结合throw） 表达式求值失败（如一次匹配失败）的一般后果是导致求值进程的异常退出。通过以下方式可以借助catch来更改这个默认行为： catch Expression 若表达式的求值过程没有发生错误，则catch Expression返回Expression的值。于是catch atom_to_list(abc)会返回[97,98,99]、catch 22会返回22。 若求值过程失败，catch Expression将返回元组{&amp;#39;EXIT&amp;#39;, Reason}，其中Reason是用于指明错误原因的原子式。于是catch an_atom - 2会返回{&amp;#39;EXIT&amp;#39;, badarith}、catch atom_to_list(123)会返回{&amp;#39;EXIT&amp;#39;, badarg}。 函数执行结束后，控制流程便返还者。throw/1可以令控制流程跳过调用者。如果我们像上述的那样计算catch Expression，并在Expression的求值过程中调用throw/1，则控制流程将直接返回至catch。注意catch可以嵌套；在嵌套的情况下，一次失败或throw将返回至最近的catch处。在catch之外调用throw/1将导致运行时错误。 下面的例子描述了catch和throw的行为。定义函数foo/1： foo(1) -&amp;gt; hello; foo(2) -&amp;gt; throw({myerror, abc}); foo(3) -&amp;gt; tuple_to_list(a); foo(4) -&amp;gt; exit({myExit, 222}). 假设在不使用catch的情况下，一个进程标识为Pid的进程执行了这个函数，则： foo(1) 返回hello。 foo(2) 执行throw({myerror,abc})。由于不在catch的作用域内，执行foo(2)的进程将出错退出。 foo(3) 执行foo(3)的进程执行BIF tuple_to_list(a)。这个BIF用于将元组转换为列表。在这个例子中，参数不是元组，因此该进程将出错退出。 foo(4) 执行BIF exit/1。由于不在catch的范围内，执行foo(4)的函数将退出。很快我们就会看到参数{myExit,222}的用途。 foo(5) 执行foo(5)的进程将出错退出，因为函数foo/1的首部无法匹配foo(5)。 现在让我们来看看在catch的作用域内对foo/1以相同的参数进行求值会发生什么： demo(X) -&amp;gt; case catch foo(X) of {myerror, Args} -&amp;gt; {user_error, Args}; {&amp;#39;EXIT&amp;#39;, What} -&amp;gt; {caught_error, What}; Other -&amp;gt; Other end.</description>
     </item>
     
     <item>
       <title>2.3 数据类型</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.3-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
       <description>1. 变量 1.变量不变 在erlang中的变量只能被赋值一次，变量第一个字母要是大写的。 在erlang中变量是不可变的，也没有共享内存的概念，也没有锁。
 2.模式匹配 符号”=”是值类型匹配操作(带有赋值的意思)。（pattern matching）
  2.整数 一个整数
@@ -104,29 +104,29 @@
     
     <item>
       <title>2.4 运算符</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.4-%E8%BF%90%E7%AE%97%E7%AC%A6/</guid>
       <description>转义符 \b 退格 \d 删除 \e 转义 \f 换页 \n 新行 \r 换行 \s 空格 \t 制表符 \v 纵向制表符 \&amp;#39; 单引号 \&amp;#34; 双引号 \\ 反斜杠 \C C的ASCII码（C是一个字符） 操作符 X&amp;gt;Y X大于Y X&amp;lt;Y X小于Y X=&amp;lt;Y X小于等于Y X&amp;gt;=Y X大于等于Y X==Y X等于Y X/=Y X不等于Y X=:=Y X全等于Y 值和类型都必须相同 2 =:= 2.0 -&amp;gt; false X=/=Y X不全等于Y number&amp;lt;atom&amp;lt;reference&amp;lt;fun&amp;lt;port&amp;lt;pid&amp;lt;tuple&amp;lt;list&amp;lt;binary 布尔表达式 and 两个参数都是真，返回真 andalso 如果第一个参数是假，返回假 or orelse 如果第一个参数是真，返回真。 xor “异或”：如果两个参数的任何一个参数是真，并且另一个是假，那么返回真 not 一元否定运算符：如果参数是假，那么就返回真 算术表达式 | 操作 | 描述 | 优先级 | | --- | --- | --- | | +X | 一元操作符 + | 1 | | -X | 一元操作符 1 | 2 | | X*Y | X*Y | 2 | | X/Y | X/Y(浮点数相除) | 2 | | X div Y | X整除Y | 2 | | X rem Y | X除Y取余数 | 2 | | bnot X | 对X按位取反 | 2 | | X band Y | 对X和Y安位取与 | 2 | | X+Y | | 3 | | X-Y | | 3 | | X bor Y | 对X和Y按位取或 | 3 | | X bxor Y | 对X和Y按位进行异或 | 3 | | X bsl N | 对X按位左移N位 | 3 | | XbsrN | 对X按位右移N位 | 3 | 2 bsl 5 将整数2左移5位。2转化为二进制10向左移5位变为1000000 转化为10进制64 2 bsr 5 将整数2右移5位。原理相同 band,bor,bxor,bnot 位逻辑运算符。 X band (bnot Y)会在X中将Y所占用的位清零 一元操作符＋和-拥有最高的优先级:其次是乘、除和取余数操作，而加法和减法的优先级别最低。 </description>
     </item>
     
     <item>
       <title>2.5 模块属性</title>
-      <link>http://example.org/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</link>
+      <link>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/2.%E5%9F%BA%E7%A1%80/2.5-%E6%A8%A1%E5%9D%97%E5%B1%9E%E6%80%A7/</guid>
       <description>模块属性 -module(modname). -import(...). -export(...). -compile(Options). -compile(export_all)%属性经常被使用在调试程序中。 -compile( {parse_transform, Module} ). -vsn(Version). %最后一个选项为增加编译选项，Options可以是单个选项或者选项列表。 -vsn(Version).%中的Version可以是任意字符条目。 vim attrs.erl
 -module(attrs). -vsn(1234). -author({joe，armstrong}). -purpose(&amp;#34;example of attributes&amp;#34;). -export( [fac/1]). -type player_id() :: neg_integer(). -callback fun( PlayerId::player_id() ) -&amp;gt; boolean(). fac(1) -&amp;gt; 1; fac(N) -&amp;gt; N*fac(N一1). $ erlc attrs.erl $ erl -pa ./ 1&amp;gt; attrs:module_info(). [{exports，[{fac，1}，{rnodul a_ info，0}，{rnodul e_i nfo，1}]}， {imports，[]}， {attributes，[{vsn，[1234]}， {author，[{joe，armstrong}]}， {purpose，&amp;#34;example of attributes&amp;#34;}]}， {compile，[{options，[{cwd，&amp;#34;/home/joe/2006/book/JAERLANG/Book/code&amp;#34;}， {outdir，&amp;#34;/home/joe/2006/book/JAERLANG/Book/code&amp;#34;}]}， {version，&amp;#34;4.4.3&amp;#34;}， {time，{2007，2，21，19，23，48}}， {source，&amp;#34;/home/joe/2006/book/JAERLANG/Book/code/attrs.erl&amp;#34;}]}] 2&amp;gt; attrs:module_info(attributes). [{vsn，[1234]}，{author，[{joe，armstrong}]}，{purpose，&amp;#34;example of attributes&amp;#34;}] 3&amp;gt; beam_ lib:chunks(&amp;#34;attrs.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</guid>
       <description>ctrl+G 按c
 Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&amp;hellip;&amp;hellip; 解决cmd卡死的问题。（win下面ctrl+G 回车）
 &amp;lt;&amp;lt;A:32,B:32,C:32&amp;gt;&amp;gt; = crypto:strong_rand_bytes(12) . &amp;lt;&amp;lt;42,136,117,238,28,89,154,241,88,189,70,139&amp;gt;&amp;gt; %找出消耗内存最多的进程 lists:reverse(lists:keysort(2,[{P, erlang:process_info(P, heap_size)} || P &amp;lt;- erlang:processes()])). %%找到最消耗内存的ETS表 lists:reverse(lists:keysort(2,[{T, ets:info(T, memory)} || T &amp;lt;- ets:all()])). </description>
@@ -134,10 +134,10 @@ Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&
     
     <item>
       <title>3asn1</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</guid>
       <description>ASN.1（抽象语法标记：Abstract Syntax Notation One) 是一套标准，是描述数据的表示、编码、传输、解码的灵活的记法。它提供了一套正式、无歧义和精确的规则以描述独立于特定计算机硬件的对象结构。
 asn1rt:info/1
 返回模块的编译信息
@@ -153,28 +153,28 @@ asn1rt:utf8_list_to_binary/1
     
     <item>
       <title>3.10OS_Mon</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</guid>
       <description>操作系统健康应用</description>
     </item>
     
     <item>
       <title>3.11crypto</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</guid>
       <description>crypto:hash(md5, Bin||Str). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;Mac:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), lists:flatten(io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). md5(S) -&amp;gt; Md5_bin = erlang:md5(S), Md5_list = binary_to_list(Md5_bin), lists:flatten(list_to_hex(Md5_list)). list_to_hex(L) -&amp;gt; lists:map(fun(X) -&amp;gt; int_to_hex(X) end, L). int_to_hex(N) when N &amp;lt; 256 -&amp;gt; [hex(N div 16), hex(N rem 16)]. hex(N) when N &amp;lt; 10 -&amp;gt; $0 + N; hex(N) when N &amp;gt;= 10, N &amp;lt; 16 -&amp;gt; $a + (N - 10). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;M:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), Integer_to_hex( M, 32 ). integer_to_hex(I, Len) -&amp;gt; Hex = string:to_lower(erlang:integer_to_list(I, 16)), LenDiff = Len - length(Hex), case LenDiff &amp;gt; 0 of true -&amp;gt; string:chars($0, LenDiff) ++ Hex; false -&amp;gt; Hex end.</description>
     </item>
     
     <item>
       <title>3.12Port</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</guid>
       <description>port(socket)调优
 示例：服务器监听端口，接受客户端请求。典型应用场景web服务器，需要实现高吞吐，低延迟的目标
 Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_send,true}, {high_watermark,64 * 1024}, {send_timeout, 30000}, {send_timeout_close, true}, {keepalive, true}]) 参数详解: binary:接收到客户端的消息后，作为binary来处理，binary在erlang中是很高效的数据结构，超过64字节，就是全局保存的，因此在很多操作下是不需要复制的，仅仅复制binary的指针即可，详细请搜索refc binary，注意：binary大量使用需要有丰富的经验，不然可能会内存泄漏 reuseaddr:允许系统复用port,对于高吞吐的系统，这个参数很重要,请搜索:linux port 复用 nodelay:开启linux中的TCP_NODELAY参数，请搜索:TCP_NODELAY 40毫秒延迟 delay_send:默认的erlang port消息发送，是直接发送，若失败则排队处理，然后由调度器进行队列poll操作，如果设置为true,那么就不尝试直接发送，而且扔进队列，等待poll，开启选项会增加一点点消息延迟，换来吞吐量的大量提升 high_watermark:port的发送缓存，缓存满了后，下次发送会直接阻塞，直到缓存低于某个阈值low_watermark。如果是密集网络IO系统，请增大该buffer,避免发送阻塞 send_timeout:在high_watermark中提到了发送阻塞，如果阻塞超过这个时间，那么就会超时，发送直接返回,停止发送 send_timeout_close:如果发生了send_timeout同时设置了send_timeout_close选项，那么超时后，会直接关闭socket.如果发送进程不是很重要，例如web用户进程，强烈建议开启这个选项，当发送30秒超时的时候，就说明该用户出现了很大的麻烦，断开连接是最理想的做法，否则可能出现很多奇怪的bug. keepalive:遵循HTTP/1.1协议的keepalive规定,这个根据业务需求选择是否开启,如果同一个客户端会连续发起http请求，那么建议设置为true,避免多次TCP握手 </description>
@@ -182,20 +182,20 @@ Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_s
     
     <item>
       <title>3compiler</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</guid>
       <description>写测试模块的时候不必频繁导出函数 –compile(export_all) 就可以导出所有函数
 编译模块 1.-compile( export_all ) 2.-compile( {parse_transform,Module} ). Module:parse_transform/2 auses the parse transformation function Module:parse_transform/2 to be applied to the parsed code before the code is checked for errors. 在编译器检查错误之前会把所有代码送入 Module:parse_transform/2，所以 Module:parse_transform/2的返回值需要是代码串 例子： a.erl -compile( {parse_transform,b} ). b.erl -export( [parse_transform/2] ). parse_transform( Code, Option ) -&amp;gt; Fun(), Code. file(File, Options) -&amp;gt; CompRet {outdir,Dir} export_all {i,Dir} {d,Macro} {d,Macro,Value} from_core (t_lib, [to_core]). c(t_lib, [from_core]). </description>
     </item>
     
     <item>
       <title>8.1.1Erlang的调度原理</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.1erlang%E7%9A%84%E8%B0%83%E5%BA%A6%E5%8E%9F%E7%90%86/</guid>
       <description>原文 http://jlouisramblings.blogspot.com/2013/01/how-erlang-does-scheduling.html 免爬墙链接 http://www.dikutal.dk/blog/jlouis/how-erlang-does-scheduling
 Jesper Louis Andersen，2013年1月12日
 我用这篇文章解释一下Erlang和其他语言运行时相比不同之处。我还要解释为什么Erlang往往会牺牲吞吐换取更低的延迟。 太长了，我懒得读（译者注：原文TL;DR表示too long, didn’t read。原作者可能是在参与和别人的讨论中写的这篇文章，“懒得读”表现出一种“懒得跟你们争了”的有趣心态。校园网爬墙速度太慢，所以没有验证。）——Erlang和其他语言运行时不同之处在于关注的重点不同。本文描述了为什么进程很少的时候往往看上去似乎性能很差，但是进程很多的时候却表现得很好。
@@ -215,10 +215,10 @@ Erlang是为保证低延迟软实时的特性而精心打造的。2000的reducti
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</guid>
       <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程.
   Erlang的容错处理：如果不能完成一个任务就死掉 让其它正常的进程来善后。link函数就是用来建立这种进程间的双向连接来监测非正常退出，并做出处理。
   side-effect-free无副作用,其中一种定义是说:一个程序执行前后保持程序的状态不变,不改变非局部变量的值,不改变传入参数值,也无I/O
@@ -241,100 +241,100 @@ Erlang是为保证低延迟软实时的特性而精心打造的。2000的reducti
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.1%E5%87%BD%E6%95%B0/</guid>
       <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程. 负责进程创建职责的是Erlang VM中的Scheduler spawn第三个参数是List,这个调用的时候注意!! Spawning a process will never fail!!! receive子句的处理逻辑抽取为一个独立的方法是推荐的做法 receive如果接受到没有匹配任何子句的消息,那么这条消息就会保存在mailbox,长此以往就会耗尽内存系统崩溃之险; 消息发送的速度快于进程处理的速度就会增加CPU上的消耗,因为会反复扫描mailbox Not handling unknown messages should therefore be treated as a bug. 匹配未知消息会导致难以发现错误,所以这些位置要记录日志 选择性接受和mailbox这两个东西就解决了消息接受缓冲区的问题 A race condition occurs when the behavior of a system depends on the order in which certain events occur: these events “race” to influence the behavior. 上面两个不失败的设计原则是为了解除进程依赖:另外一个进程的创建和接受消息是否成功不影响当前进程的正常执行 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}退出消息的格式包含的信息:谁因为什么退出了 process_flag(trap_exit, true).退出截获的决策当然是在生命周期的早期进行配置。所以一般出现在init阶段。 截获到底做了一件什么事情呢？把退出消息放在进程收件箱中当成一个普通的消息来处理。这就相当于我们把异常信息放在返回结果中的情况 receive接收并处理退出信号,退出消息被截获就不再传播 link是双向的,monitor是单向的,被监控的进程死掉后,监控进程会收到 {&amp;lsquo;DOWN&amp;rsquo;,Reference,process,Pid,Reason} 消息 如果接收到{&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}的进程没有trap_exit,而且Reason不是normal,这个进程就会终止掉并继续传播这个退出消息 所有的BIFs的执行都是原子性的,所以spawn_link不等同于spawn 和 link的组合调用 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}Reason如果是kill,关联进程无论是否trap_exit都会死掉 {&amp;lsquo;EXIT&amp;rsquo;, Pid, Reason}Reason如果是normal,关联进程trap_exit会收到一条{&amp;lsquo;EXIT&amp;rsquo;, Pid, normal}消息,如果没有trap_exit什么都不会发生  spawn spawn( fun() -&amp;gt; loop/1 end ) spawn( fun loop/1 ).</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.2receive/</guid>
       <description>start() -&amp;gt; register( mnesiaDBA_pub_clear, spawn( fun()-&amp;gt; loop() end ) ). stop() -&amp;gt; rpc( {stop, &amp;#34;stop&amp;#34;} ). rpc(Request) -&amp;gt; mnesiaDBA_pub_clear ! {self(), Request}, receive {mnesiaDBA_pub_clear, Res} -&amp;gt; Res; Other -&amp;gt; io:format(&amp;#34;server is different:~p~n&amp;#34;, [Other]) end. loop() -&amp;gt; receive {ClientPid, {table, Table}} -&amp;gt; Res = filter(Table), ClientPid ! {mnesiaDBA_pub_clear, Res}, loop(); {ClientPid, {stop, Stop}} -&amp;gt; ClientPid ! {mnesiaDBA_pub_clear, &amp;#34;pid stopping reason:&amp;#34; ++ hd(io_lib:format(&amp;#34;~p~n&amp;#34;, [Stop]))}; {ClientPid, Other} -&amp;gt; ClientPid ! {mnesiaDBA_pub_clear, &amp;#34;arg is error:&amp;#34; ++ hd(io_lib:format(&amp;#34;~p~n&amp;#34;, [Other]))}, loop() end.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.3.app.src%E6%96%87%E4%BB%B6/</guid>
       <description>{application,%进程名称% [{description,&amp;quot;Yaws applications 中文语义切词系统&amp;quot;}, {vsn,&amp;quot;1.0.0&amp;quot;}, {modules,[ %所有需要加载的模块]}, {registered, [%注册进程%]}, %填写的注册进程trap_exit才会被设置为true（待验证） {mod,{framenet_sup,[]}}, %定义应用程序启动时的入口函数 {applications,[kernel, stdlib, yaws]}]}. %该应用程序依赖哪些应用程序 启动Erlang 是如果代码都已经自动加载，可以简写.app文件 {application,admin, [{description,&amp;quot;Yaws applications 公共模块系统&amp;quot;}, {vsn,&amp;quot;1.0.0&amp;quot;}, {modules,[]}, {registered, [admin,mnesiaDBA_pub_sup]}, {mod,{admin,[]}}, {applications,[kernel, stdlib, yaws]}]}.  如果仅仅是将一系列的模块打包在一起,并不需要启动application,那么只需要在app文件中移除掉{mod,{Module,Args}}配置节即可.这种Libiary Application典型范例就是stdlib.  </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.4_app.erl/</guid>
       <description>-module( admin_app ). -behaviour(application). -export( [start/2, stop/1] ). start(_Type, _State) -&amp;gt; %%初始化的数据  io:format( &amp;#34;admin_app111~p~n222~p~n&amp;#34;, [ _Type, _State ] ), admin_sup:start(). stop(_State) -&amp;gt; ok. 1&amp;gt;application:start(log4erl). 我们就从这一行命令开始说起吧,回车之后可以把log4erl应用程序启动起来.Erlang/OTP中的能完成特定功能集合的组件被称为application. ,application是Erlang代码和功能组织的形式之一([Erlang 0015]Erlang OTP设计原则).application的设计目的是通过运行一个或者多个进程来完成一定功能.为了能够管理这些进程的生命周期,需要通过supervisor进行管理. application:start(log4erl). Start_Type = permanent||transient||temporary application:start(log4erl,temporary). Start_Type==permanent 应用程序终止之后所有其它的应用程序和运行时系统都会死掉; Start_Type==transient 应用程序终止的原因是normal,这个消息会报出来但是其它应用程序不会重启,如果应用程序终止的原因不是normal,其他应用程序和运行时也会跟着死掉; Start_Type==temporary 应用程序死掉会报错误出来但是其它应用程序不受影响. 注意实践过程中很少使用transient参数,因为进程树崩掉的时候,进程正常退出原因是shutdown不是normal, 这个我之前的文章提到过:[Erlang 0017]Erlang/OTP基础模块 proc_lib 无论使用哪种类型启动,直接调用stop方法关闭application是不会影响到其它应用程序的. 之前遇到过一个比较严重的问题导致应用崩掉,当时就有同事问为什么erlang的进程还在,或者说运行时还活着?其实就是因为我们启动应用程序的时候默认使用了temporary; </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.5_sup.erl/</guid>
       <description>%% @author : 余健 &amp;lt;yujian1018@gmail.com&amp;gt; %% @创建时间 : 2014-04-14 %% @doc : 如果该系统是一个application，该模块设置该application的监督树，监督树的功能就只是提供监控树，不要添加其他的功能 -module(admin_sup). -behaviour(supervisor). -export([start/0, init/1]). start() -&amp;gt; Args = [], io:format( &amp;#34;111~p~nArgs:~p~n&amp;#34;, [self(), Args] ), supervisor:start_link({local,?MODULE}, ?MODULE, Args). % Supervisor init(Args) -&amp;gt; io:format( &amp;#34;222~p~nArgs:~p~n&amp;#34;, [self(), Args] ), Server1 = {admin, {admin, start_link, [Args]}, temporary, 2000, worker, [admin]}, Server2 = {mnesiaDBA_pub_sup, {mnesiaDBA_pub_sup, start,[]}, permanent, infinity, supervisor, [mnesiaDBA_pub_sup, supervisor]}, {ok, {{one_for_one, 0, 1}, [Server1, Server2, Server3]}}. mnesiaDBA_pub_sup.erl init([]) -&amp;gt; % Supervisor  Server1 = {mnesiaDBA_public, {mnesiaDBA_public, start_link,[]}, permanent, 30000, worker, [mnesiaDBA_public, gen_server]} {ok, {{simple_one_for_one, 3, 10}, [Server1 ] } }.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.6gen_server/</guid>
       <description>%%%------------------------------------------------------------------- %%% @author yujian1018@gmail.com %%% @doc %%% %%% Created : 20. 八月 2018 下午3:31 %%%-------------------------------------------------------------------  -module(srv_trie4). -behaviour(gen_server). -export([start_link/0, init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]). -export([ start/0, stop/0, select/3 ]). start() -&amp;gt; mnesia:start(). stop() -&amp;gt; gen_server:call(?MODULE, stop). %% @doc Args参数可以列表表示项，Tuple表示参数只有一个。 select(Module, FunC, Args) -&amp;gt; gen_server:call(?MODULE, {Module, {FunC, Args}}). start_link() -&amp;gt; gen_server:start_link({local, ?MODULE}, ?MODULE, [], []). init([]) -&amp;gt; erlang:process_flag(min_bin_vheap_size, 1024 * 1024),%消息和binary内存,减少大量消息到达或处理过程中产生大量binary时的gc次数  erlang:process_flag(min_heap_size, 1024 * 1024),%堆内存：，减少处理过程中产生大量term，尤其是list时的gc次数  erlang:process_flag(priority, high),%进程优先级：，防止特殊进程被其它常见进程强制执行reductions  erlang:process_flag(scheduler, 1),%进程调度器绑定：，当进程使用了port时，还需要port绑定支持，防止进程在不同调度器间迁移引起性能损失，如cache、跨numa node拷贝等，当进程使用了port时，主要是套接字，若进程与port不在一个scheduler上，可能会引发严重的epoll fd锁竞争及跨numa node拷贝，导致性能严重下降  {ok, #{}}.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.2otp%E6%A8%A1%E5%9D%97/3.2.7gen_fsm/</guid>
       <description>%%%------------------------------------------------------------------- %%% @author yujian %%% @doc %%%------------------------------------------------------------------- -module(test_fsm). -behaviour(gen_fsm). -export([start_link/0, init/1, handle_event/3, handle_sync_event/4, handle_info/3, terminate/3, code_change/4]). -export([send_event/1, role_login/2, role_logined/2, role_ping_role/2 ]). -define(SERVER, ?MODULE). -record(state, {}). start_link() -&amp;gt; gen_fsm:start_link({local, ?SERVER}, ?MODULE, [], []). init([]) -&amp;gt; io:format( &amp;#34;111:~n&amp;#34; ), {ok, role_login, #state{}}. handle_event(_Event, StateName, State) -&amp;gt; io:format( &amp;#34;222:~w~n&amp;#34;, [[_Event, StateName, State]] ), {next_state, StateName, State}. handle_sync_event(_Event, _From, StateName, State) -&amp;gt; io:format( &amp;#34;333:~w~n&amp;#34;, [[_Event, _From, StateName, State]] ), Reply = ok, {reply, Reply, StateName, State}.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.1init/</guid>
       <description>get_argument( home ). %{ok,[[&amp;#34;C:\\Documents and Settings\\Administrator&amp;#34;]]}  init:get_arguments(). %获取启动的配置参数  </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.2erts_debug/</guid>
       <description>apply(M,F,A)要比直接调用调用对应的方法M:F(A1,A2&amp;hellip;)要慢6~10倍，尽量避免使用 BIFs是built-in functions的缩写代表这些方法是Erlang运行时系统的一部分  %% binary_to_list VS bitstring_to_list 1&amp;gt; A = &amp;lt;&amp;lt;1:2, 23:6&amp;gt;&amp;gt;. &amp;lt;&amp;lt;&amp;#34;W&amp;#34;&amp;gt;&amp;gt; 2&amp;gt; B = &amp;lt;&amp;lt;1:2, 23:5&amp;gt;&amp;gt;. &amp;lt;&amp;lt;55:7&amp;gt;&amp;gt; 3&amp;gt; binary_to_list(A). &amp;#34;W&amp;#34; 4&amp;gt; binary_to_list(B). ** exception error: bad argument in function binary_to_list/1 called as binary_to_list(&amp;lt;&amp;lt;55:7&amp;gt;&amp;gt;) 5&amp;gt; bitstring_to_list(A). &amp;#34;W&amp;#34; 6&amp;gt; bitstring_to_list(B). [&amp;lt;&amp;lt;55:7&amp;gt;&amp;gt;] statistics(wall_clock). {11405766,266} 返回指定类型的系统参数，当Type为wall_clock时，返回Erlang虚拟机运行至今所度过的时间和上次执行statistics(wall_clock)到这次执行之间的时间(精确到毫秒级)。 performs CPU time measurements context_switches||exact_reductions||garbage_collection||io||reductions||run_queue||runtime||scheduler_wall_time||wall_clock make_tuple( 2,“1” ) {“1”, “1”} localtime(). now(). localtime_to_universaltime({{1996,11,6},{14,45,17}}). {{年月日}，{时分秒}} 获取8小时时差的时间 list_to_existing_atom() tuple_size/1 byte_size/1 bit_size/1 round(10.5) -&amp;gt; 11, trunc( 10.5 ) -&amp;gt; 10 abs( -10 ) -&amp;gt; 10 12.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.3erts/3.3.3nif/</guid>
       <description>niftest.erl -module(niftest). -export([init/0, hello/0]). init() -&amp;gt; erlang:load_nif(&amp;#34;./niftest&amp;#34;, 0). hello() -&amp;gt; %函数名称  &amp;#34;NIF library not loaded&amp;#34;. /* niftest.c */ #include &amp;#34;erl_nif.h&amp;#34; static ERL_NIF_TERM hello(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[]) { return enif_make_string(env, &amp;#34;Hello world!&amp;#34;, ERL_NIF_LATIN1); } //定义函数 static ErlNifFunc nif_funcs[] = { {&amp;#34;hello&amp;#34;, 0, hello} }; ERL_NIF_INIT(niftest,nif_funcs,NULL,NULL,NULL,NULL) %编译成公共库，需要使用到erl_nif.h  gcc -fPIC -shared -o niftest.so niftest.c -I $ERL_ROOT/usr/include/ %测试  $&amp;gt; erl 1&amp;gt; c(niftest). {ok,niftest} 2&amp;gt; niftest:hello(). &amp;#34;NIF library not loaded&amp;#34; 3&amp;gt; niftest:init().</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.1code_server/</guid>
       <description>code_server
 库 目录
 库 文件
@@ -349,205 +349,205 @@ add_pathz(&amp;ldquo;D:/project/yapp/ebin&amp;rdquo;) 把yapp的ebin文件夹中
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.2inet/</guid>
       <description>Access to TCP/IP Protocols
 peername(State#state.socket) %socket获取登录的ip和端口</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.3net_kernel/</guid>
       <description>net_kernel:monitor_nodes(Flag).%调用这个方法来订阅节点状态变动的消息.一个节点加入的时候会向所有的订阅进程发送一个nodeup消息,一个节点断开的时候会发送nodedown消息. [net_kernel:disconnect(X) || X &amp;lt;- nodes() -- [List_of_wanted_nodes]]. net_kernel:allow(Nodes). net_kernel:monitor_nodes(true). init([]) -&amp;gt; ok = net_kernel:monitor_nodes(true), {ok, no_state}. handle_call(_Request, _From, State) -&amp;gt; {noreply, State}. handle_cast(_Msg, State) -&amp;gt; {noreply, State}. handle_info({nodeup, Node}, State) -&amp;gt; rabbit_log:info(&amp;#34;node ~pup&amp;#34;, [Node]), {noreply, State}; handle_info({nodedown, Node}, State) -&amp;gt; rabbit_log:info(&amp;#34;node ~pdown&amp;#34;, [Node]), %% TODO: This may turn out to be a performance hog when there are %% lots of nodes. We really only need to execute this code on %%*one* node, rather than all of them.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.4net_adm/</guid>
       <description>net_adm:ping(Node). </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5/</guid>
       <description>error_logger</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.5error_logger/</guid>
       <description>1.error_logger:error_msg( &amp;#34;an error has occurred\n&amp;#34; ). 2.error_logger:error_msg( &amp;#34;~s, an error has occurred\n&amp;#34;, [ &amp;#34;joe&amp;#34; ] ). 3.error_logger:error_report( [{tag1,data1}, a_term, {tar2, data}] ). 4.error_logger:info_msg(FormatStr, Args); 5.error_logger:warning_msg(FormatStr, Args); 6.error_logger:info_report(progress,[{application,test},{started_at, nonode@noh ost}]). error_logger:info_report(crash,[{application,test},{started_at, nonode@noh ost}]). </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.4kernel/3.4.7application/</guid>
       <description>通用OTP应用程序的方函数。
 1.Module:config_change(Changed, New, Removed)一&amp;gt;ok 配置参数发生变化的回调函数。 Module:prep_stop(State)一&amp;gt;NewState 应用程序准备停止的回调函数。 Module:start(StartType, StartArgs)一&amp;gt;{ok, Pid}}{ok, Pid，State}}{error, Reason} 应用程序被启动的同调函数。 Module:start_phase(Phase, StartType，PhaseArgs)一&amp;gt;ok{{error，Reason} 应用程序在扩展方式一日台动的同调函数。 Module:stop(State) 应用程序被停止，执行清除「作的回调函数。 get_all_env(Application)一&amp;gt;Env 获取Application应用程序的所有配置。 get_all_key(Application)一&amp;gt;{ok, Keys}}undefined 获取Application应用程序所有配置的键值。 get_application(Pid } Module)一&amp;gt;{ok, Application}}undefined 获取Pid进程(或Module模块)所属应用程序的名称。 get_env(Application, Par)一&amp;gt;{ok, Val}}undefined 获取Application应用程序Par配置参数的值。 get_key(Application，Key)一&amp;gt;{ok, Val}}undefined 获取Application应用程序Key参数的值。 load(AppDescr, Distributed)一&amp;gt;ok}{error, Reason} 以Distrubuted方式加载AppDescr应用程序。 loaded_applications()一&amp;gt;[{Application, Description, Vsn}] 获取当前已经加载应用程序的列表。 permit(Application，Bool)一&amp;gt;ok}{error, Reason} 将当前结点上Application应用程序的运行权限改为Boolo set_env(Application，Par, Val，Ti rneout)一&amp;gt;ok 将Appliction应用程序的Par配置参数设置为Valo start(Application，Type)一&amp;gt;ok}{error, Reason} 加载并以Type方式启动Application应用程序。 start_type()一&amp;gt;startType}local}undefined 获取当前进程所属应用程序的启动类型。 stop(Application)一&amp;gt;ok}{error, Reason} 停止Application应用程序。 takeover(Application，Type)一&amp;gt;ok!{error, Reason} 以丁ype方式接管Appliction应用程序。 unload(Application)一&amp;gt;ok}{error, Reason} 卸载Appliction应用程序。 upset env(Application, Par, Timeout)一&amp;gt;ok 清除Application应用程序的Par配置参数。 which_applications(Timeout)一&amp;gt;[{Application，Description, Vsn}] 获取当前正在运行的应用程序的列表。 </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.11dict/</guid>
       <description>dict是动态哈希表实现的字典.在接口上和orddict保持一致,在实现上和array动态扩展的思路类似, 与proplists,orddict相比它能够支持更大的数据量,你可以在数据量膨胀的时候从orddict转为dict.dict使用的是动态哈希技术实现, 理论依据是论文: &amp;ldquo;The Design and Implementation of Dynamic Hashing for Sets and Tables in Icon&amp;rdquo; ,论文地址: http://www.2007.cccg.ca/~morin/teaching/5408/refs/a99.pdf 数组寻址容易,插入和删除困难;链表寻址困难,插入和删除容易;哈希表插入和删除的时间均取决于查找时间.哈希表在数据和数据存储位置之间建立了确定的函数关系,所以获得了高效的查询效率,而线性表和树,数据项在结构中的位置是随机的,和数据项取值没有确定的关系,这种结构上进行查找数据项是基于&amp;quot;比较&amp;rdquo;,查找效率依赖比较次数. 参考资料：http://www.cnblogs.com/me-sa/archive/2012/06/24/erlang-dict.html
 1.Dict = dict:new(). 2.dict:store( key, Value, Dict ). 3.dict:is_key( Key, Dict ). -&amp;gt; true | false 4.dict:find(Key, Dict). == dict:fetch( Key, Dict ). 5.dict:fold(Fun, [], Dict). Fun = fun( I, List ) -&amp;gt; Return = fun(I), [Return | List] end. 6.dict:erase(k1, Dict). 清除Dict中key=k1的数据 7.dict:append( k2,v3, Dict2 ) 向k2追加v3 1.dict可以存储更大的数据 在dict的实现中,Segment,Slot,bucket是三个逐渐逐渐变小的概念 -record(dict, { size=0 %元素的数量  n=?</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.12erl_/</guid>
       <description>1.{ok,Scanned,_} = erl_scan:string( &amp;#34;1+2*2+(2+4)/2.&amp;#34; ). {ok,[{integer,1,1}, {&amp;#39;+&amp;#39;,1}, {integer,1,2}, {&amp;#39;*&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {&amp;#39;(&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {integer,1,4}, {&amp;#39;)&amp;#39;,1}, {&amp;#39;/&amp;#39;,1}, {integer,1,2}], 1} 2.{ok,Parsed} = erl_parse:parse_exprs(Scanned), {ok,[{op,1,&amp;#39;+&amp;#39;, {op,1,&amp;#39;+&amp;#39;, {integer,1,1}, {op,1,&amp;#39;*&amp;#39;,{integer,1,2},{integer,1,2}}}, {op,1,&amp;#39;/&amp;#39;, {op,1,&amp;#39;+&amp;#39;,{integer,1,2},{integer,1,4}}, {integer,1,2}}}]} 3.erl_eval:exprs(Parsed,[]). {value,8.0,[]} 4.erl_syntax:abstract(T::term()) -&amp;gt; syntaxTree() {ok, T1, _} = erl_scan:string( &amp;#34;aaa,bbb.&amp;#34; ). 5. erl_parse:parse_term(T1). T1的末尾必须是 {dot, 1} </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.13file/</guid>
       <description>写文件 file:open( FileName, [append]|[write]|[read] ) file:open(?FilePath, [write, {encoding, utf8}]) tool_log( Res, State )-&amp;gt; {ok, S} = file:open(get_path(&amp;#34;../doc/tool_log.txt&amp;#34;), [append]), io:format( S, &amp;#34;~p:~n{~p, ~p}~n&amp;#34;, [ erlang:localtime(), Res, State ]), file:close( S ). file:open(File, [raw, binary]). 2.file:write( IoDevice, Bytes ). file:write_file( FileName, Bytes ). 可以保存图片 ###读文件
 file:open( FileName, read ). {ok,&amp;lt;0.547.0&amp;gt;} io:read( &amp;lt;0.547.0&amp;gt;, &amp;#39;&amp;#39; ). {ok,{1,&amp;#34;买星马AK-8880&amp;#34;}} ile:read_file(FileName ) file:read_file( &amp;#34;E:\a.xml&amp;#34; ). {ok,&amp;lt;&amp;lt;&amp;#34;&amp;lt;xml&amp;gt;\r\n&amp;lt;name&amp;gt;yujian&amp;lt;/name&amp;gt;\r\n&amp;lt;/xml&amp;gt;&amp;#34;&amp;gt;&amp;gt;} file:consult( FileName ) case file:consult( Doc ) of {ok, [FileConent]} -&amp;gt; FileConent; Other -&amp;gt; Other end.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.14filelib/</guid>
       <description>file utilities, such as wildcard matching of filenames filelib:ensure_dir( &amp;#34;test/c/a.txt&amp;#34; ). %在pwd()目录下查看是否存在存在该目录，如果不存在新建目录，不新建文件  filelib:file_size( &amp;#34;text.txt&amp;#34; ). 127 filelib:is_dir( &amp;#34;test/c&amp;#34; ). true filelib:is_dir( &amp;#34;text.txt&amp;#34; ). false filelib:is_file(&amp;#34;test/c/&amp;#34;). true filelib:is_file(&amp;#34;text.txt&amp;#34;).true filelib:is_regular(&amp;#34;log/ssl.log&amp;#34;). true filelib:is_regular(&amp;#34;log/&amp;#34;). false filelib:last_modified(&amp;#34;log/ssl.log&amp;#34;). {{2015,10,29},{17,51,38}} filelib:wildcard(&amp;#34;log/*&amp;#34;). [&amp;#34;log/ssl.log&amp;#34;] filelib:wildcard(&amp;#34;lib/*/ebin/*.beam&amp;#34;). filelib:wildcard(&amp;#34;lib/*/src/*.?rl&amp;#34;) filelib:wildcard(&amp;#34;lib/*/src/*.{erl,hrl}&amp;#34;) filelib:wildcard(&amp;#34;lib/*/{src,include}/*.hrl&amp;#34;). filelib:wildcard(&amp;#34;lib/*/{src,include}/*.{erl,hrl}&amp;#34;) filelib:wildcard(&amp;#34;lib/**/*.{erl,hrl}&amp;#34;) ? %Matches one character. * %Matches any number of characters up to the end of the filename, the next dot, or the next slash. ** %Two adjacent *&amp;#39;s used as a single pattern will match all files and zero or more directories and subdirectories.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.15gb_trees/</guid>
       <description>平衡二叉树</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.17gen_tcp/</guid>
       <description>server() -&amp;gt; LSock = listen(), {ok, Sock} = gen_tcp:accept(LSock), {ok, Bin} = do_recv(Sock, []), ok = gen_tcp:close(Sock), Bin. listen() -&amp;gt; {ok, LSock} = gen_tcp:listen(5678, [binary, {packet, 4}, {active, false}]), LSock. client() -&amp;gt; SomeHostInNet = &amp;#34;localhost&amp;#34;, {ok, Sock} = gen_tcp:connect(SomeHostInNet, 5678, [binary, {packet, 0}]), ok = gen_tcp:send(Sock, &amp;#34;Some Data&amp;#34;), ok = gen_tcp:close(Sock). do_recv(Sock, Bs) -&amp;gt; case gen_tcp:recv(Sock, 0) of {ok, B} -&amp;gt; do_recv(Sock, [Bs, B]); {error, closed} -&amp;gt; {ok, list_to_binary(Bs)} end. gen_tcp:listen中使用的options [binary, {packet, 4}, {active, true}, {reuseaddr,true}, {delay_send,true}] %% {active,true} 创建一个主动套字节(非阻塞) %% {active,false} 创建一个被动套字节(阻塞) %% {active,once} 创建一个主动套字节仅接收一条消息,如想接收下一条必须再次激活(半阻塞) %%{packet, 4} 表示每一个消息都是从一个4字节长的头部开始 意味着每个包有4个字节的包头，代表长度 </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.18gen_server/</guid>
       <description>Generic Server Behaviour
 一般服务行为（通用服务器行为）</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.19httpc/</guid>
       <description>1、启动 方式一：启动inets应用，一个缺省profile的管理进程将被启动。 inets:start(). 方式二：运行时，动态启动profile停止profile。 动态启动profile：{ok, Pid} = inets:start(httpc, [{profile, foo}]). 动态停止profile：inets:stop(httpc, foo) 或 inets:stop(httpc, Pid). 2、设置 httpc:set_options() -&amp;lt; ok | {error, Reason}参考：http://www.erlang.org/doc/man/httpc.html#set_options-1 3、请求参考：http://www.erlang.org/doc/man/httpc.html#request-1 同步请求：{ok, {{Version, 200, ReasonPhrase}, Headers, Body}} = httpc:request(&amp;#34;http://www.baidu.com&amp;#34;). 等同于 {ok, {{Version, 200, ReasonPhrase}, Headers, Body}} = httpc:request(get, {&amp;#34;http://www.baidu.com&amp;#34;, []}, [], []). 异步请求： {ok, RequestId} = httpc:request(get, {&amp;#34;http://www.baidu.com&amp;#34;, []}, [], [{sync, false}]), receive {http, {RequestId, Result}} -&amp;lt; ok after 500 -&amp;lt; error end. 4.httpc:request(get, {Url, Header}, [{timeout, ?TimeOut}], [{sync, false}]).</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.20init_parse/</guid>
       <description>init_parse:ntoa( IP:tuple() ) -&amp;gt; IP:string() </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.21init/</guid>
       <description>init:get_argument( home ). -&amp;gt; {ok,[[&amp;#34;C:\\Users\\Administrator&amp;#34;]]} init:stop().关闭所有的Erlang Application，包括终端 init:i(). 列出网络的连接情况 </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.22inet/</guid>
       <description>inet:getifaddrs() 本机所有网卡 inet:getif() 本机网卡ip地址 inet:peername(State#state.socket) </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.23io/</guid>
       <description>io:get_line io:get_line( &amp;#34;gissa line&amp;gt;&amp;#34; ). gissa line&amp;gt; fdfdsfdfdsfds. &amp;#34;fdfdsfdfdsfds.\n&amp;#34; io:get_chars io:get_chars( &amp;#34;me&amp;gt;&amp;#34;,4 ). me&amp;gt;fdfdfdfd. &amp;#34;fdfd&amp;#34; fdfd io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ) io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ). ok,aa&amp;gt;&amp;gt;atom. {ok,atom}. io:fwrite(&amp;#34;843 Error&amp;#34;). io:fwrite(&amp;#34;843 Error&amp;#34;). 843 Errorok io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). 格式化&amp;#34;~32.16.0b&amp;#34;的含义,输出的用长度length为32，转化为16进制，转化时如果遇到空的位，使&amp;#34;0&amp;#34;填充， b输出的英文小写字母，B输出大写字母 %完整的格式化&amp;#34;~Length.P.PadC&amp;#34;  Length输出宽度 P输出精度 Pad填充字符 C是控制字符 io:format( &amp;#34;~c~p~n~f~e~w~p~w~p~B&amp;#34; ) ~ The character ~ is written. c 参数必须是ASCII码，控制输出的精度 io:format( &amp;#34;|~-10.1c|&amp;#34;, [$c] ). io:format( &amp;#34;|~10.1c|&amp;#34;, [$c] ). f 参数必须是float, 输出一个有6个小数位的浮点数 e [-]d.ddde+-ddd, 输出一个以科学记数法表示的总共6位的浮点数 g s 字符串 w Writes data with the standard syntax.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.24lists/</guid>
       <description>lists模块的reverse/1经过高度优化，可以在重排lists元素顺序时考虑使用 如果两个list都拥有很多数据，那么请不要使用&amp;rsquo;&amp;ndash;&#39;，而是将数据转化到ordsets，然后调用ordsets:substract/2 调用lists:flatten/1可以将list扁平化，这个操作代价很大，比&#39;++&#39;还要昂贵。下面这些时候我们可以避免：
 将数据发送给port时 调用list_bo_binary/1和iolist_to_binary前  1.all(F, List) -&amp;gt; boolean() &amp;gt; lists:all( fun(X) -&amp;gt; X == 1 end, [1,1,1,1,1] ) -&amp;gt; true &amp;gt; lists:all( fun(X) -&amp;gt; X == 1 end, [1,1,1,1,2] ) -&amp;gt; false. 2.any(Pred, List) -&amp;gt; boolean() &amp;gt; lists:any( fun(X) -&amp;gt; X == 1 end, [2,2,2,2,2] ) -&amp;gt; false &amp;gt; lists:any( fun(X) -&amp;gt; X == 1 end, [1,2,2,2,2] ) -&amp;gt; true. 3.append(ListOfLists) -&amp;gt; List1 &amp;gt; lists:append([[1, 2, 3], [a, b], [4, 5, 6]]) -&amp;gt; [1,2,3,a,b,4,5,6] append(List1, List2) -&amp;gt; List3 &amp;gt; lists:append(&amp;#34;abc&amp;#34;, &amp;#34;def&amp;#34;) -&amp;gt; &amp;#34;abcdef&amp;#34; 4.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.25maps/</guid>
       <description>1.find(Key, Map) -&amp;gt; {ok, Value} | error Map = #{&amp;#34;hi&amp;#34; =&amp;gt; 42}, Key = &amp;#34;hi&amp;#34;, maps:find(Key,Map). {ok,42} 2.fold(Fun, Init, Map) -&amp;gt; Acc Fun = fun(K,V,AccIn) when is_list(K) -&amp;gt; AccIn + V end, Map = #{&amp;#34;k1&amp;#34; =&amp;gt; 1, &amp;#34;k2&amp;#34; =&amp;gt; 2, &amp;#34;k3&amp;#34; =&amp;gt; 3}, maps:fold(Fun,0,Map). 3.from_list(List) -&amp;gt; Map List = [{&amp;#34;a&amp;#34;,ignored},{1337,&amp;#34;value two&amp;#34;},{42,value_three},{&amp;#34;a&amp;#34;,1}], maps:from_list(List). #{42 =&amp;gt; value_three,1337 =&amp;gt; &amp;#34;value two&amp;#34;,&amp;#34;a&amp;#34; =&amp;gt; 1} 4.get(Key, Map) -&amp;gt; Value Key = 1337, Map = #{42 =&amp;gt; value_two,1337 =&amp;gt; &amp;#34;value one&amp;#34;,&amp;#34;a&amp;#34; =&amp;gt; 1}, maps:get(Key,Map).</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.26os/</guid>
       <description>os:type(). os:cmd(Cmd). os:cmd(&amp;#34;file --mime-encoding -b &amp;#34; ++ FullFile) </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.27ordsets/</guid>
       <description>MODULE SUMMARY
 Functions for Manipulating Sets as Ordered Lists  DESCRIPTION
 Sets are collections of elements with no duplicate elements. An ordset is a representation of a set, where an ordered list is used to store the elements of the set. An ordered list is more efficient than an unordered list. This module provides exactly the same interface as the module sets but with a defined representation. One difference is that while sets considers two elements as different if they do not match (=:=), this module considers two elements as different if and only if they do not compare equal (==).</description>
@@ -555,28 +555,28 @@ Sets are collections of elements with no duplicate elements. An ordset is a re
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.28proplists/</guid>
       <description>proplists:get_value(1,[{1,2},{3,4}], none) -&amp;gt; 2 proplists:get_value(1,[{5,6},{3,4}], none) -&amp;gt; none </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.29queue/</guid>
       <description>Queue:列队 1.queue:new(). -&amp;gt; {[],[]} 2.queue:in( {1,2}, {[],[]} ) -&amp;gt; {[{1,2}],[]} queue:in( {a,b}, {[{1,2}],[]} ) -&amp;gt; {[{a,b}],[{1,2}]} queue:in( {3,4}, {[{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{1,2}]} 3.queue:in_r( {c,d}, {[{3,4},{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{c,d},{1,2}]}. 4.queue:out( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{c,d}},{[{3,4},{a,b}],[{1,2}]}} 5.queue:out_r( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{3,4}},{[{a,b}],[{c,d},{1,2}]}} </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.2array/</guid>
       <description>函数式且可扩展的数组模块
 内部实现：tuple
 1.array:new(10, {default, {[], 0}}). -&amp;gt; {array,10,0,{[],0},10} 2.array:set( 0, [1,2,3], Array2 ). -&amp;gt; Array 3.array:get( 0, Array3 ). -&amp;gt; [1,2,3]. 4.array:reset(Index, Array). 清空该列 5.array:from_list(Sub)</description>
@@ -584,10 +584,10 @@ Sets are collections of elements with no duplicate elements. An ordset is a re
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.30qlc/</guid>
       <description>模块 QLC
 模块描述 Mnesia、ets、dets、etc查询接口
 DESCRIPTION 为Mnesia、ets、dets或者其他的数据类型提供一个迭代器遍历的查询接口
@@ -597,109 +597,109 @@ qlc模块为【QLC Tables】 实现一个快速查询接口，典型的【QLC Ta
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.31re/</guid>
       <description>9&amp;gt; re:run(&amp;#34;The sick quick brown fox.&amp;#34;, &amp;#34;ick&amp;#34;, [global]). {match,[[{5,3}],[{11,3}]]} 10&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;). [&amp;lt;&amp;lt;&amp;#34;The quick &amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;red&amp;#34;&amp;gt;&amp;gt;|&amp;lt;&amp;lt;&amp;#34; fox.&amp;#34;&amp;gt;&amp;gt;] 11&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;, [{return, list}]). &amp;#34;The quick red fox.&amp;#34; 27&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, &amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;). {match,[{8,11}]} 28&amp;gt; re:split(&amp;#34;this/is/my/path&amp;#34;,&amp;#34;/&amp;#34;). [&amp;lt;&amp;lt;&amp;#34;this&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;is&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;my&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;path&amp;#34;&amp;gt;&amp;gt;] 29&amp;gt; {_, P} = re:compile(&amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;). {ok,{re_pattern,0,0,&amp;lt;&amp;lt;69,82,67,80,164,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,64,...&amp;gt;&amp;gt;}} 30&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, P). {match,[{8,11}]} get_url(String) -&amp;gt; HTTP_regex = &amp;#34;^(H|h)(T|t)(T|t)(P|p)(S|s)*://&amp;#34;, case re:run(String, HTTP_regex) of nomatch -&amp;gt; not_url; {match, _} -&amp;gt; get_url1(String, []) end. 31.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.32random/</guid>
       <description>1.random:uniform( ) -&amp;gt; float(). 随机浮点数 2.random:uniform( N::integer() ) -&amp;gt; integer() -&amp;gt;小于N的随机整数 3.random:seed() -&amp;gt; ran(). 用默认值产生随机数种子。 4.用法 Time = erlang:now(), random:seed( Time ), Ran1 = random:seed( Time ), {New_Num, _} = random:uniform_s( Num, Ran1 ), 看它的代码实现： [plain]view plaincopy uniform() -&amp;lt; {A1, A2, A3} = case get(random_seed) of undefined -&amp;lt; seed0(); Tuple -&amp;lt; Tuple end, B1 = (A1*171) rem 30269, B2 = (A2*172) rem 30307, B3 = (A3*170) rem 30323, put(random_seed, {B1,B2,B3}), R = A1/30269 + A2/30307 + A3/30323, R - trunc(R).</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.33rfc4627-json/</guid>
       <description>1.rfc4627:encode( {obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]} ). &amp;#34;{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]}&amp;#34; 2.rfc4627:encode([{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]},{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[&amp;#34;1&amp;#34;,&amp;#34;2&amp;#34;],[&amp;#34;2&amp;#34;,&amp;#34;3&amp;#34;]]}]}] ). &amp;#34;[{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]},{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[[49],[50]],[[50],[51]]]}]&amp;#34;. 3.rfc4627:decode( &amp;#34;{\&amp;#34;question\&amp;#34;:\&amp;#34;bbb\&amp;#34;,\&amp;#34;label\&amp;#34;:[[1,2],[2,3]]}&amp;#34; ). {ok,{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;bbb&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;label&amp;#34;,[[1,2],[2,3]]}]}, []} 4.{obj,[{&amp;#34;temp&amp;#34;,&amp;lt;&amp;lt;&amp;#34;interface&amp;#34;&amp;gt;&amp;gt;}, {&amp;#34;serviceUrl&amp;#34;,&amp;lt;&amp;lt;&amp;#34;aaa&amp;#34;&amp;gt;&amp;gt;}, {&amp;#34;existing&amp;#34;,[{obj,[{&amp;#34;a&amp;#34;,&amp;lt;&amp;lt;&amp;#34;b&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;c&amp;#34;,&amp;lt;&amp;lt;&amp;#34;d&amp;#34;&amp;gt;&amp;gt;}]}]}, {&amp;#34;questionList&amp;#34;, [{obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;111&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;key&amp;#34;,&amp;lt;&amp;lt;&amp;#34;222&amp;#34;&amp;gt;&amp;gt;}]}, {obj,[{&amp;#34;question&amp;#34;,&amp;lt;&amp;lt;&amp;#34;333&amp;#34;&amp;gt;&amp;gt;},{&amp;#34;key&amp;#34;,&amp;lt;&amp;lt;&amp;#34;444&amp;#34;&amp;gt;&amp;gt;}]}]}]}. &amp;#34;{\&amp;#34;temp\&amp;#34;:\&amp;#34;interface\&amp;#34;, \&amp;#34;serviceUrl\&amp;#34;:\&amp;#34;aaa\&amp;#34;, \&amp;#34;existing\&amp;#34;:[{\&amp;#34;a\&amp;#34;:\&amp;#34;b\&amp;#34;, \&amp;#34;c\&amp;#34;:\&amp;#34;d\&amp;#34;}], \&amp;#34;questionList\&amp;#34;:[{\&amp;#34;question\&amp;#34;:\&amp;#34;111\&amp;#34;, \&amp;#34;key\&amp;#34;:\&amp;#34;222\&amp;#34;}, {\&amp;#34;question\&amp;#34;:\&amp;#34;333\&amp;#34;, \&amp;#34;key\&amp;#34;:\&amp;#34;444\&amp;#34;}] }&amp;#34; </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.34string/</guid>
       <description>1.string:len(). 2.string:concat(). --连接 3.string:substr(Str,Start,Length). --Str中从Start开始Length长度 4.string:tokens(Str,List). --从Str中含有List的部分切割 5.string:rstr( String, SubString ). --获取SubString在String中出现的最后一个位置 6.string:join( String, Char ). --input:( [&amp;#34;a&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;], &amp;#34;&amp;lt;br/&amp;gt;&amp;#34; ) -&amp;gt; &amp;#34;a&amp;lt;br/&amp;gt;b&amp;lt;br/&amp;gt;c&amp;#34; 7.string:strip( String ). --去两边的空格 string:strip( String, right|left|both ) --去除右边|左边|两边的空格 string:strip( String, right|left|both, Char() ). --在String中去除Char()符号 string:strip( &amp;#34;.....hello.....&amp;#34;, right, $. ). -&amp;gt;&amp;#34;.....hello&amp;#34; string:left(&amp;#34;Hello&amp;#34;,10,$.). -&amp;gt; &amp;#34;Hello.....&amp;#34; 8.string:str( Str, Ches ) -&amp;gt;Ches 在Str中的位置 9.string:to_lower() string:to_upper() string:to_integer() string:to_float() 10.string:to_integer( &amp;#34;123.456aabb&amp;#34; ). -&amp;gt; {123,&amp;#34;.456aabb&amp;#34;} string:to_float( &amp;#34;123.456aabb&amp;#34; ). -&amp;gt; {123.456,&amp;#34;aabb&amp;#34;} </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.35ssh/</guid>
       <description>crypto:start(). ssh:start(). {ok, Conn} = ssh:connect(&amp;#34;ip or host name&amp;#34;, 22, [ {user, &amp;#34;the user name&amp;#34;}, {password, &amp;#34;the password&amp;#34;}, {silently_accept_hosts, true}, {user_interaction, false} ]). </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.36soft/</guid>
       <description>1.sofs:range(). inout-&amp;gt;sofs:relation([{1,2},{1,3},{2,4},{2,5}]) outout -&amp;gt;{&amp;#39;Set&amp;#39;,[2,3],atom} 2.sofs:relation(). input -&amp;gt;[{1,2},{1,3},{2,4},{2,5}] output -&amp;gt;{&amp;#39;Set&amp;#39;, [{1,2},{1,3},{2,4},{2,5}],{atom,atiom}} 3.sofs:to_external(). input -&amp;gt;{&amp;#39;Set&amp;#39;, [2,3],atom} output -&amp;gt; [2,3] </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.37sets/</guid>
       <description>1.sets:add_element( Element, Set1 ). 向集合中添加一個元素 2.sets:del_element( Element, Set1 ). 向集合中減少一個元素 </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.38supervisor/</guid>
       <description>1. supervisor:start_child(admin_sup, [{admin, {admin, start_link, [self()]},perm anent , 2000 ,worker, [admin]}]). -&amp;gt; {ok, Child :: child()} |{ok, Child :: child(), Info :: term()}|{error, startchild_err()} start_child(SupRef, ChildSpec) -&amp;gt; startchild_ret(). SupRef = sup_ref() ChildSpec = child_spec() | (List :: [term()]) child_spec() = {Id :: child_id(), StartFunc :: mfargs(), Restart :: restart(), Shutdown :: shutdown(), Type :: worker(), Modules :: modules()} startchild_ret() = {ok, Child :: child()} | {ok, Child :: child(), Info :: term()} | {error, startchild_err()} startchild_err() = already_present | {already_started, Child :: child()} | term().</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.39tuple/</guid>
       <description>1.tuple_size 返回元组元素的数目 2.element 返回元组的第N个元素 3.setelement/3 替换元组中的一个元素，返回新的元组 setelement(1, {1,2,3,4,5,6},2 ). -》{2,2,3,4,5,6} 4.erlang:append_element/2 erlang:append_element( {1,2,3,4},4 ) -&amp;gt; {1,2,3,4,4} 5.erlang:delete_element( 1, {a,b,c,d} ). -&amp;gt; {b,c,d} </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.40timer/</guid>
       <description>1．Timer：tc（Module，Function，Arguments）-&amp;gt;{Time,Value} 参数使用中括号括起来 测量某函数运行的确切时间。 Example：timer:tc(lists, seq, [1，100000]). 2．timer:apply_after(Time, Module, Fun, Arg). -&amp;gt; {ok,Tref} | {error, Reason} 在Time毫秒后执行特定函数 Time 为毫秒数 3.timer:apply_interval(Time, Module, Fun, Arg). -&amp;gt; {ok,Tref} | {error, Reason} 每隔Time时间执行的特定函数 4.{_, {H1, M1, S1}} = erlang:localtime(), timer:hms( H1, M1, S1 ). 5.T1 = erlang:now(), timer:now_diff( erlang:now(), T1 ). （精确到微秒级） 6.timer:sleep( 3000 ) 7.send_after(Time, Message) == send_after(Time, self(), Message) send_after(Time, Pid, Message) 發送Message到對應的Pid 8.kill_after(Time) -&amp;gt; {ok, TRef} | {error, Reason2} kill_after(Time, Pid) -&amp;gt; {ok, TRef} | {error, Reason2} exit_after(Time, Reason1) -&amp;gt; {ok, TRef} | {error, Reason2} exit_after(Time, Pid, Reason1) -&amp;gt; {ok, TRef} | {error, Reason2} 9.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.41unicode/</guid>
       <description>unicode:characters_to_list(DatB) erlang csv Result_str = &amp;#34;r1c1,r1c2,r1c3\nr2c1,r2c2,r2c3&amp;#34;, Bom = unicode:characters_to_list(unicode:encoding_to_bom(utf8)), unicode:characters_to_binary(Bom++Result_str, unicode, utf8), </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.45shell/</guid>
       <description>Eshell V5.10.2 (abort with ^G)
 1&amp;gt; help().
 ** shell 内置命令 **
@@ -722,28 +722,28 @@ rr(File) &amp;ndash; 从一个文件或模块读取 record 定义
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.4base64/</guid>
       <description>实现base 64的编码解码算法，具体细节参考RFC 20450 base64:decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; base64:decode_to_string(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; this is a test! base64:encode(&amp;#34;this is a test!&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;&amp;gt;&amp;gt; base64:encode_to_string(&amp;#34;this is a test!&amp;#34;). -&amp;gt; dGhpcyBpcyBhIHRlc3Qh base64:mime_decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; 对Data数据进行base 64编码。 base64:mime_decode_to_string(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; this is a test! 对以base 64编码过的Base64数据进行解码。 </description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.5binary/</guid>
       <description>at(Subject, Pos) -&amp;gt; byte() 返回一个二进制数据里指定位置（从 0 开始）的数据（整数的形式），如果 Pos &amp;gt;= byte_size(Subject)，则会发生一个 badarg 的异常错误。 bin_to_list/1,bin_to_list/2,bin_to_list/3 binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, {1 ,3}). -&amp;gt; erl binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, {1 ,33}). -&amp;gt; badarg binary:bin_to_list(&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, 1, 3). binary:list_to_bin( List ) -&amp;gt; Bin copy(Bin). 创建二进制数据 Subject 的一个副本。 first(Bin). binary:first(&amp;lt;&amp;lt;&amp;#34;12345&amp;#34;&amp;gt;&amp;gt;). -&amp;gt; 49. last(Bin). binary:last(&amp;lt;&amp;lt;&amp;#34;12345&amp;#34;&amp;gt;&amp;gt;). -&amp;gt; 53 longest_common_suffix(Binaries) -&amp;gt; integer() &amp;gt;= 0 返回在二进制数据列表里最长的公共后缀长度。如果参数不是一个扁平的二进制数据列表，那么将会出现一个 badarg 的异常。 binary:longest_common_suffix([&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;fang&amp;#34;&amp;gt;&amp;gt;]). -&amp;gt; 3 binary:longest_common_suffix([&amp;lt;&amp;lt;&amp;#34;erlang&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;perl&amp;#34;&amp;gt;&amp;gt;]). -&amp;gt; 0 binary:match(&amp;lt;&amp;lt;&amp;#34;abcde&amp;#34;&amp;gt;&amp;gt;, [&amp;lt;&amp;lt;&amp;#34;bcde&amp;#34;&amp;gt;&amp;gt;, &amp;lt;&amp;lt;&amp;#34;cd&amp;#34;&amp;gt;&amp;gt;]). -〉{1，4} 在一个二进制数据 Subject 里查找符合一个模式 Pattern 的第一个匹配，用法跟 match(Subject, Pattern, []) 一样。 Binary = &amp;lt;&amp;lt;1, 2, 3, 4, 5, 6, 7, 8, 9, 10&amp;gt;&amp;gt;, &amp;lt;&amp;lt;_:4/binary, Bin:4/binary, _/binary&amp;gt;&amp;gt; = Binary, binary:referenced_byte_size(Bin).</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.6c/</guid>
       <description>Command Interface Module
 hepl(). 显示帮助信息 pwd(). 返回当前路径。 cd(Path).
 设置路径 bt(Pid)一&amp;gt;voidU 显示Pid进程的栈回溯信息。 c(File，Options)一&amp;gt;{ok, Module}!error
@@ -755,38 +755,38 @@ ni(). 显示当前系统的信息 l(Module)一&amp;gt;void() 加载或者重新�
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.8calendar/</guid>
       <description>date_to_gregorian_days(Date) -&amp;gt; Days 获取到现在为止的天数 date_to_gregorian_days(Year, Month, Day) -&amp;gt; Days datetime_to_gregorian_seconds(DateTime) -&amp;gt; Seconds 获取到现在为止的秒数 day_of_the_week(Date) -&amp;gt; daynum() 获取到现在为止的周数 day_of_the_week(Year, Month, Day) -&amp;gt; daynum() gregorian_days_to_date(Days) -&amp;gt; date() calendar:gregorian_days_to_date( 20000 ) -&amp;gt; {54,10,4} 20000天是多少年多少月多少日 gregorian_seconds_to_datetime(Seconds) -&amp;gt; datetime() calendar:gregorian_seconds_to_datetime( 200000 ) -》{{0,1,3},{7,33,20}} 20万秒是多少年月日，时分秒 is_leap_year(Year) -&amp;gt; boolean() Year年数是否为闰年 iso_week_number() -&amp;gt; yearweeknum() This function returns the tuple {Year, WeekNum} representing the iso week number for the actual date. For determining the actual date, the function local_time/0 is used.</description>
     </item>
     
     <item>
       <title>3</title>
-      <link>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</link>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.5stdlib/3.5.9code/</guid>
       <description>load_binary purge	Erlang的代码服务器 add_patha(Dir) 将Dit目录添加到代码目录列表的前端 add_pathsa(Dirs) 将Dirs列表中的目录添加到代码目录列表的前端 add_pathsz(Dirs)	将Dirs列表中的目录添加到代码目录列表的末端 add_pathz(Dir)	将Dir目录添加到代码目录列表的末端 all loaded()	获取所有已加载模块的列表 clash()	显示命名冲突检查报告 compiler_dir()	获取编译器的库文件目录 del_path(Name | Dir)	从代码目录列表中删除dir目录 delete (Module)	删除Module模块目前的代码 ensure_loaded(Module)	确保Module模块己经被加载 get_object_code (Module)获取Module模块的BEAM代码 get_path()	获取代码服务器当前的搜索路径 is loaded (Module)	检查Module模块是否已经加载 lib_dir()	获取Erlang/OTP的库文件目录 lib_dir(Name)	获取Name应用程序的库文件目录 load_abs(F们ename)	从filename绝对路径加载BEAM文件 load_binary(Module, Filenarne, Binary)将Binary的BEAM数据载入，Filename为其文件名，Module为模块名 load_file(Module)	从代码目录中加载Module模块 objfile_extension().	获取目标文件的扩展名 priv_dir(Name)	获取Name应用程序的Priv目录 purge(Module)	清除Module模块老版本的代码 rehash()	创建或者重新建立代码目录的缓存 replace_path(Name, Dir)	将代码目录列表中名为Name的目录替换为 root_dir()	获取Erlang/OTP的根目录 set_path(Path)	设置代码服务器的搜索路径 soft_purge(Module)	在没有进程使用的情况下清除Module模块老版本的代码 stick_dir(Dir) unstick_dir(Dir) where_is_file(Filename)	搜索代码目录，获取filename文件名的完整路径 which (Module)	获取Module模块目标代码文件的位置 code:clash/0 %检测代码中是否有module冲突现象 </description>
     </item>
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</guid>
       <description>http://www.erlang.org/doc/efficiency_guide/profiling.html
 11.4 Tools fprof fprof measures the execution time for each function, both own time, that is, how much time a function has used for its own execution, and accumulated time, that is, including called functions. The values are displayed per process. You also get to know how many times each function has been called. fprof is based on trace to file to minimize runtime performance impact. Using fprof is just a matter of calling a few library functions, see the fprof manual page in tools .</description>
     </item>
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</guid>
       <description>fprof类似eprof，但是会把详细信息存储到文件中，方便数据统计分析。
 只看某一函数的简单调用方法： 1&amp;gt; fprof:apply(Module, fun, Args). 2&amp;gt; fprof:profile(). 3&amp;gt; fprof:analyse(). 实际上在执行的时候，fprof:apply/3前后会自动添加trace([start, &amp;hellip;]) 和 trace(stop).
  fprof:trace([start, {file, &amp;ldquo;./fprof.trace&amp;rdquo;}, {procs, PidSpec}]). %% 或者可以trace多个Pid，[PidSpec]
@@ -799,10 +799,10 @@ suspend表示进程挂起。 也可以将fprof这类工具卸载想监控的代�
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</guid>
       <description> eprof:start().
 eprof:profile([pid(x,x,x)]).
 eprof:stop_profiling().
@@ -817,20 +817,20 @@ eprof:stop().
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</guid>
       <description>用于统计一个函数中的每个函数的调用次数。相较于eprof和fprof，cprof对性能影响很小，官方说大约10% 使用举例（引自官网）
 1&amp;gt; cprof:start(),R=calendar:day_of_the_week(1896,4,27),cprof:pause(),R. 1 2&amp;gt; cprof:analyse(calendar). {calendar,9, [{{calendar,df,2},1}, {{calendar,dm,1},1}, {{calendar,dy,1},1}, {{calendar,last_day_of_the_month1,2},1}, {{calendar,last_day_of_the_month,2},1}, {{calendar,is_leap_year1,1},1}, {{calendar,is_leap_year,1},1}, {{calendar,day_of_the_week,3},1}, {{calendar,date_to_gregorian_days,3},1}]} 3&amp;gt; cprof:stop(). 3271 该示例表明day_of_the_week这个函数需要调用9个函数完成计算。 同样cprof可以嵌入代码中。 </description>
     </item>
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</guid>
       <description>在Erlang模块被编译之前，首先会被名为epp的Erlang预处理器进行自动处理。这个预处理器会扩展任何存在于源文件中的宏，并且插入任何必需的包含文件。
 通常，你无须关心预处理器的输出，但在一些特殊情况下(例如，你要调试一个有错误的宏)，你可能希望能够保存预处理器的输出。通过命令compile:file(M,[&amp;lsquo;p&amp;rsquo;])可以将预处理器的输出保存在一个文件中。这个命令编译M.erl文件中的所有代码，然后在M.P文件中产生一个列表，存放所有经过扩展的宏和所有已经插入的包含文件。
 erlang的VM作为register based的VM, 大概有400条指令.指令分为hot, normal, cold 3大类别。beam_emu.c是vm的实现，hot和cold指令在编译的时候 由脚本生成的，include到beam_emu去的。 hot是热门的操作如list, tuple操作, cold的就是比较偏的指令。
@@ -843,10 +843,10 @@ erts_debug:df(eg). VM opcode形式, VM就是来解释运行这些code的 http://
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</guid>
       <description>进入已经启动的节点方法:
 作业（JCL ）模式 使用该功能需要保证cookie一致,并且node的名字的IP保持一致
 $ erl -setcookie abc -name node_1@192.168.1.110 Eshell V5.9 (abort with ^G) $ erl -setcookie abc -name node_2@192.168.1.110 Eshell V5.9 (abort with ^G) (node_2@192.168.1.110)1&amp;gt; node(). %当前这是在node_2 &amp;#39;node_2@192.168.1.110&amp;#39; (node_2@192.168.1.110)2&amp;gt; %Ctrl + G 进入JCL模式  User switch command --&amp;gt; h c [nn] - connect to job i [nn] - interrupt job k [nn] - kill job j - list all jobs s [shell] - start local shell r [node [shell]] - start remote shell q - quit erlang ?</description>
@@ -854,19 +854,19 @@ $ erl -setcookie abc -name node_1@192.168.1.110 Eshell V5.9 (abort with ^G) $ er
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</guid>
       <description>rpc:call(Node, Module, Function, Args) -&amp;gt; Res | {badrpc, Reason} Types: Node = node() Module = module() Function = atom() Args = [term()] Res = Reason = term() Evaluates apply(Module, Function, Args) on the node Node and returns the corresponding value Res, or {badrpc, Reason} if the call fails. rpc:cast(). erlang:set_cookie(node(), cookie). erl -sname test -name test@test -setcookie &amp;#39;pwd&amp;#39;	c:nl( Mod ). %slave 模块	slave:start(&amp;#39;10.0.0.252&amp;#39;, slave1, &amp;#34;-setcookie abc -loader inet -hosts &amp;#39;10.</description>
     </item>
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/4.3.1%E4%B8%BB%E4%BB%8E%E8%8A%82%E7%82%B9/</guid>
       <description>流程：  确保所有的服务器开通ssh服务。 确保主节点服务器可以不使用密码直接链接到从节点 确保主节点服务器使用xw.config配置启动Erl节点，确保xw.config中配置了所有节点的Ip，以及使用erl_boot_server启动节点 注意事项： 保证启动Erlang的linux的用户名所有服务器都一样 保证Erlang安装路径所有服务器都一样  技术文档：   Server: 引导服务器 erl_boot_server %server操作模块，配置加入到主节点的从节点，只有定义该节点后，才能被调用 http://erlang.org/doc/man/erl_boot_server.html
 start_boot_server， boot_server_slaves %erlang start启动时的options http://erlang.org/doc/man/kernel_app.htm
   Client: 从节点：http://erlang.org/doc/man/slave.html %启动从节点的模块。
@@ -877,10 +877,10 @@ start_boot_server， boot_server_slaves %erlang start启动时的options http://
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.4epmd/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.4epmd/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd/</guid>
       <description>erlang集群是依靠epmd维护的，epmd是erlang集群节点间端口映射的守护进程，负责维护集群内的节点连接，提供节点名称到IP地址及端口的解析服务。
 epmd 自定义端口号 epmd端口配置 默认情况下，epmd绑定在4369端口。但是，端口固定的话，容易遭受攻击，可能导致新节点的认证失败而无法启动，或无法加入集群。或者要在一台机器上部署不同的erlang集群，希望不会互相干扰。
 $ epmd -daemon -port 5000 $ epmd -d -port 5000 #如果想用调试模式启动 epmd 另外，epmd通常伴随着erlang节点启动时自动启动，无须手动处理，所以，这里也可以通过修改erl启动参数以达到自动调整epmd端口。
@@ -893,10 +893,10 @@ $ erl -name hello@127.0.0.1 -epmd_port 5000 linux下启动方式：
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</guid>
       <description>i.erl
 编译方式: make:all([debug_info]). | c(test.erl,debug_info).
 基本调试方法： im/0:打开调试器 i/1 :把文件添加到调试器中 ni :针对多个Node的用法 n/1 :与i/1相反 nn/1:与ni/1相反 interrepted/0:列出所有要调试的Module file/1:显示源文件 break/2:添加断点 delete_break/2删除断点 break_in/3:在具体函数中添加断点 del_break_in/3:在具体函数中删除断点 no_break/0:删除所有断点 no_break/1:删除某个Module的所有断点 disable_break/2:使某个模块的断点失效 enable_break/2:恢复某个模块的断点 action_at_break/1:设置断点的状态，实验中发现enable不起作用 all_breaks/0:显示所有的断点状态 all_breaks/1:显示指定所有的断点状态 snapshot／0：回放调试进程信息 </description>
@@ -904,10 +904,10 @@ $ erl -name hello@127.0.0.1 -epmd_port 5000 linux下启动方式：
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</guid>
       <description>1.使用dialyzer需要定义函数的-spec
 2.使用dialyzer
 a.由于我们编写的代码需要使用到Erlang的函数库，在分析时，可以把这些库生成dialyzer能够快速访问的格式，用来加快分析速度，命令
@@ -920,10 +920,10 @@ a.由于我们编写的代码需要使用到Erlang的函数库，在分析时，
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</guid>
       <description>开启 dbg:tracer()
 dbg:p(Item, Flags) dbg:p(Item) -&amp;gt; dbg:p(Item, [m]).
 Item是设定要跟踪的对象,Flags是设置要监听的动作 Item = all %会trace 整个系统所有的进程，同样可以监控整个集群 |new %就会trace 系统在此刻开始所创建的新进程，可以监控整个集群 |existing %会trace 系统此刻之前所创建的进程，可以监控整个集群 |pid() || register_name %则只会trace对应的进程，如果是在集群中，只要节点在traced nodes列表内，可以跨节点trace那个进程. | integer() %the process &amp;lt;0.Item.0&amp;gt; is traced
@@ -933,10 +933,10 @@ Flags can be a single atom, or a list of flags Flags = s(send) trace 进程发�
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/4.7.1dbg/</guid>
       <description>本地节点监听远程节点的函数被调用事件
 1.远程节点,存在下面函数 player_handler:get_state(Uid).
 2.本地节点。
@@ -948,20 +948,20 @@ t(Mod)-&amp;gt; dbg:tpl(Mod,[{&amp;#39;_&amp;#39;, [], [{return_trace}]}]). t(Mo
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</guid>
       <description>1.Trace Tool Builder（erlang跟踪工具） 主要特性： • 用一个函数调用来跟踪多个节点上的文件端口 • 可以往在formatting过程中读取的记录跟踪信息的文件中写入在额外的信息 • 通过维护历史缓存和处理配置文件来复原以前版本的配置 • 对于连续的跟踪提供了一些简单的支持 • 格式化输出二进制格式跟踪日志和合并多个节点上的日志
 2.ttb 模块 ttb模块是Trace Tool 的使用接口，首先你要启动跟踪：ttb:tracer/0/1/2，对需要跟踪的进程设置跟踪标志：ttb:p/2，然后当跟踪结束时你必须要停止跟踪器：ttb:stop/0/1， 然后格式化跟踪日志(当然必须有东西让你格式化):ttb:format/1/2。 ttb:trace/0/1/2在你需要跟踪的每个节点上启动一个跟踪端口，默认的情况下，跟踪信息被写入到远程节点上的二进制文件里面（the binary trace log）。 ttb:p/2 指定了要跟踪哪个进程，这个方法给与的跟踪标志（Trace flag）指定了在各个进程上要跟踪的内容。你可以调用这个函数多次来跟踪多个不同的进程。 如果你想要跟踪函数调用（换句话说在进程上设置了call跟踪标志），你必须设置跟踪模式（Pattern）在需要被跟踪的函数上，使用ttb:tp 或者ttb:tpl，只有在跟踪模式设置后函数才会被跟踪。跟踪模式指定了如何用 特殊的匹配格式进行跟踪，匹配格式在User&amp;rsquo;s Guide for the erlang runtime system erts. ttb:stop/0/1 停止在所有节点上的跟踪，删除所有的跟踪格式和刷新跟踪端口缓存。 ttb:format/1/2 将二进制格式的日志翻译成可读性较强的格式。默认的情况下显示的跟踪信息是一行文本，但是你也可以写自己的处理方法使得跟踪信息显示的更复杂详细。 跟踪日志甚至可以通过Event Tracer application以图形化的方式呈现出来。注意如果在ttb:stop/1中给与了format选项，那格式化会在ttb停止的时候自动处理。</description>
     </item>
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.9etop/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.9etop/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop/</guid>
       <description>http://erlang.org/doc/apps/observer/etop_ug.html
 平时用的最多的可能就是etop,两种用法: [1] 在/usr/local/lib/erlang/lib/observer-1.0/priv/bin目录下面(视安装情况而异)执行:
 找出cpu占用最高的进程，图形界面输出，每10秒更新一次
@@ -975,10 +975,10 @@ etop:stop().
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.1tcp%E7%B2%98%E5%8C%85%E5%A4%A7%E5%B0%8F%E7%AB%AF/</guid>
       <description>1.粘包问题 数据连包问题，这个在client/server的通讯中很常见。就是，当client在极短的时间内发送多个包给server，这时server在接收数据的时候可能发生连包问题，就一次性接收这几个包的数据，导致数据都粘连在一起。
 这里先讨论{packet, raw}或者{packet,0}的情况，分别看下{active, Boolean}的两种方式：
 gen_tcp对socket数据封包的获取有以下2种方式，
@@ -996,10 +996,10 @@ http | http_bin 设置以上参数，收到的数据将被erlang:decode_packet/3
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.2rebar%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/</guid>
       <description>以发布ping为例 1.获取源码+deps，并且完成编译
 2生成配置文件 cd ~ mkdir rel cd rel ../rebar create-node nodeid=ping
 3.修改原始配置文件, reltool.config lib_dirs %配置deps库路径，必须配置打包应用的路径 {lib_dirs, [&amp;quot;../&amp;quot;, &amp;ldquo;../deps/&amp;quot;, &amp;ldquo;../apps/&amp;quot;]}
@@ -1017,10 +1017,10 @@ a.修改配置文件 ping.app.src %修改版本号 reltool.config %修改版本�
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.3erlangvm%E5%BF%83%E8%B7%B3/</guid>
       <description>erlang心跳机制
 什么是erlang心跳机制？这是erlang运行时系统定期监控系统是否正常运行的程序。 erlang为什么要心跳机制？我们都知道，erlang有很多进程监督树，启动了很多supervisor来保证process的高可靠性， 但如果连emulator也死掉了，那erlang也就回天乏术了， 所以这时只能靠heart 来重新启动erlang。
 1. C:\&amp;gt;erl -heart -env HEART_COMMAND &amp;quot;erl -heart&amp;quot; 2. Eshell V5.10.2 (abort with ^G) 3. 1&amp;gt;  这时候你可以按 CTRL + C 挂起erlang，或者直接关闭 erlang shell 窗口，系统都会重新打开erlang shell
@@ -1034,10 +1034,10 @@ erlang心跳原理 erlang心跳机制的实现原理是启动一个 heart 进程
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.4erlanggc/</guid>
       <description>二进制存储
 erlang二进制数据在内存中有两种存在形式，当数据大小不到 64 bytes，就直接存在进程堆内，如果超过了64 bytes，就被保存到进程外的共享堆里，可以给节点内所有进程共享。
 erlang有两种二进制容器：heap binaries和refc binaries。
@@ -1049,10 +1049,10 @@ refc binaries 官方的叫法是引用计数二进制，就是对于那些超过
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.5erlangtime/</guid>
       <description>os:timestamp() 获取到的时间为操作系统的时间，不做任何修正；
 而erlang:now()，每次获取都会确保生成了唯一的时间，就是说，erlang:now()在实现上对时间做了一个校正，每次都生成一个单调向前的唯一值。
 主要是这3个特点：
@@ -1074,10 +1074,10 @@ erlang是怎么校正时间的？ erlang内部时间会和系统挂钟时间保�
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/</guid>
       <description>官方文档：http://www.erlang.org/doc/man/erl.html
 erlang启动参数有3种：emulator flags, flags 和plain arguments。
 emulator flags 是以“+”开头的，用来控制虚拟机的行为，附送一个非常实用的例子：
@@ -1086,10 +1086,10 @@ erl +p 100000 #	最大进程数 erl -pa ebin +K true #开启epoll调度，在lin
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.6erlang%E5%90%AF%E5%8A%A8/5.6.1sasl%E9%85%8D%E7%BD%AE/</guid>
       <description>错误日志记录器会产生几种类型的报告： Supervisor报告 在Supervisor启动或者停止被监管的进程时
 Progress报告 每次OTP监管进程启动或者停止的时候会产生这个报告。
 Crash报告 当被监管的进程退出时，如果它的退出原因不是normal或者shutdown，就会产生这个报告。 这三种报告是自动产生的，程序员无需关心。除此之外，当程序显式调用error_handler的方法时，也会产生三种日志报告。通过这三种报告，程序可以记录错误，警报以及提示信息。在这里，这三个术语并没有什么特别的语意，仅仅是程序员可以使用的三种标签，用来标明错误日志条目的自然属性（也就是说，想怎么用，随你）。
@@ -1103,55 +1103,55 @@ elog1.conf [{sasl, [ % minimise shell error logging {sasl_error_logger, false}, 
     
     <item>
       <title>5</title>
-      <link>http://example.org/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</link>
+      <link>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/5.%E8%BF%9B%E9%98%B6/5.7erlang%E7%B3%BB%E7%BB%9F%E9%99%90%E5%88%B6/</guid>
       <description>ets表	1400	erl -env ERL_MAX_ETS_TABLES 1000000 erl +e 1000000 并发数	erl +P 1000000 erlang:system_info(process_limit).	2^18=262144 最大值为2^27-1=134217727	erlang实际使用的进程数量限制可能比你设置的要大得多，这是因为erlang运行系统选择的进程数量限制通常是2的幂 有效范围是1024-134217727 打开文件数	linux并发读取文件最大数量 erlang:system_info(min_heap_size). {min_heap_size,233} min_heap_size是进程最小堆大小这个参数两个地方会用到， 第一处是erlang初始化进程堆大小， 第二处是gc后堆收缩后维持的最小值， erlang:system_info(min_bin_vheap_size).	{min_bin_vheap_size,46368}	min_bin_vheap_size是进程最小虚拟二进制堆大小，这两个参数都是以word为单位。 初始化足够大的初始内存，可以减少轻度gc的次数，减少反复申请和回收内存的开销 erlang:system_info(fullsweep_after). {fullsweep_after,65535}	fullsweep_after控制深扫描的频率 这个参数确定多少次gc后执行一次深度gc，默认值为65536，有点大了 erlang:system_info(check_io).	erlang:statistics(garbage_collection).	{433,750604,0}	erlang:statistics(io).	{{input,3020851},{output,31981}}	节点名称限制	一个节点的远程节点的最大数目是由可用于节点名称atom的最大数目的限制，换句话说，节点名称限制数量取决于atom的最大数量。另外，节点名称长度也和atom有关，不能超过255个字符。 节点连接限制	能够同时连接的最大节点数是由节点名称限制，可用端口限制，或者可用socket限制共同决定 atom的最大数量	设置erlang系统最大能够处理的原子（atom）数量，默认是1048576 通过配置erlang启动参数（标志+t）可以改变进程数量限制 一个atom最多能有255个字符 tuple中最大元素数量	2^26=67108863个 二进制数据(binary)的大小限制 32位机器上最大不超过 2^29-1 = 536870911 个字节 64位机器上最大不超过 2^61-1 = 2305843009213693951 个字节 果超出限制，erlang位语法（bit syntax）将无法工作，直接抛出 system_limit 异常 一个Erlang节点最大分配的数据空间大小	Erlang运行时系统可以使用到32（或64）位地址空间，事实上，操作系统对单个进程的使用空间做了限制 同时打开的端口数量限制	erlang对同时打开的端口数量做出了限制。默认是65536，Windows下是8096。有效值范围是1024-134217727 erlang:system_info(port_limit)	可以通过环境变量ERL_MAX_PORTS修改，或者配置erlang启动参数（标志+Q）修改 erlang实际使用的端口数量限制可能比你设置的要大得多，这是因为erlang运行系统选择的端口数量限制通常是2的幂 同时打开的文件和socket数量限制	能同时打开的最大文件和socket数量取决于最大能打开的端口数量，以及操作系统的设定和限制 dets表存储限制	单个dets文件大小不能超过2G，在64位的系统也有此限制，mnesia也受到这个限制 The unit of measurement is memory words.</description>
     </item>
     
     <item>
       <title>6</title>
-      <link>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</link>
+      <link>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.1the_seed/</guid>
       <description>https://git.01cs.cc/yujian/the_seed</description>
     </item>
     
     <item>
       <title>6</title>
-      <link>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.2network/</link>
+      <link>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.2network/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.2network/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.2network/</guid>
       <description>https://git.01cs.cc/yujian/network</description>
     </item>
     
     <item>
       <title>6</title>
-      <link>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</link>
+      <link>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.3parse_tool/</guid>
       <description>https://git.01cs.cc/yujian/parse_tool</description>
     </item>
     
     <item>
       <title>6</title>
-      <link>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.4cache/</link>
+      <link>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.4cache/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/6.%E9%A1%B9%E7%9B%AE/6.4cache/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/6.%E9%A1%B9%E7%9B%AE/6.4cache/</guid>
       <description>https://git.01cs.cc/yujian/cache</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.10ets/</guid>
       <description>ETS基础 ETS查询时间是常量,例外是如果使用ordered_set查询时间与logN成正比(N为存储的数据量)
 ETS Table由进程创建,进程销毁ETS Table也随着销毁,在使用Shell做ETS实验的时候要注意一下,Table的拥有关系可以give_away 转交给其它进程
 一个Erlang节点的ETS表的数量是有限制的,默认是1400个表,在启动erlang节点之前修改 ERL_MAX_ETS_TABLES参数可以修改这个限制ejabberd社区站点上总结的性能调优中提到了这一点,点击这里查看: http://www.ejabberd.im/tuning
@@ -1164,38 +1164,38 @@ set,ordered_set,bag,duplicate_bag	指定创建的table类型 public,private,prot
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.1mnesia%E6%A8%A1%E5%BC%8F/</guid>
       <description>schema -&amp;gt; 分布式信息
 mnesia:create_schema(NodeList).	该函数用来初始化一个新的空模式,在 Mnesia 启动之前这是一个强制性的必要步骤。 Mnesia 是一个真正分布式的数据库管理系统,而模式是一个系统表,它被复制到 Mnesia 系统的所有节点上。 如果 NodeList 中某一个节点已经有模式,则该函数会失败。该函数需要 NodeList 中所有节点上的 Mnesia 都停止之后才执行。应用程序只需调用该函数一次,因为通常只需要初始化数据库模式一次 mnesia:delete_schema(DiscNodeList)	该函数在 DiscNodeList 节点上删除旧的模式, 它也删除所有旧的表和数据。 该函数需要在所有数据库节点(db_nodes)上的Mnesia 都停止后才能执行 mnesia:delete_table(Tab).	该函数永久删除表 Tab 的所有副本 。 mnesia:clear_table(Tab).	该函数永久删除表 Tab 的全部记录 mnesia:move_table_copy(Tab, From, To).	该函数将表 Tab 的拷贝从 From 节点移动到 To 节点。表的存储类型{type}被保留,这样当移动一个 RAM 表到另一个节点时,在新节点上也维持一个 RAM 表。在表移动的过程中仍然可以有事务执行读和写操作 。 mnesia:add_table_copy(Tab, Node, Type).	该函数在 Node 节点上创建 Tab 表的 备份。Type 参数必须是 ram_copies 、 disc_copies 或者是 disc_only_copies。如果我们加一个系统表 schema 的拷贝到某个节点上,这意味着我们要 Mnesia 模式也驻留在那里。这个 动作扩展了组成特定 Mnesia 系统节点的集合 。 mnesia:del_table_copy(Tab, Node).</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.2mnesia%E6%93%8D%E4%BD%9C/</guid>
       <description>mnesia:create_table(Name, Opts). [ {type, bag||set||ordered_set|| duplicate bag}, %默认值 set *{disc_only_copies||disc_copies||ram_copies, NodeList}, %默认值是 [node()],可以同时新建三种类型的表  {index,AttributeNameList}, %AttributeNameList 是一个原子类型的属性名列表  {snmp, SnmpStruct} %SnmpStruct 在 SNMP 用户指南中描述，表示该表可以立即通过简单网络管理协议(SNMP)来访问  {local_content, true} %表名对所有 Mnesia 点可见,但是内容对每个节点都是唯一的。这种类型的表只能在本地进行存取 *{attributes, record_info( fields, itemGene )}, {record_name, Name}, %指定表中所有记录的通用名  [{frag_properties, [{n_fragments, 20}, {n_disc_copies, 1}, {node_pool, [node()]}]}, ] set -&amp;gt; 每一个元组的键值都不能相同 ordered_set -&amp;gt; 元组会进行排序 bag -&amp;gt; 多个元组可以有相同的键值,一条记录确定唯一性 duplicate_bag -&amp;gt; 多个元组可以有相同的键值，同一个元组可以在表中出现多次 local_content -&amp;gt; 应用需要一个其内容对每个节点来说在本地都是唯一的表，这种类型的表只能在本地进行存取 frag_properties %分片属性  mnesia:create_table( table_name, [{ram_copies, [a@yujian,b@yujian]}] ).建表 mnesia:system_info().</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.3mnesia%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</guid>
       <description>查询 mnesia:add_table_index( test, name). mnesia:del_table_index( test, name). mnesia:index_read(Table, Arg, Attr). 建表时，为该表建立索引使用元组{index, [attr1, attr2,....} mnesia:index_match_object( alias, Pattern, #alias.alias_name, read ). fun() -&amp;gt; mnesia:write( New ) end fun() -&amp;gt; mnesia:read( { table, Id } ) end fun() -&amp;gt; mnesia:delete( {product, Id} ) end fun() -&amp;gt; [R] = mnesia:read( table, Id, write ), New = R#table{ Id = Ids }, mnesia:write( New ) end. 先做读取操作，参数write为下面的mnesia:write做准备 do:q -include_lib( &amp;#34;stdlib/include/qlc.hrl&amp;#34; ). select(StringBin )-&amp;gt; Fun = fun( Key ) -&amp;gt; binary:match( Key, StringBin ) =/= nomatch end, do( qlc:q([ UUID||#test_select{key= UUID} &amp;lt;- mnesia:table( test_select ), Fun(UUID)]) ).</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.4mnesia%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</guid>
       <description>dump_log_time_threshold %转储间隔次数 dump_log_write_threshold %转储次数 dc_dump_limit %出发dump的默认值，当filesize(.DCL) &amp;gt; filesize(.DCD) / dc_dump_limit，把*.DCL的记录存储到*.DCD文件中
 application:set_env( mnesia, dc_dump_limit, 40 ), application:set_env( mnesia, dump_log_write_threshold, 10000 ),
 mnesia在频繁操作数据的过程可能会报错：** WARNING ** Mnesia is overloaded: {dump_log, write_threshold}，可以看出，mnesia应该是过载了。这个警告在mnesia dump操作会发生这个问题，表类型为disc_only_copies 、disc_copies都可能会发生。 如何重现这个问题，例子的场景是多个进程同时在不断地mnesia:dirty_write/2 mnesia过载分析 1、抛出警告是在mnesia 增加dump worker的时候
@@ -1208,10 +1208,10 @@ mnesia在频繁操作数据的过程可能会报错：** WARNING ** Mnesia is ov
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.5mnesia%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</guid>
       <description>原文链接：http://hideto.iteye.com/blog/235413
 本章描述了构建分布式、容错的Mnesia数据库相关的高级特性： 1）索引 2）分布和容错 3）表分片 4）本地内容表 5）无盘节点 6）更多的schema管理 7）Mnesia事件处理 8）Mnesia应用调试 9）Mnesia里的并发进程 10）原型
 1，索引 如果我们知道record的key，那么数据获取和匹配在执行起来都很高效 相反如果不知道record的key，那么表里所有的record都必须搜索 当表越来越大时，表的搜索就越来越耗时 Mnesia的索引就是用来解决这个问题的 下面的两个方法对已有的表操作索引：
@@ -1221,10 +1221,10 @@ Mnesia的索引用于以下3个方法： 1）mnesia:index_read(Tab, SecondaryKey
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.6%E5%88%86%E5%B8%83%E5%BC%8F/</guid>
       <description>解决方案：erl -name a@yujian
 1.在两台机器上分别建立各自一个节点，我使用我的电脑和我后面的电脑 我的机器 test机器  这时运行： mnesia:create_schema( [ yujian@yujian, test@DP-201001010138 ]).出现错误 我猜测可能是test@DP-201001010138这个名称的问题，把这个名称修改掉，修改成test@test 然后重新试验下 2台机器之间有错误了 该问题，出现原因未知
 第二次试验信息：a机器：erl -name a@yujian -setcookie abc b机器:erl -name b@yujian -setcookie abc 此次解决方案：a机器代码修改：erl -sname a -setcookie abc b不变化 这时我准备在我的机器上启2个节点 ok 这时mnesia:start().需要注意 然后创建表 mnesia:create_table( baikefileRecord, [{disc_only_copies, [ yujian@yujian, test@yujian ]}, {attributes, record_info( fields, baikefileRecord )}]).
@@ -1234,20 +1234,20 @@ mnesia:start(). mnesia:system_info(). 以task_to_file表为例，首先确保2�
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.7mnesia%E8%A1%A8%E5%88%86%E7%89%87/</guid>
       <description>数据分片：本质把一张表分成多张表， 当使用mnesia:activity/4操作数据时，分片属性被使用，会到多张表中进程操作
 mnesia:activity/4 WriteFun = fun( Keys ) -&amp;gt; [ mnesia:write( {table_name, K, -K} ) || K&amp;lt;- Keys] end. mnesia:activity( sync_dirty, WriteFun, [ lists:seq(1,256) ], mnesia_frag ). %写入数据，[ lists:seq(1,256) ]是数据内容 mnesia:change_table_frag(Tab, Change) {activate, FragProps} %激活一个现存表的分片属性,FragProps 应为 {node_pool, Nodes} 或是空  deactivate %解除表的分片属性, 片断的数量必须是 1 。没有其它表在其外键中引用此表  {add_frag, NodesOrDist} %加一个新的片断到分片表。 在老的片断中的全部记录将被重新处理并且其中一半的记录将被移送到新(最后的)片断。 所有通过外键引用此表的其它分片表将自动获得新的片断,其记录也将用与主表相同的方式动态重新处理。 NodesOrDist 参数可以是一个节点列表或者是来自于 mnesia:table_info(Tab,frag_dist)函数的结果 。 NodesOrDist 参数被看作是一个根据新副本首先 进 入的主机为最优来排序的有序节点列表。 新片断将获得与第一个片断同样数量的副本(看n_ram_copies , n_disc_copies 和 n_disc_only_copies)。 NodesOrDist 列表必须至少包含一个需要为每个副本分配的单元。 del_frag %从分片表删除一个片断。在最后这个片断的所有记录将被移到其它片断之一。所有通过其外键引用此表的其它分片表将自动丢失其最后的片断,其记录也将用与主表相同的方式动态重新处理。  {add_node, Node} %增加一个新节点到节点池 node_pool 。 新的节点池将影响从函数.</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.8mnesia%E9%94%81/</guid>
       <description>读锁。在记录的副本能被读取之前设置读锁。.
 写锁。当事务写一条记录时,首先在这条记录的所有副本上设置写锁。
 读表锁。如果事务要扫描整张表来搜索一条记录,那么,对表里的记录一条一条的加锁效率很低也很耗内存(如果表很大,读锁本身会消耗很多空间)。因此,Mnesia 可以对表设 置读锁。
@@ -1258,19 +1258,19 @@ mnesia的锁机制： 读锁、写锁、读表锁、写表锁、粘锁 mnesia:tr
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.1mnesia/7.1.9dets/</guid>
       <description>select(Name, MatchSpec, N) dets:delete_all_objects(Name) </description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.1mod_echo.erl/</guid>
       <description>Ejabberd扩展案例 源码：https://github.com/processone/ejabberd/blob/master/src/mod_echo.erl
 Ejabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-contrib
 基于现在的扩展模式，做出的通用性的拓展功能</description>
@@ -1278,28 +1278,28 @@ Ejabberd通用扩展包说明 源码：https://github.com/processone/ejabberd-co
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.2hooksformoduledevelopers/</guid>
       <description>filter_packet (run_hook) ejabberd_hooks:run_fold(filter_packet, {OrigFrom, OrigTo, OrigPacket}, []). </description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.2ejabberd/7.2.3eventslist/</guid>
       <description>Here is the list of available events in ejabberd. The types of the corresponding hooks parameters is described below. adhoc_local_items(Acc, From, To, Lang) -&amp;gt; Adhoc adhoc_sm_items(Acc, From, To, Lang) -&amp;gt; Adhoc anonymous_purge_hook(User, Server) -&amp;gt; ok c2s_auth_result(bool(), User, Server, IP) -&amp;gt; ok c2s_broadcast_recipients(Acc, Server, StateData, Type, From, Packet) -&amp;gt; [] c2s_filter_packet(Acc, Server, C2SState, Feature, To, Packet) -&amp;gt; bool() c2s_filter_packet_in(Acc, JID, From, To) -&amp;gt; FixedPacket c2s_loop_debug({route, From, To, Packet}) -&amp;gt; ok c2s_loop_debug(Text) -&amp;gt; ok c2s_loop_debug({xmlstreamelement, Packet}) -&amp;gt; ok c2s_post_auth_features(Acc, Server) -&amp;gt; [] c2s_presence_in(Acc, {From, To, Packet}) -&amp;gt; C2SState c2s_stream_features(Acc, Server) -&amp;gt; [] c2s_unauthenticated_iq(Acc, Server, IQ, IP) -&amp;gt; empty | Packet c2s_update_presence(Acc, User, Server) -&amp;gt; Packet caps_update(From, To, get_features(Server, Caps)) -&amp;gt; ok csi_filter_stanza(Acc, Stanza) -&amp;gt; send disco_info(Acc, Host, Module, Node, Lang) -&amp;gt; [] disco_local_features(Acc, From, To, Node, Lang) -&amp;gt; Disco disco_local_identity(Acc, From, To, Node, Lang) -&amp;gt; [] disco_local_items(Acc, From, To, Node, Lang) -&amp;gt; Disco disco_sm_features(Acc, From, To, Node, Lang) -&amp;gt; Disco disco_sm_identity(Acc, From, To, Node, Lang) -&amp;gt; [] disco_sm_items(Acc, From, To, Node, Lang) -&amp;gt; Disco filter_packet(Acc) -&amp;gt; OrigPacket forbidden_session_hook(JID) -&amp;gt; ok http_request_debug({LocalPath, Request}) -&amp;gt; ok local_send_to_resource_hook(From, To, Packet) -&amp;gt; ok muc_filter_message(Stanza, MUCState, RoomJID, FromJID, FromNick) -&amp;gt; Stanza drop muc_filter_presence(Stanza, MUCState, RoomJID, FromJID, FromNick) -&amp;gt; Stanza drop offline_message_hook(From, To, Packet) -&amp;gt; ok presence_probe_hook(From, To, Pid) -&amp;gt; ok privacy_check_packet(Acc, User, Server, PrivacyList, {From, To, Packet}, Dir) -&amp;gt; Auth privacy_get_user_list(Acc, User, Server) -&amp;gt; #userlist{} privacy_iq_get(Acc, From, To, IQ, PrivacyList) -&amp;gt; {result, Packet} | {error, Error} privacy_iq_set(Acc, From, To, IQ) -&amp;gt; {result, Packet} | {error, Error} privacy_updated_list(Acc, PrivacyList, PrivList) -&amp;gt; bool() pubsub_create_node(ServerHost, Host, Node, NodeId, NodeOptions) -&amp;gt; ok pubsub_delete_node(ServerHost, Host, Node, NodeId) -&amp;gt; ok pubsub_publish_item(ServerHost, Node, Publisher, service_jid(Host), ItemId, Payload) -&amp;gt; ok register_user(User, Server) -&amp;gt; ok remove_user(User, Server) -&amp;gt; ok reopen_log_hook() -&amp;gt; ok resend_offline_messages_hook(Acc, User, Server) -&amp;gt; [] resend_subscription_requests_hook(Acc, User, Server) -&amp;gt; [] roster_get(Acc, {User, Server}) -&amp;gt; [] roster_get_jid_info(Acc, User, Server, From) -&amp;gt; []} roster_get_subscription_lists(Acc, User, Server) -&amp;gt; []} roster_get_versioning_feature(Acc, Server) -&amp;gt; [] roster_groups(Acc, ServerHost) -&amp;gt; [] roster_in_subscription(Acc, User, Server, From, SubscriptionInType, Reason) -&amp;gt; bool() roster_out_subscription(User, Server, To, SubscriptionOutType) -&amp;gt; ok roster_process_item(Acc, Server) -&amp;gt; RosterItem s2s_allow_host(Acc, Host, Host) -&amp;gt; Auth s2s_connect_hook(Host, Server) -&amp;gt; ok s2s_loop_debug({xmlstreamelement, Packet}) -&amp;gt; ok s2s_receive_packet(From, To, Packet) -&amp;gt; ok s2s_send_packet(From, To, Packet) -&amp;gt; ok s2s_stream_features(Acc, Server) -&amp;gt; [] set_presence_hook(User, Server, Resource, Presence) -&amp;gt; ok sm_register_connection_hook(SID, JID, Info) -&amp;gt; ok sm_remove_connection_hook(SID, JID, Info) -&amp;gt; ok unset_presence_hook(User, Server, Resource, Status) -&amp;gt; ok user_available_hook(JID) -&amp;gt; ok user_ping_timeout(JID) -&amp;gt; ok user_receive_packet(Packet, C2SState, JID, From, To) -&amp;gt; Packet user_send_packet(Packet, C2SState, From, To) -&amp;gt; Packet vcard_set(User, Server, VCARD) -&amp;gt; ok webadmin_menu_host(Acc, Host, Lang) -&amp;gt; [] webadmin_menu_hostnode(Acc, Host, Node, Lang) -&amp;gt; [] webadmin_user(Acc, User, Server, Lang) -&amp;gt; [] webadmin_user_parse_query(Acc, Action, User, Server, Query) -&amp;gt; [] Hooks parameters data types To = From = JID = ServerJID = #jid (see jlib.</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.3cowboy/</guid>
       <description>Web服务器，basho出品 git地址:https://github.com/ninenines/cowboy
 Dispatch组合
 静态文件 erlydtl模块动态文件</description>
@@ -1307,10 +1307,10 @@ Dispatch组合
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/</guid>
       <description>https://github.com/basho/rebar/
 配置文件说明：https://github.com/basho/rebar/blob/master/rebar.config.sample
 使用案例： http://dhq.me/build-compile-eunit-release-erlang-application-with-rebar
@@ -1323,10 +1323,10 @@ Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Co
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.1rebarwiki/</guid>
       <description>官方wiki https://github.com/rebar/rebar/wiki
 • Getting Started • Rebar and OTP Conventions • Rebar Commands • Dependency management • Dynamic configuration • Template Support • Built-in templates • Release Handling • Upgrades  1.Creating the project rebar create-app appid=appname
 2.Compiling with rebar rebar.config {sub_dirs, [ &amp;ldquo;apps/dummy_proj&amp;rdquo;, &amp;ldquo;rel&amp;rdquo; ]}. {erl_opts, [debug_info, fail_on_warning]}. {require_otp_vsn, &amp;ldquo;R14&amp;rdquo;}. ./rebar compile
@@ -1336,37 +1336,37 @@ Recompile: src/rebar ==&amp;gt; rebar (compile) ==&amp;gt; rebar (escriptize) Co
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.4rebar/7.4.2rebar.config.script/</guid>
       <description>%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-  %% ex: ts=4 sw=4 ft=erlang et  ExtraDeps = [{retest, &amp;#34;.*&amp;#34;, {git, &amp;#34;git://github.com/dizzyd/retest.git&amp;#34;}}], case os:getenv(&amp;#34;REBAR_EXTRA_DEPS&amp;#34;) of false -&amp;gt; CONFIG; _ -&amp;gt; case lists:keysearch(deps, 1, CONFIG) of {value, {deps, Deps}} -&amp;gt; NDeps = Deps ++ ExtraDeps, lists:keyreplace(deps, 1, CONFIG, {deps, NDeps}); false -&amp;gt; CONFIG ++ [{deps, ExtraDeps}] end end. </description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.5riakcs/</guid>
       <description>文档存储</description>
     </item>
     
     <item>
       <title>7</title>
-      <link>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</link>
+      <link>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/7.%E9%A1%B9%E7%9B%AE%E7%A0%94%E7%A9%B6/7.6leofs/7.6.1%E7%AE%80%E4%BB%8B/</guid>
       <description>文档存储</description>
     </item>
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.2%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E5%8E%9F%E7%90%86/</guid>
       <description>erlang 是开源的，很多人都研究过源代码。但是，从erlang代码到c代码，这是个不小的跨度，而且代码也比较复杂。所以这里，我利用一些时间，整理下 erlang代码的执行过程，从erlang代码编译过程，到代码执行过程做讲解，然后重点讲下虚拟机执行代码的原理。将本篇文章，献给所有喜欢erlang的人。
 erlang代码编译过程 erlang对开发者是友好的，从erlang程序文件编译成能被erlang虚拟机识别的beam文件，在这个编译过程还对开发者暴露中间代码。借助这个中间代码，我们就可以逐步探究erlang代码的执行过程。 这是erlnag的编译过程，当然，最开始和大多数编译器一样，首先会将程序文件转换成语法树，但这个转换对我们来说阅读的意义不大，所以归结于以上3个过程。
   erlang核心代码 确切的叫法是Core Erlang，使用了类似Haskell 的语法，而且每个变量都用“Let” 声明。在erlang shell通过以下方式可以获取模块的Core Erlang代码，将会生成test.core文件 c(test, to_core). 实际上core文件可以直接编译成beam文件，如下： c(test, from_core).
@@ -1382,10 +1382,10 @@ File Path beam_makeops erts/emulator/utils/ ops.tab erts/emulator/beam/ beam_opc
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.1%E8%B5%84%E6%96%99/8.1.3smp/</guid>
       <description>以下是一些Erlang SMP实现的细节和与性能与伸缩性相关一些简单介绍。
 几周之内还有有一个关于多核如何运作以及未来如何发展的更详细的介绍。我打算将一些内容放在我的报告中，将于9月27日的ICFP2008，Erlang Workshop在Victoria BC展示给大家。
 没有SMP支持的Erlang VM只有1个运行在主处理线程中的调度器。该调度器从运行队列（run-queue）中取出可以运行的Erlang进程以及IO任务，而且因为只有一个线程访问他们所以无须锁定任何数据。

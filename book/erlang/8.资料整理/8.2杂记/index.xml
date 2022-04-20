@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>8.2杂记 on My New Hugo Site</title>
-    <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/</link>
+    <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/</link>
     <description>Recent content in 8.2杂记 on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>8</title>
-      <link>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</link>
+      <link>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/8.%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/8.2%E6%9D%82%E8%AE%B0/8.2.1%E8%AE%BE%E8%AE%A1/</guid>
       <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程.
   Erlang的容错处理：如果不能完成一个任务就死掉 让其它正常的进程来善后。link函数就是用来建立这种进程间的双向连接来监测非正常退出，并做出处理。
   side-effect-free无副作用,其中一种定义是说:一个程序执行前后保持程序的状态不变,不改变非局部变量的值,不改变传入参数值,也无I/O

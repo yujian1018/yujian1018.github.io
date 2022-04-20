@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.10profiling on My New Hugo Site</title>
-    <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
+    <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
     <description>Recent content in 4.10profiling on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</guid>
       <description>fprof类似eprof，但是会把详细信息存储到文件中，方便数据统计分析。
 只看某一函数的简单调用方法： 1&amp;gt; fprof:apply(Module, fun, Args). 2&amp;gt; fprof:profile(). 3&amp;gt; fprof:analyse(). 实际上在执行的时候，fprof:apply/3前后会自动添加trace([start, &amp;hellip;]) 和 trace(stop).
  fprof:trace([start, {file, &amp;ldquo;./fprof.trace&amp;rdquo;}, {procs, PidSpec}]). %% 或者可以trace多个Pid，[PidSpec]
@@ -29,10 +29,10 @@ suspend表示进程挂起。 也可以将fprof这类工具卸载想监控的代�
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</guid>
       <description> eprof:start().
 eprof:profile([pid(x,x,x)]).
 eprof:stop_profiling().
@@ -47,10 +47,10 @@ eprof:stop().
     
     <item>
       <title>4</title>
-      <link>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</link>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>http://example.org/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</guid>
       <description>用于统计一个函数中的每个函数的调用次数。相较于eprof和fprof，cprof对性能影响很小，官方说大约10% 使用举例（引自官网）
 1&amp;gt; cprof:start(),R=calendar:day_of_the_week(1896,4,27),cprof:pause(),R. 1 2&amp;gt; cprof:analyse(calendar). {calendar,9, [{{calendar,df,2},1}, {{calendar,dm,1},1}, {{calendar,dy,1},1}, {{calendar,last_day_of_the_month1,2},1}, {{calendar,last_day_of_the_month,2},1}, {{calendar,is_leap_year1,1},1}, {{calendar,is_leap_year,1},1}, {{calendar,day_of_the_week,3},1}, {{calendar,date_to_gregorian_days,3},1}]} 3&amp;gt; cprof:stop(). 3271 该示例表明day_of_the_week这个函数需要调用9个函数完成计算。 同样cprof可以嵌入代码中。 </description>
     </item>
