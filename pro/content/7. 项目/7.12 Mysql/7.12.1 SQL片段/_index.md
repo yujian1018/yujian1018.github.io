@@ -1,0 +1,44 @@
+---
+title: "7.12.1 SQL片段"
+date: 2019-08-30T10:56:29+08:00
+chapter: true
+weight: 07120100
+---
+
+## redis
+
+```bash
+
+#ubuntu
+wget https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
+sudo dpkg -i mysql-apt-config_0.8.6-1_all.deb
+#centOS
+rpm -Uvh https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
+
+# 安装成功后， 提示选择版本， ubuntu18.04 默认安装8.0 &nbsp;所以这里选择 8.0 &nbsp;点击 ok
+
+sudo apt update
+sudo yum -y install mysql-community-server
+systemctl start mysqld
+sudo grep 'temporary password' /var/log/mysqld.log #密码
+mysql -uroot -p
+> ALTER USER 'root'@'localhost' IDENTIFIED BY 'a1C,_#';
+> CREATE USER 'root'@'%' IDENTIFIED BY '1fC_,#';
+> GRANT ALL ON *.* TO 'root'@'%';
+
+> SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456");
+> REVOKE SELECT ON *.* FROM 'pig'@'%'; #撤销权限
+> DROP USER 'username'@'host';
+
+> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+> flush privileges;
+
+
+
+```
+
+## config
+
+```config
+
+```
