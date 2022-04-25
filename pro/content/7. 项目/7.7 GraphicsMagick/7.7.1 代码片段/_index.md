@@ -1,0 +1,18 @@
+---
+title: "7.7.1 代码片段"
+weight: 07070100
+date: 2019-08-30T15:13:01+08:00
+chapter: true
+---
+
+|   显示图像文件详细信息  |  gm identify a.jpg  |
+| --- | --- |
+|  更改当前目录下*.jpg的尺寸大小，并保存于目录.thumb里面  | gm mogrify -output-directory .thumbs -resize 320x200 *.jpg   |
+|  将三幅图像和并为一副图像  | gm montage -mode concatenate -tile 3x1 image1.ppm image2.ppm image3.ppm concatenated.miff   |
+|  显示图像 |  gm display 'vid:*.jpg' |
+| 格式转换 | gm convert a.bmp a.jpg \|\| gm convert a.bmp a.pdf（转换为pdf) |
+| 调整图像dpi和大小 | gm convert -density 288 -geometry 25% image.gif image.gif（缩小为原先的1／4，并且dpi为288）gm convert -resize 640x480 image.gif image.gif（转换为640x480的图像) |
+| 在图像上添加文字 | gm convert -font Arial -fill blue -pointsize 18 -draw "text 10,10 'your text here'" test.tif test.png |
+| 从gif文件中抽取第一帧 | gm convert "Image.gif[0]" first.gif |
+| 建立gif图像 | gm convert -delay 20 frame*.gif animation.gif gm convert -loop 50 frame*.gif animation.gif（让动画循环50次）gm convert -delay 20 frame1.gif -delay 10 frame2.gif -delay 5 frame3.gif animation.gif（对每一帧手动指定延时） |
+| 截屏 | gm import a.jpg 用鼠标点击所要截取的窗口，或者选择截屏区域，保存为a.jpg gm import -frame a.jpg 保留窗口的边框 |

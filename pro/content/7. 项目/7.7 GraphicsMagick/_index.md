@@ -12,6 +12,7 @@ GraphicsMagick编程接口
 GraphicsMagick 命令行参数，说明文档
 
 GraphicsMagick的命令概览
+
 ----------------------------------------------------------------------------
 
 [ convert | identify | mogrify | composite | montage | compare | display | animate | import | conjure ]
@@ -32,5 +33,3 @@ png <http://www.libpng.org/pub/png/pngcode.html> apt-get install libpng
  www.zlib.net yum install libpng-devel
 jpg <http://www.remotesensing.org/libtiff/> apt-get install libtiff
   yum install libtiff-devel
-  
-![](images/screenshot_1527427965176.png)
