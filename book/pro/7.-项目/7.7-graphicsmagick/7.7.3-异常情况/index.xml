@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7.7.3 异常情况 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/</link>
+    <description>Recent content in 7.7.3 异常情况 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.7.3.1 运行警告1</title>
+      <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/7.7.3.1-%E8%BF%90%E8%A1%8C%E8%AD%A6%E5%91%8A1/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/7.7.3.1-%E8%BF%90%E8%A1%8C%E8%AD%A6%E5%91%8A1/</guid>
+      <description>terminate called after throwing an instance of &amp;lsquo;Magick::WarningCoder&amp;rsquo; what(): Magick: profile matches sRGB but writing iCCP instead (q1_80x80_100%.png) reported by coders/png.c:1076 (PNGWarningHandler) http://my.oschina.net/1pei/blog/479162#OSC_h1_1 libpng 1.6+更严格的检查会对original HP/MS sRGB profile报警。老的profile使用D50</description>
+    </item>
+    
+  </channel>
+</rss>

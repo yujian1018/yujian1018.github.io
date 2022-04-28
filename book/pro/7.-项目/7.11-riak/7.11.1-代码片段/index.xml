@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7.11.1 代码片段 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</link>
+    <description>Recent content in 7.11.1 代码片段 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.11.1.1 代码片段</title>
+      <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/7.11.1.1-%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/7.11.1.1-%E5%91%BD%E4%BB%A4/</guid>
+      <description>keys * Keys invite*</description>
+    </item>
+    
+  </channel>
+</rss>

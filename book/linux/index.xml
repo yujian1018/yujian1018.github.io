@@ -191,11 +191,74 @@
     </item>
     
     <item>
+      <title>4.2.1 VIM</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim/</guid>
+      <description>http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/ http://www.cnblogs.com/ribavnu/p/3874386.html pathogen 管理插件 cd ~/ mkdir .vim mkdir -p ~/.vim/autoload ~/.vim/bundle cd ~/.vim/autoload/ wget https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim Git:https://github.com/tpope/vim-pathogen ~/.vimrc vim配置文件 call pathogen#infect() call pathogen#helptags() syntax onfiletype plugin indent on vimerl cd ~/.vim/bundlegit clone https://github.com/jimenezrick/vimerl.git vimrc中为vimerl配置文件增加以下配置 filetype plugin indent on let</description>
+    </item>
+    
+    <item>
+      <title>4.4.1 nginxError排查</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4-nginx/4.4.1-nginxerror%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4-nginx/4.4.1-nginxerror%E6%8E%92%E6%9F%A5/</guid>
+      <description>nginxError排查 错误描述 {error, socket_closed_remotely} 复现 Leofs（分布式文件存储系统） Gateway_0 192.168.1.16:8080 Gateway_1 192.168.1.17:8080 100w条 每条500字节数据，由erlang httpc post到任意</description>
+    </item>
+    
+    <item>
+      <title>4.4.2 nginxRewrite规则</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4-nginx/4.4.2-nginxrewrite%E8%A7%84%E5%88%99/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4-nginx/4.4.2-nginxrewrite%E8%A7%84%E5%88%99/</guid>
+      <description>nginxRewrite规则 https://segmentfault.com/a/1190000002797606 location正则写法 一个示例： location = / { # 精确匹配 / ，主机名后面不能带任何字符串 [ configuration A ] } location / { # 因为所有的</description>
+    </item>
+    
+    <item>
+      <title>4.6.1 Docker-Dockerfile</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile/</guid>
+      <description>docker 仓库（registry） # 私有服务：创建私有仓库 docker run -d -p 5000:5000 --restart=always --name registry -v /opt/myregistry:/var/lib/registry registry #重启docker让修改生效 systemctl restart docker.service #Dockerfile打包镜像 https://www.docker.org.cn/docker/docker-206.html vim</description>
+    </item>
+    
+    <item>
+      <title>4.6.2 Docker</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker/</guid>
+      <description>docker 安装 wget -qO- https://get.docker.com/ | sh sudo service docker start sudo docker run hello-world 镜像控制 docker image list docker image ls # 查看镜像 docker image save centos &amp;gt; docker-centos.tar.gz #导出镜像 docker image rm centos:latest #删除镜像 docker image load -i docker-centos.tar.gz #导入镜像 docker image inspect centos #查看镜像</description>
+    </item>
+    
+    <item>
+      <title>4.6.4 Docker Compose</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose/</guid>
+      <description>docker compose 配置文件 version:&amp;#34;3&amp;#34;services:htzx:image:127.0.0.1:15000/htzx/iot-</description>
+    </item>
+    
+    <item>
+      <title>4.6.5 Docker-网络</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C/</guid>
+      <description>docker 网络 docker network create -d bridge test-net # -d：参数指定 Docker 网络类型，有 bridge、overlay。 docker run -itd --name test1 --network test-net ubuntu /bin/bash #运行一个容器并连接到新建的 test-net 网络 docker run -itd --name test2</description>
+    </item>
+    
+    <item>
       <title>Gitea</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/gitea/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea/</link>
       <pubDate>Fri, 04 Mar 2022 16:03:35 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/gitea/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea/</guid>
       <description>install # https://gitea.io/zh-cn/ # 初始化数据库 # 下载 wget -O gitea https://dl.gitea.io/gitea/1.16.0/gitea-1.16.0-linux-amd64 chmod +x gitea ./gitea web</description>
     </item>
     
@@ -407,6 +470,15 @@
     </item>
     
     <item>
+      <title>4.3.1 acme</title>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3-lets-encrypt/4.3.1-acme/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3-lets-encrypt/4.3.1-acme/</guid>
+      <description>acme.sh #!/bin/sh ##crontab -uroot -e ##30 4 * * * sh /root/cron/daily.sh &amp;gt; /root/cron/log_daily.log ## acme.sh curl https://get.acme.sh | sh export Ali_Key=&amp;#34;aaa&amp;#34; export Ali_Secret=&amp;#34;bbb&amp;#34; acme.sh --issue --dns dns_ali -d 01cs.cc -d *.01cs.cc # 手动 dns 方式, 手动在域名上添加一条 txt 解析记录, 验证域名所有权. # 然后 acme.sh 会生成</description>
+    </item>
+    
+    <item>
       <title>4.4.4 svn</title>
       <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.4-svn/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
@@ -461,60 +533,6 @@
     </item>
     
     <item>
-      <title>cron</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.1-lets-encrypt/acme/</guid>
-      <description>acme.sh #!/bin/sh ##crontab -uroot -e ##30 4 * * * sh /root/cron/daily.sh &amp;gt; /root/cron/log_daily.log ## acme.sh curl https://get.acme.sh | sh export Ali_Key=&amp;#34;aaa&amp;#34; export Ali_Secret=&amp;#34;bbb&amp;#34; acme.sh --issue --dns dns_ali -d 01cs.cc -d *.01cs.cc # 手动 dns 方式, 手动在域名上添加一条 txt 解析记录, 验证域名所有权. # 然后 acme.sh 会生成</description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-compose/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-compose/</guid>
-      <description>docker compose 配置文件 version:&amp;#34;3&amp;#34;services:htzx:image:127.0.0.1:15000/htzx/iot-</description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-dockerfile/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-dockerfile/</guid>
-      <description>docker 仓库（registry） # 私有服务：创建私有仓库 docker run -d -p 5000:5000 --restart=always --name registry -v /opt/myregistry:/var/lib/registry registry #重启docker让修改生效 systemctl restart docker.service #Dockerfile打包镜像 https://www.docker.org.cn/docker/docker-206.html vim</description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-%E7%BD%91%E7%BB%9C/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker-%E7%BD%91%E7%BB%9C/</guid>
-      <description>docker 网络 docker network create -d bridge test-net # -d：参数指定 Docker 网络类型，有 bridge、overlay。 docker run -itd --name test1 --network test-net ubuntu /bin/bash #运行一个容器并连接到新建的 test-net 网络 docker run -itd --name test2</description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.2-docker/docker/</guid>
-      <description>docker 安装 wget -qO- https://get.docker.com/ | sh sudo service docker start sudo docker run hello-world 镜像控制 docker image list docker image ls # 查看镜像 docker image save centos &amp;gt; docker-centos.tar.gz #导出镜像 docker image rm centos:latest #删除镜像 docker image load -i docker-centos.tar.gz #导入镜像 docker image inspect centos #查看镜像</description>
-    </item>
-    
-    <item>
-      <title>first-content</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/first-content/</guid>
-      <description>Get Grav   Get Grav with icon  Get Grav with icon right      test expand   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
-    </item>
-    
-    <item>
       <title>frp</title>
       <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.4-frp/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
@@ -525,10 +543,10 @@
     
     <item>
       <title>git</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/git/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.1-git/git/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git/</guid>
       <description>安装 ubuntu sudo apt-get install git #常用命令 git config git clone url git clone &amp;lt;repository::指定远程数据库的 URL&amp;gt; &amp;lt;directory::指定新目录的名称&amp;gt</description>
     </item>
     
@@ -539,33 +557,6 @@
       
       <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc/</guid>
       <description>nc 功能说明：功能强大的网络工具 语 法：nc [-hlnruz][-g&amp;lt;网关&amp;hellip;&amp;gt;][-G&amp;lt;指向器数目&amp;gt;][-</description>
-    </item>
-    
-    <item>
-      <title>nginx</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginx/</guid>
-      <description>nginx使用 ## ubuntu sudo apt install -y libpcre3-dev ./configure --with-http_ssl_module --with-http_v2_module --with-http_gzip_static_module make sudo make install Generate Certificates cd /usr/local/nginx/conf openssl genrsa -des3 -out server.key 1024 openssl req -new -key server.key -out server.csr cp server.key server.key.org openssl rsa -in server.key.org -out server.key openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt server { server_name YOUR_DOMAINNAME_HERE; listen 443; ssl on; ssl_certificate /usr/local/nginx/conf/server.crt; ssl_certificate_key</description>
-    </item>
-    
-    <item>
-      <title>nginxError排查</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxerror%E6%8E%92%E6%9F%A5/</guid>
-      <description>nginxError排查 错误描述 {error, socket_closed_remotely} 复现 Leofs（分布式文件存储系统） Gateway_0 192.168.1.16:8080 Gateway_1 192.168.1.17:8080 100w条 每条500字节数据，由erlang httpc post到任意</description>
-    </item>
-    
-    <item>
-      <title>nginxRewrite规则</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.2-nginx/nginxrewrite%E8%A7%84%E5%88%99/</guid>
-      <description>nginxRewrite规则 https://segmentfault.com/a/1190000002797606 location正则写法 一个示例： location = / { # 精确匹配 / ，主机名后面不能带任何字符串 [ configuration A ] } location / { # 因为所有的</description>
     </item>
     
     <item>
@@ -596,15 +587,6 @@
     </item>
     
     <item>
-      <title>VIM</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.1.2-vim/vim/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.1.2-vim/vim/</guid>
-      <description>http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/ http://www.cnblogs.com/ribavnu/p/3874386.html pathogen 管理插件 cd ~/ mkdir .vim mkdir -p ~/.vim/autoload ~/.vim/bundle cd ~/.vim/autoload/ wget https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim Git:https://github.com/tpope/vim-pathogen ~/.vimrc vim配置文件 call pathogen#infect() call pathogen#helptags() syntax onfiletype plugin indent on vimerl cd ~/.vim/bundlegit clone https://github.com/jimenezrick/vimerl.git vimrc中为vimerl配置文件增加以下配置 filetype plugin indent on let</description>
-    </item>
-    
-    <item>
       <title>wget</title>
       <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.3.6-wget/</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
@@ -614,120 +596,12 @@
     </item>
     
     <item>
-      <title>4.2.1 my.cnf</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</link>
-      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.0-my.cnf/</guid>
-      <description>cnf [mysqld] port = 63099 #端口 max_connections = 1024 #最大连接数量 default-storage-engine=INNODB character-set-server=utf8mb4 collation-server = utf8mb4_unicode_ci slow_query_log = on #开启慢查询日志 long_query_time=3 #3秒以上 #slow-query-log-file = /home/db/madb/log/slow-query.log default-authentication-plugin=mysql_native_password table_open_cache=2000 #表文件句柄缓存（表数据是存储在磁盘上的，缓存磁盘</description>
-    </item>
-    
-    <item>
-      <title>4.2.2 关键字</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</link>
-      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.1-%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
-      <description>WITH -- WITH WITH ali AS (SELECT * FROM rpt_kh_amount_conf) SELECT ali.val FROM ali NOT EXISTS SELECT * FROM `account` a1 WHERE a1.deleted = 0 AND a1.status = 1 AND a1.created_time &amp;gt;= &amp;#39;2021-08-16 14:10:31&amp;#39; AND NOT EXISTS (SELECT 1 FROM account a2 WHERE a2.uid = a1.uid AND a2.deleted = 0 AND a2.created_time &amp;lt; &amp;#39;2021-08-16 14:10:31&amp;#39;) JSON SELECT JSON_EXTRACT(CHARGE_DATA, &amp;#34;$[0].amount&amp;#34;) as &amp;#39;取值&amp;#3</description>
-    </item>
-    
-    <item>
-      <title>4.2.3 日志</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</link>
-      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.2-%E6%97%A5%E5%BF%97/</guid>
-      <description>日志 #日志 SHOW MASTER LOGS; #获取bin日志 SHOW MASTER STATUS;#日志状态 SHOW BINLOG EVENTS [IN &amp;#39;log_name&amp;#39;] [FROM pos] [LIMIT [OFFSET,] ROW_COUNT]; SHOW BINLOG EVENTS IN &amp;#39;mysql-bin.000001&amp;#39; LIMIT 0, 1000;#日志文件内容 FLUSH LOGS;#自此刻开</description>
-    </item>
-    
-    <item>
-      <title>4.2.4 msyqldump</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</link>
-      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.4-msyqldump/</guid>
-      <description>msyqldump # 导出数据到文件 mysqldump -uroot -p123456 --host=127.0.0.1 --port=3306 -C --all-databases &amp;gt; /backup/test/${DATE}.sql # 导出数据到远程数据库 mysqldump --default-character-set=utf8mb4 --host=127.0.0.1 -uusername -ppassword --opt dbname | mysql --host=127.0.0.2 -uusernameb -ppasswordb --default-character-set=utf8mb4 -C dbnamenew mysqldump --default-character-set=utf8mb4 --host=192.168.1.46 -P 55001 -uroot -p123456 --opt test | mysql --host=192.168.1.85 -P 55001 -uroot -p123456 --default-character-set=utf8mb4 -C test # --opt命</description>
-    </item>
-    
-    <item>
-      <title>4.2.4 日志</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</link>
-      <pubDate>Fri, 30 Aug 2019 10:56:29 +0800</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.2-mysql/4.2.3-%E4%B8%BB%E4%BB%8E/</guid>
-      <description>主从 #主从</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://linux.01cs.cc/2.shell-%E6%95%99%E7%A8%8B/2.2.-shell%E8%84%9A%E6%9C%AC/shtools/readme/</guid>
       <description>tmux-session : tmux-session save and tmux-session restore</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql_%E5%9D%91/</guid>
-      <description>使用中出现的问题 NOT IN 使用 LEFT JOIN / IS NULL或NOT EXISTS而不是NOT IN NOT IN正如我们之前讨论的那样，由于它处理NULL列表中的值的方式，</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</guid>
-      <description>外部表 postgres_fdw 添加extension create extension postgres_fdw; select * from pg_foreign_data_wrapper; 创建远端数据库 create database dblink TEMPLATE template0; 本地创建server select * from pg_foreign_server; create server ex_db foreign data wrapper postgres_fdw options(host &amp;lsquo;127.0.0.1&amp;rsquo;,port &amp;lsquo;5866&amp;rsquo;,dbname &amp;lsquo;highgo&amp;rsquo;); create server mysql_config foreign data wrapper postgres_fdw options(host &amp;lsquo;192.168.69.161&amp;rsquo;,port &amp;lsquo;3306&amp;rsquo;,dbname &amp;lsquo;config&amp;rsquo;);</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.3-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</guid>
-      <description>时序数据库插件 psql -U postgres -h 127.0.0.1 create database nyc_data; \c nyc_data CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE; CREATE TABLE conditions ( time TIMESTAMPTZ NOT NULL, location TEXT NOT NULL, temperature DOUBLE PRECISION NULL, humidity DOUBLE PRECISION NULL ); SELECT create_hypertable(&amp;#39;conditions&amp;#39;, &amp;#39;time&amp;#39;); INSERT INTO conditions(time, location, temperature, humidity) VALUES (NOW(), &amp;#39;office&amp;#39;, 70.0, 50.0); SELECT * FROM conditions ORDER BY time DESC LIMIT 100;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/http/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/http/</guid>
-      <description>curl ping curl &amp;#39;http://localhost:8123/ping&amp;#39; select echo &amp;#39;SELECT 1&amp;#39; | curl &amp;#39;http://192.168.1.185:8123/?user=default&amp;amp;password=1Aa_abbccd&amp;#39; -d @- echo &amp;#39;SELECT number FROM numbers LIMIT 10&amp;#39; | curl &amp;#39;http://192.168.1.185:8123/?user=default&amp;amp;password=1Aa_abbccd&amp;amp;database=system&amp;#39; --data-binary @- insert echo &#39;INSERT INTO t VALUES (1),(2),(3)&#39; | POST &#39;http://localhost:8123/?database=test_db&#39; </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.4-clickhouse/install/</guid>
-      <description>Quick start 安装 https://clickhouse.tech/#quick-start 配置 &amp;lt;http_port&amp;gt;8123&amp;lt;/http_port&amp;gt; &amp;lt;tcp_port&amp;gt;8124&amp;lt;/tcp_port&amp;gt; &amp;lt;mysql_port&amp;gt;8125&amp;lt;/mysql_port&amp;gt; &amp;lt;listen_host&amp;gt;::&amp;lt;/listen_host&amp;gt; 用户 如何生成密码 PASSWORD=$(base64 &amp;lt; /dev/urandom | head -c8); echo &amp;#34;$PASSWORD&amp;#34;; echo -n &amp;#34;$PASSWORD&amp;#34; | sha256sum | tr -d &amp;#39;-&amp;#39; &amp;lt;users&amp;gt; &amp;lt;default&amp;gt; &amp;lt;password&amp;gt;705c37761366c70774b786a9d800af2369759c1fc73ff61f2396648dd5daa5aa&amp;lt;/password&amp;gt; &amp;lt;networks incl=&amp;#34;networks&amp;#34; replace=&amp;#34;replace&amp;#34;&amp;gt; &amp;lt;ip&amp;gt;::/0&amp;lt;/ip&amp;gt; &amp;lt;/networks&amp;gt; &amp;lt;profile&amp;gt;default&amp;lt;/profile&amp;gt; &amp;lt;quota&amp;gt;default&amp;lt;/quota&amp;gt; &amp;lt;/default&amp;gt; &amp;lt;ck&amp;gt; &amp;lt;password_sha256_hex&amp;gt;967f3bf355dddfabfca1c9f5cab39352b2ec1cd0b05f9e1e6b8f629705fe7d6e&amp;lt;/password_sha256_hex&amp;gt; &amp;lt;networks incl=&amp;#34;networks&amp;#34; replace=&amp;#34;replace&amp;#34;&amp;gt; &amp;lt;ip&amp;gt;::/0&amp;lt;/ip&amp;gt; &amp;lt;/networks&amp;gt; &amp;lt;profile&amp;gt;readonly&amp;lt;/profile&amp;gt; &amp;lt;quota&amp;gt;default&amp;lt;/quota&amp;gt; &amp;lt;/ck&amp;gt; &amp;lt;/users&amp;gt; clickhouse-client -h 127.0.0.1 -u log --port 8124 --password ldsLjNhB clickhouse-client -h 127.0.0.1</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.5-elk/install/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2.5-elk/install/</guid>
-      <description>安装 docker安装 docker run -d --restart=always --privileged=true -p 9200:9200 -p 9300:9300 -e &amp;#34;discovery.type=single-node&amp;#34; --name elasticsearch1 -v /data1/project/elk/elasticsearch/config:/usr/share/elasticsearch/config/ docker.elastic.co/elasticsearch/elasticsearch:7.10.2 docker run -d --restart=always --privileged=true --link elasticsearch-1:elasticsearch -p 5601:5601 --name kibana1 docker.elastic.co/kibana/kibana:7.10.2</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.4.3-hugo/hugo/</guid>
-      <description>hugo 使用 安装 # 源代码安装 go get -u -v github.com/spf13/hugo # 包安装 https://github.com/gohugoio/hugo/releases hugo version 生成站点 hugo new site /path/to/site hugo new site blog.01cs.cc 创建 themes 目录 cd /path/to/site git init # doc 模板 git clone https://github.com/matcornic/hugo-theme-learn.git git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &amp;#39;theme = &amp;#34;ananke&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml git submodule add https://github.com/spf13/hyde.git themes/hyde echo &amp;#39;theme =</description>
     </item>
     
     <item>

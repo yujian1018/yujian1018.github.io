@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7.7.2 配置 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/</link>
+    <description>Recent content in 7.7.2 配置 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.7.2.1 安装</title>
+      <link>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/7.7.2.1-%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/7.7.2.1-%E5%AE%89%E8%A3%85/</guid>
+      <description>1.编译成动态库。 ./configure &amp;ndash;enable-shared make sudo make install 编写一个例子 gcc -o demo demo.c -O GraphicsMagick-config --cppflags --ldflags --libs 执行时出现：libGraphicsMagick++.so.12: cannot open shared object file: No such file</description>
+    </item>
+    
+  </channel>
+</rss>

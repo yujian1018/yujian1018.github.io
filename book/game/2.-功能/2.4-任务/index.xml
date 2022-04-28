@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.4 任务 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/game/2.-%E5%8A%9F%E8%83%BD/2.4-%E4%BB%BB%E5%8A%A1/</link>
+    <description>Recent content in 2.4 任务 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://yujian1018.github.io/book/game/2.-%E5%8A%9F%E8%83%BD/2.4-%E4%BB%BB%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.1.1 代码片段</title>
+      <link>https://yujian1018.github.io/book/game/2.-%E5%8A%9F%E8%83%BD/2.4-%E4%BB%BB%E5%8A%A1/%E4%BB%BB%E5%8A%A1/</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/game/2.-%E5%8A%9F%E8%83%BD/2.4-%E4%BB%BB%E5%8A%A1/%E4%BB%BB%E5%8A%A1/</guid>
+      <description>事件触发器 等级限制 前置限制 时间限制-到达某个时间开启任务 接受任务触发新任务 完成任务触发新任务 提交任务触发新任务 等级触发 任务框架设计 服务器与客</description>
+    </item>
+    
+  </channel>
+</rss>

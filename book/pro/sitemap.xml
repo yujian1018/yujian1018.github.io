@@ -3,187 +3,402 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.1-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <loc>https://yujian1018.github.io/book/pro/1.-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.2-%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://yujian1018.github.io/book/pro/1.-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/1.1-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.3-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>https://yujian1018.github.io/book/pro/2.-%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.4-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://yujian1018.github.io/book/pro/3.-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.5-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
+    <loc>https://yujian1018.github.io/book/pro/4.-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.6-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/</loc>
+    <loc>https://yujian1018.github.io/book/pro/5.-%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/</loc>
+    <loc>https://yujian1018.github.io/book/pro/6.-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/</loc>
+    <loc>https://yujian1018.github.io/book/pro/6.-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/6.1-soa/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/6.-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/6.2-restful/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/6.-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/6.3-%E6%9E%B6%E6%9E%84/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/6.-%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84/6.4-%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.3-ejabberd/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.4-cowboy/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.2-api/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.3-session%E7%94%A8%E6%B3%95/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.4-%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.5-ehtml/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.6-ssibindings/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.7-bug/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.2-leofs/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.5-kbengine/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.2-leofs/7.2.1-%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.6-rebar/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.2-leofs/7.2.2-%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.2-leofs/7.2.3-shell%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.2-leofs/7.2.4-storageshell/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.3-ejabberd/</loc>
     <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.1/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.4-cowboy/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.5-kbengine/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.2/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.6-rebar/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.3/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.7-graphicsmagick/2.7.4/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/7.7.1.1-convert/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.0.1/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.2-%E9%85%8D%E7%BD%AE/7.7.2.1-%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/1.0.2/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.7-graphicsmagick/7.7.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/7.7.3.1-%E8%BF%90%E8%A1%8C%E8%AD%A6%E5%91%8A1/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.0.1/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.0.2/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.1-%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.4-cowboy/cowboy/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.2-%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.3-ejabberd/eventslist/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.3-%E8%A1%A8%E5%88%86%E7%89%87/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.3-ejabberd/hooksformoduledevelopers/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.4-%E9%94%81/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/leofs/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.5-%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/leofsshell%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.6-%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/leofsstorage_shell/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.7-ets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E5%AE%89%E8%A3%85/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.2-leofs/leofs%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.3-ejabberd/mod_echo.erl/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/7.11.1.1-%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yaws.conf/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.2-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.2-%E9%85%8D%E7%BD%AE/7.11.2.1-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.11-riak/7.11.3-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B5/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.1-sql%E7%89%87%E6%AE%B5/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.1-sql%E7%89%87%E6%AE%B5/7.12.1.1-%E5%85%B3%E9%94%AE%E5%AD%97/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.1-sql%E7%89%87%E6%AE%B5/7.12.1.2-%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.2-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.8-mongodb/7.8.2-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.2-%E9%85%8D%E7%BD%AE/7.12.2.1-my.cnf/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.3-%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.4-%E4%B8%BB%E4%BB%8E/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.5-msyqldump/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.6-%E6%9F%A5%E8%AF%A2%E8%AE%A1%E5%88%92explain/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.7-%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.13-sqlite/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yaws_session%E7%94%A8%E6%B3%95/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/7.14.1-sql%E7%89%87%E6%AE%B5/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/7.14.2-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/7.14.2-%E9%85%8D%E7%BD%AE/7.14.2.1-%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.15-elk/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.16-clickhouse/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.17-hugo/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.8-mongodb/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yawsapi/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.8-mongodb/7.8.1-%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yawsbug/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.8-mongodb/7.8.2-%E9%85%8D%E7%BD%AE/7.8.2.1-%E5%88%86%E5%B8%83%E5%BC%8F/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.8-dets/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yawsehtml/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.10-mnesia/7.10.9-%E8%BF%87%E8%BD%BD%E5%88%86%E6%9E%90/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yawsssibindings/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.12-mysql/7.12.8-%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.3-ejabberd/eventslist/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/2.1-yaws/yaws%E9%A1%B5%E9%9D%A2%E4%BC%A0%E5%80%BC/</loc>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.17-hugo/first-content/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.3-ejabberd/hooksformoduledevelopers/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.3-ejabberd/mod_echo.erl/</loc>
+    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.1-yaws/7.1.1-yaws.conf/</loc>
     <lastmod>2019-08-30T15:13:01+08:00</lastmod>
   </url>
   
@@ -193,13 +408,32 @@
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/readme/</loc>
-    <lastmod>2019-08-30T15:13:01+08:00</lastmod>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.9-redis/</loc>
+    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yujian1018.github.io/book/pro/images/</loc>
-    <lastmod>2019-08-30T10:56:29+08:00</lastmod>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/postgresql_%E5%9D%91/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/postgresql%E5%A4%96%E9%83%A8%E8%A1%A8/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.14-postgresql/postgresql%E6%97%B6%E5%BA%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BE%8B%E5%AD%90/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.15-elk/install/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.16-clickhouse/http/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yujian1018.github.io/book/pro/7.-%E9%A1%B9%E7%9B%AE/7.16-clickhouse/install/</loc>
   </url>
   
   <url>
