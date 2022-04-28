@@ -1,37 +1,75 @@
 ---
 title: "关于我"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
+description: "天生万物与人，人无一物与天，鬼神明明，自思自量。"
 weight: 2
 ---
-### 游戏-最传奇
 
-### 游戏-乱斗贪吃蛇
+### 时间线
 
-### 游戏-德州
+2020-11 **物联网**
 
-游戏服务端
+- RFID
 
-### Ejabberd、leofs
+2019-02 **ETL**
 
-### 游戏-龙之皇冠：起源
+- 数据平台
+- 业务数据
 
-游戏服务端
+2018-04 **游戏-最传奇**
 
-### 游戏-梦幻侠武
+- 游戏维护
 
-转向游戏服务端
+2016-12 **游戏-乱斗贪吃蛇**
+
+- 游戏服务端主程
 
 {{< imageList1 >}}
-{{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}
-{{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}
-{{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}
-{{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}
-{{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/乱斗贪吃蛇/1.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/乱斗贪吃蛇/2.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/乱斗贪吃蛇/3.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/乱斗贪吃蛇/4.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/乱斗贪吃蛇/5.jpg" style="width:200px;display:inline;" >}}
 {{< /imageList1 >}}
 
-### 中文语义搜索
+2016-04 **游戏-德州**
 
-中文语义搜索方向，对标第三代搜索引擎
+- 游戏服务端主程
+
+2015-10 **Ejabberd、Leofs**
+
+- 聊天服务
+- 文件存储
+
+2015-03 **游戏-龙之皇冠：起源**
+
+- 游戏服务端
+
+{{< imageList1 >}}
+{{< image1 src="/images/me/龙之皇冠-起源/1.png" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/龙之皇冠-起源/2.png" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/龙之皇冠-起源/3.png" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/龙之皇冠-起源/4.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/龙之皇冠-起源/5.jpg" style="width:200px;display:inline;" >}}
+{{< /imageList1 >}}
+
+2014-04 **游戏-梦幻侠武**
+
+- 转向游戏服务端
+
+{{< imageList1 >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/1.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/2.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/3.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/4.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/5.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/6.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/7.jpg" style="width:200px;display:inline;" >}}
+{{< image1 src="/images/me/梦幻侠武-六大派/8.jpg" style="width:200px;display:inline;" >}}
+{{< /imageList1 >}}
+
+2011-04 **中文语义搜索**
+
+- 中文语义搜索方向，对标第三代搜索引擎
 
 {{< imageList1 >}}
 {{< image1 src="/images/notebook.jpg" style="width:200px;display:inline;" >}}

@@ -17,6 +17,9 @@ permalinks: # 定义文章访问路径，详细见下文"URL管理" See "content
   post: "/:year/:month/:title/" # /:monthname/:day/:weekday/:weekdayname/:yearday/:section/:title/:slug/:filename/
 
 
+disableLiveReload: false # 禁用浏览器窗口的自动实时重新加载。
+disablePathToLower: false # 不要将url/path转换为小写。
+canonifyURLs: true # Enable to turn relative URLs into absolute.
 googleAnalytics: ""
 enableRobotsTXT: true
 
@@ -42,7 +45,7 @@ params:
   show_reading_time: true
 
   # 日期格式化
-  date_format: "2006-01-02 15:04:05 Monday"
+  date_format: "2006-01-02 15:04:05 Mon"
 
   ananke_socials:
     - name: "github"
@@ -61,3 +64,8 @@ imaging:
   # CatmullRom is a sharp bicubic filter which should fit the docs site well with its many screenshots.
   # Note that you can also set this per image processing.
   resampleFilter: "CatmullRom" #Lanczos
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,4 +1,8 @@
 .pa3 .measure-wide {
+  text-align: left;
+}
+
+.pa3 .measure-wide {
   max-width: 100%;
 }
 
@@ -13,7 +17,8 @@
 }
 
 #bigimg img {
-  width: 1000px;
+  max-width: 1000px;
+  max-height: 80%;
   margin: auto;
   position: fixed;
   left: 0;

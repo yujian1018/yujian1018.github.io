@@ -42,7 +42,7 @@ case ${ARG_1} in
     rm -rf book
     mkdir book
 
-    cd blog && hugo --config ../config.yaml,config.yaml && cd ../ && mv blog/public me
+    cd blog && hugo --config config.yaml && cd ../ && mv blog/public me
     cd cpp && hugo --config ../config.yaml,config.yaml && cd ../ && mv cpp/public book/cpp
     cd erlang && hugo --config ../config.yaml,config.yaml && cd ../ && mv erlang/public book/erlang
     cd game && hugo --config ../config.yaml,config.yaml && cd ../ && mv game/public book/game
@@ -90,3 +90,4 @@ esac
 
 # hugo --config config/config_blog.toml --contentDir="content_blog" server
 # hugo --config config.yaml server
+# hugo new article/框架图.md

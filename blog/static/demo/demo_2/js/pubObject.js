@@ -204,7 +204,7 @@ function indexOf( Object ){
 // document.onmousedown = systemMouseDown;
 // document.onmousemove = systemMouseMove;
 // document.keydown = systemKeyWord;
-document.body.onkeydown = systemKeyWord;
+document.body.onkeydown = onkeydown;
 
 function systemKeyWord (e) {
     if(coreStage2d!=null){
