@@ -1,7 +1,8 @@
 ---
 title: "笔记"
 description: "好记性不如烂笔头"
-weight: 3
+weight: 0400
+chapter: true
 ---
 
 <a href="https://yujian1018.github.io/book/erlang/index.html" target="_blank">好记性不如烂笔头 erlang笔记</a>

@@ -15,18 +15,11 @@ fi
 
 
 # 主题
-# [submodule "themes/hugo-theme-learn"]
-# 	path = themes/hugo-theme-learn
-# 	url = https://github.com/matcornic/hugo-theme-learn.git
-# [submodule "themes/ananke"]
-# 	path = themes/ananke
-# 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-# [submodule "themes/vno-hugo"]
-# 	path = themes/vno-hugo
-# 	url = https://github.com/xslingcn/vno-hugo.git
-# [submodule "themes/hugo-theme-tokiwa"]
-# 	path = themes/hugo-theme-tokiwa
-# 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+# mkdir themes
+# git clone https://github.com/matcornic/hugo-theme-learn.git
+# git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git ananke
+# git clone https://github.com/xslingcn/vno-hugo.git
+# git clone https://github.com/heyeshuang/hugo-theme-tokiwa.git
 
 
 # 编译 make rebuild cc
