@@ -1,7 +1,7 @@
 ---
 title: "笔记"
 description: "好记性不如烂笔头"
-weight: 0400
+weight: 0300
 chapter: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "关于我"
 description: "天生万物与人，人无一物与天，鬼神明明，自思自量。"
-weight: 0300
+weight: 0400
 chapter: true
 ---
 
