@@ -25,6 +25,7 @@ mysql -uroot -p
 > ALTER USER 'root'@'localhost' IDENTIFIED BY 'a1C,_#';
 > CREATE USER 'root'@'%' IDENTIFIED BY '1fC_,#';
 > GRANT ALL ON *.* TO 'root'@'%';
+> GRANT ALL ON gitea.* TO 'gitea'@'localhost';
 
 > SET PASSWORD FOR 'pig'@'%' = PASSWORD("123456");
 > REVOKE SELECT ON *.* FROM 'pig'@'%'; #撤销权限

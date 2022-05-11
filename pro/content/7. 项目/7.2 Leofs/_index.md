@@ -9,4 +9,4 @@ Leofs是一个高可靠性、分布式、最终一致性的对应存储。如果
 
 功能设计
 
-![](images/screenshot_1527428802419.png)
+![pic](/imagesscreenshot_1527428802419.png)

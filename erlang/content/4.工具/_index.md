@@ -1,6 +1,8 @@
 ---
-title: "4.工具"
+title: "工具"
 date: 2019-08-30T15:13:01+08:00
+weight: 04000000
+pre: "<b>4. </b>"
 ---
 ## 1
 
@@ -37,8 +39,8 @@ erl_interface C接口
 
 ## 3
 
-![](images/screenshot_1534332992548.png)
+![3](/images/screenshot_1534332992548.png)
 
-## 4 
+## 4
 
-![](images/screenshot_1534590777445.png)
+![4](/images/screenshot_1534590777445.png)

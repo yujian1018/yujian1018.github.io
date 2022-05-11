@@ -27,11 +27,15 @@ git commit -m "msg"
 git push %同步到网络服务器,把本地服务器中的文件同步到网络服务器，push 之前需要 commit
 
 git remote -h
-修改服务端仓库
+# 修改服务端仓库
 git remote rm origin
 git remote add origin git@git.oschina.net:fuhu/aya.git
-git remote -v 获取服务端仓库
+git remote -v #获取服务端仓库
 
+# 查看remote地址，远程分支，还有本地分支与之相对应关系等信息
+git remote show origin
+# 清理远程仓库不存在的分支
+git remote prune origin
 
 # 分支branch 
 git branch name %新建分支
@@ -39,6 +43,7 @@ git checkout name %进入该分支
 git push --set-upstream origin branch_name
 git push origin --delete <branchName> %删除远程分支
 git branch -d <branchName> %%删除本地分支
+
 
 
 ## 标签tag 
