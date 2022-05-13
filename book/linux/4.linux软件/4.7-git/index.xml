@@ -2,29 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.7 git on 清水的小站</title>
-    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/</link>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git.html</link>
     <description>Recent content in 4.7 git on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gitea</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea.html</link>
       <pubDate>Fri, 04 Mar 2022 16:03:35 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea/</guid>
-      <description>install # https://gitea.io/zh-cn/ # 初始化数据库 # 下载 wget -O gitea https://dl.gitea.io/gitea/1.16.0/gitea-1.16.0-linux-amd64 chmod +x gitea ./gitea web</description>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/gitea.html</guid>
+      <description>install # https://gitea.io/zh-cn/   useradd gitea su gitea wget -O gitea https://dl.gitea.io/gitea/1.16.0/gitea-1.16.0-linux-amd64 chmod +x gitea ./gitea web </description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.7-git/git.html</guid>
       <description>安装 ubuntu sudo apt-get install git #常用命令 git config git clone url git clone &amp;lt;repository::指定远程数据库的 URL&amp;gt; &amp;lt;directory::指定新目录的名称&amp;gt</description>
     </item>
     

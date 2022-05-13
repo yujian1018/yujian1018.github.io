@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/crypto.html</link>
+    <description>Recent content in crypto on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crypto</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/crypto/crypto.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/crypto/crypto.html</guid>
+      <description>crypto:hash(md5, Bin||Str). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;Mac:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), lists:flatten(io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). md5(S) -&amp;gt; Md5_bin = erlang:md5(S), Md5_list = binary_to_list(Md5_bin), lists:flatten(list_to_hex(Md5_list)). list_to_hex(L) -&amp;gt; lists:map(fun(X) -&amp;gt; int_to_hex(X) end, L). int_to_hex(N) when N &amp;lt; 256 -&amp;gt; [hex(N div 16), hex(N rem 16)]. hex(N) when N &amp;lt; 10 -&amp;gt; $0 + N; hex(N) when N &amp;gt;= 10, N &amp;lt; 16 -&amp;gt; $a + (N - 10). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;M:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), Integer_to_hex( M, 32 ). integer_to_hex(I,</description>
+    </item>
+    
+  </channel>
+</rss>

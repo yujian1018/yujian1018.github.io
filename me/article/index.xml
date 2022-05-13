@@ -6,31 +6,17 @@
     <description>Recent content in 文章 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://yujian1018.github.io/me/article/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://yujian1018.github.io/me/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>框架图</title>
-      <link>https://yujian1018.github.io/me/article/%E6%A1%86%E6%9E%B6%E5%9B%BE/</link>
+      <link>https://yujian1018.github.io/me/article/20220428_%E6%A1%86%E6%9E%B6%E5%9B%BE/</link>
       <pubDate>Thu, 28 Apr 2022 16:53:54 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/me/article/%E6%A1%86%E6%9E%B6%E5%9B%BE/</guid>
+      <guid>https://yujian1018.github.io/me/article/20220428_%E6%A1%86%E6%9E%B6%E5%9B%BE/</guid>
       <description>创业公司架构
 网关系统
 日志平台的重要性与建设目标
 Kubernetes日志平台建设难点</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: The Grand Hall</title>
-      <link>https://yujian1018.github.io/me/article/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>https://yujian1018.github.io/me/article/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
     </item>
     
   </channel>

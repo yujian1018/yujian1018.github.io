@@ -2,20 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.2 vim on 清水的小站</title>
-    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/</link>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim.html</link>
     <description>Recent content in 4.2 vim on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4.2.1 VIM</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.2-vim/vim.html</guid>
       <description>http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/ http://www.cnblogs.com/ribavnu/p/3874386.html pathogen 管理插件 cd ~/ mkdir .vim mkdir -p ~/.vim/autoload ~/.vim/bundle cd ~/.vim/autoload/ wget https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim Git:https://github.com/tpope/vim-pathogen ~/.vimrc vim配置文件 call pathogen#infect() call pathogen#helptags() syntax onfiletype plugin indent on vimerl cd ~/.vim/bundlegit clone https://github.com/jimenezrick/vimerl.git vimrc中为vimerl配置文件增加以下配置 filetype plugin indent on let</description>
     </item>
     

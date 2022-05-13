@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3.库函数 on 清水的小站</title>
-    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/</link>
-    <description>Recent content in 3.库函数 on 清水的小站</description>
+    <title>库函数 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0.html</link>
+    <description>Recent content in 库函数 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>3</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.1%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</guid>
-      <description>ctrl+G 按c Erlang shell没有反应，可能是正在输入一个字符串&amp;quot;aabbcc&amp;hellip;&amp;hellip; 解决cmd卡死的问题。（win下</description>
-    </item>
-    
-    <item>
-      <title>3asn1</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.7asn1/</guid>
-      <description>ASN.1（抽象语法标记：Abstract Syntax Notation One) 是一套标准，是描述数据的表示、编码、传输、解码的灵活的记法。它提供了一套正式、无歧义和精确的</description>
-    </item>
-    
-    <item>
-      <title>3.10OS_Mon</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.10os_mon/</guid>
-      <description>操作系统健康应用</description>
-    </item>
-    
-    <item>
-      <title>3.11crypto</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.11crypto/</guid>
-      <description>crypto:hash(md5, Bin||Str). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;Mac:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), lists:flatten(io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). md5(S) -&amp;gt; Md5_bin = erlang:md5(S), Md5_list = binary_to_list(Md5_bin), lists:flatten(list_to_hex(Md5_list)). list_to_hex(L) -&amp;gt; lists:map(fun(X) -&amp;gt; int_to_hex(X) end, L). int_to_hex(N) when N &amp;lt; 256 -&amp;gt; [hex(N div 16), hex(N rem 16)]. hex(N) when N &amp;lt; 10 -&amp;gt; $0 + N; hex(N) when N &amp;gt;= 10, N &amp;lt; 16 -&amp;gt; $a + (N - 10). md5_to_str(Str) -&amp;gt; &amp;lt;&amp;lt;M:128/integer&amp;gt;&amp;gt; = erlang:md5(Str), Integer_to_hex( M, 32 ). integer_to_hex(I,</description>
-    </item>
-    
-    <item>
-      <title>3.12Port</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.12port/</guid>
-      <description>port(socket)调优 示例：服务器监听端口，接受客户端请求。典型应用场景web服务器，需要实现高吞吐，低延迟的目标 Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_send,true}, {high_watermark,64</description>
-    </item>
-    
-    <item>
-      <title>3compiler</title>
-      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/3.8compiler/</guid>
-      <description>写测试模块的时候不必频繁导出函数 –compile(export_all) 就可以导出所有函数 编译模块 1.-compile( export_all ) 2.-compile( {parse_transform,Module} ). Module:parse_transform/2 auses the parse transformation function Module:parse_transform/2 to be applied to the parsed code before</description>
-    </item>
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,103 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4.工具 on 清水的小站</title>
-    <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/</link>
-    <description>Recent content in 4.工具 on 清水的小站</description>
+    <title>工具 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7.html</link>
+    <description>Recent content in 工具 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate>
-    
-	<atom:link href="https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 15:13:01 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
+      <title>Erlang预处理器</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</guid>
-      <description>http://www.erlang.org/doc/efficiency_guide/profiling.html
-11.4 Tools fprof fprof measures the execution time for each function, both own time, that is, how much time a function has used for its own execution, and accumulated time, that is, including called functions. The values are displayed per process. You also get to know how many times each function has been called. fprof is based on trace to file to minimize runtime performance impact. Using fprof is just a matter of calling a few library functions, see the fprof manual page in tools .</description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.1erlang%E9%A2%84%E5%A4%84%E7%90%86%E5%99%A8.html</guid>
       <description>在Erlang模块被编译之前，首先会被名为epp的Erlang预处理器进行自动处理。这个预处理器会扩展任何存在于源文件中的宏，并且插入任何必</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</link>
+      <title>Port</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2port.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2erlang%E8%8A%82%E7%82%B9/</guid>
-      <description>进入已经启动的节点方法: 作业（JCL ）模式 使用该功能需要保证cookie一致,并且node的名字的IP保持一致 $ erl -setcookie abc -name node_1@192.168.1.110 Eshell V5.9 (abort with ^G) $ erl -setcookie abc</description>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.2port.html</guid>
+      <description>port(socket)调优 示例：服务器监听端口，接受客户端请求。典型应用场景web服务器，需要实现高吞吐，低延迟的目标 Res = gen_tcp:listen(Port, [binary, {reuseaddr, true}, {nodelay, true}, {delay_send,true}, {high_watermark,64</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</link>
+      <title>Epmd</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.3erlang%E5%A4%9A%E8%8A%82%E7%82%B9/</guid>
-      <description>rpc:call(Node, Module, Function, Args) -&amp;gt; Res | {badrpc, Reason} Types: Node = node() Module = module() Function = atom() Args = [term()] Res = Reason = term() Evaluates apply(Module, Function, Args) on the node Node and returns the corresponding value Res, or {badrpc, Reason} if the call fails. rpc:cast(). erlang:set_cookie(node(), cookie). erl -sname test -name test@test -setcookie &amp;#39;pwd&amp;#39; c:nl( Mod ). %slave 模块 slave:start(&amp;#39;10.0.0.252&amp;#39;, slave1, &amp;#34;-setcookie abc -loader inet</description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.4epmd.html</guid>
       <description>erlang集群是依靠epmd维护的，epmd是erlang集群节点间端口映射的守护进程，负责维护集群内的节点连接，提供节点名称到IP地址及</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</link>
+      <title>断点工具</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7/</guid>
-      <description>i.erl 编译方式: make:all([debug_info]). | c(test.erl,debug_info). 基本调试方法： im/0:打开调试器 i/1 :把文件添加到调试器中 ni :针对多个Node的用法 n/1 :与i/1相反 nn/1:与ni/1相</description>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.5%E6%96%AD%E7%82%B9%E5%B7%A5%E5%85%B7.html</guid>
+      <description>erlang源代码 i.erl 编译方式: make:all([debug_info]). | c(test.erl,debug_info). 基本调试方法： im/0:打开调试器 i/1 :把文件添加到调试器中 ni :针对多个Node的用法 n/1 :与i/1相反 nn</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</link>
+      <title>dialyzer</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.6dialyzer.html</guid>
       <description>1.使用dialyzer需要定义函数的-spec 2.使用dialyzer a.由于我们编写的代码需要使用到Erlang的函数库，在分析时，可以</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</link>
+      <title>Erlang跟踪工具</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.7dbg-debug%E6%A8%A1%E5%9D%97/</guid>
-      <description>开启 dbg:tracer() dbg:p(Item, Flags) dbg:p(Item) -&amp;gt; dbg:p(Item, [m]). Item是设定要跟踪的对象,Flags是设置要监听的动作 Item = all %会trace 整个系统所有的进程，同样可以监控整个集群 |new %就</description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
-      
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.8erlang%E8%B7%9F%E8%B8%AA%E5%B7%A5%E5%85%B7.html</guid>
       <description>1.Trace Tool Builder（erlang跟踪工具） 主要特性： • 用一个函数调用来跟踪多个节点上的文件端口 • 可以往在formatting过程中读取的记录</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop/</link>
+      <title>etop</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.9etop.html</guid>
       <description>http://erlang.org/doc/apps/observer/etop_ug.html 平时用的最多的可能就是etop,两种用法: [1] 在/usr/local/lib/erlang/lib/observer-1.0/priv/bi</description>
     </item>
     

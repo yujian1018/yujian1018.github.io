@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>erts on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts.html</link>
+    <description>Recent content in erts on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>erl_nif</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/erl_nif.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/erl_nif.html</guid>
+      <description>niftest.erl -module(niftest). -export([init/0, hello/0]). init() -&amp;gt; erlang:load_nif(&amp;#34;./niftest&amp;#34;, 0). hello() -&amp;gt; %函数名称 &amp;#34;NIF library not loaded&amp;#34;. /* niftest.c */ #include &amp;#34;erl_nif.h&amp;#34; static ERL_NIF_TERM hello(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[]) { return enif_make_string(env, &amp;#34;Hello world!&amp;#34;, ERL_NIF_LATIN1); } //定义函数 static ErlNifFunc nif_funcs[] = { {&amp;#34;hello&amp;#34;, 0, hello} }; ERL_NIF_INIT(niftest,nif_funcs,NULL,NULL,NULL,NULL) %编译成公共库，需要使用到e</description>
+    </item>
+    
+    <item>
+      <title>erlang</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/erlang.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/erlang.html</guid>
+      <description>apply(M,F,A)要比直接调用调用对应的方法M:F(A1,A2&amp;hellip;)要慢6~10倍，尽量避免使用 BIFs是built-in</description>
+    </item>
+    
+    <item>
+      <title>init</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/init.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/erts/init.html</guid>
+      <description>get_argument( home ). %{ok,[[&amp;#34;C:\\Documents and Settings\\Administrator&amp;#34;]]} init:get_arguments(). %获取启动的配置参数</description>
+    </item>
+    
+  </channel>
+</rss>

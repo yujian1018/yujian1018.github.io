@@ -5,10 +5,6 @@
     <link>https://yujian1018.github.io/me/book/</link>
     <description>Recent content in 笔记 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    
-	<atom:link href="https://yujian1018.github.io/me/book/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-cn</language><atom:link href="https://yujian1018.github.io/me/book/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

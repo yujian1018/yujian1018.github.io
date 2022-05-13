@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stdlib on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib.html</link>
+    <description>Recent content in stdlib on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>array</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/array.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/array.html</guid>
+      <description>函数式且可扩展的数组模块 内部实现：tuple array:new(10, {default, {[], 0}}). -&amp;gt; {array,10,0,{[],0},10} array:set( 0, [1,2,3], Array2 ). -&amp;gt; Array array:get( 0, Array3 ). -&amp;gt; [1,2,3]. array:reset(Index, Array). 清空该列 array:from_list(Sub)</description>
+    </item>
+    
+    <item>
+      <title>base64</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/base64.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/base64.html</guid>
+      <description>%% 实现base 64的编码解码算法，具体细节参考RFC 20450 base64:decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; base64:decode_to_string(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; this is a test! base64:encode(&amp;#34;this is a test!&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;&amp;gt;&amp;gt; base64:encode_to_string(&amp;#34;this is a test!&amp;#34;). -&amp;gt; dGhpcyBpcyBhIHRlc3Qh base64:mime_decode(&amp;#34;dGhpcyBpcyBhIHRlc3Qh&amp;#34;). -&amp;gt; &amp;lt;&amp;lt;&amp;#34;this is a test!&amp;#34;&amp;gt;&amp;gt; %% 对Data数据进行bas</description>
+    </item>
+    
+    <item>
+      <title>binary</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/binary.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/binary.html</guid>
+      <description>at(Subject, Pos) -&amp;gt; byte() 返回一个二进制数据里指定位置（从 0 开始）的数据（整数的形式），如果 Pos &amp;gt;= byte_size(Subject)，则会发生一个 badarg 的异常错误</description>
+    </item>
+    
+    <item>
+      <title>c</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/c.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/c.html</guid>
+      <description>Command Interface Module hepl(). 显示帮助信息 pwd(). 返回当前路径。 cd(Path). 设置路径 bt(Pid)一&amp;gt;voidU 显示Pid进程的栈回溯信息。 c(File，Options)一</description>
+    </item>
+    
+    <item>
+      <title>calendar</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/calendar.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/calendar.html</guid>
+      <description>date_to_gregorian_days(Date) -&amp;gt; Days 获取到现在为止的天数 date_to_gregorian_days(Year, Month, Day) -&amp;gt; Days datetime_to_gregorian_seconds(DateTime) -&amp;gt; Seconds 获取到现在为止的秒数 day_of_the_week(Date) -&amp;gt; daynum() 获取到现在为止的周数 day_of_the_week(Year, Month, Day) -&amp;gt; daynum() gregorian_days_to_date(Days) -&amp;gt; date() calendar:gregorian_days_to_date( 20000 ) -&amp;gt; {54,10,4} 20000天是多少年多少月</description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/code.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/code.html</guid>
+      <description>load_binary purge Erlang的代码服务器 add_patha(Dir) 将Dit目录添加到代码目录列表的前端 add_pathsa(Dirs) 将Dirs列表中的目录添加到代码目录列表的前端 add_pathsz(Dirs) 将Dirs列表中的目录添</description>
+    </item>
+    
+    <item>
+      <title>dict</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/dict.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/dict.html</guid>
+      <description>dict是动态哈希表实现的字典.在接口上和orddict保持一致,在实现上和array动态扩展的思路类似, 与proplists,orddic</description>
+    </item>
+    
+    <item>
+      <title>erl_scan</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/erl_.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/erl_.html</guid>
+      <description>1.{ok,Scanned,_} = erl_scan:string( &amp;#34;1+2*2+(2+4)/2.&amp;#34; ). {ok,[{integer,1,1}, {&amp;#39;+&amp;#39;,1}, {integer,1,2}, {&amp;#39;*&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {&amp;#39;(&amp;#39;,1}, {integer,1,2}, {&amp;#39;+&amp;#39;,1}, {integer,1,4}, {&amp;#39;)&amp;#39;,1}, {&amp;#39;/&amp;#39;,1}, {integer,1,2}], 1} 2.{ok,Parsed} = erl_parse:parse_exprs(Scanned), {ok,[{op,1,&amp;#39;+&amp;#39;, {op,1,&amp;#39;+&amp;#39;, {integer,1,1}, {op,1,&amp;#39;*&amp;#39;,{integer,1,2},{integer,1,2}}}, {op,1,&amp;#39;/&amp;#39;, {op,1,&amp;#39;+&amp;#39;,{integer,1,2},{integer,1,4}}, {integer,1,2}}}]} 3.erl_eval:exprs(Parsed,[]). {value,8.0,[]} 4.erl_syntax:abstract(T::term()) -&amp;gt; syntaxTree() {ok, T1, _} = erl_scan:string( &amp;#34;aaa,bbb.&amp;#34; ). 5. erl_parse:parse_term(T1). T1的末尾必须是 {dot, 1}</description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/file.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/file.html</guid>
+      <description>写文件 file:open( FileName, [append]|[write]|[read] ) file:open(?FilePath, [write, {encoding, utf8}]) tool_log( Res, State )-&amp;gt; {ok, S} = file:open(get_path(&amp;#34;../doc/tool_log.txt&amp;#34;), [append]), io:format( S, &amp;#34;~p:~n{~p, ~p}~n&amp;#34;, [ erlang:localtime(), Res, State ]), file:close( S ). file:open(File, [raw, binary]). 2.file:write( IoDevice, Bytes ). file:write_file( FileName, Bytes ). 可以保存图片 读文件 file:open( FileName, read ). {ok,&amp;lt;0.547.0&amp;gt;} io:read( &amp;lt;0.547.0&amp;gt;, &amp;#39;&amp;#39; ). {ok,{1,&amp;#</description>
+    </item>
+    
+    <item>
+      <title>filelib</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/filelib.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/filelib.html</guid>
+      <description>file utilities, such as wildcard matching of filenames filelib:ensure_dir( &amp;#34;test/c/a.txt&amp;#34; ). %在pwd()目录下查看是否存在存在该目录，如果不存在新建目录，不新建文件 filelib:file_size( &amp;#34;text.txt&amp;#34; ). 127 filelib:is_dir( &amp;#34;test/c&amp;#34; ). true filelib:is_dir( &amp;#34;text.txt&amp;#34; ). false filelib:is_file(&amp;#34;test/c/&amp;#34;). true filelib:is_file(&amp;#34;text.txt&amp;#34;).true filelib:is_regular(&amp;#34;log/ssl.log&amp;#34;). true filelib:is_regular(&amp;#34;log/&amp;#34;). false filelib:last_modified(&amp;#34;log/ssl.log&amp;#34;). {{2015,10,29},{17,51,38}} filelib:wildcard(&amp;#34;log/*&amp;#34;).</description>
+    </item>
+    
+    <item>
+      <title>gb_trees</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/gb_trees.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/gb_trees.html</guid>
+      <description>平衡二叉树</description>
+    </item>
+    
+    <item>
+      <title>gen_tcp</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/gen_tcp.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/gen_tcp.html</guid>
+      <description>server() -&amp;gt; LSock = listen(), {ok, Sock} = gen_tcp:accept(LSock), {ok, Bin} = do_recv(Sock, []), ok = gen_tcp:close(Sock), Bin. listen() -&amp;gt; {ok, LSock} = gen_tcp:listen(5678, [binary, {packet, 4}, {active, false}]), LSock. client() -&amp;gt; SomeHostInNet = &amp;#34;localhost&amp;#34;, {ok, Sock} = gen_tcp:connect(SomeHostInNet, 5678, [binary, {packet, 0}]), ok = gen_tcp:send(Sock, &amp;#34;Some Data&amp;#34;), ok = gen_tcp:close(Sock). do_recv(Sock, Bs) -&amp;gt; case gen_tcp:recv(Sock, 0) of {ok, B} -&amp;gt; do_recv(Sock, [Bs, B]); {error, closed} -&amp;gt; {ok, list_to_binary(Bs)} end.</description>
+    </item>
+    
+    <item>
+      <title>httpc</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/httpc.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/httpc.html</guid>
+      <description>1、启动 方式一：启动inets应用，一个缺省profile的管理进程将被启动。 inets:start(). 方式二：运行时，动态启动profile停止profile。 动</description>
+    </item>
+    
+    <item>
+      <title>inet</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/inet.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/inet.html</guid>
+      <description>inet:getifaddrs() 本机所有网卡 inet:getif() 本机网卡ip地址 inet:peername(State#state.socket)</description>
+    </item>
+    
+    <item>
+      <title>init</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/init.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/init.html</guid>
+      <description>init:get_argument( home ). -&amp;gt; {ok,[[&amp;#34;C:\\Users\\Administrator&amp;#34;]]} init:stop().关闭所有的Erlang Application，包括终端 init:i(). 列出网络的连接情况</description>
+    </item>
+    
+    <item>
+      <title>init_parse</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/init_parse.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/init_parse.html</guid>
+      <description>init_parse:ntoa( IP:tuple() ) -&amp;gt; IP:string() </description>
+    </item>
+    
+    <item>
+      <title>io</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/io.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/io.html</guid>
+      <description>io:get_line io:get_line( &amp;#34;gissa line&amp;gt;&amp;#34; ). gissa line&amp;gt; fdfdsfdfdsfds. &amp;#34;fdfdsfdfdsfds.\n&amp;#34; io:get_chars io:get_chars( &amp;#34;me&amp;gt;&amp;#34;,4 ). me&amp;gt;fdfdfdfd. &amp;#34;fdfd&amp;#34; fdfd io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ) io:read( &amp;#34;ok,aa&amp;gt;&amp;gt;&amp;#34; ). ok,aa&amp;gt;&amp;gt;atom. {ok,atom}. io:fwrite(&amp;#34;843 Error&amp;#34;). io:fwrite(&amp;#34;843 Error&amp;#34;). 843 Errorok io_lib:format(&amp;#34;~32.16.0b&amp;#34;, [Mac])). 格式化&amp;#34;~32.16.0b&amp;#34;的含义,输出的用长度length</description>
+    </item>
+    
+    <item>
+      <title>list</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/lists.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/lists.html</guid>
+      <description>lists模块的reverse/1经过高度优化，可以在重排lists元素顺序时考虑使用 如果两个list都拥有很多数据，那么请不要使用&amp;rsq</description>
+    </item>
+    
+    <item>
+      <title>maps</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/maps.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/maps.html</guid>
+      <description>1.find(Key, Map) -&amp;gt; {ok, Value} | error  Map = #{&amp;#34;hi&amp;#34; =&amp;gt; 42},  Key = &amp;#34;hi&amp;#34;,  maps:find(Key,Map).  {ok,42} 2.fold(Fun, Init, Map) -&amp;gt; Acc  Fun = fun(K,V,AccIn) when is_list(K) -&amp;gt; AccIn + V end,  Map = #{&amp;#34;k1&amp;#34; =&amp;gt; 1, &amp;#34;k2&amp;#34; =&amp;gt; 2, &amp;#34;k3&amp;#34; =&amp;gt; 3},  maps:fold(Fun,0,Map). 3.from_list(List) -&amp;gt; Map  List = [{&amp;#34;a&amp;#34;,ignored},{1337,&amp;#34;value two&amp;#34;},{42,value_three},{&amp;#34;a&amp;#34;,1}],  maps:from_list(List).  #{42 =&amp;gt; value_three,1337 =&amp;gt; &amp;#34;value two&amp;#34;,&amp;#34;a&amp;#34; =&amp;gt; 1} 4.</description>
+    </item>
+    
+    <item>
+      <title>ordsets</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/ordsets.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/ordsets.html</guid>
+      <description>MODULE SUMMARY
+Functions for Manipulating Sets as Ordered Lists
+DESCRIPTION
+Sets are collections of elements with no duplicate elements. An ordset is a representation of a set, where an ordered list is used to store the elements of the set. An ordered list is more efficient than an unordered list. This module provides exactly the same interface as the module sets but with a defined representation. One difference is that while sets considers two elements as different if they do not match (=:=), this module considers two elements as different if and only if they do not compare equal (==).</description>
+    </item>
+    
+    <item>
+      <title>os</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/os.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/os.html</guid>
+      <description>os:type(). os:cmd(Cmd). os:cmd(&amp;#34;file --mime-encoding -b &amp;#34; ++ FullFile) </description>
+    </item>
+    
+    <item>
+      <title>proplists</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/proplists.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/proplists.html</guid>
+      <description>proplists:get_value(1,[{1,2},{3,4}], none) -&amp;gt; 2 proplists:get_value(1,[{5,6},{3,4}], none) -&amp;gt; none </description>
+    </item>
+    
+    <item>
+      <title>qlc</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/qlc.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/qlc.html</guid>
+      <description>模块 QLC 模块描述 Mnesia、ets、dets、etc查询接口 DESCRIPTION 为Mnesia、ets、dets或者其他的数据类型提供一个迭代器遍历的查询接口</description>
+    </item>
+    
+    <item>
+      <title>queue</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/queue.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/queue.html</guid>
+      <description>Queue:列队 1.queue:new(). -&amp;gt; {[],[]} 2.queue:in( {1,2}, {[],[]} ) -&amp;gt; {[{1,2}],[]} queue:in( {a,b}, {[{1,2}],[]} ) -&amp;gt; {[{a,b}],[{1,2}]} queue:in( {3,4}, {[{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{1,2}]} 3.queue:in_r( {c,d}, {[{3,4},{a,b}],[{1,2}]} ) -&amp;gt; {[{3,4},{a,b}],[{c,d},{1,2}]}. 4.queue:out( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{c,d}},{[{3,4},{a,b}],[{1,2}]}} 5.queue:out_r( {[{3,4},{a,b}],[{c,d},{1,2}]} ) -&amp;gt; {{value,{3,4}},{[{a,b}],[{c,d},{1,2}]}}</description>
+    </item>
+    
+    <item>
+      <title>random</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/random.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/random.html</guid>
+      <description>1.random:uniform( ) -&amp;gt; float(). 随机浮点数 2.random:uniform( N::integer() ) -&amp;gt; integer() -&amp;gt;小于N的随机整数 3.random:seed() -&amp;gt; ran(). 用默认值产生随机数种子。 4.用法 Time = erlang:now(), random:seed( Time ), Ran1 = random:seed( Time ), {New_Num, _} = random:uniform_s( Num, Ran1 ), 看它的代码实</description>
+    </item>
+    
+    <item>
+      <title>re</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/re.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/re.html</guid>
+      <description>9&amp;gt; re:run(&amp;#34;The sick quick brown fox.&amp;#34;, &amp;#34;ick&amp;#34;, [global]).  {match,[[{5,3}],[{11,3}]]} 10&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;).  [&amp;lt;&amp;lt;&amp;#34;The quick &amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;red&amp;#34;&amp;gt;&amp;gt;|&amp;lt;&amp;lt;&amp;#34; fox.&amp;#34;&amp;gt;&amp;gt;] 11&amp;gt; re:replace(&amp;#34;The quick brown fox.&amp;#34;, &amp;#34;brown&amp;#34;, &amp;#34;red&amp;#34;, [{return, list}]).  &amp;#34;The quick red fox.&amp;#34; 27&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, &amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;).  {match,[{8,11}]} 28&amp;gt; re:split(&amp;#34;this/is/my/path&amp;#34;,&amp;#34;/&amp;#34;).  [&amp;lt;&amp;lt;&amp;#34;this&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;is&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;my&amp;#34;&amp;gt;&amp;gt;,&amp;lt;&amp;lt;&amp;#34;path&amp;#34;&amp;gt;&amp;gt;] 29&amp;gt; {_, P} = re:compile(&amp;#34;[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,3}&amp;#34;).  {ok,{re_pattern,0,0,&amp;lt;&amp;lt;69,82,67,80,164,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,64,...&amp;gt;&amp;gt;}} 30&amp;gt; re:run(&amp;#34;E-mail: xyz@pdq.com&amp;#34;, P).  {match,[{8,11}]} get_url(String) -&amp;gt;  HTTP_regex = &amp;#34;^(H|h)(T|t)(T|t)(P|p)(S|s)*://&amp;#34;,  case re:run(String, HTTP_regex) of  nomatch -&amp;gt; not_url;  {match, _} -&amp;gt; get_url1(String, [])  end.</description>
+    </item>
+    
+    <item>
+      <title>sets</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/sets.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/sets.html</guid>
+      <description>1.sets:add_element( Element, Set1 ). 向集合中添加一個元素 2.sets:del_element( Element, Set1 ). 向集合中減少一個元素</description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/shell.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/shell.html</guid>
+      <description>Eshell V5.10.2 (abort with ^G) 1&amp;gt; help(). shell 内置命令 b() &amp;ndash; 显示所有绑定的变量 e(N) &amp;ndash; 重复某次查询 f() &amp;ndash; 释放所有绑定的变量 f(X) &amp;ndash; 释放某个绑定的变量 h() &amp;ndash; 显示之前的操作 history(N) &amp;ndash; 设置保存之前</description>
+    </item>
+    
+    <item>
+      <title>soft</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/soft.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/soft.html</guid>
+      <description>1.sofs:range(). inout-&amp;gt;sofs:relation([{1,2},{1,3},{2,4},{2,5}]) outout -&amp;gt;{&amp;#39;Set&amp;#39;,[2,3],atom} 2.sofs:relation(). input -&amp;gt;[{1,2},{1,3},{2,4},{2,5}]  output -&amp;gt;{&amp;#39;Set&amp;#39;, [{1,2},{1,3},{2,4},{2,5}],{atom,atiom}}  3.sofs:to_external(). input -&amp;gt;{&amp;#39;Set&amp;#39;, [2,3],atom} output -&amp;gt; [2,3] </description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/ssh.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/ssh.html</guid>
+      <description>crypto:start(). ssh:start(). {ok, Conn} = ssh:connect(&amp;#34;ip or host name&amp;#34;, 22, [  {user, &amp;#34;the user name&amp;#34;},  {password, &amp;#34;the password&amp;#34;},  {silently_accept_hosts, true},  {user_interaction, false} ]). </description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/string.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/string.html</guid>
+      <description>1.string:len(). 2.string:concat(). --连接 3.string:substr(Str,Start,Length). --Str中从Start开始Length长度 4.string:tokens(Str,List). --从Str中含有List的部分切割 5.string:rstr( String, SubString ). --获取SubString在Stri</description>
+    </item>
+    
+    <item>
+      <title>supervisor</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/supervisor.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/supervisor.html</guid>
+      <description>1. supervisor:start_child(admin_sup, [{admin, {admin, start_link, [self()]},perm anent , 2000 ,worker, [admin]}]). -&amp;gt; {ok, Child :: child()} |{ok, Child :: child(), Info :: term()}|{error, startchild_err()} start_child(SupRef, ChildSpec) -&amp;gt; startchild_ret(). SupRef = sup_ref() ChildSpec = child_spec() | (List :: [term()]) child_spec() = {Id :: child_id(), StartFunc :: mfargs(), Restart :: restart(), Shutdown :: shutdown(), Type :: worker(), Modules :: modules()} startchild_ret() = {ok, Child :: child()} | {ok, Child :: child(), Info</description>
+    </item>
+    
+    <item>
+      <title>timer</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/timer.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/timer.html</guid>
+      <description>1．Timer：tc（Module，Function，Arguments）-&amp;gt;{Time,Value} 参数使用中括号括起来 测量某函数运</description>
+    </item>
+    
+    <item>
+      <title>tuple</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/tuple.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/tuple.html</guid>
+      <description>1.tuple_size 返回元组元素的数目 2.element 返回元组的第N个元素 3.setelement/3 替换元组中的一个元素，返回新的元组 setelement(1, {1,2,3,4,5,6},2 ). -》{2,2,3,4,5,6} 4.erlang:append_element/2 erlang:append_element( {1,2,3,4},4 ) -&amp;gt; {1,2,3,4,4} 5.erlang:delete_element( 1, {a,b,c,d} ). -&amp;gt; {b,c,d}</description>
+    </item>
+    
+    <item>
+      <title>unicode</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/unicode.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/stdlib/unicode.html</guid>
+      <description>unicode:characters_to_list(DatB)  erlang csv  Result_str = &amp;#34;r1c1,r1c2,r1c3\nr2c1,r2c2,r2c3&amp;#34;, Bom = unicode:characters_to_list(unicode:encoding_to_bom(utf8)), unicode:characters_to_binary(Bom++Result_str, unicode, utf8), </description>
+    </item>
+    
+  </channel>
+</rss>

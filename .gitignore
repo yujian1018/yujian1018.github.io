@@ -3,3 +3,5 @@ public
 themes
 
 *.tar.gz
+
+.hugo_build.lock

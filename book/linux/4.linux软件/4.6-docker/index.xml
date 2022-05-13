@@ -2,47 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4.6 Docker on 清水的小站</title>
-    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/</link>
+    <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker.html</link>
     <description>Recent content in 4.6 Docker on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4.6.1 Docker-Dockerfile</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.1-docker-dockerfile.html</guid>
       <description>docker 仓库（registry） # 私有服务：创建私有仓库 docker run -d -p 5000:5000 --restart=always --name registry -v /opt/myregistry:/var/lib/registry registry #重启docker让修改生效 systemctl restart docker.service #Dockerfile打包镜像 https://www.docker.org.cn/docker/docker-206.html vim</description>
     </item>
     
     <item>
       <title>4.6.2 Docker</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.2-docker.html</guid>
       <description>docker 安装 wget -qO- https://get.docker.com/ | sh sudo service docker start sudo docker run hello-world 镜像控制 docker image list docker image ls # 查看镜像 docker image save centos &amp;gt; docker-centos.tar.gz #导出镜像 docker image rm centos:latest #删除镜像 docker image load -i docker-centos.tar.gz #导入镜像 docker image inspect centos #查看镜像</description>
     </item>
     
     <item>
       <title>4.6.4 Docker Compose</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.4-docker-compose.html</guid>
       <description>docker compose 配置文件 version:&amp;#34;3&amp;#34;services:htzx:image:127.0.0.1:15000/htzx/iot-</description>
     </item>
     
     <item>
       <title>4.6.5 Docker-网络</title>
-      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C/</link>
+      <link>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C/</guid>
+      <guid>https://linux.01cs.cc/4.linux%E8%BD%AF%E4%BB%B6/4.6-docker/4.6.5-docker-%E7%BD%91%E7%BB%9C.html</guid>
       <description>docker 网络 docker network create -d bridge test-net # -d：参数指定 Docker 网络类型，有 bridge、overlay。 docker run -itd --name test1 --network test-net ubuntu /bin/bash #运行一个容器并连接到新建的 test-net 网络 docker run -itd --name test2</description>
     </item>
     

@@ -1,48 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4.10profiling on 清水的小站</title>
-    <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/</link>
-    <description>Recent content in 4.10profiling on 清水的小站</description>
+    <title>profiling on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling.html</link>
+    <description>Recent content in profiling on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</link>
+      <title>fprof</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.1fprof.html</guid>
       <description>fprof类似eprof，但是会把详细信息存储到文件中，方便数据统计分析。 只看某一函数的简单调用方法： 1&amp;gt; fprof:apply(Module, fun, Args). 2&amp;gt; fprof:profile(). 3&amp;gt; fprof:analyse(). 实际上在执行的时候，f</description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</link>
+      <title>eprof</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof/</guid>
-      <description> eprof:start().
-eprof:profile([pid(x,x,x)]).
-eprof:stop_profiling().
-eprof:analyze().
-eprof:stop().
-  eprof:start_profiling([regNames], {gen, call, 4}).
-eprof:stop_profiling().
-eprof:analyze().
-eprof:stop().
- </description>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.2eprof.html</guid>
+      <description>&amp;gt; eprof:start(). &amp;gt; eprof:profile([pid(x,x,x)]). &amp;gt; eprof:stop_profiling(). &amp;gt; eprof:analyze(). &amp;gt; eprof:stop().  &amp;gt; eprof:start_profiling([regNames], {gen, call, 4}). &amp;gt; eprof:stop_profiling(). &amp;gt; eprof:analyze(). &amp;gt; eprof:stop(). </description>
     </item>
     
     <item>
-      <title>4</title>
-      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</link>
+      <title>cprof</title>
+      <link>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof/</guid>
+      <guid>https://yujian1018.github.io/book/erlang/4.%E5%B7%A5%E5%85%B7/4.10profiling/4.10.3cprof.html</guid>
       <description>用于统计一个函数中的每个函数的调用次数。相较于eprof和fprof，cprof对性能影响很小，官方说大约10% 使用举例（引自官网） 1&amp;gt; cprof:start(),R=calendar:day_of_the_week(1896,4,27),cprof:pause(),R. 1 2&amp;gt;</description>
     </item>
     

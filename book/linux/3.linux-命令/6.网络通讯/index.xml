@@ -2,65 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6.网络通讯 on 清水的小站</title>
-    <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/</link>
+    <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF.html</link>
     <description>Recent content in 6.网络通讯 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>6.1 tcpdump</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.1-tcpdump.html</guid>
       <description>tcpdump sudo tcpdump -i lo port 8080 and &amp;#39;tcp[tcpflags] &amp;amp; (tcp-syn|tcp-fin) !=0&amp;#39; -nn 查看本机8080端口的流量 sudo tcpdump -i lo &amp;#39;port 42442&amp;#39; -vvv -XX</description>
     </item>
     
     <item>
       <title>6.2 curl</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.2-curl.html</guid>
       <description>curl linux curl是一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载，所以是综合传输工具，但按传统，习惯称url为下载工具。</description>
     </item>
     
     <item>
       <title>6.3 ssh</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.3-ssh.html</guid>
       <description>ssh # 安装 yum install SSH apt install openssl vim /etc/ssh/sshd_config systemctl restart sshd Port 22 #端口 添加一行：Port 23 #多个ssh连接端口 PasswordAuthentication no #禁用密码验证 RSAAuthentication yes #启用密钥验证 PubkeyAuthentication yes AuthorsizedKeysFile .ssh/authorized_keys #指定公钥数据库</description>
     </item>
     
     <item>
       <title>6.4 tc</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.4-tc.html</guid>
       <description>基本用法 tc qdisc show # 显示 tc qdisc add dev eth0 root ...... # 加入 tc qdisc change dev eth0 root ...... # 修改存在的 qdisc ,记的,加入同一条后只能用 change 来修改 tc qdisc del dev eth0 root # 删除 tc qdisc add dev eth0 root netem delay 3000ms 延</description>
     </item>
     
     <item>
       <title>6.5 firewall</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/6.5-firewall.html</guid>
       <description>firewall-cmd firewall-cmd提供了一个动态管理的防火墙，支持网络/防火墙区域来定义网络连接或接口的信任级别。它支持IPv4、IPv6防火墙设置</description>
     </item>
     
     <item>
       <title>nc</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/6.%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF/nc.html</guid>
       <description>nc 功能说明：功能强大的网络工具 语 法：nc [-hlnruz][-g&amp;lt;网关&amp;hellip;&amp;gt;][-G&amp;lt;指向器数目&amp;gt;][-</description>
     </item>
     

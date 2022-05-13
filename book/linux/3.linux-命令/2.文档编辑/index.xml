@@ -2,101 +2,97 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2.文档编辑 on 清水的小站</title>
-    <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/</link>
+    <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91.html</link>
     <description>Recent content in 2.文档编辑 on 清水的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate>
-    
-	<atom:link href="https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.1 文档编辑</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.1-%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>2.10 wc</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.10-wc.html</guid>
       <description>wc wc -lcw rebar.config rebar.config.script find . -name &amp;#34;*.erl&amp;#34; -or -name &amp;#34;*.hrl&amp;#34;|xargs cat|wc -l #查看所有文件行数 # -c 统计字节数 # -l 统计行数 # -w 统计字数 ls -l | grep &amp;#34;^-&amp;#34; | wc -l # 1、统计当前目录下文件的个数（不包括目</description>
     </item>
     
     <item>
       <title>2.2 sed</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.2-sed.html</guid>
       <description>sed http://man.linuxde.net/sed sed是一种流编辑器，它是文本处理中非常中的工具，能够完美的配合正则表达式使用，功能不同凡响。处理时，把当前处理的行存储在临时缓冲区中，</description>
     </item>
     
     <item>
       <title>2.3 awk</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk/</guid>
-      <description>awk echo &amp;#39;Adam Bor, 34, IndiaKerryMiller, 22, USA&amp;#39; | awk -F &amp;#39;,&amp;#39; &amp;#39;{print $1 , $3}&amp;#39; ifconfig eth0 |awk -F &amp;#39;inet | netmask &amp;#39; &amp;#39;{print $2}&amp;#39; 获取网卡eth0的ip地址 grep &amp;#39;release&amp;#39; rebar.config | awk -F &amp;#39;&amp;#34;&amp;#39; &amp;#39;{print $2}&amp;#39;</description>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.3-awk.html</guid>
+      <description>awk echo &amp;#39;Adam Bor, 34, IndiaKerryMiller, 22, USA&amp;#39; | awk -F &amp;#39;,&amp;#39; &amp;#39;{print $1 , $3}&amp;#39; ifconfig eth0 |awk -F &amp;#39;inet | netmask &amp;#39; &amp;#39;{print $2}&amp;#39; 获取网卡eth0的ip地址 grep &amp;#39;release&amp;#39; rebar.config | awk -F &amp;#39;&amp;#34;&amp;#39; &amp;#39;{print $2}&amp;#39; |awk -F/ &amp;#39;{print $NF}&amp;#39;</description>
     </item>
     
     <item>
       <title>2.4 uniq</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.4-uniq.html</guid>
       <description>uniq # 删除重复的行比如： sort file.txt | uniq uniq [-cdu][-f&amp;lt;栏位&amp;gt;][-s&amp;lt;字符位置&amp;gt;][-w&amp;lt;字符位置&amp;gt;][-</description>
     </item>
     
     <item>
       <title>2.5 sort</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.5-sort.html</guid>
       <description>sort file.txt 对file.txt文件中的行进行排序</description>
     </item>
     
     <item>
       <title>2.6 grep</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.6-grep.html</guid>
       <description>grep grep（global search regular expression(RE) and print out the line，全面搜索正则表达式并把行打印出来）是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把</description>
     </item>
     
     <item>
       <title>2.7 tail</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.7-tail.html</guid>
       <description>简介 Linux命令：显示文件结尾 命令格式 tail[必要参数][选择参数][文件] 命令功能 用于显示指定文件末尾内容，不指定文件时，作为输入信息</description>
     </item>
     
     <item>
       <title>2.8 find</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.8-find.html</guid>
       <description>find命令 find命令用来在指定目录下查找文件。任何位于参数之前的字符串都将被视为欲查找的目录名。如果使用该命令时，不设置任何参数，则fi</description>
     </item>
     
     <item>
       <title>2.9 iconv</title>
-      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv/</link>
+      <link>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv.html</link>
       <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
       
-      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv/</guid>
+      <guid>https://linux.01cs.cc/3.linux-%E5%91%BD%E4%BB%A4/2.%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91/2.9-iconv.html</guid>
       <description>使用iconv库，转换文件编码 #!/bin/sh FILES=$(find . -type f -name &amp;#39;*.*&amp;#39;) for f in $FILES do if test -f $f; then CHARSET=&amp;#34;$( file -bi &amp;#34;$f&amp;#34;|awk -F &amp;#34;=&amp;#34; &amp;#39;{print $2}&amp;#39;)&amp;#34; if [ &amp;#34;$CHARSET&amp;#34; != utf-8 ]; then echo -e &amp;#34;\nConverting $ffrom $CHARSETto utf-8&amp;#34; # iconv -f &amp;#34;$CHARSET&amp;#34; -t utf-8 &amp;#34;$f&amp;#34; -o &amp;#34;$f.temp&amp;#34; iconv -f GBK -t UTF-8 &amp;#34;$f&amp;#34; -o &amp;#34;$f.temp&amp;#34;</description>
     </item>
     

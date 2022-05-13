@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>otp模块 on 清水的小站</title>
+    <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp.html</link>
+    <description>Recent content in otp模块 on 清水的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Aug 2019 10:56:29 +0800</lastBuildDate><atom:link href="https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>application_app.erl</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application_app.erl.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application_app.erl.html</guid>
+      <description>-module( admin_app ). -behaviour(application). -export( [start/2, stop/1] ). start(_Type, _State) -&amp;gt; %%初始化的数据 io:format( &amp;#34;admin_app111~p~n222~p~n&amp;#34;, [ _Type, _State ] ), admin_sup:start(). stop(_State) -&amp;gt; ok. 1&amp;gt;application:start(log4erl). 我们就从这一行命令开始说起吧,回车之后可以把log4erl应用程序启动起来.E</description>
+    </item>
+    
+    <item>
+      <title>application_sup.erl</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application_sup.erl.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application_sup.erl.html</guid>
+      <description>%% @author : 余健 &amp;lt;yujian1018@gmail.com&amp;gt; %% @创建时间 : 2014-04-14 %% @doc : 如果该系统是一个application，该模块设置该application的监督树，监督树的功能就只是提供</description>
+    </item>
+    
+    <item>
+      <title>application.app.src</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application.app.src.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/application.app.src.html</guid>
+      <description>{application,%进程名称% [{description,&amp;#34;Yaws applications 中文语义切词系统&amp;#34;}, {vsn,&amp;#34;1.0.0&amp;#34;}, {modules,[ %所有需要加载的模块]}, {registered, [%注册进程%]}, %填写的注册进程</description>
+    </item>
+    
+    <item>
+      <title>gen_fsm</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/gen_fsm.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/gen_fsm.html</guid>
+      <description>%%%------------------------------------------------------------------- %%% @author yujian %%% @doc %%%------------------------------------------------------------------- -module(test_fsm).   -behaviour(gen_fsm).   -export([start_link/0, init/1, handle_event/3, handle_sync_event/4, handle_info/3, terminate/3, code_change/4]).   -export([send_event/1,  role_login/2,  role_logined/2,  role_ping_role/2 ]).   -define(SERVER, ?MODULE).   -record(state, {}).   start_link() -&amp;gt;  gen_fsm:start_link({local, ?SERVER}, ?MODULE, [], []).   init([]) -&amp;gt;  io:format( &amp;#34;111:~n&amp;#34; ),  {ok, role_login, #state{}}.   handle_event(_Event, StateName, State) -&amp;gt;  io:format( &amp;#34;222:~w~n&amp;#34;, [[_Event, StateName, State]] ),  {next_state, StateName, State}.</description>
+    </item>
+    
+    <item>
+      <title>gen_server</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/gen_server.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/gen_server.html</guid>
+      <description>%%%------------------------------------------------------------------- %%% @author yujian1018@gmail.com %%% @doc %%% %%% Created : 20. 八月 2018 下午3:31 %%%------------------------------------------------------------------- -module(srv_trie4). -behaviour(gen_server). -export([start_link/0, init/1, handle_call/3, handle_cast/2, handle_info/2, terminate/2, code_change/3]). -export([ start/0, stop/0, select/3 ]). start() -&amp;gt; mnesia:start(). stop() -&amp;gt; gen_server:call(?MODULE, stop). %% @doc Args参数可以列表表示项，Tuple表示参数只有一</description>
+    </item>
+    
+    <item>
+      <title>receive</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/receive.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/receive.html</guid>
+      <description>start() -&amp;gt; register( mnesiaDBA_pub_clear, spawn( fun()-&amp;gt; loop() end ) ).  stop() -&amp;gt; rpc( {stop, &amp;#34;stop&amp;#34;} ).  rpc(Request) -&amp;gt;  mnesiaDBA_pub_clear ! {self(), Request},  receive  {mnesiaDBA_pub_clear, Res} -&amp;gt;  Res;  Other -&amp;gt;  io:format(&amp;#34;server is different:~p~n&amp;#34;, [Other])  end.  loop() -&amp;gt;  receive  {ClientPid, {table, Table}} -&amp;gt;  Res = filter(Table),  ClientPid ! {mnesiaDBA_pub_clear, Res},  loop();  {ClientPid, {stop, Stop}} -&amp;gt;  ClientPid !</description>
+    </item>
+    
+    <item>
+      <title>函数</title>
+      <link>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/%E5%87%BD%E6%95%B0.html</link>
+      <pubDate>Fri, 30 Aug 2019 15:13:01 +0800</pubDate>
+      
+      <guid>https://yujian1018.github.io/book/erlang/3.%E5%BA%93%E5%87%BD%E6%95%B0/otp/%E5%87%BD%E6%95%B0.html</guid>
+      <description>Erlang的设计哲学是为每一个独立的事件创建一个新进程. 负责进程创建职责的是Erlang VM中的Scheduler spawn第三个参数是L</description>
+    </item>
+    
+  </channel>
+</rss>
