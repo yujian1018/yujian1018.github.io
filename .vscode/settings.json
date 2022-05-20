@@ -1,0 +1,8 @@
+{
+    "search.exclude": {
+        "/me": true,
+        "/book": true,
+        "/*.code-search": true,
+        "/dist":true,
+        },
+}
