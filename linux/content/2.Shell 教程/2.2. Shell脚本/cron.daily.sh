@@ -38,7 +38,7 @@ fun_sync_file() {
     #-progress:在传输时现实传输过程。
     rsync -azue ssh --delete /root/git root@1.2.3.4:/root/
     rsync -azuev ssh --delete /var/www/media /var/www/voice                          #本地拷贝目录
-    rsync -azuev ssh --delete --progress /var/www/media root@1.2.3.4://var/www/media #将本地目录拷贝到远程服务器 -e "ssh -p 你的SSH端口"
+    rsync -azuev ssh --delete --progress /var/www/media root@1.2.3.4:/var/www/media #将本地目录拷贝到远程服务器 -e "ssh -p 你的SSH端口"
 }
 
 fun_mysqldump() {
