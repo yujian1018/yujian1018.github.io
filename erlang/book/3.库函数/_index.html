@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>库函数 - Erlang笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">介绍</a></li><li class="chapter-item expanded "><a href="../1.开始/_index.html"><strong aria-hidden="true">1.</strong> 开始</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1.开始/1.1安装与运行环境.html"><strong aria-hidden="true">1.1.</strong> 安装与运行环境</a></li><li class="chapter-item expanded "><a href="../1.开始/1.2编辑器、集成开发环境与其它工具.html"><strong aria-hidden="true">1.2.</strong> 编辑器、集成开发环境与其它工具</a></li><li class="chapter-item expanded "><a href="../1.开始/1.3代码编译运行.html"><strong aria-hidden="true">1.3.</strong> 代码编译运行</a></li></ol></li><li class="chapter-item expanded "><a href="../2.基础/_index.html"><strong aria-hidden="true">2.</strong> 基础</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2.基础/2.1 Erlang终端.html"><strong aria-hidden="true">2.1.</strong> Erlang终端</a></li><li class="chapter-item expanded "><a href="../2.基础/2.2 基础语法.html"><strong aria-hidden="true">2.2.</strong> 基础语法</a></li><li class="chapter-item expanded "><a href="../2.基础/2.2.1 异常处理.html"><strong aria-hidden="true">2.3.</strong> 异常处理</a></li><li class="chapter-item expanded "><a href="../2.基础/2.3 数据类型.html"><strong aria-hidden="true">2.4.</strong> 数据类型</a></li><li class="chapter-item expanded "><a href="../2.基础/2.4 运算符.html"><strong aria-hidden="true">2.5.</strong> 运算符</a></li><li class="chapter-item expanded "><a href="../2.基础/2.5 模块属性.html"><strong aria-hidden="true">2.6.</strong> 模块属性</a></li><li class="chapter-item expanded "><a href="../2.基础/2.6启动Erlang节点.html"><strong aria-hidden="true">2.7.</strong> 启动Erlang节点</a></li></ol></li><li class="chapter-item expanded "><a href="../3.库函数/_index.html" class="active"><strong aria-hidden="true">3.</strong> 库函数</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/asn1/_index.html"><strong aria-hidden="true">3.1.</strong> Asn 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/asn1/asn1rt.html"><strong aria-hidden="true">3.1.1.</strong> Asn 1 Rt</a></li></ol></li><li class="chapter-item expanded "><a href="../3.库函数/compiler/compiler.html"><strong aria-hidden="true">3.2.</strong> Compiler</a></li><li class="chapter-item expanded "><a href="../3.库函数/crypto/crypto.html"><strong aria-hidden="true">3.3.</strong> Crypto</a></li><li class="chapter-item expanded "><a href="../3.库函数/erts/_index.html"><strong aria-hidden="true">3.4.</strong> Erts</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/erts/erl_nif.html"><strong aria-hidden="true">3.4.1.</strong> Erl Nif</a></li><li class="chapter-item expanded "><a href="../3.库函数/erts/erlang.html"><strong aria-hidden="true">3.4.2.</strong> Erlang</a></li><li class="chapter-item expanded "><a href="../3.库函数/erts/init.html"><strong aria-hidden="true">3.4.3.</strong> Init</a></li></ol></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/_index.html"><strong aria-hidden="true">3.5.</strong> Kernel</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/kernel/application.html"><strong aria-hidden="true">3.5.1.</strong> Application</a></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/code_server.html"><strong aria-hidden="true">3.5.2.</strong> Code Server</a></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/error_logger.html"><strong aria-hidden="true">3.5.3.</strong> Error Logger</a></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/inet.html"><strong aria-hidden="true">3.5.4.</strong> Inet</a></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/net_adm.html"><strong aria-hidden="true">3.5.5.</strong> Net Adm</a></li><li class="chapter-item expanded "><a href="../3.库函数/kernel/net_kernel.html"><strong aria-hidden="true">3.5.6.</strong> Net Kernel</a></li></ol></li><li class="chapter-item expanded "><a href="../3.库函数/os_mon/_index.html"><strong aria-hidden="true">3.6.</strong> Os Mon</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/_index.html"><strong aria-hidden="true">3.7.</strong> otp模块</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/otp/函数.html"><strong aria-hidden="true">3.7.1.</strong> 函数</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/application_app.erl.html"><strong aria-hidden="true">3.7.2.</strong> application_app.erl</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/application_sup.erl.html"><strong aria-hidden="true">3.7.3.</strong> application_sup.erl</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/application.app.src.html"><strong aria-hidden="true">3.7.4.</strong> application.app.src</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/gen_fsm.html"><strong aria-hidden="true">3.7.5.</strong> Gen Fsm</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/gen_server.html"><strong aria-hidden="true">3.7.6.</strong> Gen Server</a></li><li class="chapter-item expanded "><a href="../3.库函数/otp/receive.html"><strong aria-hidden="true">3.7.7.</strong> Receive</a></li></ol></li><li class="chapter-item expanded "><a href="../3.库函数/sasl/_index.html"><strong aria-hidden="true">3.8.</strong> Sasl</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/_index.html"><strong aria-hidden="true">3.9.</strong> Stdlib</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.库函数/stdlib/array.html"><strong aria-hidden="true">3.9.1.</strong> Array</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/base64.html"><strong aria-hidden="true">3.9.2.</strong> Base 64</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/binary.html"><strong aria-hidden="true">3.9.3.</strong> Binary</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/c.html"><strong aria-hidden="true">3.9.4.</strong> C</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/calendar.html"><strong aria-hidden="true">3.9.5.</strong> Calendar</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/code.html"><strong aria-hidden="true">3.9.6.</strong> Code</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/dict.html"><strong aria-hidden="true">3.9.7.</strong> Dict</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/erl_.html"><strong aria-hidden="true">3.9.8.</strong> Erl Scan</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/file.html"><strong aria-hidden="true">3.9.9.</strong> File</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/filelib.html"><strong aria-hidden="true">3.9.10.</strong> Filelib</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/gb_trees.html"><strong aria-hidden="true">3.9.11.</strong> Gb Trees</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/gen_tcp.html"><strong aria-hidden="true">3.9.12.</strong> Gen Tcp</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/httpc.html"><strong aria-hidden="true">3.9.13.</strong> Httpc</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/inet.html"><strong aria-hidden="true">3.9.14.</strong> Inet</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/init_parse.html"><strong aria-hidden="true">3.9.15.</strong> Init Parse</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/init.html"><strong aria-hidden="true">3.9.16.</strong> Init</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/io.html"><strong aria-hidden="true">3.9.17.</strong> Io</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/lists.html"><strong aria-hidden="true">3.9.18.</strong> List</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/maps.html"><strong aria-hidden="true">3.9.19.</strong> Maps</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/ordsets.html"><strong aria-hidden="true">3.9.20.</strong> Ordsets</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/os.html"><strong aria-hidden="true">3.9.21.</strong> Os</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/proplists.html"><strong aria-hidden="true">3.9.22.</strong> Proplists</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/qlc.html"><strong aria-hidden="true">3.9.23.</strong> Qlc</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/queue.html"><strong aria-hidden="true">3.9.24.</strong> Queue</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/random.html"><strong aria-hidden="true">3.9.25.</strong> Random</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/re.html"><strong aria-hidden="true">3.9.26.</strong> Re</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/sets.html"><strong aria-hidden="true">3.9.27.</strong> Sets</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/shell.html"><strong aria-hidden="true">3.9.28.</strong> Shell</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/soft.html"><strong aria-hidden="true">3.9.29.</strong> Soft</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/ssh.html"><strong aria-hidden="true">3.9.30.</strong> Ssh</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/string.html"><strong aria-hidden="true">3.9.31.</strong> String</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/supervisor.html"><strong aria-hidden="true">3.9.32.</strong> Supervisor</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/timer.html"><strong aria-hidden="true">3.9.33.</strong> Timer</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/tuple.html"><strong aria-hidden="true">3.9.34.</strong> Tuple</a></li><li class="chapter-item expanded "><a href="../3.库函数/stdlib/unicode.html"><strong aria-hidden="true">3.9.35.</strong> Unicode</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../4.工具/_index.html"><strong aria-hidden="true">4.</strong> 工具</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.工具/4.10profiling/_index.html"><strong aria-hidden="true">4.1.</strong> Profiling</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.工具/4.10profiling/4.10.1fprof.html"><strong aria-hidden="true">4.1.1.</strong> Fprof</a></li><li class="chapter-item expanded "><a href="../4.工具/4.10profiling/4.10.2eprof.html"><strong aria-hidden="true">4.1.2.</strong> Eprof</a></li><li class="chapter-item expanded "><a href="../4.工具/4.10profiling/4.10.3cprof.html"><strong aria-hidden="true">4.1.3.</strong> Cprof</a></li></ol></li><li class="chapter-item expanded "><a href="../4.工具/4.3Erlang多节点/4.3.1主从节点.html"><strong aria-hidden="true">4.2.</strong> 主从节点</a></li><li class="chapter-item expanded "><a href="../4.工具/4.3Erlang多节点/4.3.2Erlang多节点.html"><strong aria-hidden="true">4.3.</strong> Erlang多节点</a></li><li class="chapter-item expanded "><a href="../4.工具/4.7dbg-debug模块/_index.html"><strong aria-hidden="true">4.4.</strong> dbg-debug模块</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.工具/4.7dbg-debug模块/4.7.1dbg.html"><strong aria-hidden="true">4.4.1.</strong> Dbg</a></li></ol></li><li class="chapter-item expanded "><a href="../4.工具/4.1Erlang预处理器.html"><strong aria-hidden="true">4.5.</strong> Erlang预处理器</a></li><li class="chapter-item expanded "><a href="../4.工具/4.2Port.html"><strong aria-hidden="true">4.6.</strong> Port</a></li><li class="chapter-item expanded "><a href="../4.工具/4.4Epmd.html"><strong aria-hidden="true">4.7.</strong> Epmd</a></li><li class="chapter-item expanded "><a href="../4.工具/4.5断点工具.html"><strong aria-hidden="true">4.8.</strong> 断点工具</a></li><li class="chapter-item expanded "><a href="../4.工具/4.6dialyzer.html"><strong aria-hidden="true">4.9.</strong> Dialyzer</a></li><li class="chapter-item expanded "><a href="../4.工具/4.8Erlang跟踪工具.html"><strong aria-hidden="true">4.10.</strong> Erlang跟踪工具</a></li><li class="chapter-item expanded "><a href="../4.工具/4.9etop.html"><strong aria-hidden="true">4.11.</strong> Etop</a></li></ol></li><li class="chapter-item expanded "><a href="../5.进阶/_index.html"><strong aria-hidden="true">5.</strong> 进阶</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5.进阶/5.1TCP粘包、大小端.html"><strong aria-hidden="true">5.1.</strong> TCP粘包、大小端</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.2rebar发布系统.html"><strong aria-hidden="true">5.2.</strong> rebar发布系统</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.3ErlangVM心跳.html"><strong aria-hidden="true">5.3.</strong> ErlangVM心跳</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.4ErlangGC.html"><strong aria-hidden="true">5.4.</strong> Erlang GC</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.5ErlangTime.html"><strong aria-hidden="true">5.5.</strong> Erlang Time</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.6Erlang启动/5.6.1Erlang启动.html"><strong aria-hidden="true">5.6.</strong> Erlang启动</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.6Erlang启动/5.6.2SASL配置.html"><strong aria-hidden="true">5.7.</strong> SASL配置</a></li><li class="chapter-item expanded "><a href="../5.进阶/5.7Erlang系统限制.html"><strong aria-hidden="true">5.8.</strong> Erlang系统限制</a></li></ol></li><li class="chapter-item expanded "><a href="../6.xx/_index.html"><strong aria-hidden="true">6.</strong> Xx</a></li><li class="chapter-item expanded "><a href="../7.项目/_index.html"><strong aria-hidden="true">7.</strong> 项目</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/_index.html"><strong aria-hidden="true">7.1.</strong> Mnesia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.10ets.html"><strong aria-hidden="true">7.1.1.</strong> Ets</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.1Mnesia模式.html"><strong aria-hidden="true">7.1.2.</strong> Mnesia模式</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.2Mnesia操作.html"><strong aria-hidden="true">7.1.3.</strong> Mnesia操作</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.3Mnesia增删改查.html"><strong aria-hidden="true">7.1.4.</strong> Mnesia增删改查</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.4Mnesia过载分析.html"><strong aria-hidden="true">7.1.5.</strong> Mnesia过载分析</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.5Mnesia高级特性.html"><strong aria-hidden="true">7.1.6.</strong> Mnesia高级特性</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.6分布式.html"><strong aria-hidden="true">7.1.7.</strong> 分布式</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.7Mnesia表分片.html"><strong aria-hidden="true">7.1.8.</strong> Mnesia表分片</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.8Mnesia锁.html"><strong aria-hidden="true">7.1.9.</strong> Mnesia锁</a></li><li class="chapter-item expanded "><a href="../7.项目/7.1Mnesia/7.1.9dets.html"><strong aria-hidden="true">7.1.10.</strong> Dets</a></li></ol></li><li class="chapter-item expanded "><a href="../7.项目/7.2Ejabberd/_index.html"><strong aria-hidden="true">7.2.</strong> Ejabberd</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../7.项目/7.2Ejabberd/7.2.1mod_echo.erl.html"><strong aria-hidden="true">7.2.1.</strong> mod_echo.erl</a></li><li class="chapter-item expanded "><a href="../7.项目/7.2Ejabberd/7.2.2hooksformoduledevelopers.html"><strong aria-hidden="true">7.2.2.</strong> Hooksformoduledevelopers</a></li><li class="chapter-item expanded "><a href="../7.项目/7.2Ejabberd/7.2.3Eventslist.html"><strong aria-hidden="true">7.2.3.</strong> Eventslist</a></li></ol></li><li class="chapter-item expanded "><a href="../7.项目/7.3cowboy/_index.html"><strong aria-hidden="true">7.3.</strong> Cowboy</a></li><li class="chapter-item expanded "><a href="../7.项目/7.4rebar/_index.html"><strong aria-hidden="true">7.4.</strong> Rebar</a></li><li class="chapter-item expanded "><a href="../7.项目/7.4rebar/7.4.1Wiki.html"><strong aria-hidden="true">7.5.</strong> Wiki</a></li><li class="chapter-item expanded "><a href="../7.项目/7.4rebar/7.4.2rebar.config.script.html"><strong aria-hidden="true">7.6.</strong> rebar.config.script</a></li><li class="chapter-item expanded "><a href="../7.项目/7.5riak/_index.html"><strong aria-hidden="true">7.7.</strong> Riak</a></li><li class="chapter-item expanded "><a href="../7.项目/7.6Leofs/_index.html"><strong aria-hidden="true">7.8.</strong> Leofs</a></li></ol></li><li class="chapter-item expanded "><a href="../8.资料整理/_index.html"><strong aria-hidden="true">8.</strong> 资料整理</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8.资料整理/8.1资料/_index.html"><strong aria-hidden="true">8.1.</strong> 资料</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8.资料整理/8.1资料/8.1.3SMP.html"><strong aria-hidden="true">8.1.1.</strong> SMP</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../8.资料整理/8.1资料/8.1.1Erlang的调度原理.html"><strong aria-hidden="true">8.1.1.1.</strong> Erlang的调度原理</a></li><li class="chapter-item expanded "><a href="../8.资料整理/8.1资料/8.1.2虚拟机代码执行原理.html"><strong aria-hidden="true">8.1.1.2.</strong> 虚拟机代码执行原理</a></li></ol></li><li class="chapter-item expanded "><a href="../8.资料整理/8.2杂记/_index.html"><strong aria-hidden="true">8.1.2.</strong> 杂记</a></li><li class="chapter-item expanded "><a href="../8.资料整理/8.2杂记/8.2.1设计.html"><strong aria-hidden="true">8.1.3.</strong> 设计</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Erlang笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/erlang" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/erlang/content/3.库函数/_index.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p>ctrl+G 按c</p>
+<p>Erlang shell没有反应，可能是正在输入一个字符串&quot;aabbcc......
+解决cmd卡死的问题。（win下面ctrl+G 回车）</p>
+<pre><code class="language-erlang">&lt;&lt;A:32,B:32,C:32&gt;&gt; = crypto:strong_rand_bytes(12) .  
+&lt;&lt;42,136,117,238,28,89,154,241,88,189,70,139&gt;&gt;  
+
+%找出消耗内存最多的进程
+lists:reverse(lists:keysort(2,[{P, erlang:process_info(P, heap_size)} || P &lt;- erlang:processes()])).
+
+%%找到最消耗内存的ETS表
+lists:reverse(lists:keysort(2,[{T, ets:info(T, memory)} || T &lt;- ets:all()])).
+
+</code></pre>
+<p>Basic</p>
+<ul>
+<li>compiler 8.1.1 A byte code compiler for Erlang which produces highly compact code</li>
+<li>erts 12.3.2 Functionality necessary to run the Erlang System itself</li>
+<li>kernel 8.3.2 Functionality necessary to run the Erlang System itself</li>
+<li>sasl 4.1.2 The System Architecture Support Libraries is a set of tools for release upgrades and alarm handling etc.</li>
+<li>stdlib 3.17.2 The Erlang standard libraries</li>
+</ul>
+<p>Database</p>
+<ul>
+<li>mnesia 4.20.4 A heavy-duty real-time distributed database</li>
+<li>odbc 2.13.5 An interface to relational SQL-databases built on ODBC (Open Database Connectivity).</li>
+</ul>
+<p>Operation &amp; Maintenance</p>
+<ul>
+<li>os_mon 2.7.1 A monitor which allows inspection of the underlying operating system</li>
+<li>snmp 5.12 Simple Network Management Protocol (SNMP) support including a MIB compiler and tools for creating SNMP agents</li>
+</ul>
+<p>Interface and Communication</p>
+<ul>
+<li>asn1 5.0.18 Provides support for Abstract Syntax Notation One</li>
+<li>crypto 5.0.6 Cryptographical support</li>
+<li>diameter 2.2.5 Diameter</li>
+<li>eldap 1.2.10 eldap - Erlang LDAP library</li>
+<li>erl_interface 5.2.2 Low level interface to C</li>
+<li>ftp 1.1.1 FTP client</li>
+<li>inets 7.5.3 A set of services such as a Web server etc.</li>
+<li>jinterface 1.12.2 Low level interface to Java</li>
+<li>megaco 4.3 Megaco/H.248 is a protocol for control of elements in a physically decomposed multimedia gateway, enabling separation of call control from media conversion.</li>
+<li>public_key 1.12 API to public key infrastructure.</li>
+<li>ssh 4.13.2 Secure Shell application with sftp and ssh support</li>
+<li>ssl 10.7.3 ssl- Secure Socket Layer.</li>
+<li>tftp 1.0.3 TFTP application</li>
+<li>wx 2.1.4 A Graphics System used to write platform independent user interfaces</li>
+<li>xmerl 1.3.28 Provides support for XML 1.0</li>
+</ul>
+<p>Tools</p>
+<ul>
+<li>debugger 5.2.1 A debugger for debugging and testing of Erlang programs</li>
+<li>dialyzer 4.4.4 The DIALYZER, a DIscrepancy AnaLYZer for ERlang programs.</li>
+<li>et 1.6.5 Event Tracer (ET), uses the built-in trace mechanism in Erlang and provides tools for collection and graphical viewing of trace data.</li>
+<li>observer 2.11.1 Observer, tools for tracing and investigation of distributed systems</li>
+<li>parsetools 2.3.2 A set of parsing and lexical analysis tools</li>
+<li>reltool 0.9 Reltool is a release management tool. It analyses a given Erlang/OTP installation and determines various dependencies between applications. The graphical frontend depicts the dependencies and enables interactive customization of a target system. The backend provides a batch interface for generation of customized target systems.</li>
+<li>runtime_tools 1.18 Runtime tools, tools to include in a production system</li>
+<li>syntax_tools 2.6 A utility used to handle abstract Erlang syntax trees, reading source files differently, pretty-printing syntax trees.</li>
+<li>tools 3.5.2 A set of programming tools including a coverage analyzer etc</li>
+</ul>
+<p>Test</p>
+<ul>
+<li>common_test 1.22.1 A portable framework for automatic testing</li>
+<li>eunit 2.7 Support for unit testing.</li>
+</ul>
+<p>Documentation</p>
+<ul>
+<li>edoc 1.1 A utility used to generate documentation out of tags in source files.</li>
+<li>erl_docgen 1.2.1 A utility used to produce the OTP documentation.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../2.基础/2.6启动Erlang节点.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../3.库函数/asn1/_index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../2.基础/2.6启动Erlang节点.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../3.库函数/asn1/_index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

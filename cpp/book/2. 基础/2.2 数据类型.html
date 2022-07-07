@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2.2 数据类型 - cpp笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">介绍</a></li><li class="chapter-item expanded "><a href="../1. 学习/_index.html"><strong aria-hidden="true">1.</strong> 学习</a></li><li class="chapter-item expanded "><a href="../2. 基础/_index.html"><strong aria-hidden="true">2.</strong> 基础</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 基础/2.1 c++变量.html"><strong aria-hidden="true">2.1.</strong> 2.1 c++变量</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.2 数据类型.html" class="active"><strong aria-hidden="true">2.2.</strong> 2.2 数据类型</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.3 转义字符.html"><strong aria-hidden="true">2.3.</strong> 2.3 转义字符</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.4 运算符.html"><strong aria-hidden="true">2.4.</strong> 2.4 运算符</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.5 控制结构.html"><strong aria-hidden="true">2.5.</strong> 2.5 控制结构</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.6 Class.html"><strong aria-hidden="true">2.6.</strong> 2.6 Class</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.7 关键字.html"><strong aria-hidden="true">2.7.</strong> 2.7 关键字</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.8 函数模板.html"><strong aria-hidden="true">2.8.</strong> 2.8 函数模板</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.9 数据结构.html"><strong aria-hidden="true">2.9.</strong> 2.9 数据结构</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.10 预处理指令.html"><strong aria-hidden="true">2.10.</strong> 2.10 预处理指令</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.11 指针.html"><strong aria-hidden="true">2.11.</strong> 2.11 指针</a></li><li class="chapter-item expanded "><a href="../2. 基础/2.12 结构体、共用体和位运算.html"><strong aria-hidden="true">2.12.</strong> 2.12 结构体、共用体和位运算</a></li></ol></li><li class="chapter-item expanded "><a href="../3. 库函数/_index.html"><strong aria-hidden="true">3.</strong> 库函数</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3. 库函数/3.1 C标准库.html"><strong aria-hidden="true">3.1.</strong> 3.1 C标准库</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.10 signal.html"><strong aria-hidden="true">3.2.</strong> 3.10 signal</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.11 stdarg.html"><strong aria-hidden="true">3.3.</strong> 3.11 stdarg</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.12 stddef.html"><strong aria-hidden="true">3.4.</strong> 3.12 stddef</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.13 stdio.html"><strong aria-hidden="true">3.5.</strong> 3.13 stdio</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.14 stdlib.html"><strong aria-hidden="true">3.6.</strong> 3.14 stdlib</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.15 string.html"><strong aria-hidden="true">3.7.</strong> 3.15 string</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.16 time.html"><strong aria-hidden="true">3.8.</strong> 3.16 time</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.17 printf.html"><strong aria-hidden="true">3.9.</strong> 3.17 printf</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.18 文件操作.html"><strong aria-hidden="true">3.10.</strong> 3.18 文件操作</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.18 文件读写函数.html"><strong aria-hidden="true">3.11.</strong> 3.18 文件读写函数</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.2 sstream.html"><strong aria-hidden="true">3.12.</strong> 3.2 sstream</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.3 assert.html"><strong aria-hidden="true">3.13.</strong> 3.3 assert</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.4 ctype.html"><strong aria-hidden="true">3.14.</strong> 3.4 ctype</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.5 float.html"><strong aria-hidden="true">3.15.</strong> 3.5 float</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.6 limits.html"><strong aria-hidden="true">3.16.</strong> 3.6 limits</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.7 locale.html"><strong aria-hidden="true">3.17.</strong> 3.7 locale</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.8 math.html"><strong aria-hidden="true">3.18.</strong> 3.8 math</a></li><li class="chapter-item expanded "><a href="../3. 库函数/3.9 setjmp.html"><strong aria-hidden="true">3.19.</strong> 3.9 setjmp</a></li></ol></li><li class="chapter-item expanded "><a href="../4. 内置工具/_index.html"><strong aria-hidden="true">4.</strong> 内置工具</a></li><li class="chapter-item expanded "><a href="../5. 进阶/_index.html"><strong aria-hidden="true">5.</strong> 进阶</a></li><li class="chapter-item expanded "><a href="../6. 项目/_index.html"><strong aria-hidden="true">6.</strong> 项目</a></li><li class="chapter-item expanded "><a href="../7. 项目研究/_index.html"><strong aria-hidden="true">7.</strong> 项目研究</a></li><li class="chapter-item expanded "><a href="../8. 资料整理/_index.html"><strong aria-hidden="true">8.</strong> 资料整理</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">cpp笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/cpp" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/cpp/content/2. 基础/2.2 数据类型.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="数据类型"><a class="header" href="#数据类型">数据类型</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">名称</th><th style="text-align: left">字节数</th><th style="text-align: left">描述</th><th style="text-align: left">范围</th></tr></thead><tbody>
+<tr><td style="text-align: left">Char</td><td style="text-align: left">1</td><td style="text-align: left">字符（character）或整数（integer ）， 8位（bits）长</td><td style="text-align: left">有符号（signed）: -128 到 127<br>  无符号（unsigned）: 0 到 255</td></tr>
+<tr><td style="text-align: left">short int (short)</td><td style="text-align: left">2</td><td style="text-align: left">短整数（integer ）16位（bits）长</td><td style="text-align: left">有符号（signed）: -32768 到 32767 <br>  无符号（unsigned）: 0 到 65535</td></tr>
+<tr><td style="text-align: left">long int (long)</td><td style="text-align: left">4</td><td style="text-align: left">长整数（integer ）32位（bits）长</td><td style="text-align: left">有符号（signed）:-2147483648 到 2147483647 <br> 无符号（unsigned）: 0 到 4294967295</td></tr>
+<tr><td style="text-align: left">int</td><td style="text-align: left">4</td><td style="text-align: left">整数（integer）</td><td style="text-align: left">有符号(signed): -2147483648 到 2147483647 <br> 无符号（unsigned): 0 到 4294967295</td></tr>
+<tr><td style="text-align: left">float</td><td style="text-align: left">4</td><td style="text-align: left">浮点数（floating point number）</td><td style="text-align: left">3.4e + / - 38 （7 个数字（7digits））</td></tr>
+<tr><td style="text-align: left">double</td><td style="text-align: left">8</td><td style="text-align: left">双精度浮点数（double precision floating point number）</td><td style="text-align: left">1.7e + / - 308 (15 digits)</td></tr>
+<tr><td style="text-align: left">long double</td><td style="text-align: left">8</td><td style="text-align: left">长双精度浮点数（long double precision floating point number）</td><td style="text-align: left">1.7e + / - 308 (15 digits)</td></tr>
+<tr><td style="text-align: left">bool</td><td style="text-align: left">1</td><td style="text-align: left">布尔Boolean值。它只能是真(true)或假(false)两值之一。</td><td style="text-align: left">true 或 false</td></tr>
+<tr><td style="text-align: left">wchar_t</td><td style="text-align: left">2</td><td style="text-align: left">宽字符(Wide character) 。这是为存储两字节(2 bytes) 长的国际字符而设计的类型。</td><td style="text-align: left">一个宽字符（1 wide characters） <br> * 字节数一列和范围一列可能根据程序编译和运行的系统不同而有所不同。<br> 这里列出的数值是多数32位系统的常用数据。<br> 对于其他系统，通常的说法是整型(int)具有根据系统结构建议的自然长度（即一个字one word的长度），而4中整型数据char, short, int, long的长度必须是递增的，也就是说按顺序每一类型必须大于等于其前面一个类型的长度。<br> 同样的规则也适用于浮点数类型float, double和 long double，也是按递增顺序。</td></tr>
+</tbody></table>
+</div>
+<p>除以上列出的基本数据类型外，还有指针（pointer）和void 参数表示类型，我们将在后面看到。</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">说明</th><th style="text-align: left">字符型</th><th style="text-align: left">短整型</th><th style="text-align: left">整型</th><th style="text-align: left">长整型</th><th style="text-align: left">单精度浮点型</th><th style="text-align: left">双精度浮点型</th><th style="text-align: left">无类型</th></tr></thead><tbody>
+<tr><td style="text-align: left">数据类型</td><td style="text-align: left">char</td><td style="text-align: left">short</td><td style="text-align: left">int</td><td style="text-align: left">long</td><td style="text-align: left">float</td><td style="text-align: left">double</td><td style="text-align: left">void</td></tr>
+</tbody></table>
+</div>
+<p>在32位环境中，各种数据类型的长度一般如下：</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">说明</th><th style="text-align: left">字符型</th><th style="text-align: left">短整型</th><th style="text-align: left">整型</th><th style="text-align: left">长整型</th><th style="text-align: left">单精度浮点型</th><th style="text-align: left">双精度浮点型</th></tr></thead><tbody>
+<tr><td style="text-align: left">数据类型</td><td style="text-align: left">char</td><td style="text-align: left">short</td><td style="text-align: left">int</td><td style="text-align: left">long</td><td style="text-align: left">float</td><td style="text-align: left">double</td></tr>
+<tr><td style="text-align: left">长度</td><td style="text-align: left">1</td><td style="text-align: left">2</td><td style="text-align: left">4</td><td style="text-align: left">4</td><td style="text-align: left">4</td><td style="text-align: left">8</td></tr>
+</tbody></table>
+</div>
+<h2 id="整数"><a class="header" href="#整数">整数</a></h2>
+<pre><code>int 称为整型，short 称为短整型，long 称为长整型，它们的长度（所占字节数）关系为：
+short &lt;= int &lt;= long
+它们具体占用几个字节C语言并没有规定，C语言只做了宽泛的限制：
+short 至少占用2个字节。
+int 建议为一个机器字长。32位环境下机器字长为4字节，64位环境下机器字长为8字节。
+short 的长度不能大于 int，long 的长度不能小于 int。
+在64位环境下，不同的操作系统会有不同的结果，如下所示（长度以字节计）：
+</code></pre>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: left">操作系统</th><th style="text-align: left">short</th><th style="text-align: left">int</th><th style="text-align: left">long</th></tr></thead><tbody>
+<tr><td style="text-align: left">Win64</td><td style="text-align: left">2</td><td style="text-align: left">4</td><td style="text-align: left">4</td></tr>
+<tr><td style="text-align: left">类Unix系统（包括 Unix、Linux、OS X、BSD、Solaris 等）</td><td style="text-align: left">2</td><td style="text-align: left">4</td><td style="text-align: left">8</td></tr>
+</tbody></table>
+</div>
+<pre><code>int a_length = sizeof a;
+int b_length = sizeof(int);
+
+unsigned 定义无符号，不设置符号位
+
+十进制数由 0~9 十个数字组成，没有前缀. 237、-568、65535、1627
+进制数由 0~7 八个数字组成，必须以0开头，即以0作为八进制数的前缀。015（十进制为13）、-0101（十进制为-65）、0177777（十进制为65535）
+十六进制数由数字0~9、字母A~F或a~f组成，前缀为0X或0x。0X2A（十进制为42）、-0XA0（十进制为-160)、0xffff（十进制为65535）
+
+可以用后缀L或l来表示长整型数.
+十进制长整型数：158L、358000L
+八进制长整型数：012L、077L、0200000L
+十六进制长整型数：0X15L (十进制为21)、0XA5L、0X10000L
+
+可以用后缀U或u来表示无符号数，例如 358u、0x38Au等
+</code></pre>
+<h2 id="浮点数"><a class="header" href="#浮点数">浮点数</a></h2>
+<pre><code>float 称为单精度浮点数，double 称为双精度浮点数。不像整数，小数的长度始终是固定的，float 占用4个字节，double 占用8个字节
+
+将整数赋值给 float 变量时会转换为小数
+
+float b=0.302f;
+小数默认为 double 类型，加上后缀f才是float类型。
+</code></pre>
+<h2 id="字符"><a class="header" href="#字符">字符</a></h2>
+<pre><code>char 称为字符类型，只能用单引号' '来包围，不能用双引号&quot; &quot;包围。
+而字符串只能用双引号&quot; &quot;包围，不能用单引号' '包围。
+</code></pre>
+<h2 id="数据类型转换"><a class="header" href="#数据类型转换">数据类型转换</a></h2>
+<pre><code>数据类型转换就是将数据（变量、表达式的结果）从一种类型转换到另一种类型。例如，为了保存小数你可以将int类型的变量转换为double类型。
+
+数据类型转换的一般格式为：
+(type_name) expression
+type_name为要转换到的数据类型，expression为表达式。
+
+类型转换运算符( )的优先级高于/
+(double) sum / count会先将 sum 转换为 double 类型，然后再进行除法运算。如果写作(double) (sum / count)，那么运行结果就是 3.000000
+
+这种由程序员显式进行的转换称为强制类型转换。
+除了强制类型转换，在不同数据类型的混合运算中编译器也会隐式地进行数据类型转换，称为自动类型转换。
+
+自动类型转换遵循下面的规则：
+1.若参与运算的数据类型不同，则先转换成同一类型，然后进行运算。
+2.转换按数据长度增加的方向进行，以保证精度不降低。例如int型和long型运算时，先把int量转成long型后再进行运算。
+3.所有的浮点运算都是以双精度进行的，即使仅含float单精度量运算的表达式，也要先转换成double型，再作运算。
+4.Char型和short型参与运算时，必须先转换成int型。
+5.在赋值运算中，赋值号两边的数据类型不同时，需要把右边表达式的类型将转换为左边变量的类型。如果右边表达式的数据类型长度比左边长时，将丢失一部分数据，这样会降低精度。
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../2. 基础/2.1 c++变量.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../2. 基础/2.3 转义字符.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../2. 基础/2.1 c++变量.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../2. 基础/2.3 转义字符.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

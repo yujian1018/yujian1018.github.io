@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>7.10.1 操作 - pro笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">介绍</a></li><li class="chapter-item expanded "><a href="../../1. 基础知识/_index.html"><strong aria-hidden="true">1.</strong> 基础知识</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../1. 基础知识/1.1 正则表达式/_index.html"><strong aria-hidden="true">1.1.</strong> 正则表达式</a></li></ol></li><li class="chapter-item expanded "><a href="../../2. 网络/_index.html"><strong aria-hidden="true">2.</strong> 网络</a></li><li class="chapter-item expanded "><a href="../../3. 操作系统/_index.html"><strong aria-hidden="true">3.</strong> 操作系统</a></li><li class="chapter-item expanded "><a href="../../4. 数据结构/_index.html"><strong aria-hidden="true">4.</strong> 数据结构</a></li><li class="chapter-item expanded "><a href="../../5. 数据挖掘/_index.html"><strong aria-hidden="true">5.</strong> 数据挖掘</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/_index.html"><strong aria-hidden="true">6.</strong> 软件架构</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../6. 软件架构/6.1 SOA.html"><strong aria-hidden="true">6.1.</strong> 6.1 SOA</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.2 RESTful.html"><strong aria-hidden="true">6.2.</strong> 6.2 RESTful</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.3 架构.html"><strong aria-hidden="true">6.3.</strong> 6.3 架构</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.4 版本管理.html"><strong aria-hidden="true">6.4.</strong> 6.4 版本管理</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/_index.html"><strong aria-hidden="true">7.</strong> 项目</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/_index.html"><strong aria-hidden="true">7.1.</strong> Yaws</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.1 yaws.conf.html"><strong aria-hidden="true">7.1.1.</strong> 7.1.1 yaws.conf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.2 API.html"><strong aria-hidden="true">7.1.2.</strong> 7.1.2 API</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.3 Session用法.html"><strong aria-hidden="true">7.1.3.</strong> 7.1.3 Session用法</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.4 页面传值.html"><strong aria-hidden="true">7.1.4.</strong> 7.1.4 页面传值</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.5 Ehtml.html"><strong aria-hidden="true">7.1.5.</strong> 7.1.5 Ehtml</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.6 SSIbindings.html"><strong aria-hidden="true">7.1.6.</strong> 7.1.6 SSIbindings</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.7 Bug.html"><strong aria-hidden="true">7.1.7.</strong> 7.1.7 Bug</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/_index.html"><strong aria-hidden="true">7.2.</strong> Mnesia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.1 操作.html" class="active"><strong aria-hidden="true">7.2.1.</strong> 7.10.1 操作</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.2 增删改查.html"><strong aria-hidden="true">7.2.2.</strong> 7.10.2 增删改查</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.3 表分片.html"><strong aria-hidden="true">7.2.3.</strong> 7.10.3 表分片</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.4 锁.html"><strong aria-hidden="true">7.2.4.</strong> 7.10.4 锁</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.5 分布式.html"><strong aria-hidden="true">7.2.5.</strong> 7.10.5 分布式</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.6 高级特性.html"><strong aria-hidden="true">7.2.6.</strong> 7.10.6 高级特性</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.7 ets.html"><strong aria-hidden="true">7.2.7.</strong> 7.10.7 ets</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.8 dets.html"><strong aria-hidden="true">7.2.8.</strong> 7.10.8 dets</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.9 过载分析.html"><strong aria-hidden="true">7.2.9.</strong> 7.10.9 过载分析</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/_index.html"><strong aria-hidden="true">7.3.</strong> Riak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.1 代码片段/_index.html"><strong aria-hidden="true">7.3.1.</strong> 代码片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.1 代码片段/7.11.1.1 命令.html"><strong aria-hidden="true">7.3.1.1.</strong> 7.11.1.1 命令</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.2 配置/_index.html"><strong aria-hidden="true">7.3.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.2 配置/7.11.2.1 配置.html"><strong aria-hidden="true">7.3.2.1.</strong> 7.11.2.1 配置</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.3 异常情况/_index.html"><strong aria-hidden="true">7.3.2.2.</strong> 异常情况</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/_index.html"><strong aria-hidden="true">7.4.</strong> Mysql</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/_index.html"><strong aria-hidden="true">7.4.1.</strong> SQL片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/7.12.1.1关键字.html"><strong aria-hidden="true">7.4.1.1.</strong> 7.12.1.1关键字</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/7.12.1.2常用语句.html"><strong aria-hidden="true">7.4.1.2.</strong> 7.12.1.2常用语句</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/_index.html"><strong aria-hidden="true">7.4.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.1my.cnf.html"><strong aria-hidden="true">7.4.2.1.</strong> 7.12.2.1my.cnf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.2日志.html"><strong aria-hidden="true">7.4.2.2.</strong> 7.12.2.2日志</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.3主从.html"><strong aria-hidden="true">7.4.2.3.</strong> 7.12.2.3主从</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.4存储引擎.html"><strong aria-hidden="true">7.4.2.4.</strong> 7.12.2.4存储引擎</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.3安装.html"><strong aria-hidden="true">7.4.3.</strong> 7.12.3安装</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.5 msyqldump.html"><strong aria-hidden="true">7.4.4.</strong> 7.12.5 msyqldump</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.6 查询计划Explain.html"><strong aria-hidden="true">7.4.5.</strong> 7.12.6 查询计划Explain</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.8 命令操作.html"><strong aria-hidden="true">7.4.6.</strong> 7.12.8 命令操作</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.13 SQLite/_index.html"><strong aria-hidden="true">7.5.</strong> SQLite</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.13 SQLite/7.13.1安装.html"><strong aria-hidden="true">7.5.1.</strong> 7.13.1安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/_index.html"><strong aria-hidden="true">7.6.</strong> PostgreSQL</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/_index.html"><strong aria-hidden="true">7.6.1.</strong> SQL片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/7.14.1.1pg管理.html"><strong aria-hidden="true">7.6.1.1.</strong> 7.14.1.1pg管理</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/7.14.1.2create.html"><strong aria-hidden="true">7.6.1.2.</strong> 7.14.1.2create</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/_index.html"><strong aria-hidden="true">7.6.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.1 配置.html"><strong aria-hidden="true">7.6.2.1.</strong> 7.14.2.1 配置</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.2自定义数据库路径.html"><strong aria-hidden="true">7.6.2.2.</strong> 7.14.2.2自定义数据库路径</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.3时序数据库.html"><strong aria-hidden="true">7.6.2.3.</strong> 7.14.2.3时序数据库</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.4外部表.html"><strong aria-hidden="true">7.6.2.4.</strong> 7.14.2.4外部表</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.5pg_hba.conf.html"><strong aria-hidden="true">7.6.2.5.</strong> 7.14.2.5pg_hba.conf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.4问题/7.14.4.1EXISTS IN.html"><strong aria-hidden="true">7.6.2.6.</strong> 7.14.4.1EXISTS IN</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.3postgresql安装.html"><strong aria-hidden="true">7.6.3.</strong> 7.14.3postgresql安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.15 elk/_index.html"><strong aria-hidden="true">7.7.</strong> elk</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.15 elk/install.html"><strong aria-hidden="true">7.7.1.</strong> Install</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/_index.html"><strong aria-hidden="true">7.8.</strong> clickhouse</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/http.html"><strong aria-hidden="true">7.8.1.</strong> Http</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/install.html"><strong aria-hidden="true">7.8.2.</strong> Install</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.17 hugo/_index.html"><strong aria-hidden="true">7.9.</strong> hugo</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.17 hugo/first-content.html"><strong aria-hidden="true">7.9.1.</strong> First Content</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.18 minio/_index.html"><strong aria-hidden="true">7.10.</strong> minio</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.18 minio/minio.html"><strong aria-hidden="true">7.10.1.</strong> Minio</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/_index.html"><strong aria-hidden="true">7.11.</strong> Leofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.1 安装.html"><strong aria-hidden="true">7.11.1.</strong> 7.2.1 安装</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.2 端口占用.html"><strong aria-hidden="true">7.11.2.</strong> 7.2.2 端口占用</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.3 Shell命令.html"><strong aria-hidden="true">7.11.3.</strong> 7.2.3 Shell命令</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.4 storageShell.html"><strong aria-hidden="true">7.11.4.</strong> 7.2.4 storageShell</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/_index.html"><strong aria-hidden="true">7.12.</strong> Ejabberd</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/Eventslist.html"><strong aria-hidden="true">7.12.1.</strong> Eventslist</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/hooksformoduledevelopers.html"><strong aria-hidden="true">7.12.2.</strong> Hooksformoduledevelopers</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/mod_echo.erl.html"><strong aria-hidden="true">7.12.3.</strong> mod_echo.erl</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.4 Cowboy/_index.html"><strong aria-hidden="true">7.13.</strong> Cowboy</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.5 kbengine/_index.html"><strong aria-hidden="true">7.14.</strong> kbengine</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.6 Rebar/_index.html"><strong aria-hidden="true">7.15.</strong> Rebar</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/_index.html"><strong aria-hidden="true">7.16.</strong> GraphicsMagick</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.1 代码片段/_index.html"><strong aria-hidden="true">7.16.1.</strong> GraphicsMagick</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.1 代码片段/7.7.1.1 convert.html"><strong aria-hidden="true">7.16.1.1.</strong> 7.7.1.1 convert</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.2 配置/_index.html"><strong aria-hidden="true">7.16.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.2 配置/7.7.2.1 安装.html"><strong aria-hidden="true">7.16.2.1.</strong> 7.7.2.1 安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.3 异常情况/_index.html"><strong aria-hidden="true">7.16.3.</strong> 异常情况</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.3 异常情况/7.7.3.1 运行警告1.html"><strong aria-hidden="true">7.16.3.1.</strong> 7.7.3.1 运行警告1</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/_index.html"><strong aria-hidden="true">7.17.</strong> MongoDB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.1 代码片段/_index.html"><strong aria-hidden="true">7.17.1.</strong> MongoDB</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.2 配置/_index.html"><strong aria-hidden="true">7.17.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.2 配置/7.8.2.1 分布式.html"><strong aria-hidden="true">7.17.2.1.</strong> 7.8.2.1 分布式</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.9 Redis/_index.html"><strong aria-hidden="true">7.17.3.</strong> Redis</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">pro笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/pro" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/pro/content/7. 项目/7.10 Mnesia/7.10.1 操作.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <pre><code class="language-erlang">mnesia:create_table(Name, Opts).
+[
+  {type, bag||set||ordered_set|| duplicate bag},  %默认值 set
+*{disc_only_copies||disc_copies||ram_copies, NodeList},  %默认值是 [node()],可以同时新建三种类型的表
+  {index,AttributeNameList},  %AttributeNameList 是一个原子类型的属性名列表
+  {snmp, SnmpStruct} %SnmpStruct 在 SNMP 用户指南中描述，表示该表可以立即通过简单网络管理协议(SNMP)来访问
+  {local_content, true} %表名对所有 Mnesia 点可见,但是内容对每个节点都是唯一的。这种类型的表只能在本地进行存取
+*{attributes, record_info( fields, itemGene )},  
+  {record_name, Name},  %指定表中所有记录的通用名
+  [{frag_properties,
+                     [{n_fragments, 20}, {n_disc_copies, 1},
+                     {node_pool, [node()]}]},
+  ]
+
+set -&gt; 每一个元组的键值都不能相同 
+ordered_set -&gt; 元组会进行排序 
+bag -&gt; 多个元组可以有相同的键值,一条记录确定唯一性 
+ duplicate_bag -&gt; 多个元组可以有相同的键值，同一个元组可以在表中出现多次 
+
+local_content -&gt; 应用需要一个其内容对每个节点来说在本地都是唯一的表，这种类型的表只能在本地进行存取
+
+frag_properties %分片属性
+
+mnesia:create_table( table_name, [{ram_copies, [a@yujian,b@yujian]}] ).建表
+mnesia:system_info().
+mnesia:table_info(Tab, Attr)
+mnesia:system_info( running_db_nodes ). 
+mnesia:table_info( table_name, frag_properties ).
+ 
+
+
+mnesia:dump_to_textfile(Filename)  
+mnesia:load_textfile/1
+mnesia:backup(&quot;./backup.log&quot;).%二进制数据创建检查点，不受后面写数据影响 
+mnesia:restore(&quot;./backup.log&quot;, Args).%表写锁,必须要存在表 
+
+mnesia:install_fallback(Opaque, Args) -&gt; ok | {error,Reason} 
+mnesia:uninstall_fallback(Args) -&gt; ok | {error,Reason}
+mnesia:dump_tables(TabList).
+ets转储到磁盘上
+Mnesia 事件处理
+mnesia:subscribe(Event-Category) %确保所有 Event-Category 类型事件的副本会发送给调用进程
+mnesia:unsubscribe(Event-Category) %删除对 Event-Category 类型事件的订阅
+
+Event-Category 可以是原子 system 或元组{{table, Tab, simple}或{table, Tab, detailed}二者之一。
+旧的事件类别{table, Tab}与事件类别{table, Tab, simple}是一样的。订阅函数激活对事件的订阅。
+对函数 mnesia:subscribe/1 求值即将事件作为消息发送给进程。
+系统事件的语法是{mnesia_system_event, Event},表事件的语法是{mnesia_table_event, Event}。
+系统事件和表事件的含义描述如下:所有的系统事件通过 Mnesia 的通用事件处理器(gen_event handler)来订阅,
+默认的通用事件处理器是 mnesia_event,但可通过应用参数 event_module 来改变。
+这个参数的值必须是一个模块名,该模块是使用标准库(STDLIB)的 gen_event 模块来实现的完整的事件处理模块。
+
+mnesia:system_info(subscribers) 和 mnesia:table_info(Tab, subscribers)用来确定哪些进程订阅了何种事件。
+文件
+FALLBACK.BUP %这个文件被称为备份文件,包含一个初始模式。如果我们在 mnesia:create_schema/1 函数中指定了一个以上的节点,同一个备份文件将在所有这些节点上被创建
+
+Schema.DAT %在备份文件 FALLBACK.BUP 中的模式被用来生成文件 schema.DAT
+
+Table.DCL %Mnesia 插入此操作到 foo.DCL 中,随后在 Mnesia 认为.DCL 文件已经变得太大时,再将数据移入.DCD 文件 
+Table.DCD %写到 foo 表中的所有数据最终将存储在这个文件中
+
+LATEST.LOG %被 Mnesia 用来对基于磁盘的事务做日志
+PREVIOUS.LOG %在日志被转储之前,文件 LATEST.LOG 改名为 PREVIOUS.LOG,并且创建一个新的LATEST.LOG 文件
+
+在默认状态下,只要日志中写入了 100 条记录或者过去了 3 分钟这两种情况之一出现,Mnesia 即转储日志。
+可用两个应用程序参数-mnesia dump_log_write_threshold WriteOperations 和-mnesia dump_log_time_threshold MilliSecs 来对此进行控制
+
+.DAT %是建有索引的文件,可用指定的键在这些文件中高效地插入和搜索记录
+mnesia:set_master_nodes(Tab,
+Nodes)
+mnesia:set_master_nodes(Nodes)
+如果应用程序发现由于通信失败导致数据库的不一致，设定从哪个节点更新数据
+mnesia:force_load_table(Tab)
+可用来强行加载表而无视其被激活的加载机制
+数据备份、操作备份数据
+mnesia:backup_checkpoint(Name, Opaque, [Mod])。这个函数执行一个包含在检查点中的表备份。
+
+mnesia:backup(Opaque, [Mod]) 。 这个函数激活一个覆盖全部 Mnesia 表的新检查点并且执行一次备份。备份以最大冗余度执行 (也可参见函数
+
+mnesia:activate_checkpoint(Args), {max, MaxTabs} and {min, MinTabs})。
+
+ mnesia:traverse_backup(Source,[SourceMod,]Target,[TargetMod,]Fun,Ac)。这个函数能用来读存在的备份,从一个现存的备份创建一个新的备份,或者在不同介质之间拷贝备份。
+
+ mnesia:uninstall_fallback()。这个函数移除先前安装的回滚文件。
+
+ mnesia:restore(Opaque, Args)这个函数从先前的备份恢复表。
+
+mnesia:install_fallback(Opaque, [Mod])这个函数能够配置成从一个现存的备份重启 Mnesia并且重新加载数据库表以及可能的模式表。当数据或模式表损毁时,此函数被用于灾难恢复。
+
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../7. 项目/7.10 Mnesia/_index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../7. 项目/7.10 Mnesia/7.10.2 增删改查.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../7. 项目/7.10 Mnesia/_index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../7. 项目/7.10 Mnesia/7.10.2 增删改查.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

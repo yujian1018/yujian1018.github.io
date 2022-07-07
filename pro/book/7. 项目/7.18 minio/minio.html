@@ -1,0 +1,488 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Minio - pro笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../index.html">介绍</a></li><li class="chapter-item expanded "><a href="../../1. 基础知识/_index.html"><strong aria-hidden="true">1.</strong> 基础知识</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../1. 基础知识/1.1 正则表达式/_index.html"><strong aria-hidden="true">1.1.</strong> 正则表达式</a></li></ol></li><li class="chapter-item expanded "><a href="../../2. 网络/_index.html"><strong aria-hidden="true">2.</strong> 网络</a></li><li class="chapter-item expanded "><a href="../../3. 操作系统/_index.html"><strong aria-hidden="true">3.</strong> 操作系统</a></li><li class="chapter-item expanded "><a href="../../4. 数据结构/_index.html"><strong aria-hidden="true">4.</strong> 数据结构</a></li><li class="chapter-item expanded "><a href="../../5. 数据挖掘/_index.html"><strong aria-hidden="true">5.</strong> 数据挖掘</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/_index.html"><strong aria-hidden="true">6.</strong> 软件架构</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../6. 软件架构/6.1 SOA.html"><strong aria-hidden="true">6.1.</strong> 6.1 SOA</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.2 RESTful.html"><strong aria-hidden="true">6.2.</strong> 6.2 RESTful</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.3 架构.html"><strong aria-hidden="true">6.3.</strong> 6.3 架构</a></li><li class="chapter-item expanded "><a href="../../6. 软件架构/6.4 版本管理.html"><strong aria-hidden="true">6.4.</strong> 6.4 版本管理</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/_index.html"><strong aria-hidden="true">7.</strong> 项目</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/_index.html"><strong aria-hidden="true">7.1.</strong> Yaws</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.1 yaws.conf.html"><strong aria-hidden="true">7.1.1.</strong> 7.1.1 yaws.conf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.2 API.html"><strong aria-hidden="true">7.1.2.</strong> 7.1.2 API</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.3 Session用法.html"><strong aria-hidden="true">7.1.3.</strong> 7.1.3 Session用法</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.4 页面传值.html"><strong aria-hidden="true">7.1.4.</strong> 7.1.4 页面传值</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.5 Ehtml.html"><strong aria-hidden="true">7.1.5.</strong> 7.1.5 Ehtml</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.6 SSIbindings.html"><strong aria-hidden="true">7.1.6.</strong> 7.1.6 SSIbindings</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.1 Yaws/7.1.7 Bug.html"><strong aria-hidden="true">7.1.7.</strong> 7.1.7 Bug</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/_index.html"><strong aria-hidden="true">7.2.</strong> Mnesia</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.1 操作.html"><strong aria-hidden="true">7.2.1.</strong> 7.10.1 操作</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.2 增删改查.html"><strong aria-hidden="true">7.2.2.</strong> 7.10.2 增删改查</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.3 表分片.html"><strong aria-hidden="true">7.2.3.</strong> 7.10.3 表分片</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.4 锁.html"><strong aria-hidden="true">7.2.4.</strong> 7.10.4 锁</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.5 分布式.html"><strong aria-hidden="true">7.2.5.</strong> 7.10.5 分布式</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.6 高级特性.html"><strong aria-hidden="true">7.2.6.</strong> 7.10.6 高级特性</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.7 ets.html"><strong aria-hidden="true">7.2.7.</strong> 7.10.7 ets</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.8 dets.html"><strong aria-hidden="true">7.2.8.</strong> 7.10.8 dets</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.10 Mnesia/7.10.9 过载分析.html"><strong aria-hidden="true">7.2.9.</strong> 7.10.9 过载分析</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/_index.html"><strong aria-hidden="true">7.3.</strong> Riak</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.1 代码片段/_index.html"><strong aria-hidden="true">7.3.1.</strong> 代码片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.1 代码片段/7.11.1.1 命令.html"><strong aria-hidden="true">7.3.1.1.</strong> 7.11.1.1 命令</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.2 配置/_index.html"><strong aria-hidden="true">7.3.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.2 配置/7.11.2.1 配置.html"><strong aria-hidden="true">7.3.2.1.</strong> 7.11.2.1 配置</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.11 Riak/7.11.3 异常情况/_index.html"><strong aria-hidden="true">7.3.2.2.</strong> 异常情况</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/_index.html"><strong aria-hidden="true">7.4.</strong> Mysql</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/_index.html"><strong aria-hidden="true">7.4.1.</strong> SQL片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/7.12.1.1关键字.html"><strong aria-hidden="true">7.4.1.1.</strong> 7.12.1.1关键字</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.1 SQL片段/7.12.1.2常用语句.html"><strong aria-hidden="true">7.4.1.2.</strong> 7.12.1.2常用语句</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/_index.html"><strong aria-hidden="true">7.4.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.1my.cnf.html"><strong aria-hidden="true">7.4.2.1.</strong> 7.12.2.1my.cnf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.2日志.html"><strong aria-hidden="true">7.4.2.2.</strong> 7.12.2.2日志</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.3主从.html"><strong aria-hidden="true">7.4.2.3.</strong> 7.12.2.3主从</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.2 配置/7.12.2.4存储引擎.html"><strong aria-hidden="true">7.4.2.4.</strong> 7.12.2.4存储引擎</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.3安装.html"><strong aria-hidden="true">7.4.3.</strong> 7.12.3安装</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.5 msyqldump.html"><strong aria-hidden="true">7.4.4.</strong> 7.12.5 msyqldump</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.6 查询计划Explain.html"><strong aria-hidden="true">7.4.5.</strong> 7.12.6 查询计划Explain</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.12 Mysql/7.12.8 命令操作.html"><strong aria-hidden="true">7.4.6.</strong> 7.12.8 命令操作</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.13 SQLite/_index.html"><strong aria-hidden="true">7.5.</strong> SQLite</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.13 SQLite/7.13.1安装.html"><strong aria-hidden="true">7.5.1.</strong> 7.13.1安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/_index.html"><strong aria-hidden="true">7.6.</strong> PostgreSQL</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/_index.html"><strong aria-hidden="true">7.6.1.</strong> SQL片段</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/7.14.1.1pg管理.html"><strong aria-hidden="true">7.6.1.1.</strong> 7.14.1.1pg管理</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.1 SQL片段/7.14.1.2create.html"><strong aria-hidden="true">7.6.1.2.</strong> 7.14.1.2create</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/_index.html"><strong aria-hidden="true">7.6.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.1 配置.html"><strong aria-hidden="true">7.6.2.1.</strong> 7.14.2.1 配置</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.2自定义数据库路径.html"><strong aria-hidden="true">7.6.2.2.</strong> 7.14.2.2自定义数据库路径</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.3时序数据库.html"><strong aria-hidden="true">7.6.2.3.</strong> 7.14.2.3时序数据库</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.4外部表.html"><strong aria-hidden="true">7.6.2.4.</strong> 7.14.2.4外部表</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.2 配置/7.14.2.5pg_hba.conf.html"><strong aria-hidden="true">7.6.2.5.</strong> 7.14.2.5pg_hba.conf</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.4问题/7.14.4.1EXISTS IN.html"><strong aria-hidden="true">7.6.2.6.</strong> 7.14.4.1EXISTS IN</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.14 PostgreSQL/7.14.3postgresql安装.html"><strong aria-hidden="true">7.6.3.</strong> 7.14.3postgresql安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.15 elk/_index.html"><strong aria-hidden="true">7.7.</strong> elk</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.15 elk/install.html"><strong aria-hidden="true">7.7.1.</strong> Install</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/_index.html"><strong aria-hidden="true">7.8.</strong> clickhouse</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/http.html"><strong aria-hidden="true">7.8.1.</strong> Http</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.16 clickhouse/install.html"><strong aria-hidden="true">7.8.2.</strong> Install</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.17 hugo/_index.html"><strong aria-hidden="true">7.9.</strong> hugo</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.17 hugo/first-content.html"><strong aria-hidden="true">7.9.1.</strong> First Content</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.18 minio/_index.html"><strong aria-hidden="true">7.10.</strong> minio</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.18 minio/minio.html" class="active"><strong aria-hidden="true">7.10.1.</strong> Minio</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/_index.html"><strong aria-hidden="true">7.11.</strong> Leofs</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.1 安装.html"><strong aria-hidden="true">7.11.1.</strong> 7.2.1 安装</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.2 端口占用.html"><strong aria-hidden="true">7.11.2.</strong> 7.2.2 端口占用</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.3 Shell命令.html"><strong aria-hidden="true">7.11.3.</strong> 7.2.3 Shell命令</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.2 Leofs/7.2.4 storageShell.html"><strong aria-hidden="true">7.11.4.</strong> 7.2.4 storageShell</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/_index.html"><strong aria-hidden="true">7.12.</strong> Ejabberd</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/Eventslist.html"><strong aria-hidden="true">7.12.1.</strong> Eventslist</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/hooksformoduledevelopers.html"><strong aria-hidden="true">7.12.2.</strong> Hooksformoduledevelopers</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.3 Ejabberd/mod_echo.erl.html"><strong aria-hidden="true">7.12.3.</strong> mod_echo.erl</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.4 Cowboy/_index.html"><strong aria-hidden="true">7.13.</strong> Cowboy</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.5 kbengine/_index.html"><strong aria-hidden="true">7.14.</strong> kbengine</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.6 Rebar/_index.html"><strong aria-hidden="true">7.15.</strong> Rebar</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/_index.html"><strong aria-hidden="true">7.16.</strong> GraphicsMagick</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.1 代码片段/_index.html"><strong aria-hidden="true">7.16.1.</strong> GraphicsMagick</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.1 代码片段/7.7.1.1 convert.html"><strong aria-hidden="true">7.16.1.1.</strong> 7.7.1.1 convert</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.2 配置/_index.html"><strong aria-hidden="true">7.16.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.2 配置/7.7.2.1 安装.html"><strong aria-hidden="true">7.16.2.1.</strong> 7.7.2.1 安装</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.3 异常情况/_index.html"><strong aria-hidden="true">7.16.3.</strong> 异常情况</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.7 GraphicsMagick/7.7.3 异常情况/7.7.3.1 运行警告1.html"><strong aria-hidden="true">7.16.3.1.</strong> 7.7.3.1 运行警告1</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/_index.html"><strong aria-hidden="true">7.17.</strong> MongoDB</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.1 代码片段/_index.html"><strong aria-hidden="true">7.17.1.</strong> MongoDB</a></li><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.2 配置/_index.html"><strong aria-hidden="true">7.17.2.</strong> 配置</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../7. 项目/7.8 MongoDB/7.8.2 配置/7.8.2.1 分布式.html"><strong aria-hidden="true">7.17.2.1.</strong> 7.8.2.1 分布式</a></li></ol></li><li class="chapter-item expanded "><a href="../../7. 项目/7.9 Redis/_index.html"><strong aria-hidden="true">7.17.3.</strong> Redis</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">pro笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/pro" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/pro/content/7. 项目/7.18 minio/minio.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="1安装"><a class="header" href="#1安装">1.安装</a></h2>
+<pre><code class="language-bash">
+# 在各台服务器上，新建用户minio
+useradd minio
+su minio
+
+cd ~/
+wget https://dl.min.io/server/minio/release/linux-amd64/minio
+chmod +x minio
+</code></pre>
+<h2 id="2分布式部署"><a class="header" href="#2分布式部署">2.分布式部署</a></h2>
+<p>采用单节点，多drivers模式</p>
+<h3 id="21防火墙配置"><a class="header" href="#21防火墙配置">2.1防火墙配置</a></h3>
+<pre><code class="language-bash">firewall-cmd --permanent --zone=public --add-port=9000-9001/tcp
+firewall-cmd --reload
+
+#如果使用云服务器，需要在云厂商管理后台中配置防火墙规则
+</code></pre>
+<h3 id="22dns配置"><a class="header" href="#22dns配置">2.2DNS配置</a></h3>
+<pre><code class="language-bash">
+# 1.设置主机名称
+vim /etc/hostname
+  dev-oss4.htjicon.com
+
+
+# 2.设置DNS
+vim /etc/hosts
+  192.168.1.121 dev-oss1.htjicon.com
+  192.168.1.122 dev-oss2.htjicon.com
+  192.168.1.123 dev-oss3.htjicon.com
+  192.168.1.124 dev-oss4.htjicon.com
+</code></pre>
+<h3 id="23挂载本地硬盘"><a class="header" href="#23挂载本地硬盘">2.3挂载本地硬盘</a></h3>
+<pre><code class="language-bash">
+# 确保部署中的所有节点使用具有相同容量（例如TB）的相同类型（NVMe、SSD 或 HDD）驱动器。MinIO 不区分驱动器类型，也不受益于混合存储类型。此外。MinIO 将每个磁盘使用的大小限制为部署中的最小驱动器。例如，如果部署有 15 个 10TB 磁盘和 1 个 1TB 磁盘，MinIO 将每个磁盘的容量限制为 1TB。
+
+# MinIO需要在创建新部署时使用扩展符号{x...y}来表示一系列连续的磁盘，其中部署中的所有节点都有一组相同的已安装驱动器。MinIO 还要求物理磁盘的顺序在重新启动时保持不变，以便给定的挂载点始终指向相同的格式化磁盘。因此，MinIO强烈建议使用/etc/fstab或类似的基于文件的挂载配置，以确保重启后驱动器顺序不会改变。
+
+mkfs.xfs /dev/sdb -L DISK1
+mkfs.xfs /dev/sdc -L DISK2
+mkfs.xfs /dev/sdd -L DISK3
+mkfs.xfs /dev/sde -L DISK4
+
+nano /etc/fstab
+
+  # &lt;file system&gt;  &lt;mount point&gt;  &lt;type&gt;  &lt;options&gt;         &lt;dump&gt;  &lt;pass&gt;
+  LABEL=DISK1      /mnt/disk1     xfs     defaults,noatime  0       2
+  LABEL=DISK2      /mnt/disk2     xfs     defaults,noatime  0       2
+  LABEL=DISK3      /mnt/disk3     xfs     defaults,noatime  0       2
+  LABEL=DISK4      /mnt/disk4     xfs     defaults,noatime  0       2
+
+</code></pre>
+<h3 id="24创建systemd服务文件"><a class="header" href="#24创建systemd服务文件">2.4创建systemd服务文件</a></h3>
+<pre><code class="language-bash">vim /usr/lib/systemd/system/minio.service
+    [Unit]
+    Description=MinIO
+    Documentation=https://docs.min.io
+    Wants=network-online.target
+    After=network-online.target
+    AssertFileIsExecutable=/home/minio/minio
+
+    [Service]
+    WorkingDirectory=/home/minio
+
+    User=minio
+    Group=minio
+    ProtectProc=invisible
+
+    EnvironmentFile=/home/minio/.bashrc
+    ExecStartPre=/bin/bash -c &quot;if [ -z \&quot;${MINIO_VOLUMES}\&quot; ]; then echo \&quot;Variable MINIO_VOLUMES not set in /etc/default/minio\&quot;; exit 1; fi&quot;
+    ExecStart=/home/minio/minio server $MINIO_OPTS $MINIO_VOLUMES
+
+    # Let systemd restart this service always
+    Restart=always
+
+    # Specifies the maximum file descriptor number that can be opened by this process
+    LimitNOFILE=1048576
+
+    # Specifies the maximum number of threads this process can create
+    TasksMax=infinity
+
+    # Disable timeout logic and wait until process is stopped
+    TimeoutStopSec=infinity
+    SendSIGKILL=no
+
+    [Install]
+    WantedBy=multi-user.target
+
+    # Built for ${project.name}-${project.version} (${project.name})
+
+</code></pre>
+<h3 id="25设置环境变量"><a class="header" href="#25设置环境变量">2.5设置环境变量</a></h3>
+<pre><code class="language-bash">vim /home/minio/.bashrc
+    # .bashrc
+
+    # Source global definitions
+    if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+    fi
+
+    # Uncomment the following line if you don't like systemctl's auto-paging feature:
+    # export SYSTEMD_PAGER=
+
+    # User specific aliases and functions
+
+    # Set the hosts and volumes MinIO uses at startup
+    # The command uses MinIO expansion notation {x...y} to denote a
+    # sequential series.
+    #
+    # The following example covers four MinIO hosts
+    # with 4 drives each at the specified hostname and drive locations.
+    # The command includes the port that each MinIO server listens on
+    # (default 9000)
+
+    # http://dev-oss{01...04}.example.com:9000/mnt/disk{1...4}/minio
+    MINIO_VOLUMES=&quot;/home/minio/data{1...4}&quot;
+
+    # Set all MinIO server options
+    #
+    # The following explicitly sets the MinIO Console listen address to
+    # port 9001 on all network interfaces. The default behavior is dynamic
+    # port selection.
+
+    MINIO_OPTS=&quot;--console-address :9001&quot;
+
+    # Set the root username. This user has unrestricted permissions to
+    # perform S3 and administrative API operations on any resource in the
+    # deployment.
+    #
+    # Defer to your organizations requirements for superadmin user name.
+
+    MINIO_ROOT_USER=admin
+
+    # Set the root password
+    #
+    # Use a long, random, unique string that meets your organizations
+    # requirements for passwords.
+
+    MINIO_ROOT_PASSWORD=adminadmin
+
+    # Set to the URL of the load balancer for the MinIO deployment
+    # This value *must* match across all MinIO servers. If you do
+    # not have a load balancer, set this value to to any *one* of the
+    # MinIO hosts in the deployment as a temporary measure.
+    MINIO_SERVER_URL=&quot;http://127.0.0.1:9000&quot;
+
+</code></pre>
+<h3 id="26启动minio服务"><a class="header" href="#26启动minio服务">2.6启动minio服务</a></h3>
+<pre><code class="language-bash">
+ln -s /usr/lib/systemd/system/minio.service /etc/systemd/system/multi-user.target.wants/minio.service
+systemctl start minio.service
+
+systemctl status minio.service
+journalctl -f -n 1000 -u minio.service
+
+systemctl stop minio.service
+
+# Enable startup on boot
+systemctl enable minio.service
+# Disable MinIO service
+systemctl disable minio.service
+</code></pre>
+<h2 id="3操作minio"><a class="header" href="#3操作minio">3.操作minio</a></h2>
+<h3 id="31扩容"><a class="header" href="#31扩容">3.1扩容</a></h3>
+<pre><code class="language-bash">vim /home/minio/.bashrc
+    MINIO_VOLUMES=&quot;/home/minio/data{1...4}&quot;
+    # 修改为
+    MINIO_VOLUMES=&quot;/home/minio/data{1...4} /home/minio/data{5...8}&quot;
+
+systemctl restart minio.service
+</code></pre>
+<h3 id="32减容"><a class="header" href="#32减容">3.2减容</a></h3>
+<pre><code class="language-bash">./mc admin decommission status dev-minio
+┌─────┬─────────────────────────┬─────────────────────────────────┬────────┐
+│ ID  │ Pools                   │ Capacity                        │ Status │
+│ 1st │ /home/minio/data{1...4} │ 67 GiB (used) / 3.0 TiB (total) │ Active │
+│ 2nd │ /home/minio/data{5...8} │ 67 GiB (used) / 3.0 TiB (total) │ Active │
+└─────┴─────────────────────────┴─────────────────────────────────┴────────┘
+
+
+./mc admin decommission start dev-minio/ /home/minio/data{1...4}
+    Decommission started successfully for `/home/minio/data{1...4}`.
+
+
+./mc admin decommission status dev-minio
+┌─────┬─────────────────────────┬─────────────────────────────────┬──────────┐
+│ ID  │ Pools                   │ Capacity                        │ Status   │
+│ 1st │ /home/minio/data{1...4} │ 67 GiB (used) / 3.0 TiB (total) │ Draining │
+│ 2nd │ /home/minio/data{5...8} │ 68 GiB (used) / 3.0 TiB (total) │ Active   │
+└─────┴─────────────────────────┴─────────────────────────────────┴──────────┘
+
+./mc admin decommission status dev-minio /home/minio/data{1...4}
+    Decommissioning rate at 155 B/sec [67 GiB/3.0 TiB]
+    Started: 1 minute ago
+
+
+# 如果状态读取为失败，您可以重新运行该 命令以恢复该过程。对于持续性故障，使用或查看日志（例如）以识别更具体的错误。
+./mc admin console dev-minio
+journalctl -f -n 1000 -u minio
+
+
+# 执行完成后，修改启动命令参数
+vim /home/minio/.bashrc
+    MINIO_VOLUMES=&quot;/home/minio/data{1...4} /home/minio/data{5...8}&quot;
+    # 修改为
+    MINIO_VOLUMES=&quot;/home/minio/data{5...8}&quot;
+
+# 重启minio
+systemctl restart minio
+
+# 删除老文件目录
+rm -rf /home/minio/data1 /home/minio/data2 /home/minio/data3 /home/minio/data4
+</code></pre>
+<h3 id="33升级minio"><a class="header" href="#33升级minio">3.3升级minio</a></h3>
+<pre><code class="language-bash">cd /home/minio
+wget https://dl.min.io/server/minio/release/linux-amd64/minio minio2
+chmod +x minio2
+chown minio:minio minio2
+mv minio2 minio
+
+./mc admin service restart dev-minio
+# 或者
+systemctl restart minio
+</code></pre>
+<h2 id="4配置"><a class="header" href="#4配置">4.配置</a></h2>
+<pre><code class="language-bash"># 版本控制
+
+# 对象锁定功能
+
+</code></pre>
+<h2 id="5异常情况"><a class="header" href="#5异常情况">5.异常情况</a></h2>
+<pre><code class="language-bash"># 软件异常 文件损坏 
+/data5/public/Downloads/mock-partner-service-java.zip
+echo &quot;aaa&quot; &gt; xl.meta
+# 文件改动后，会自动修复
+
+
+# 硬件异常 硬盘损坏 异常断电
+
+# 一节点 4driver的情况下，删除一个或者两个driver目录，minio会自动修复目录，删除两个以上的driver后，数据无法修复
+ls
+data1
+data2
+data3
+data4
+
+rm -rf data1
+data2
+data3
+data4
+
+./mc admin heal dev-minio/public
+ ◓  public
+    0/0 objects; 0 B in 1s
+    ┌────────┬───┬─────────────────────┐
+    │ Green  │ 0 │   0.0%              │
+    │ Yellow │ 3 │  75.0% █████████    │
+    │ Red    │ 1 │  25.0% ███          │
+    │ Grey   │ 0 │   0.0%              │
+    └────────┴───┴─────────────────────┘
+
+# 如果不出现硬件故障，driver可用的情况下，minio会自动修复数据
+
+./mc admin heal dev-minio/public
+ ◓  public
+    0/0 objects; 0 B in 1s
+    ┌────────┬───┬─────────────────────┐
+    │ Green  │ 4 │ 100.0% ████████████ │
+    │ Yellow │ 0 │   0.0%              │
+    │ Red    │ 0 │   0.0%              │
+    │ Grey   │ 0 │   0.0%              │
+    └────────┴───┴─────────────────────┘
+
+
+</code></pre>
+<h2 id="6纠删码"><a class="header" href="#6纠删码">6.纠删码</a></h2>
+<pre><code class="language-bash"># EC:N默认设置
+# 当drivers个数小于等于5时，EC:2
+# 当drivers个数6-7时，EC:3
+# 当drivers个数大于等于8时，EC:4
+
+# If N is equal to exactly 1/2 the drives in the erasure set, MinIO write quorum requires N+1 drives to avoid data inconsistency (“split-brain”).
+
+# Minio使用纠删码erasure code和校验和checksum来保护数据免受硬件故障和无声数据损坏。 即便您丢失一半数量（N/2）的硬盘，您仍然可以恢复数据。
+
+# 纠删码的工作原理和RAID或者复制不同，像RAID6可以在损失两块盘的情况下不丢数据，而Minio纠删码可以在丢失一半的盘的情况下，仍可以保证数据安全。 而且Minio纠删码是作用在对象级别，可以一次恢复一个对象，而RAID是作用在卷级别，数据恢复时间很长。 Minio对每个对象单独编码，存储服务一经部署，通常情况下是不需要更换硬盘或者修复。Minio纠删码的设计目标是为了性能和尽可能的使用硬件加速。
+
+# 如果8个driver，最大可以4个driver出现故障，此时可以读取数据；当小于4个driver出现故障时，可以写入数据
+# 如果4个driver，最大可以2个driver出现故障，此时可以读取数据；当小于2个driver出现故障时，可以写入数据
+# 注意扩容时的数据，由4driver扩容到8driver时，当前版本[RELEASE.2022-05-23T18-45-11Z],如果老的4个driver出现故障后整个集群会异常，数据丢失。
+
+
+# 什么是位衰减bit rot保护?
+# 位衰减又被称为数据腐化Data Rot、无声数据损坏Silent Data Corruption,是目前硬盘数据的一种严重数据丢失问题。硬盘上的数据可能会神不知鬼不觉就损坏了，也没有什么错误日志。正所谓明枪易躲，暗箭难防，这种背地里犯的错比硬盘直接咔咔宕了还危险。 不过不用怕，Minio纠删码采用了高速 HighwayHash 基于哈希的校验和来防范位衰减。
+
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../7. 项目/7.18 minio/_index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../../7. 项目/7.2 Leofs/_index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../7. 项目/7.18 minio/_index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../../7. 项目/7.2 Leofs/_index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

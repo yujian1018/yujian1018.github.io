@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>1.5.3 包管理 - linux笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../1.基础/_index.html"><strong aria-hidden="true">1.</strong> 基础</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1.基础/1.6 debian/_index.html"><strong aria-hidden="true">1.1.</strong> debian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1.基础/1.6 debian/1.6.1 sudo提权.html"><strong aria-hidden="true">1.1.1.</strong> 1.6.1 sudo提权</a></li></ol></li><li class="chapter-item expanded "><a href="../1.基础/1.7 ubuntu/_index.html"><strong aria-hidden="true">1.2.</strong> ubuntu</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1.基础/1.7 ubuntu/ubuntu 开机启动.html"><strong aria-hidden="true">1.2.1.</strong> ubuntu 开机启动</a></li><li class="chapter-item expanded "><a href="../1.基础/1.7 ubuntu/ubuntu 收藏夹 快捷方式.html"><strong aria-hidden="true">1.2.2.</strong> ubuntu 收藏夹 快捷方式</a></li></ol></li><li class="chapter-item expanded "><a href="../1.基础/1.1 目录结构.html"><strong aria-hidden="true">1.3.</strong> 1.1 目录结构</a></li><li class="chapter-item expanded "><a href="../1.基础/1.2 系统调优.html"><strong aria-hidden="true">1.4.</strong> 1.2 系统调优</a></li><li class="chapter-item expanded "><a href="../1.基础/1.2.1 修改系统参数.html"><strong aria-hidden="true">1.5.</strong> 1.2.1 修改系统参数</a></li><li class="chapter-item expanded "><a href="../1.基础/1.3 自动化.html"><strong aria-hidden="true">1.6.</strong> 1.3 自动化</a></li><li class="chapter-item expanded "><a href="../1.基础/1.4 系统设置.html"><strong aria-hidden="true">1.7.</strong> 1.4 系统设置</a></li><li class="chapter-item expanded "><a href="../1.基础/1.5 常用命令.html"><strong aria-hidden="true">1.8.</strong> 1.5 常用命令</a></li><li class="chapter-item expanded "><a href="../1.基础/1.5.1 man.html"><strong aria-hidden="true">1.9.</strong> 1.5.1 man</a></li><li class="chapter-item expanded "><a href="../1.基础/1.5.2 用户及文件权限管理.html"><strong aria-hidden="true">1.10.</strong> 1.5.2 用户及文件权限管理</a></li><li class="chapter-item expanded "><a href="../1.基础/1.5.3 包管理.html" class="active"><strong aria-hidden="true">1.11.</strong> 1.5.3 包管理</a></li><li class="chapter-item expanded "><a href="../1.基础/1.5.4 性能监控工具.html"><strong aria-hidden="true">1.12.</strong> 1.5.4 性能监控工具</a></li></ol></li><li class="chapter-item expanded "><a href="../2.Shell 教程/_index.html"><strong aria-hidden="true">2.</strong> Shell 教程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/_index.html"><strong aria-hidden="true">2.1.</strong> 基础教程</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.1 终端快捷键.html"><strong aria-hidden="true">2.1.1.</strong> 2.1.1 终端快捷键</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.2 通配符.html"><strong aria-hidden="true">2.1.2.</strong> 2.1.2 通配符</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.3 关键字.html"><strong aria-hidden="true">2.1.3.</strong> 2.1.3 关键字</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.4 语法.html"><strong aria-hidden="true">2.1.4.</strong> 2.1.4 语法</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.5 Function.html"><strong aria-hidden="true">2.1.5.</strong> 2.1.5 Function</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.6 转译符.html"><strong aria-hidden="true">2.1.6.</strong> 2.1.6 转译符</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.1. 基础教程/2.1.7 数据结构.html"><strong aria-hidden="true">2.1.7.</strong> 2.1.7 数据结构</a></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.2. Shell脚本/shtools/index.html"><strong aria-hidden="true">2.1.8.</strong> Shtools</a></li></ol></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.2. Shell脚本/_index.html"><strong aria-hidden="true">2.2.</strong> Shell脚本</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2.Shell 教程/2.2. Shell脚本/安装系统后操作.html"><strong aria-hidden="true">2.2.1.</strong> 安装系统后操作</a></li></ol></li><li class="chapter-item expanded "><a href="../2.Shell 教程/2.3. Makefile/_index.html"><strong aria-hidden="true">2.3.</strong> Makefile</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2.Shell 教程/2.3. Makefile/2.3.1 案例Makefile 1.html"><strong aria-hidden="true">2.3.1.</strong> 2.3.1 案例Makefile 1</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../3.Linux 命令/_index.html"><strong aria-hidden="true">3.</strong> Linux 命令</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/_index.html"><strong aria-hidden="true">3.1.</strong> 文件管理</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/1.1 文件管理.html"><strong aria-hidden="true">3.1.1.</strong> 1.1 文件管理</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/1.2 目录.html"><strong aria-hidden="true">3.1.2.</strong> 1.2 目录</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/1.3 权限.html"><strong aria-hidden="true">3.1.3.</strong> 1.3 权限</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/1.4 压缩.html"><strong aria-hidden="true">3.1.4.</strong> 1.4 压缩</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/1.文件管理/1.4.1 zip.html"><strong aria-hidden="true">3.1.5.</strong> 1.4.1 zip</a></li></ol></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/_index.html"><strong aria-hidden="true">3.2.</strong> 文档编辑</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.1 文档编辑.html"><strong aria-hidden="true">3.2.1.</strong> 2.1 文档编辑</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.10 wc.html"><strong aria-hidden="true">3.2.2.</strong> 2.10 wc</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.2 sed.html"><strong aria-hidden="true">3.2.3.</strong> 2.2 sed</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.3 awk.html"><strong aria-hidden="true">3.2.4.</strong> 2.3 awk</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.4 uniq.html"><strong aria-hidden="true">3.2.5.</strong> 2.4 uniq</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.5 sort.html"><strong aria-hidden="true">3.2.6.</strong> 2.5 sort</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.6 grep.html"><strong aria-hidden="true">3.2.7.</strong> 2.6 grep</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.7 tail.html"><strong aria-hidden="true">3.2.8.</strong> 2.7 tail</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.8 find.html"><strong aria-hidden="true">3.2.9.</strong> 2.8 find</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/2.文档编辑/2.9 iconv.html"><strong aria-hidden="true">3.2.10.</strong> 2.9 iconv</a></li></ol></li><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/_index.html"><strong aria-hidden="true">3.3.</strong> 系统管理</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/3.1 crontab.html"><strong aria-hidden="true">3.3.1.</strong> 3.1 crontab</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/3.2 nohup.html"><strong aria-hidden="true">3.3.2.</strong> 3.2 nohup</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/3.3 xclip.html"><strong aria-hidden="true">3.3.3.</strong> 3.3 xclip</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/3.4 tmux.html"><strong aria-hidden="true">3.3.4.</strong> 3.4 tmux</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/3.系统管理/3.5 systemd.html"><strong aria-hidden="true">3.3.5.</strong> 3.5 systemd</a></li></ol></li><li class="chapter-item expanded "><a href="../3.Linux 命令/4.磁盘管理/_index.html"><strong aria-hidden="true">3.4.</strong> 磁盘管理</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/4.磁盘管理/4.1 du.html"><strong aria-hidden="true">3.4.1.</strong> 4.1 du</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/4.磁盘管理/4.2 mount.html"><strong aria-hidden="true">3.4.2.</strong> 4.2 mount</a></li></ol></li><li class="chapter-item expanded "><a href="../3.Linux 命令/5.文件传输/_index.html"><strong aria-hidden="true">3.5.</strong> 文件传输</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/_index.html"><strong aria-hidden="true">3.6.</strong> 网络通讯</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.1 tcpdump.html"><strong aria-hidden="true">3.6.1.</strong> 6.1 tcpdump</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.2 curl.html"><strong aria-hidden="true">3.6.2.</strong> 6.2 curl</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.3 ssh.html"><strong aria-hidden="true">3.6.3.</strong> 6.3 ssh</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.4 tc.html"><strong aria-hidden="true">3.6.4.</strong> 6.4 tc</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.5 firewall.html"><strong aria-hidden="true">3.6.5.</strong> 6.5 firewall</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/6.6 openssh.html"><strong aria-hidden="true">3.6.6.</strong> 6.6 openssh</a></li><li class="chapter-item expanded "><a href="../3.Linux 命令/6.网络通讯/nc.html"><strong aria-hidden="true">3.6.7.</strong> Nc</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/_index.html"><strong aria-hidden="true">4.</strong> Linux软件</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.1 idea/_index.html"><strong aria-hidden="true">4.1.</strong> idea</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.2 vim/_index.html"><strong aria-hidden="true">4.2.</strong> vim</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.2 vim/VIM.html"><strong aria-hidden="true">4.2.1.</strong> VIM</a></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.3 Let's Encrypt/_index.html"><strong aria-hidden="true">4.3.</strong> Let's Encrypt</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.3 Let's Encrypt/4.3.1 acme.html"><strong aria-hidden="true">4.3.1.</strong> 4.3.1 acme</a></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/_index.html"><strong aria-hidden="true">4.4.</strong> nginx</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/4.4.1nginxError排查.html"><strong aria-hidden="true">4.4.1.</strong> 4.4.1nginxError排查</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/4.4.2nginxRewrite规则.html"><strong aria-hidden="true">4.4.2.</strong> 4.4.2nginxRewrite规则</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/4.4.3nginx_grpc_conf.html"><strong aria-hidden="true">4.4.3.</strong> 4.4.3nginx_grpc_conf</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/4.4.4nginx_conf.html"><strong aria-hidden="true">4.4.4.</strong> 4.4.4nginx_conf</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4 nginx/4.4.5nginx安装.html"><strong aria-hidden="true">4.4.5.</strong> 4.4.5nginx安装</a></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.5 v2ray/_index.html"><strong aria-hidden="true">4.5.</strong> v2ray</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.6 Docker/_index.html"><strong aria-hidden="true">4.6.</strong> Docker</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.6 Docker/4.6.1 Docker-Dockerfile.html"><strong aria-hidden="true">4.6.1.</strong> 4.6.1 Docker-Dockerfile</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.6 Docker/4.6.2 Docker.html"><strong aria-hidden="true">4.6.2.</strong> 4.6.2 Docker</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.6 Docker/4.6.4 Docker Compose.html"><strong aria-hidden="true">4.6.3.</strong> 4.6.4 Docker Compose</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.6 Docker/4.6.5 Docker-网络.html"><strong aria-hidden="true">4.6.4.</strong> 4.6.5 Docker-网络</a></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.7 git/_index.html"><strong aria-hidden="true">4.7.</strong> git</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.Linux软件/4.7 git/git.html"><strong aria-hidden="true">4.7.1.</strong> Git</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.7 git/gitea.html"><strong aria-hidden="true">4.7.2.</strong> Gitea</a></li></ol></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.3.4 frp.html"><strong aria-hidden="true">4.8.</strong> 4.3.4 frp</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.3.5 protobuf.html"><strong aria-hidden="true">4.9.</strong> 4.3.5 protobuf</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.3.6 wget.html"><strong aria-hidden="true">4.10.</strong> 4.3.6 wget</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/4.4.4 svn.html"><strong aria-hidden="true">4.11.</strong> 4.4.4 svn</a></li><li class="chapter-item expanded "><a href="../4.Linux软件/ntp.html"><strong aria-hidden="true">4.12.</strong> Ntp</a></li></ol></li><li class="chapter-item expanded "><a href="../etc_/index.html"><strong aria-hidden="true">5.</strong> Etc</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../etc_/cpp/project_tpl/index.html"><strong aria-hidden="true">5.1.</strong> Project Tpl</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">linux笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/linux" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/linux/content/1.基础/1.5.3 包管理.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="包管理"><a class="header" href="#包管理">包管理</a></h2>
+<pre><code class="language-bash"># RPM 包 - （Fedora, Redhat及类似系统）
+
+rpm -ivh package.rpm 安装一个rpm包
+rpm -ivh --nodeeps package.rpm 安装一个rpm包而忽略依赖关系警告
+rpm -U package.rpm 更新一个rpm包但不改变其配置文件
+rpm -F package.rpm 更新一个确定已经安装的rpm包
+rpm -e package_name.rpm 删除一个rpm包
+rpm -qa 显示系统中所有已经安装的rpm包
+rpm -qa | grep httpd 显示所有名称中包含 &quot;httpd&quot; 字样的rpm包
+rpm -qi package_name 获取一个已安装包的特殊信息
+rpm -qg &quot;System Environment/Daemons&quot; 显示一个组件的rpm包
+rpm -ql package_name 显示一个已经安装的rpm包提供的文件列表
+rpm -qc package_name 显示一个已经安装的rpm包提供的配置文件列表
+rpm -q package_name --whatrequires 显示与一个rpm包存在依赖关系的列表
+rpm -q package_name --whatprovides 显示一个rpm包所占的体积
+rpm -q package_name --scripts 显示在安装/删除期间所执行的脚本l
+rpm -q package_name --changelog 显示一个rpm包的修改历史
+rpm -qf /etc/httpd/conf/httpd.conf 确认所给的文件由哪个rpm包所提供
+rpm -qp package.rpm -l 显示由一个尚未安装的rpm包提供的文件列表
+rpm --import /media/cdrom/RPM-GPG-KEY 导入公钥数字证书
+rpm --checksig package.rpm 确认一个rpm包的完整性
+rpm -qa gpg-pubkey 确认已安装的所有rpm包的完整性
+rpm -V package_name 检查文件尺寸、 许可、类型、所有者、群组、MD5检查以及最后修改时间
+rpm -Va 检查系统中所有已安装的rpm包- 小心使用
+rpm -Vp package.rpm 确认一个rpm包还未安装
+rpm2cpio package.rpm | cpio --extract --make-directories *bin* 从一个rpm包运行可执行文件
+rpm -ivh /usr/src/redhat/RPMS/`arch`/package.rpm 从一个rpm源码安装一个构建好的包
+rpmbuild --rebuild package_name.src.rpm 从一个rpm源码构建一个 rpm 包
+
+
+# YUM 软件包升级器 - （Fedora, RedHat及类似系统）
+yum install package_name 下载并安装一个rpm包
+yum localinstall package_name.rpm 将安装一个rpm包，使用你自己的软件仓库为你解决所有依赖关系
+yum update package_name.rpm 更新当前系统中所有安装的rpm包
+yum update package_name 更新一个rpm包
+yum remove package_name 删除一个rpm包
+yum list 列出当前系统中安装的所有包
+yum search package_name 在rpm仓库中搜寻软件包
+yum clean packages 清理rpm缓存删除下载的包
+yum clean headers 删除所有头文件
+yum clean all 删除所有缓存的包和头文件
+
+
+# DEB 包 (Debian, Ubuntu 以及类似系统)
+dpkg -i package.deb 安装/更新一个 deb 包
+dpkg -r package_name 从系统删除一个 deb 包
+dpkg -l 显示系统中所有已经安装的 deb 包
+dpkg -l | grep httpd 显示所有名称中包含 &quot;httpd&quot; 字样的deb包
+dpkg -s package_name 获得已经安装在系统中一个特殊包的信息
+dpkg -L package_name 显示系统中已经安装的一个deb包所提供的文件列表
+dpkg --contents package.deb 显示尚未安装的一个包所提供的文件列表
+dpkg -S /bin/ping 确认所给的文件由哪个deb包提供
+
+
+# APT 软件工具 (Debian, Ubuntu 以及类似系统)
+apt-get install package_name 安装/更新一个 deb 包
+apt-cdrom install package_name 从光盘安装/更新一个 deb 包
+apt-get update 升级列表中的软件包
+apt-get upgrade 升级所有已安装的软件
+apt-get remove package_name 从系统删除一个deb包
+apt-get check 确认依赖的软件仓库正确
+apt-get clean 从下载的软件包中清理缓存
+apt-cache search searched-package 返回包含所要搜索字符串的软件包名称
+
+
+# 字符设置和文件格式转换
+dos2unix filedos.txt fileunix.txt 将一个文本文件的格式从MSDOS转换成UNIX
+unix2dos fileunix.txt filedos.txt 将一个文本文件的格式从UNIX转换成MSDOS
+recode ..HTML &lt; page.txt &gt; page.html 将一个文本文件转换成html
+recode -l | more 显示所有允许的转换格式
+
+
+# 文件系统分析
+badblocks -v /dev/hda1 检查磁盘hda1上的坏磁块
+fsck /dev/hda1 修复/检查hda1磁盘上linux文件系统的完整性
+fsck.ext2 /dev/hda1 修复/检查hda1磁盘上ext2文件系统的完整性
+e2fsck /dev/hda1 修复/检查hda1磁盘上ext2文件系统的完整性
+e2fsck -j /dev/hda1 修复/检查hda1磁盘上ext3文件系统的完整性
+fsck.ext3 /dev/hda1 修复/检查hda1磁盘上ext3文件系统的完整性
+fsck.vfat /dev/hda1 修复/检查hda1磁盘上fat文件系统的完整性
+fsck.msdos /dev/hda1 修复/检查hda1磁盘上dos文件系统的完整性
+dosfsck /dev/hda1 修复/检查hda1磁盘上dos文件系统的完整性
+
+
+# 初始化一个文件系统
+mkfs /dev/hda1 在hda1分区创建一个文件系统
+mke2fs /dev/hda1 在hda1分区创建一个linux ext2的文件系统
+mke2fs -j /dev/hda1 在hda1分区创建一个linux ext3(日志型)的文件系统
+mkfs -t vfat 32 -F /dev/hda1 创建一个 FAT32 文件系统
+fdformat -n /dev/fd0 格式化一个软盘
+mkswap /dev/hda3 创建一个swap文件系统
+
+
+# SWAP文件系统
+mkswap /dev/hda3 创建一个swap文件系统
+swapon /dev/hda3 启用一个新的swap文件系统
+swapon /dev/hda2 /dev/hdb3 启用两个swap分区
+
+# 备份
+dump -0aj -f /tmp/home0.bak /home 制作一个 '/home' 目录的完整备份
+dump -1aj -f /tmp/home0.bak /home 制作一个 '/home' 目录的交互式备份
+restore -if /tmp/home0.bak 还原一个交互式备份
+rsync -rogpav --delete /home /tmp 同步两边的目录
+rsync -rogpav -e ssh --delete /home ip_address:/tmp 通过SSH通道rsync
+rsync -az -e ssh --delete ip_addr:/home/public /home/local 通过ssh和压缩将一个远程目录同步到本地目录
+rsync -az -e ssh --delete /home/local ip_addr:/home/public 通过ssh和压缩将本地目录同步到远程目录
+dd bs=1M if=/dev/hda | gzip | ssh user@ip_addr 'dd of=hda.gz' 通过ssh在远程主机上执行一次备份本地磁盘的操作
+dd if=/dev/sda of=/tmp/file1 备份磁盘内容到一个文件
+tar -Puf backup.tar /home/user 执行一次对 '/home/user' 目录的交互式备份操作
+( cd /tmp/local/ &amp;&amp; tar c . ) | ssh -C user@ip_addr 'cd /home/share/ &amp;&amp; tar x -p' 通过ssh在远程目录中复制一个目录内容
+( tar c /home ) | ssh -C user@ip_addr 'cd /home/backup-home &amp;&amp; tar x -p' 通过ssh在远程目录中复制一个本地目录
+tar cf - . | (cd /tmp/backup ; tar xf - ) 本地将一个目录复制到另一个地方，保留原有权限及链接
+find /home/user1 -name '*.txt' | xargs cp -av --target-directory=/home/backup/ --parents 从一个目录查找并复制所有以 '.txt' 结尾的文件到另一个目录
+find /var/log -name '*.log' | tar cv --files-from=- | bzip2 &gt; log.tar.bz2 查找所有以 '.log' 结尾的文件并做成一个bzip包
+dd if=/dev/hda of=/dev/fd0 bs=512 count=1 做一个将 MBR (Master Boot Record)内容复制到软盘的动作
+dd if=/dev/fd0 of=/dev/hda bs=512 count=1 从已经保存到软盘的备份中恢复MBR内容
+
+# 光盘
+cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force 清空一个可复写的光盘内容
+mkisofs /dev/cdrom &gt; cd.iso 在磁盘上创建一个光盘的iso镜像文件
+mkisofs /dev/cdrom | gzip &gt; cd_iso.gz 在磁盘上创建一个压缩了的光盘iso镜像文件
+mkisofs -J -allow-leading-dots -R -V &quot;Label CD&quot; -iso-level 4 -o ./cd.iso data_cd 创建一个目录的iso镜像文件
+cdrecord -v dev=/dev/cdrom cd.iso 刻录一个ISO镜像文件
+gzip -dc cd_iso.gz | cdrecord dev=/dev/cdrom - 刻录一个压缩了的ISO镜像文件
+mount -o loop cd.iso /mnt/iso 挂载一个ISO镜像文件
+cd-paranoia -B 从一个CD光盘转录音轨到 wav 文件中
+cd-paranoia -- &quot;-3&quot; 从一个CD光盘转录音轨到 wav 文件中（参数-3）
+cdrecord --scanbus 扫描总线以识别scsi通道
+dd if=/dev/hdc | md5sum 校验一个设备的md5sum编码，例如一张 CD
+
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../1.基础/1.5.2 用户及文件权限管理.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../1.基础/1.5.4 性能监控工具.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../1.基础/1.5.2 用户及文件权限管理.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../1.基础/1.5.4 性能监控工具.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

@@ -29,23 +29,21 @@ fi
 
 case ${ARG_1} in
 'build')
-    if [ ! -d "book" ]; then
-        mkdir book
+    if [ ! -d "me" ]; then
+        mkdir me
     fi
 
-    cd blog && hugo --config config.yaml && cd ../ && rm -rf me && mv blog/public me
+    (cd blog && hugo --config config.yaml && cd ../ && rm -rf me && mv blog/public me)
 
-
-    
-    cd cpp && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/cpp && mv cpp/public book/cpp
-    cd erlang && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/erlang && mv erlang/public book/erlang
-    cd game && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/game && mv game/public book/game
-    cd golang && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/golang && mv golang/public book/golang
-    cd html5 && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/html5 && mv html5/public book/html5
-    cd linux && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/linux && mv linux/public book/linux
-    cd pro && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/pro && mv pro/public book/pro
-    cd python && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/python && mv python/public book/python
-    cd rust && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/rust && mv rust/public book/rust
+    (cd cpp && ../mdbook build)
+    (cd erlang && ../mdbook build)
+    (cd game && ../mdbook build)
+    (cd golang && ../mdbook build)
+    (cd html5 && ../mdbook build)
+    (cd linux && ../mdbook build)
+    (cd pro && ../mdbook build)
+    (cd python && ../mdbook build)
+    (cd rust && ../mdbook build)
 
     ;;
 

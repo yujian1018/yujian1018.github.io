@@ -1,0 +1,532 @@
+<!DOCTYPE HTML>
+<html lang="cn" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>6.1 国内网页游戏背景音乐 - game笔记</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">介绍</a></li><li class="chapter-item expanded "><a href="../1. 规范/_index.html"><strong aria-hidden="true">1.</strong> 规范</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../1. 规范/1.1. 版本号.html"><strong aria-hidden="true">1.1.</strong> 1.1. 版本号</a></li></ol></li><li class="chapter-item expanded "><a href="../2. 功能/_index.html"><strong aria-hidden="true">2.</strong> 功能</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 功能/2.1 麻将算法/_index.html"><strong aria-hidden="true">2.1.</strong> 麻将算法</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 功能/2.1 麻将算法/2.1.1. 麻将算法.html"><strong aria-hidden="true">2.1.1.</strong> 2.1.1. 麻将算法</a></li></ol></li><li class="chapter-item expanded "><a href="../2. 功能/2.2 网络/_index.html"><strong aria-hidden="true">2.2.</strong> 网络</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 功能/2.2 网络/2.2.1 网络管理.html"><strong aria-hidden="true">2.2.1.</strong> 2.2.1 网络管理</a></li><li class="chapter-item expanded "><a href="../2. 功能/2.2 网络/2.2.2 客户端服务端互联.html"><strong aria-hidden="true">2.2.2.</strong> 2.2.2 客户端服务端互联</a></li><li class="chapter-item expanded "><a href="../2. 功能/2.2 网络/2.2.3. 帧同步.html"><strong aria-hidden="true">2.2.3.</strong> 2.2.3. 帧同步</a></li><li class="chapter-item expanded "><a href="../2. 功能/2.2 网络/2.2.4. cs同步.html"><strong aria-hidden="true">2.2.4.</strong> 2.2.4. cs同步</a></li></ol></li><li class="chapter-item expanded "><a href="../2. 功能/2.3 道具/_index.html"><strong aria-hidden="true">2.3.</strong> 道具</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 功能/2.3 道具/装备.html"><strong aria-hidden="true">2.3.1.</strong> 装备</a></li></ol></li><li class="chapter-item expanded "><a href="../2. 功能/2.4 任务/_index.html"><strong aria-hidden="true">2.4.</strong> 任务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../2. 功能/2.4 任务/任务.html"><strong aria-hidden="true">2.4.1.</strong> 任务</a></li></ol></li><li class="chapter-item expanded "><a href="../2. 功能/2.2. 判断点是否在三角形内.html"><strong aria-hidden="true">2.5.</strong> 2.2. 判断点是否在三角形内</a></li><li class="chapter-item expanded "><a href="../2. 功能/2.3. 重心坐标.html"><strong aria-hidden="true">2.6.</strong> 2.3. 重心坐标</a></li></ol></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/_index.html"><strong aria-hidden="true">3.</strong> 服务端</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3. 技术/3.1 UE/_index.html"><strong aria-hidden="true">3.1.</strong> UE</a></li><li class="chapter-item expanded "><a href="../3. 技术/_index.html"><strong aria-hidden="true">3.2.</strong> 技术</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/2.1.1怪物AI的配置原型.html"><strong aria-hidden="true">3.2.1.</strong> 2.1.1怪物AI的配置原型</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/2.1.2横板过关类游戏战斗类型.html"><strong aria-hidden="true">3.2.2.</strong> 2.1.2横板过关类游戏战斗类型</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/2.1.3活动管理器.html"><strong aria-hidden="true">3.2.3.</strong> 2.1.3活动管理器</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/2.1.4即时制战斗.html"><strong aria-hidden="true">3.2.4.</strong> 2.1.4即时制战斗</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/时间管理器.html"><strong aria-hidden="true">3.2.5.</strong> 时间管理器</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/玩家属性.html"><strong aria-hidden="true">3.2.6.</strong> 玩家属性</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/优化.html"><strong aria-hidden="true">3.2.7.</strong> 优化</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/战斗系统.html"><strong aria-hidden="true">3.2.8.</strong> 战斗系统</a></li><li class="chapter-item expanded "><a href="../3. 技术/3.2 服务端/AOI.html"><strong aria-hidden="true">3.2.9.</strong> AOI</a></li></ol></li><li class="chapter-item expanded "><a href="../4.工具/_index.html"><strong aria-hidden="true">3.3.</strong> 工具</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../4.工具/工具.html"><strong aria-hidden="true">3.3.1.</strong> 工具</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../5.资源/_index.html"><strong aria-hidden="true">4.</strong> 资源</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../5.资源/1.1玩家利益转换系统.html"><strong aria-hidden="true">4.1.</strong> 1.1玩家利益转换系统</a></li><li class="chapter-item expanded "><a href="../5.资源/6.1 国内网页游戏背景音乐.html" class="active"><strong aria-hidden="true">4.2.</strong> 6.1 国内网页游戏背景音乐</a></li><li class="chapter-item expanded "><a href="../5.资源/storm1986网游策划设计空间原创文集2007-2010.html"><strong aria-hidden="true">4.3.</strong> storm1986网游策划设计空间原创文集2007-2010</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">game笔记</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/tree/master/game" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/yujian1018/yujian1018.github.io/edit/master/game/content/5.资源/6.1 国内网页游戏背景音乐.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p> 国内网页游戏使用的背景音乐,大量使用了经典的电影电视的OST,这里简单回顾一下: </p>
+<p>   首先,一大批网页游戏用的是中国武侠背景,大量的电视武侠电影为此提供了丰富的素材: </p>
+<p> 仙剑奇侠传（四） - 回梦游仙.wav </p>
+<p> 何占豪&amp;陈钢 - 少年十五二十时.wav  </p>
+<p>卢冠廷 - 一生所爱.wav  </p>
+<p>吕秀龄 - 逆伦.wav  </p>
+<p>商易 - 小刀会组曲 .wav  </p>
+<p>喜多郎 - 孙文与庆玲.wav  </p>
+<p>宗次郎 - 故乡的原风景.wav  </p>
+<p>徐嘉良 - 仙侣奇缘主题曲音乐.wav  </p>
+<p>横山菁儿 - 英雄的黎明.wav  </p>
+<p>胡伟立 - 偷功.wav  </p>
+<p>胡伟立 - 市集.wav  </p>
+<p>陈勋奇 - 天地孤影任我行.wav  </p>
+<p>陈淑桦 - 流光飞舞.wav  </p>
+<p>鲍比达 - 凡心大动.wav  </p>
+<p>黄沾&amp; 胡伟立 - 傲气傲笑万重浪.wav  </p>
+<p>黄英华 - OPENING.wav  </p>
+<p>黄霑&amp; 鲍比达 - 定情.wav  </p>
+<p>黄霑&amp;徐克&amp;罗大佑 - 沧海一生笑.wav </p>
+<p>七剑战歌 </p>
+<p>2012-6-28 19:51:18 更新: </p>
+<p>Folder PATH listing for volume Zen 
+Volume serial number is 9ED7-E2AC 
+E:. 
+│ 
+│  
+├─01.武侠音乐系列之双雄对峙（对决） 
+│ 01.熊熊圣火.lrc 
+│ 01.熊熊圣火.mp3 
+│ 02.罗汉阵.mp3 
+│ 03.太极拳.mp3 
+│ 04.偷功.mp3 
+│ 05.傲气傲笑万重浪(終曲).mp3 
+│ 06.仙剑奇缘.mp3 
+│ 07.少林雄风.mp3 
+│ 08.阵法--卧江子第九阵.mp3 
+│ 09.过馆人生.mp3 
+│ 10.蝶舞天涯片首曲.mp3 
+│ 11.主旋律音乐（一）.mp3 
+│ 12.醉起步云宵.mp3 
+│ 13.比剑.mp3 
+│ 14.挟枪试刀.mp3 
+│ 15.男儿当自强(主題音乐).mp3 
+│ 16.野霸王.mp3 
+│ 17.洗衣练功.mp3 
+│ 18.初识太极.mp3 
+│ 19.灵光宝剑.mp3 
+│ 20.彩剑竹水琉.mp3 
+│  
+├─02.武侠音乐系列之缠绵悱恻（爱情） 
+│ 01.孙文与庆龄.mp3 
+│ 02.初遇.lrc 
+│ 02.初遇.mp3 
+│ 03.美丽的花朵-刘备的恋情.mp3 
+│ 04.玲珑玉磐心 识玲珑.mp3 
+│ 05.爱情I.mp3 
+│ 06 倾心.mp3 
+│ 07.珠帘半卷美人怨.mp3 
+│ 08.才子佳人.mp3 
+│ 09.千里姻缘一线牵.mp3 
+│ 10.温馨时刻.mp3 
+│ 11.道爱.mp3 
+│ 12.逆伦.mp3 
+│ 13.江湖心儿女情.mp3 
+│ 14.千层雪.mp3 
+│ 15.大団円.mp3 
+│ 16.情迷.mp3 
+│ 17.眷眷柔情（古筝）.mp3 
+│ 18.定情.mp3 
+│ 19.心动.lrc 
+│ 19.心动.mp3 
+│ 20.义薄云天关云长.mp3 
+│ 21.相爱.mp3 
+│  
+├─03.武侠音乐系列之晴天霹雳（震惊） 
+│ 01.痴癫.mp3 
+│ 02.伤恸 (慕少艾悲曲).mp3 
+│ 03.赤裸醉龙街市受辱.mp3 
+│ 04.アシタカせっ记.mp3 
+│ 05.悲伤绝望.mp3 
+│ 06.晴天霹雳.mp3 
+│ 07.暮色音尘 (墨尘音悲曲).mp3 
+│ 08.响宴.mp3 
+│ 09.飞鸿谨受庭训.mp3 
+│ 10.悲恸.Mp3 
+│ 11.震惊2.mp3 
+│ 12 决战.lrc 
+│ 12 决战.mp3 
+│ 13.Ishin Tenpuku Keikaku.mp3 
+│  
+├─04.武侠音乐系列之黯然消魂（悲伤） 
+│ 01.西天取经路遥遥.mp3 
+│ 02.雨夜诀别.mp3 
+│ 03.新婚别.mp3 
+│ 04.孙文之遗言.mp3 
+│ 05.永远的爱~丽花之死.mp3 
+│ 06.羽獍弦歌 (羽人非獍二胡曲).mp3 
+│ 07.孤独.mp3 
+│ 08.悲.mp3 
+│ 09.望夫女.mp3 
+│ 10.伤逝.mp3 
+│ 11.殇.mp3 
+│ 12.仙凡之爱.mp3 
+│ 13.紫霞苍烟 (赭杉军悲曲).mp3 
+│ 14.侠客的泪珠.wma 
+│ 15.爱情主题.mp3 
+│ 16.寻夫.mp3 
+│ 17.父之死.mp3 
+│ 18.梦断剑斜 （剑邪悲曲).mp3 
+│ 19.沧凉血漠 沧凉 (无尽血漠).mp3 
+│ 20.六翼羽人 (羽人非獍).mp3 
+│ 21.等.mp3 
+│ 22. 断情殇.mp3 
+│  
+├─05.武侠音乐系列之豪气中天（气魄） 
+│ 01.序曲：天地孤影任我行.mp3 
+│ 02.小刀会序曲.mp3 
+│ 03.キリン参上す.mp3 
+│ 04.别れ.mp3 
+│ 05.祈祝.mp3 
+│ 06.第三楼阁.ウー.mp3 
+│ 07.小试拳脚.mp3 
+│ 08.袁绍决起~白马の戦い.mp3 
+│ 09.光芒之龙.mp3 
+│ 10.大江东去 (皇甫定涛).lrc 
+│ 10.大江东去 (皇甫定涛).mp3 
+│ 11.邂逅.mp3 
+│ 12.欧阳金雕悲伤曲.mp3 
+│ 13.勇往直前.mp3 
+│ 14.浮云.mp3 
+│ 15.女儿当自强.mp3 
+│ 16 大军师-诸葛孔明.mp3 
+│ 17.中国龙序曲.mp3 
+│ 18.痴情剑客剑无情.Wma 
+│ 19.英雄的黎明.mp3 
+│ 20.素还真新曲.mp3 
+│ 21.叱咤风云.lrc 
+│ 21.叱咤风云.mp3 
+│ 22.七剑战歌.mp3 
+│ 23.风吹草动，风云飞扬.mp3 
+│  
+├─06.武侠音乐系列之淡淡幽思（思念） 
+│ 01.雪千寻.mp3 
+│ 02.追想~谨と孔明.mp3 
+│ 03.Nagisa to Kayoko.mp3 
+│ 04.素还真-阿轮钢琴独奏版.mp3 
+│ 05.温馨I.mp3 
+│ 06.莫问沧桑 (莫沧桑).mp3 
+│ 07.落叶.mp3 
+│ 08.笛子二重奏.mp3 
+│ 09.云涛梦笔.mp3 
+│ 10.姜氏孤儿.mp3 
+│ 11.永远难忘.mp3 
+│ 12.ひとひらの雪.mp3 
+│ 13.无期.mp3 
+│ 14.思.mp3 
+│ 15.昔情难追.mp3 
+│ 16.キリンの決意.mp3 
+│ 17.琴心.mp3 
+│ 18.思念.mp3 
+│ 19.柔和主题.mp3 
+│ 20.悬念与等待.mp3 
+│ 21.雨后天台.mp3 
+│ 22.Leaving Without Goodbye.mp3 
+│ 23.风云榜(二胡.排笛独奏曲).mp3 
+│ 24.金子陵-阿轮钢琴独奏版.mp3 
+│ 25.兵燹重回大雪原.mp3 
+│ 26.老宅.mp3 
+│ 27.思念之风 (皇甫定涛排箫曲).mp3 
+│ 28.雨中哭泣 (仙鹤情缘音乐).mp3 
+│  
+├─07.武侠音乐系列之危机四伏（紧张） 
+│ 01.伏击.mp3 
+│ 02.大蛇.mp3 
+│ 03.大地之母.mp3 
+│ 04.革命家们.mp3 
+│ 05.深陷噩梦.mp3 
+│ 06.拜月.mp3 
+│ 07.陷害.mp3 
+│ 08.血.mp3 
+│ 09.女娲之后.mp3 
+│ 10.修炼.mp3 
+│ 11.阴阳师 阴极之体.mp3 
+│ 12.奇幻古典·未知篇.mp3 
+│ 13.逃.mp3 
+│ 14.紧张.mp3 
+│ 15 力挽狂涛.mp3 
+│ 16.五浊恶世 (妖溺天).mp3 
+│ 17.追.mp3 
+│ 18 危机.mp3 
+│ 19.阴界.mp3 
+│ 20.玉玺遭窃.mp3 
+│ 21.校场比武.mp3 
+│ 22.杀手生涯.mp3 
+│ 23.阴谋.mp3 
+│ 24.荒人邪影 (人邪).mp3 
+│ 25.剑拔弩张.mp3 
+│ 26.相逼.mp3 
+│  
+├─08.武侠音乐系列之古灵精怪（幽默） 
+│ 01.欢沁.mp3 
+│ 02.母与子.mp3 
+│ 03.荫尸人.mp3 
+│ 04.poya no yoru.mp3 
+│ 05.市集.mp3 
+│ 06.轻松（倚天剑屠龙刀）.lrc 
+│ 06.轻松（倚天剑屠龙刀）.mp3 
+│ 07.中原不败（音乐版）.Mp3 
+│ 08.求神（MMM）.mp3 
+│ 09.人间精灵.mp3 
+│ 10.麻将台上.mp3 
+│ 11.错把树根当人参.mp3 
+│ 12.黄飞鸿(无二胡,琵琶).lrc 
+│ 12.黄飞鸿(无二胡,琵琶).mp3 
+│ 13.柳腰细裙儿荡.mp3 
+│ 14.快乐(十兄弟).mp3 
+│ 15.轻快（飞狐外传）.mp3 
+│ 16.轻松(新龙门客栈).mp3 
+│ 17.沉睡爱情.mp3 
+│ 18.为何不死.mp3 
+│ 19.西风紧.mp3 
+│ 20.小八妹.mp3 
+│ 21.小宝本色.mp3 
+│ 22.掌柜与店小二.mp3 
+│ 23.瓜瓜一族.mp3 
+│ 24.主题(Har.)2.mp3 
+│ 25.小祕（最新版）.mp3 
+│  
+├─09.武侠音乐系列之后悔莫及（悔悟） 
+│ 01.莫失莫忘.mp3 
+│ 02.悲愤.mp3 
+│ 03.Waters of Irrawaddy.mp3 
+│ 04.桃花岛.mp3 
+│ 05.血色.mp3 
+│ 06.途穷反遭俗眼白(落难英雄).mp3 
+│ 07.爱恨情仇命里去.mp3 
+│ 08.大圣娶妻之片头曲.mp3 
+│ 09.悟.mp3 
+│ 10.潇湘子.mp3 
+│ 11.大地之炎.mp3 
+│ 12.求师 - 卫清风悲愤求师.mp3 
+│ 13.梦三刀.mp3 
+│ 14.悔.mp3 
+│ 15.恨爱交加.mp3 
+│ 16.黄沙漫漫 天险刀藏之死 (唢呐版).mp3 
+│ 17.恍如隔世.mp3 
+│ 18.只要为你活一天.mp3 
+│ 19.悲惨.mp3 
+│ 20.悟.mp3 
+│ 21.爱恨浮沉.mp3 
+│ 22.逍遥游（配乐）.lrc 
+│ 22.逍遥游（配乐）.mp3 
+│ 23.红楼梦序曲.mp3 
+│ 24.我的父亲母亲.lrc 
+│ 24.我的父亲母亲.mp3 
+│ 25.武术精神.mp3 
+│ 26.败走.mp3 
+│  
+├─10.武侠音乐系列之疗伤神法（疗养） 
+│ 01.故乡的原风景.mp3 
+│ 02.笑傲江湖曲（琴箫合奏）.lrc 
+│ 02.笑傲江湖曲（琴箫合奏）.mp3 
+│ 03.Nakasendo (The Old Road).mp3 
+│ 04.Tosa No Haru.mp3 
+│ 05.琴箫合奏（聊斋奇女子）.mp3 
+│ 06.宁月.mp3 
+│ 07.紫华弹筝.mp3 
+│ 08.万年风华 八趾麒麟-原曲.mp3 
+│ 09.昆仑.mp3 
+│ 10.双鹦.mp3 
+│ 11.世间情鸟.mp3 
+│ 12.琴箫合奏曲-射雕.mp3 
+│ 13.逍遙遊.lrc 
+│ 13.逍遙遊.mp3 
+│ 14.湖心亭.mp3 
+│ 15.南海.mp3 
+│ 16.桃林.mp3 
+│  
+├─11.武侠音乐系列之久别重逢（重逢） 
+│ 01.Happy Arabia.mp3 
+│ 02.剑子仙迹.mp3 
+│ 03.相会.mp3 
+│ 04.仙境莲踪(琉璃仙境).mp3 
+│ 05.Dm08.mp3 
+│ 06.妙音鸟.mp3 
+│ 07.city_c1 完美世界.mp3 
+│ 08.白雪映月.mp3 
+│ 09.御笔丹青-悦兰芳.Mp3 
+│ 10.武松杀嫂.mp3 
+│ 11.隐隐青山.mp3 
+│ 12.疏楼龙宿.mp3 
+│ 13.结拜.mp3 
+│ 14.舞台重逢.mp3 
+│ 15.白莲还真 (新素还真).mp3 
+│ 16.旧游如梦空肠断.mp3 
+│ 17.叹风流 (西城风流子).mp3 
+│  
+└─原声大碟.-.[武侠音乐系列.喜气洋洋.Vol.12.高兴].专辑.(MP3) 
+└─12.武侠音乐系列之喜气洋洋（高兴） 
+01.伽罗.mp3 
+02.金子陵.mp3 
+03.嬉戏.mp3 
+04.比翼鸟.lrc 
+04.比翼鸟.mp3 
+05.少年十五二十时.mp3 
+06.花爵百鍊生.mp3 
+07.o pura u pura.mp3 
+08.闲逸.mp3 
+09.可爱的老乞丐二胡演奏 (金包银).mp3 
+10.River Child.mp3 
+11.[书剑恩仇录]欣然.mp3 
+12.江南の大国-呉の参戦.mp3 
+13.从心所欲步怀真.mp3 
+14.Distantsuns.mp3 
+15.玩世不恭.mp3 
+16.相伴.mp3 
+17.阳春三月.mp3 
+18.非常女〈音乐版〉.mp3 
+19.成长.mp3 
+20.纵酒行.mp3 
+21.[聊斋]欢乐时光.mp3 
+22.快乐逍遥.lrc 
+22.快乐逍遥.mp3 
+23.Theme-Happy No.1.mp3 
+24.两小无情.Mp3 
+25. 新たなる誓い~刘备の婚礼.mp3 
+26.远い日.风はあおあお.mp3 
+27.舞鸟.mp3 
+28.开心做出戏.mp3 </p>
+<p>然后是战争类游戏常用的:  </p>
+<p>石破惊天 Hans Zimmeren </p>
+<p>杀死bill原声第一张专辑的 09-tomoyasu hotei battle without honor or humanity </p>
+<p>加勒比海盗He's a Pirate   </p>
+<p>Chariots Of Fire 这张专辑在被&lt;&lt;士兵突击&gt;&gt;使用后,在网页游戏上再一次风靡 </p>
+<p>一些比较面向女性玩家的游戏则大量选择了久石让的作品,太多了这里只说三个: </p>
+<p>Sping </p>
+<p> The Journey to the West </p>
+<p>The Legend of Ashitaka Theme </p>
+<p> 随着,背景选择西方的奇幻类游戏,则直接使用指环王,纳尼亚传奇,哈利波特等电影的OST. </p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../5.资源/1.1玩家利益转换系统.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../5.资源/storm1986网游策划设计空间原创文集2007-2010.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../5.资源/1.1玩家利益转换系统.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../5.资源/storm1986网游策划设计空间原创文集2007-2010.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
