@@ -1,7 +1,3 @@
----
-title: "./net/http/ProxyURL.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ProxyURL(fixedURL *url.URL) func(*Request) (*url.URL, error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./encoding/json/NewEncoder.md"
-date: 2022-05-12T14:13:01+08:00
----
 func NewEncoder(w io.Writer) *Encoder
 
 参数列表:

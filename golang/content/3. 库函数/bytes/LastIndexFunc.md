@@ -1,7 +1,3 @@
----
-title: "./bytes/LastIndexFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LastIndexFunc(s []byte, f func(r rune) bool) int
 
 参数列表

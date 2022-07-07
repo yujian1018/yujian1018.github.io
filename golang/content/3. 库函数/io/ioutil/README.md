@@ -1,7 +1,3 @@
----
-title: "./io/ioutil/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # 包名 ioutil
 
 函数列表

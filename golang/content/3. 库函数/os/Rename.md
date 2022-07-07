@@ -1,7 +1,3 @@
----
-title: "./os/Rename.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Rename(oldname, newname string) error
 
 参数列表

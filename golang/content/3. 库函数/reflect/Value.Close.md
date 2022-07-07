@@ -1,7 +1,3 @@
----
-title: "./reflect/Value.Close.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (v Value) Close()
 
 参数列表

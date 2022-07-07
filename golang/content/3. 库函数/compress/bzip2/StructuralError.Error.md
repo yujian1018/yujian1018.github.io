@@ -1,7 +1,3 @@
----
-title: "./compress/bzip2/StructuralError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (s StructuralError) Error() string
 
 返回值：非法的bzip2数据错误信息

@@ -1,9 +1,3 @@
----
-title: "7.17 hugo"
-date: 2019-08-30T10:56:29+08:00
-chapter: true
-weight: 07170000
----
 
 ## hugo 使用
 

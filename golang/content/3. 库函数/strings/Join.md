@@ -1,7 +1,3 @@
----
-title: "./strings/Join.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Join(a []string, sep string) string
 
 参数列表

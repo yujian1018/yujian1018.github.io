@@ -1,7 +1,3 @@
----
-title: "./path/filepath/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # path/filepath
 
 函数列表

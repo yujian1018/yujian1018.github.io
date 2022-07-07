@@ -1,7 +1,3 @@
----
-title: "./bufio/Reader_Peek.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Reader) Peek(n int) ([]byte, error)
 
 参数列表

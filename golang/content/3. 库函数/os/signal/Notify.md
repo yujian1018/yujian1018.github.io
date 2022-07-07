@@ -1,7 +1,3 @@
----
-title: "./os/signal/Notify.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Notify(c chan<- os.Signal, sig ...os.Signal)
 
 参数列表

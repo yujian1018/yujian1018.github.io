@@ -1,7 +1,3 @@
----
-title: "./sort/SearchStrings.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SearchStrings(a []string, x string) int
 
 参数列表

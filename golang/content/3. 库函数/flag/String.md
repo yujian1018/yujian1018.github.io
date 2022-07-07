@@ -1,7 +1,3 @@
----
-title: "./flag/String.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func String(name string, value string, usage string) *string
 
 参数列表

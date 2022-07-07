@@ -1,7 +1,3 @@
----
-title: "./time/ParseDuration.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ParseDuration(s string) (Duration, error)
 
 参数列表：

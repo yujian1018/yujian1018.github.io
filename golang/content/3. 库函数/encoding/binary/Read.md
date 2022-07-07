@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/Read.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Read(r io.Reader, order ByteOrder, data interface{}) error
 
 ###参数列表

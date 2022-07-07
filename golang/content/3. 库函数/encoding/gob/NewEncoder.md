@@ -1,7 +1,3 @@
----
-title: "./encoding/gob/NewEncoder.md"
-date: 2022-05-12T14:13:01+08:00
----
 func NewEncoder(w io.writer) *Encoder 
 
 参数列表:

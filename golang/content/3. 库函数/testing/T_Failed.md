@@ -1,7 +1,3 @@
----
-title: "./testing/T_Failed.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (c *B) Failed() bool
 
 参数列表

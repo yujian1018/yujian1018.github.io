@@ -1,7 +1,3 @@
----
-title: "./io/ioutil/ReadDir.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ReadDir(dirname string) ([]os.FileInfo, error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./sort/SearchFloat64s.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SearchFloat64s(a []float64, x float64) int
 
 参数列表

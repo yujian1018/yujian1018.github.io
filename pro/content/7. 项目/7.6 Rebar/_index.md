@@ -1,8 +1,3 @@
----
-title: "7.6 Rebar"
-weight: 07060000
-date: 2019-08-30T15:13:01+08:00
----
 <https://github.com/basho/rebar/>
 
 配置文件说明：<https://github.com/basho/rebar/blob/master/rebar.config.sample>

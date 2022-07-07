@@ -1,7 +1,3 @@
----
-title: "./reflect/MakeFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func MakeFunc(typ Type, fn func(args []Value) (results []Value)) Value
 参数列表
 

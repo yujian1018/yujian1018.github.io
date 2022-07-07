@@ -1,7 +1,3 @@
----
-title: "./net/http/MaxBytesReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func MaxBytesReader(w ResponseWriter, r io.ReadCloser, n int64) io.ReadCloser 
 
 参数

@@ -1,8 +1,3 @@
----
-title: "ubuntu 开机启动"
-date: 2019-08-30T15:13:01+08:00
-weight: 0
----
 
 ## ubuntu18.04
 

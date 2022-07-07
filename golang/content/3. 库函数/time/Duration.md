@@ -1,7 +1,3 @@
----
-title: "./time/Duration.md"
-date: 2022-05-12T14:13:01+08:00
----
 # type Duration int64
 
 以int64表示两个时间点之间的间隔（纳秒数），最多表示290年

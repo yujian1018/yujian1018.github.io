@@ -1,7 +1,3 @@
----
-title: "./os/Geteuid.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Geteuid() int
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Serve_ServeCodec.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (server *Server) ServeCodec(codec ServerCodec)
 
 参数列表

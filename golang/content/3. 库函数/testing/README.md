@@ -1,7 +1,3 @@
----
-title: "./testing/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # testing包
 
 testing包为go的代码包提供自动化测试支持。它的目标是与“go test”命令协同使用，以自动执行form的任何函数。

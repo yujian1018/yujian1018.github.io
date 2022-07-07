@@ -1,7 +1,3 @@
----
-title: "./io/PipeReader.CloseWithError.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (r *PipeReader) CloseWithError(err error) error
 
 参数：

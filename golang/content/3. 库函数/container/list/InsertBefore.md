@@ -1,7 +1,3 @@
----
-title: "./container/list/InsertBefore.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (l *List) InsertBefore(value interface{}, mark *Element) *Element
 
 参数列表：

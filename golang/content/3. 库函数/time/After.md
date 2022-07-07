@@ -1,7 +1,3 @@
----
-title: "./time/After.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func After(d Duration) <-chan Time
 参数列表：
 - d 时间跨度

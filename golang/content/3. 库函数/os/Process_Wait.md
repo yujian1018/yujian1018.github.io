@@ -1,7 +1,3 @@
----
-title: "./os/Process_Wait.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *Process) Wait() (*ProcessState, error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./net/http/ServeFile.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ServeFile(w ResponseWriter, r *Request, name string) 
 
 参数列表

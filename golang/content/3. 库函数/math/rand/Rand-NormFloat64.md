@@ -1,7 +1,3 @@
----
-title: "./math/rand/Rand-NormFloat64.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (*Rand) NormFloat64() float64
 
 返回值：

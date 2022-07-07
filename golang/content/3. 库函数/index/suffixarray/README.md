@@ -1,7 +1,3 @@
----
-title: "./index/suffixarray/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # suffixarray函数包列表
 
 函数列表

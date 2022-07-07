@@ -1,7 +1,3 @@
----
-title: "./net/CIDRMask.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func CIDRMask(ones, bits int) IPMask
 
 参数列表:

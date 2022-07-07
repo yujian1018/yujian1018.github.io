@@ -1,7 +1,3 @@
----
-title: "./reflect/ChanOf.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ChanOf(dir ChanDir, t Type) Type
 参数列表
 

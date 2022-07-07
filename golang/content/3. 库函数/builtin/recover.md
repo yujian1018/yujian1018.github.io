@@ -1,7 +1,3 @@
----
-title: "./builtin/recover.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func recover() interface{}
 
 参数列表：

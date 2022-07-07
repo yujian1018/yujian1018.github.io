@@ -1,7 +1,3 @@
----
-title: "./bufio/Writer_WriteByte.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Writer) WriteByte(c byte) error
 
 参数说明

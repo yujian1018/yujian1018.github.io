@@ -1,7 +1,3 @@
----
-title: "./reflect/Value.Method.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (v Value) Method(i int) Value
 
 参数列表

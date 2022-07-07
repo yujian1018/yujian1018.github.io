@@ -1,7 +1,3 @@
----
-title: "./strings/TrimRightFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func TrimRightFunc(s string, f func(rune) bool) string
 
 参数列表

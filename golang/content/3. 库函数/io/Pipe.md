@@ -1,7 +1,3 @@
----
-title: "./io/Pipe.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Pipe() (*PipeReader, *PipeWriter)
 
 返回值：

@@ -1,7 +1,3 @@
----
-title: "./fmt/Errorf.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Errorf(format string, a ...interface{}) error
 
 参数列表

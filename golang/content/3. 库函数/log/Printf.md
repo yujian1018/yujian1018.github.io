@@ -1,7 +1,3 @@
----
-title: "./log/Printf.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Printf(format string, v ...interface{})
 
 参数列表：

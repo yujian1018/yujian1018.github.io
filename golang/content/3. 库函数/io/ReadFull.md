@@ -1,7 +1,3 @@
----
-title: "./io/ReadFull.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ReadFull(r Reader, buf []byte) (n int, err error)
 
 参数：

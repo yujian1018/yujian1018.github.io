@@ -1,7 +1,3 @@
----
-title: "./path/filepath/VolumeName.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func VolumeName(path string) (v string)
 
 参数列表

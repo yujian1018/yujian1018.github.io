@@ -1,7 +1,3 @@
----
-title: "./net/http/ServeContent.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ServeContent(w ResponseWriter, req *Request, name string, modtime time.Time, content io.ReadSeeker) 
 
 参数列表

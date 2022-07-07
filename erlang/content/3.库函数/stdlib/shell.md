@@ -1,7 +1,3 @@
----
-title: "shell"
-date: 2019-08-30T15:13:01+08:00
----
 
 
 Eshell V5.10.2  (abort with ^G)  

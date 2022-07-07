@@ -1,7 +1,3 @@
----
-title: "./io/SectionReader.Read.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (s *SectionReader) Read(p []byte) (n int, err error)
 
 参数：

@@ -1,7 +1,3 @@
----
-title: "./io/PipeWriter.Close.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (w *PipeWriter) Close() error
 
 返回值：关闭是否成功，nil代表成功

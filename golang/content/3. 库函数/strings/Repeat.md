@@ -1,7 +1,3 @@
----
-title: "./strings/Repeat.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Repeat(s string, count int) string
 
 参数列表

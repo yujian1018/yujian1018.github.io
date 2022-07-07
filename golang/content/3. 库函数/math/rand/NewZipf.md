@@ -1,7 +1,3 @@
----
-title: "./math/rand/NewZipf.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewZipf(r *Rand, s float64, v float64, imax uint64) *Zipf
 
 参数列表:

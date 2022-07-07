@@ -1,7 +1,3 @@
----
-title: "./flag/FlagSetVar.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *FlagSet) Var(value Value, name string, usage string)
 
 参数列表

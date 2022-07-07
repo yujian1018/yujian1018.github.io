@@ -1,7 +1,3 @@
----
-title: "./bufio/Writer_Write.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Writer) Write(p []byte) (nn int, err error)
 
 参数说明

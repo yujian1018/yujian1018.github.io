@@ -1,7 +1,3 @@
----
-title: "./net/LookupPort.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LookupPort(network, service string) (port int, err error)
 
 参数列表:

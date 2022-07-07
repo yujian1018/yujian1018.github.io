@@ -1,7 +1,3 @@
----
-title: "./sort/Float64sAreSorted.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Float64sAreSorted(a []float64) bool
 
 参数列表

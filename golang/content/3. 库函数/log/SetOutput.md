@@ -1,7 +1,3 @@
----
-title: "./log/SetOutput.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SetOutput(w io.Writer)
 
 参数列表：

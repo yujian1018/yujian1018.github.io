@@ -1,7 +1,3 @@
----
-title: "./bytes/SplitAfter.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SplitAfter(s, sep []byte) [][]byte
 
 参数列表

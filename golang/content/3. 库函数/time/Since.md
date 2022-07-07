@@ -1,7 +1,3 @@
----
-title: "./time/Since.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Since(t Time) Duration
 
 参数列表：

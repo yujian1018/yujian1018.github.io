@@ -1,7 +1,3 @@
----
-title: "./os/user/LookupId.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LookupId(uid string) (*User, error)
 
 参数列表

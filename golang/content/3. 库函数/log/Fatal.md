@@ -1,7 +1,3 @@
----
-title: "./log/Fatal.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Fatal(v ...interface{})
 
 参数列表：

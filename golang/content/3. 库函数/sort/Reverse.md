@@ -1,7 +1,3 @@
----
-title: "./sort/Reverse.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##	func Reverse(data Interface) Interface
 
 参数列表

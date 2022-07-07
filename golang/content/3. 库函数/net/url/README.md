@@ -1,7 +1,3 @@
----
-title: "./net/url/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # 包名:net/url
 # 概术:
   Package url parses URLs and implements query escaping. 

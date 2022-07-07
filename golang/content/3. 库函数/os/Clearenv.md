@@ -1,7 +1,3 @@
----
-title: "./os/Clearenv.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Clearenv()
 
 参数列表

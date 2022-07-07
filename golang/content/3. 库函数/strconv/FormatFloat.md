@@ -1,7 +1,3 @@
----
-title: "./strconv/FormatFloat.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func FormatFloat(f float64, fmt byte, prec, bitSize int) string
 
 参数列表

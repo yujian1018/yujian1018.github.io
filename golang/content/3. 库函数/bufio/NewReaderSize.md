@@ -1,7 +1,3 @@
----
-title: "./bufio/NewReaderSize.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewReaderSize(rd io.Reader, size int) *Reader
 
 参数列表

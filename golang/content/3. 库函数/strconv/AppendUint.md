@@ -1,7 +1,3 @@
----
-title: "./strconv/AppendUint.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func AppendUint(dst []byte, i uint64, base int) []byte
 
 参数列表

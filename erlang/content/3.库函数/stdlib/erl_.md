@@ -1,7 +1,3 @@
----
-title: "erl_scan"
-date: 2019-08-30T15:13:01+08:00
----
 ```erlang
 1.{ok,Scanned,_} = erl_scan:string( "1+2*2+(2+4)/2." ).
     {ok,[{integer,1,1},

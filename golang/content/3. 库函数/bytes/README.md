@@ -1,7 +1,3 @@
----
-title: "./bytes/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # bytes
 
 bytes包实现了用于管理字节切片的函数，类似于strings包。

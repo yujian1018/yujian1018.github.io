@@ -1,7 +1,3 @@
----
-title: "./crypto/aes/NewCipher.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewCipher(key []byte) (cipher.Block, error)
 
 参数列表

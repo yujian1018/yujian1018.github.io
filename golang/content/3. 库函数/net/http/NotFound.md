@@ -1,7 +1,3 @@
----
-title: "./net/http/NotFound.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NotFound(w ResponseWriter, r *Request) 
 
 参数

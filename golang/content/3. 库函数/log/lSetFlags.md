@@ -1,7 +1,3 @@
----
-title: "./log/lSetFlags.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (l *Logger) SetFlags(flag int)
 
 参数列表：

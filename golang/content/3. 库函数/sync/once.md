@@ -1,7 +1,3 @@
----
-title: "./sync/once.md"
-date: 2022-05-12T14:13:01+08:00
----
 #Once
 
 Once结构如下：

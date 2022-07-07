@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.Size.md"
-date: 2022-05-12T14:13:01+08:00
----
 # Size() uintptr
 
 参数列表

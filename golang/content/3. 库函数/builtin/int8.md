@@ -1,7 +1,3 @@
----
-title: "./builtin/int8.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type int8 int8
 
 功能说明：

@@ -1,7 +1,3 @@
----
-title: "./os/ProcessState_Success.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *ProcessState) Success() bool
 
 参数列表

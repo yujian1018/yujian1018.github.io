@@ -1,7 +1,3 @@
----
-title: "./compress/flate/WriteError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (e *WriteError) Error() string
 
 返回值：表示flate输出数据的错误信息

@@ -1,7 +1,3 @@
----
-title: "./net/LookupCNAME.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LookupCNAME(name string) (cname string, err error)
 
 参数列表:

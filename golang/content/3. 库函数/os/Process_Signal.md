@@ -1,7 +1,3 @@
----
-title: "./os/Process_Signal.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *Process) Signal(sig Signal) error
 
 参数列表

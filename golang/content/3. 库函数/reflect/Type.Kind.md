@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.Kind.md"
-date: 2022-05-12T14:13:01+08:00
----
 # Kind() Kind
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./compress/flate/InternalError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (e InternalError) Error() string
 
 返回值：表示flate数据自身的错误信息

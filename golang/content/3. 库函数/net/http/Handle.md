@@ -1,7 +1,3 @@
----
-title: "./net/http/Handle.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func Handle(pattern string, handler Handler) 
 
 参数

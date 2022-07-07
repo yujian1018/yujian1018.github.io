@@ -1,7 +1,3 @@
----
-title: "./testing/T_Parallel.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (t *T) Parallel()
 
 参数列表

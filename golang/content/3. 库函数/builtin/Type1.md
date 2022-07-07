@@ -1,7 +1,3 @@
----
-title: "./builtin/Type1.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type Type1 int
 
 功能说明：

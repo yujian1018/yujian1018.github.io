@@ -1,7 +1,3 @@
----
-title: "./os/exec/StdoutPipe.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (c *Cmd) StdoutPipe() (io.ReadCloser, error)
 
 参数列表

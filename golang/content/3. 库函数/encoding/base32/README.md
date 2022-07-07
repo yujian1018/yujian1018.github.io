@@ -1,7 +1,3 @@
----
-title: "./encoding/base32/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # encoding/base32 包
 
 实现了 RFC 4648 定义的 base32 编码

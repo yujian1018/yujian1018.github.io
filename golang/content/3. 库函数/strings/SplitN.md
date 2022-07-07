@@ -1,7 +1,3 @@
----
-title: "./strings/SplitN.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func SplitN(s, sep string, n int) []string
 
 参数列表

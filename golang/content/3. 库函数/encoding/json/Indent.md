@@ -1,7 +1,3 @@
----
-title: "./encoding/json/Indent.md"
-date: 2022-05-12T14:13:01+08:00
----
 func Indent(dst *bytes.Buffer, src []byte, prefix, indent string) error
 
 参数列表:

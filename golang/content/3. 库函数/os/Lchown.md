@@ -1,7 +1,3 @@
----
-title: "./os/Lchown.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Lchown(name string, uid, gid int) error
 
 参数列表

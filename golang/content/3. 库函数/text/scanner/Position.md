@@ -1,7 +1,3 @@
----
-title: "./text/scanner/Position.md"
-date: 2022-05-12T14:13:01+08:00
----
 	type Position struct {
     	Filename string // 文件名，可能为空
     	Offset   int    // 位移，从0计

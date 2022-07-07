@@ -1,7 +1,3 @@
----
-title: "./compress/flate/Writer.Flush.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (w *Writer) Flush() error
 
 返回值：返回一个error，没有错误时该error为nil

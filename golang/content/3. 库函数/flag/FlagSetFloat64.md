@@ -1,7 +1,3 @@
----
-title: "./flag/FlagSetFloat64.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *FlagSet) Float64(name string, value float64, usage string) *float64
 
 

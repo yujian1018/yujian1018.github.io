@@ -1,7 +1,3 @@
----
-title: "./strings/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # strings包函数列表
 
 - [func Contains(s, substr string) bool](Contains.md) 

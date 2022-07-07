@@ -1,7 +1,3 @@
----
-title: "./bytes/TrimLeft.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func TrimLeft(s []byte, cutset string) []byte
 
 参数列表

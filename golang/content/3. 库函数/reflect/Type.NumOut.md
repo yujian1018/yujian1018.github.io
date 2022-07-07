@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.NumOut.md"
-date: 2022-05-12T14:13:01+08:00
----
 # NumOut() int
 
 参数列表

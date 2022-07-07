@@ -1,7 +1,3 @@
----
-title: "./bytes/Buffer_ReadString.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Buffer) ReadString(delim byte) (line string, err error)
 
 参数列表

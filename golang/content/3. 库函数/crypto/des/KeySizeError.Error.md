@@ -1,7 +1,3 @@
----
-title: "./crypto/des/KeySizeError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (k KeySizeError) Error() string
 
 参数列表

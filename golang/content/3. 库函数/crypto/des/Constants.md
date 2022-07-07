@@ -1,7 +1,3 @@
----
-title: "./crypto/des/Constants.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## const BlockSize = 8
 
 功能说明：

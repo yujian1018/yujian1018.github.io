@@ -1,7 +1,3 @@
----
-title: "./encoding/base32/DecodedLen.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (enc *Encoding) DecodedLen(n int) int
 
 参数列表：

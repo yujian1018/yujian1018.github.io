@@ -1,9 +1,3 @@
----
-title: "Go Project Layout"
-menuTitle: "Go Project Layout"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
 背景
 Go 没有对项目的 layout 有硬性规定，也没有官方版本的 best practice，所以社区内部有几种不同的实践方式，可根据自身需求自行参考。本文仅作简要总结。
 

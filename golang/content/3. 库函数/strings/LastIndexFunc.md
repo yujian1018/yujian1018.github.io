@@ -1,7 +1,3 @@
----
-title: "./strings/LastIndexFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func LastIndexFunc(s string, f func(rune) bool) int
 
 参数列表

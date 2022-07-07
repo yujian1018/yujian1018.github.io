@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.Implements.md"
-date: 2022-05-12T14:13:01+08:00
----
 # Implements(u Type) bool
 
 参数列表

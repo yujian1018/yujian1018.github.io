@@ -1,7 +1,3 @@
----
-title: "./html/template/HTMLEscaper.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func HTMLEscaper(args ...interface{}) string
 
 ##参数

@@ -1,7 +1,3 @@
----
-title: "./sync/atomic/loadint32.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func LoadInt32(addr *int32) (val int32)
 
 参数：

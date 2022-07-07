@@ -1,7 +1,3 @@
----
-title: "./os/File_Write.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) Write(b []byte) (n int, err error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./net/http/ListenAndServe.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func ListenAndServe(addr string, handler Handler) error 
 
 参数

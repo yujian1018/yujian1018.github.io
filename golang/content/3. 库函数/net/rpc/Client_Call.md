@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Client_Call.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (client *Client) Call(serviceMethod string, args interface{}, reply interface{}) error
 
 参数列表

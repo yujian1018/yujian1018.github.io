@@ -1,7 +1,3 @@
----
-title: "./io/Copy.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Copy(dst Writer, src Reader) (written int64, err error)
 
 参数：

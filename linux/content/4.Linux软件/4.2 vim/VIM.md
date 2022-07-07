@@ -1,8 +1,3 @@
----
-title: "4.2.1 VIM"
-weight: 04020100
-date: 2019-08-30T15:13:01+08:00
----
 <http://yuez.me/jiang-ni-de-vim-da-zao-cheng-qing-qiao-qiang-da-de-ide/>
 
 <http://www.cnblogs.com/ribavnu/p/3874386.html>

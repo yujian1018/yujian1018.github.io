@@ -1,7 +1,3 @@
----
-title: "./math/rand/Source.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type Source interface {
 ##		  Int63() int64
 ##  	  Seed(seed int64)

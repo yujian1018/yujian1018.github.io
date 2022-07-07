@@ -1,7 +1,3 @@
----
-title: "./net/http/Redirect.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Redirect(w ResponseWriter, r *Request, urlStr string, code int) 
 
 参数列表

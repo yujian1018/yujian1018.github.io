@@ -1,7 +1,3 @@
----
-title: "./os/exec/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # os/exec函数列表
 
 - [func LookPath(file string) (string, error)](LookPath.md)

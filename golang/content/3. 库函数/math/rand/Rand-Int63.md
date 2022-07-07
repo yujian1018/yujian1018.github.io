@@ -1,7 +1,3 @@
----
-title: "./math/rand/Rand-Int63.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (*Rand) Int63() int64
 
 返回值：

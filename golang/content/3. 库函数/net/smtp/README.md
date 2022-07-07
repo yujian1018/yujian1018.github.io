@@ -1,7 +1,3 @@
----
-title: "./net/smtp/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # net/smtp
 
 RFC 5321 (SMTP, Simple Mail Transfer Protocol, 简单邮件传输协议) 的 Golang 实现。想发邮件，你就找对了。

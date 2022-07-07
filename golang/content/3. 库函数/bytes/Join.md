@@ -1,7 +1,3 @@
----
-title: "./bytes/Join.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Join(a [][]byte, sep []byte) []byte
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./testing/B_StopTimer.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *B) StopTimer()
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./compress/flate/ReadError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (e *ReadError) Error() string
 
 返回值：表示flate读取拷贝数据时的错误信息

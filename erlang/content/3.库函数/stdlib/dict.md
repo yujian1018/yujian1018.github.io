@@ -1,7 +1,3 @@
----
-title: "dict"
-date: 2019-08-30T15:13:01+08:00
----
 
 
     dict是动态哈希表实现的字典.在接口上和orddict保持一致,在实现上和array动态扩展的思路类似, 与proplists,orddict相比它能够支持更大的数据量,你可以在数据量膨胀的时候从orddict转为dict.dict使用的是动态哈希技术实现,

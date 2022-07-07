@@ -1,7 +1,3 @@
----
-title: "./fmt/Fscanln.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Fscanln(r io.Reader, a ...interface{}) (n int, err error)
 
 参数列表

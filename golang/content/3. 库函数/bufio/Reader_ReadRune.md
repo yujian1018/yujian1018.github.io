@@ -1,7 +1,3 @@
----
-title: "./bufio/Reader_ReadRune.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Reader) ReadRune() (r rune, size int, err error)
 
 返回值

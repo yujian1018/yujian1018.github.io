@@ -1,7 +1,3 @@
----
-title: "./flag/FlagSetBool.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *FlagSet) Bool(name string, value bool, usage string) *bool
 
 参数列表

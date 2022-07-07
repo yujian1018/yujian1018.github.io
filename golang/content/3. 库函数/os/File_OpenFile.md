@@ -1,7 +1,3 @@
----
-title: "./os/File_OpenFile.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func OpenFile(name string, flag int, perm FileMode) (file *File, err error)
 
 参数列表

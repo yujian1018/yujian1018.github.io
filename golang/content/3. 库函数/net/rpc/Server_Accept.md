@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Server_Accept.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (server *Server) Accept(lis net.Listener)
 
 参数列表

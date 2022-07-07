@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Serve_ServeConn.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (server *Server) ServeConn(conn io.ReadWriteCloser)
 
 参数列表

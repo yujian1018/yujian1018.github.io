@@ -1,7 +1,3 @@
----
-title: "./builtin/cap.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func cap(v Type) int
 
 参数列表：

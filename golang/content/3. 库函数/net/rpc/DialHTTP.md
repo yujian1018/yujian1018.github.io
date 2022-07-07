@@ -1,7 +1,3 @@
----
-title: "./net/rpc/DialHTTP.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func DialHTTP(network, address string) (*Client, error)
 
 参数列表

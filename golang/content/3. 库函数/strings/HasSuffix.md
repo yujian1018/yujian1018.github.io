@@ -1,7 +1,3 @@
----
-title: "./strings/HasSuffix.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func HasSuffix(s, suffix string) bool
 
 参数列表

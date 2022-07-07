@@ -1,7 +1,3 @@
----
-title: "./index/suffixarray/Lookup.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (x *Index) Lookup(s []byte, n int) (result []int)
 
 参数列表

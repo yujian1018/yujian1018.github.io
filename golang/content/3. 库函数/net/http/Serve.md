@@ -1,7 +1,3 @@
----
-title: "./net/http/Serve.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Serve(l net.Listener, handler Handler) error
 
 参数列表

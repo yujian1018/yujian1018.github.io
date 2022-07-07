@@ -1,7 +1,3 @@
----
-title: "./sync/atomic/storeint32.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func StoreInt32(addr *int32, val int32)
 
 参数：

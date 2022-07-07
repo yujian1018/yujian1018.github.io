@@ -1,7 +1,3 @@
----
-title: "./os/ProcessState_Sys.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *ProcessState) Sys() interface{}
 
 参数列表

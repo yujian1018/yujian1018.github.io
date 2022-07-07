@@ -1,7 +1,3 @@
----
-title: "./time/Now.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Now() Time
 
 参数列表：

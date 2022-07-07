@@ -1,7 +1,3 @@
----
-title: "./path/filepath/Rel.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Rel(basepath, targpath string) (string, error)
 
 参数列表:

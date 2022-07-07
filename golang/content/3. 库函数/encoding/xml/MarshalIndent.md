@@ -1,7 +1,3 @@
----
-title: "./encoding/xml/MarshalIndent.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func MarshalIndent(v interface{}, prefix, indent string) ([]byte, error)
 
 参数列表:

@@ -1,7 +1,3 @@
----
-title: "./os/ProcessState_Exited.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *ProcessState) Exited() bool
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./os/FileMode_Perm.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (m FileMode) Perm() FileMode
 
 参数列表

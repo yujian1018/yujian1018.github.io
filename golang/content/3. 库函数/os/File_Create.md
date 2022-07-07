@@ -1,7 +1,3 @@
----
-title: "./os/File_Create.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Create(name string) (file *File, err error)
 
 参数列表

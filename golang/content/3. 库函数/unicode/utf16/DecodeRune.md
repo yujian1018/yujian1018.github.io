@@ -1,7 +1,3 @@
----
-title: "./unicode/utf16/DecodeRune.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func DecodeRune(r1, r2 runc) rune
 
 参数列表:

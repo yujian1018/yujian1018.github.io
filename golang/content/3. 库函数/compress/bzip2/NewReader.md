@@ -1,7 +1,3 @@
----
-title: "./compress/bzip2/NewReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func NewReader(r io.Reader) io.Reader
 
 参数列表：

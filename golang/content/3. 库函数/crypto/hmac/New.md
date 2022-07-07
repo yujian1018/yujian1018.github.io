@@ -1,7 +1,3 @@
----
-title: "./crypto/hmac/New.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func New(h func() hash.Hash, key []byte) hash.Hash
 
 参数列表

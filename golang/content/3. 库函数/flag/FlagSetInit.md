@@ -1,7 +1,3 @@
----
-title: "./flag/FlagSetInit.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *FlagSet) Init(name string, errorHandling ErrorHandling)
 
 参数列表

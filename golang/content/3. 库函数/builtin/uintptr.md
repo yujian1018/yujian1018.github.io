@@ -1,7 +1,3 @@
----
-title: "./builtin/uintptr.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type uintptr uintptr
 
 功能说明：

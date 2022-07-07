@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.PkgPath.md"
-date: 2022-05-12T14:13:01+08:00
----
 # PkgPath() string
 
 参数列表

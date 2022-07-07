@@ -1,7 +1,3 @@
----
-title: "./io/MultiReader.Read.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (mr *multiReader) Read(p []byte) (n int, err error)
 
 参数：

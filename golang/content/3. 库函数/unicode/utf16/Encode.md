@@ -1,7 +1,3 @@
----
-title: "./unicode/utf16/Encode.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Encode(s []rune) []utf16 
 
 参数列表: 

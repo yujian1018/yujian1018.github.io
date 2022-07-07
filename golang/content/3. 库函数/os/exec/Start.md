@@ -1,7 +1,3 @@
----
-title: "./os/exec/Start.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## (c *Cmd) Start() error
 
 参数列表

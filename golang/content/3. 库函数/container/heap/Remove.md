@@ -1,7 +1,3 @@
----
-title: "./container/heap/Remove.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Remove(h Interface, i int) interface{}
 
 参数列表：

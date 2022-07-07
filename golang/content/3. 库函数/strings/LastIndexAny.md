@@ -1,7 +1,3 @@
----
-title: "./strings/LastIndexAny.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func LastIndexAny(s, chars string) int
 
 参数列表

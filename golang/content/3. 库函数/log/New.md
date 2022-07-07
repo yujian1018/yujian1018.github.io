@@ -1,7 +1,3 @@
----
-title: "./log/New.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func New(out io.Writer, prefix string, flag int) *Logger
 
 参数列表：

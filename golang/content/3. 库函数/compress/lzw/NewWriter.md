@@ -1,7 +1,3 @@
----
-title: "./compress/lzw/NewWriter.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func NewWriter(w io.Writer, order Order, litWidth int) io.WriteCloser
 
 参数列表：

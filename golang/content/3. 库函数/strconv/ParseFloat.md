@@ -1,7 +1,3 @@
----
-title: "./strconv/ParseFloat.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ParseFloat(s string, bitSize int) (f float64, err error)
 
 参数列表

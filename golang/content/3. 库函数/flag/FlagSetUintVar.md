@@ -1,7 +1,3 @@
----
-title: "./flag/FlagSetUintVar.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *FlagSet) UintVar(p *uint, name string, value uint, usage string)
 
 参数列表

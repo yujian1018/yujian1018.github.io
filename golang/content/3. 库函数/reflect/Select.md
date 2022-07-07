@@ -1,7 +1,3 @@
----
-title: "./reflect/Select.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Select(cases []SelectCase) (chosen int, recv Value, recvOK bool)
 参数列表
 

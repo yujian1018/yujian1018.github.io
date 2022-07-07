@@ -1,7 +1,3 @@
----
-title: "./net/LookupSRV.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LookupSRV(service, proto, name string) (cname string, addrs []*SRV, err error)
 
 参数列表:

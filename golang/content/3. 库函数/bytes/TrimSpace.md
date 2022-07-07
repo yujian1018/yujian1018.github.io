@@ -1,7 +1,3 @@
----
-title: "./bytes/TrimSpace.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func TrimSpace(s []byte) []byte
 
 参数列表

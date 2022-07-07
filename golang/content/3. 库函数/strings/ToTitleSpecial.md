@@ -1,7 +1,3 @@
----
-title: "./strings/ToTitleSpecial.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ToTitleSpecial(_case unicode.SpecialCase, s string) string
 
 参数列表

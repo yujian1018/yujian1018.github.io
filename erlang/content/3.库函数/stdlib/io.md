@@ -1,7 +1,3 @@
----
-title: "io"
-date: 2019-08-30T15:13:01+08:00
----
 
 
 ![pic](/imagesscreenshot_1534761017270.png)

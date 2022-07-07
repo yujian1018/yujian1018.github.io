@@ -1,7 +1,3 @@
----
-title: "./os/File_Readdir.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) Readdir(n int) (fi []FileInfo, err error)
 
 参数列表

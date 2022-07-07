@@ -1,7 +1,3 @@
----
-title: "./crypto/rc4/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # crypto/rc4包函数列表
 
 - [type Cipher](Cipher.md) 

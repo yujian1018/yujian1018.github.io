@@ -1,7 +1,3 @@
----
-title: "./io/SectionReader.Seek.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (s *SectionReader) Seek(offset int64, whence int) (ret int64, err error)
 
 参数：

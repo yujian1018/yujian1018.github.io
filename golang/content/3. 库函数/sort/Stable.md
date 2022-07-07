@@ -1,7 +1,3 @@
----
-title: "./sort/Stable.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Stable(data Interface) 
 
 参数列表

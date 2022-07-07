@@ -1,9 +1,3 @@
----
-title: "Eventslist"
-menuTitle: "Eventslist"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
 Here is the list of available events in ejabberd. The types of the corresponding hooks parameters is described below.
 
 adhoc_local_items(Acc, From, To, Lang) -> Adhoc

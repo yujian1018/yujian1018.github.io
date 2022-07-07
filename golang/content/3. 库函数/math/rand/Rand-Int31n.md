@@ -1,7 +1,3 @@
----
-title: "./math/rand/Rand-Int31n.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (*Rand) Int31n(n int32) int32
 
 参数列表

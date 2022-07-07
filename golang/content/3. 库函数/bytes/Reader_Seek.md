@@ -1,7 +1,3 @@
----
-title: "./bytes/Reader_Seek.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (r *Reader) Seek(offset int64, whence int) (int64, error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./time/Constants.md"
-date: 2022-05-12T14:13:01+08:00
----
 # Constants
 
     ANSIC       = "Mon Jan _2 15:04:05 2006"

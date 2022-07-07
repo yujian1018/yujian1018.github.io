@@ -1,7 +1,3 @@
----
-title: "application_sup.erl"
-date: 2019-08-30T15:13:01+08:00
----
 
 
 ![图片](/images/screenshot_1534592134230.png)

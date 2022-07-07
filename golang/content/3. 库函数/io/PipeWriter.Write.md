@@ -1,7 +1,3 @@
----
-title: "./io/PipeWriter.Write.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (w *PipeWriter) Write(data []byte) (n int, err error)
 
 参数：

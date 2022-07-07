@@ -1,7 +1,3 @@
----
-title: "./os/Setenv.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Setenv(key, value string) error
 
 参数列表

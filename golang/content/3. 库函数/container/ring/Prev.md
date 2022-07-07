@@ -1,7 +1,3 @@
----
-title: "./container/ring/Prev.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (r *Ring) Prev() *Ring
 
 返回值：

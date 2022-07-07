@@ -1,7 +1,3 @@
----
-title: "./strings/Replace.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Replace(s, old, new string, n int) string
 
 参数列表

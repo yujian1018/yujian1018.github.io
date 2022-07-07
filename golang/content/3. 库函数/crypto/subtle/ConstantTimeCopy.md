@@ -1,7 +1,3 @@
----
-title: "./crypto/subtle/ConstantTimeCopy.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ConstantTimeCopy(v int, x, y []byte)
 
 参数列表

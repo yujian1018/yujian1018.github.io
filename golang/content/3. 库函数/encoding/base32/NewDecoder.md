@@ -1,7 +1,3 @@
----
-title: "./encoding/base32/NewDecoder.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewDecoder(enc *Encoding, r io.Reader) io.Reader
 
 参数列表：

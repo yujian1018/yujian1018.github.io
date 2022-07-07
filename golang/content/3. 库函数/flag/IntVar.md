@@ -1,7 +1,3 @@
----
-title: "./flag/IntVar.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func IntVar(p *int, name string, value int, usage string)
 
 参数列表

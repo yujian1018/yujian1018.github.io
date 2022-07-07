@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Serve_ServeHTTP.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (server *Server) ServeHTTP(w http.ResponseWriter, req *http.Request)
 
 参数列表

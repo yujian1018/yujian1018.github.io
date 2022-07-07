@@ -1,7 +1,3 @@
----
-title: "./index/suffixarray/New.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func New(data []byte) *Index
 参数列表
 

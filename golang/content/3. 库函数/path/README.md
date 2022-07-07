@@ -1,7 +1,3 @@
----
-title: "./path/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # path函数列表
 
 - [func Base(path string) string](Base.md)

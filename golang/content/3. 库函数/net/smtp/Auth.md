@@ -1,7 +1,3 @@
----
-title: "./net/smtp/Auth.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type Auth
 
 Auth 是一个接口类型, 用于表示 smtp 认证过程中的具体方法.

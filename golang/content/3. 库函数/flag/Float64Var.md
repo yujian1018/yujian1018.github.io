@@ -1,7 +1,3 @@
----
-title: "./flag/Float64Var.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Float64Var(p *float64, name string, value float64, usage string)
 
 参数列表

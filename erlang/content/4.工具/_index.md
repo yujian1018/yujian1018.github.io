@@ -1,9 +1,3 @@
----
-title: "工具"
-date: 2019-08-30T15:13:01+08:00
-weight: 04000000
-pre: "<b>4. </b>"
----
 ## 1
 
 ERTS Erlang Runtime System Application 运行

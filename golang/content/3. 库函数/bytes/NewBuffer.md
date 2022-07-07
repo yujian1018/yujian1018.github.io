@@ -1,7 +1,3 @@
----
-title: "./bytes/NewBuffer.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewBuffer(buf []byte) *Buffer
 
 参数列表

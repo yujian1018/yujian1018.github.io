@@ -1,7 +1,3 @@
----
-title: "filelib"
-date: 2019-08-30T15:13:01+08:00
----
 ```erlang
 file utilities, such as wildcard matching of filenames
 

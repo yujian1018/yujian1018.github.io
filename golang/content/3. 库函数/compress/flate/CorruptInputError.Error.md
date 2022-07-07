@@ -1,7 +1,3 @@
----
-title: "./compress/flate/CorruptInputError.Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (e CorruptInputError) Error() string
 
 返回值：在输入的指定偏移量位置存在损坏的错误信息

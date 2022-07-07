@@ -1,7 +1,3 @@
----
-title: "./testing/B_Fatalf.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (c *B) Fatalf(format string, args ...interface{})
 
 参数列表

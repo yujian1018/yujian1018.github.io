@@ -1,7 +1,3 @@
----
-title: "./database/sql/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # sql包
 
 sql包实现了基于sql的通用接口，里面有查询、执行、事务等接口

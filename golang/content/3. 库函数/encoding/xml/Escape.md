@@ -1,7 +1,3 @@
----
-title: "./encoding/xml/Escape.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func Escape(w io.Writer, s []byte)
 
 参数列表:

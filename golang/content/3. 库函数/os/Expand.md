@@ -1,7 +1,3 @@
----
-title: "./os/Expand.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Expand(s string, mapping func(string) string) string
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./flag/Arg.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Arg(i int) string
 
 参数列表

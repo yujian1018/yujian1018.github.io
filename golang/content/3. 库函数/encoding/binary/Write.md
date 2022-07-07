@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/Write.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## Write(w io.Writer, order ByteOrder, data interface{}) error
 
 ###参数列表

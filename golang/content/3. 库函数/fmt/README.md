@@ -1,7 +1,3 @@
----
-title: "./fmt/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # fmt 包函数列表
 
 - [func Printf(format string, a ...interface{}) (n int, err error)](Printf.md)

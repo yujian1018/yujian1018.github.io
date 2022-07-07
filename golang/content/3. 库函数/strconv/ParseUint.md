@@ -1,7 +1,3 @@
----
-title: "./strconv/ParseUint.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ParseUint(s string, base int, bitSize int) (n uint64, err error)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./os/File_Stat.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) Stat() (fi FileInfo, err error)
 
 参数列表

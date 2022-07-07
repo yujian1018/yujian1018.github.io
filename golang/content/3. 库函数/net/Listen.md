@@ -1,7 +1,3 @@
----
-title: "./net/Listen.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Listen(net, laddr string) (Listener, error)
 
 参数列表:

@@ -1,7 +1,3 @@
----
-title: "./io/ioutil/NopCloser.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func NopCloser(r io.Reader) io.ReadCloser
 
 参数列表

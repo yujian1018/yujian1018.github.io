@@ -1,7 +1,3 @@
----
-title: "application.app.src"
-date: 2019-08-30T15:13:01+08:00
----
 
 
 ```config

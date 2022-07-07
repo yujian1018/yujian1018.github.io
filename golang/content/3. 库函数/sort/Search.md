@@ -1,7 +1,3 @@
----
-title: "./sort/Search.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Search(n int, f func(int) bool) int 
 
 参数列表

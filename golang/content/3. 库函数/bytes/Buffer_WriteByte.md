@@ -1,7 +1,3 @@
----
-title: "./bytes/Buffer_WriteByte.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Buffer) WriteByte(c byte) error
 
 参数列表

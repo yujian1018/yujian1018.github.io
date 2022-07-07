@@ -1,7 +1,3 @@
----
-title: "./unicode/utf16/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # utf16 包函数列表
 
 - [func Decode(s []utf16) []rune](Decode.md)

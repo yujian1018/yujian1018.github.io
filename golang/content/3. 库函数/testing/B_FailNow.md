@@ -1,7 +1,3 @@
----
-title: "./testing/B_FailNow.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (c *B) FailNow()
 
 参数列表

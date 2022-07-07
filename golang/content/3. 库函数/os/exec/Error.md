@@ -1,7 +1,3 @@
----
-title: "./os/exec/Error.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (e *Error) Error() string
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./net/DNSError.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## 结构 DNSError
 
 DNSError 错误结构 - 请参考 Error包

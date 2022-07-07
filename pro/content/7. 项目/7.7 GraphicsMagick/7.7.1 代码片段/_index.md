@@ -1,9 +1,3 @@
----
-title: "7.7.1 代码片段"
-weight: 07070100
-date: 2019-08-30T15:13:01+08:00
-chapter: true
----
 
 |   显示图像文件详细信息  |  gm identify a.jpg  |
 | --- | --- |

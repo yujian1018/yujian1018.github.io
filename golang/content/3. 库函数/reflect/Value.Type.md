@@ -1,7 +1,3 @@
----
-title: "./reflect/Value.Type.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (v Value) Type() Type
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./math/rand/Float32.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Float32() float32
 
 返回值：

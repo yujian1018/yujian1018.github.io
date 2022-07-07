@@ -1,7 +1,3 @@
----
-title: "./bufio/Reader_Buffered.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Reader) Buffered() int
 
 返回值：

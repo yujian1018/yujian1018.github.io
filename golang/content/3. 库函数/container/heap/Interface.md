@@ -1,7 +1,3 @@
----
-title: "./container/heap/Interface.md"
-date: 2022-05-12T14:13:01+08:00
----
 # type Interface
 
 接口代码：

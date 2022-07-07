@@ -1,7 +1,3 @@
----
-title: "./testing/B_StartTimer.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *B) StartTimer()
 
 参数列表

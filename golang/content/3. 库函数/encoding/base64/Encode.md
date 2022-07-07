@@ -1,7 +1,3 @@
----
-title: "./encoding/base64/Encode.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (enc *Encoding) Encode(dst, src []byte)
 
 参数列表：

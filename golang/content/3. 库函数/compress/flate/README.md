@@ -1,7 +1,3 @@
----
-title: "./compress/flate/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# 包名 compress/flate
 
 常量列表

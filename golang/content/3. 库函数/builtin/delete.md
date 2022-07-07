@@ -1,7 +1,3 @@
----
-title: "./builtin/delete.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func delete(m map[Type]Type1, key Type)
 
 参数列表：

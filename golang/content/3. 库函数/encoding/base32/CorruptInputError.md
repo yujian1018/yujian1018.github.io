@@ -1,7 +1,3 @@
----
-title: "./encoding/base32/CorruptInputError.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (e CorruptInputError) Error() string
 
 参数列表：

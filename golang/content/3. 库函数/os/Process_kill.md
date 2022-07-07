@@ -1,7 +1,3 @@
----
-title: "./os/Process_kill.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *Process) Kill() error
 
 参数列表

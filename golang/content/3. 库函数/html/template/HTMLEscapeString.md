@@ -1,7 +1,3 @@
----
-title: "./html/template/HTMLEscapeString.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func HTMLEscapeString(s string) string
 
 ##参数

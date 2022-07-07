@@ -1,7 +1,3 @@
----
-title: "./bytes/Buffer_Len.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Buffer) Len() int
 
 返回值

@@ -1,7 +1,3 @@
----
-title: "./net/ResolveIPAddr.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ResolveIPAddr(net, addr string) (*IPAddr, error)
 
 参数列表:

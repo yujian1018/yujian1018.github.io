@@ -1,7 +1,3 @@
----
-title: "./log/lPanic.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (l *Logger) Panic(v ...interface{})
 
 参数列表：

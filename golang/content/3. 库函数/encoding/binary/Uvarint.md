@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/Uvarint.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Uvarint(buf []byte) (uint64, int)
 
 ###参数列表

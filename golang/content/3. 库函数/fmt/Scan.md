@@ -1,7 +1,3 @@
----
-title: "./fmt/Scan.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Scan(a ...interface{}) (n int, err error)
 
 参数列表

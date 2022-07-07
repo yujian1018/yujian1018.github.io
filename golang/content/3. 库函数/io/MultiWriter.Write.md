@@ -1,7 +1,3 @@
----
-title: "./io/MultiWriter.Write.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (t *multiWriter) Write(p []byte) (n int, err error)
 
 参数：

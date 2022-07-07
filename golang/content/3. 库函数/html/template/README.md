@@ -1,7 +1,3 @@
----
-title: "./html/template/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 #html/template包
 
 ##概述

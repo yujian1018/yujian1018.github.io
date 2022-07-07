@@ -1,7 +1,3 @@
----
-title: "./sync/type_locker.md"
-date: 2022-05-12T14:13:01+08:00
----
 #type Locker
 
 Locker是一个接口类型。

@@ -1,7 +1,3 @@
----
-title: "./bytes/Buffer_Next.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Buffer) Next(n int) []byte
 
 参数列表

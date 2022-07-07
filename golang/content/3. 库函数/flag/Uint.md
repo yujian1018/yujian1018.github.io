@@ -1,7 +1,3 @@
----
-title: "./flag/Uint.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Uint(name string, value uint, usage string) *uint
 
 参数列表

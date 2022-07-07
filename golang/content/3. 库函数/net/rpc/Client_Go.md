@@ -1,7 +1,3 @@
----
-title: "./net/rpc/Client_Go.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (client *Client) Go(serviceMethod string, args interface{}, reply interface{}, done chan *Call) *Call
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./builtin/uint32.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type uint32 uint32
 
 功能说明：

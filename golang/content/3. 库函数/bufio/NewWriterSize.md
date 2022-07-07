@@ -1,7 +1,3 @@
----
-title: "./bufio/NewWriterSize.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewWriterSize(wr io.Writer, size int) *Writer
 
 参数列表

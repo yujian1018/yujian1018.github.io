@@ -1,7 +1,3 @@
----
-title: "./fmt/Scanf.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Scanf(format string, a ...interface{}) (n int, err error)
 
 参数列表

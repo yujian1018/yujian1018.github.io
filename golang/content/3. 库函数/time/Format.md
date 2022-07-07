@@ -1,7 +1,3 @@
----
-title: "./time/Format.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (t Time) Format(layout string) string
 
 参数列表：

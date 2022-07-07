@@ -1,7 +1,3 @@
----
-title: "./strings/IndexRune.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func IndexRune(s string, r rune) int
 
 参数列表

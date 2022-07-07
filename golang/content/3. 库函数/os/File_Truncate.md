@@ -1,7 +1,3 @@
----
-title: "./os/File_Truncate.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) Truncate(size int64) error
 
 参数列表

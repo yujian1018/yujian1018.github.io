@@ -1,7 +1,3 @@
----
-title: "./unicode/utf16/Decode.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func Decode(s []uint16) []rune
 
 函数列表

@@ -1,7 +1,3 @@
----
-title: "./os/exec/Command.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Command(name string, arg ...string) *Cmd
 
 参数列表

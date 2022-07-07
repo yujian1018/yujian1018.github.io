@@ -1,7 +1,3 @@
----
-title: "./io/NewSectionReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func NewSectionReader(r ReaderAt, off int64, n int64) *SectionReader
 
 参数：

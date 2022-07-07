@@ -1,7 +1,3 @@
----
-title: "./net/Dial.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Dial(net, addr string) (Conn, error)
 
 参数列表:

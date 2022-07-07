@@ -1,7 +1,3 @@
----
-title: "./reflect/Value.TryRecv.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (v Value) TryRecv() (x Value, ok bool)
 
 参数列表

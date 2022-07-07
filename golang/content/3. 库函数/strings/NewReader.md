@@ -1,7 +1,3 @@
----
-title: "./strings/NewReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 # type Reader
  Reader是通过读取一个字符串之后实现了io.Reader, io.ReaderAt, io.Seeker, io.ByteScanner, 和io.RuneScanner 接口
 

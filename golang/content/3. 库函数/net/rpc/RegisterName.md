@@ -1,7 +1,3 @@
----
-title: "./net/rpc/RegisterName.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func RegisterName(name string, rcvr interface{}) error
 
 参数列表

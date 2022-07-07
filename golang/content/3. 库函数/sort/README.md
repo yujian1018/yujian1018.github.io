@@ -1,7 +1,3 @@
----
-title: "./sort/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # sort包函数列表
 
 - [Float64s(a []float64)](Float64s.md)

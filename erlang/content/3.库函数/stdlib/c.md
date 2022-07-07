@@ -1,7 +1,3 @@
----
-title: "c"
-date: 2019-08-30T15:13:01+08:00
----
 Command Interface Module
 
 ![pic](/images/screenshot_1534642567117.png)

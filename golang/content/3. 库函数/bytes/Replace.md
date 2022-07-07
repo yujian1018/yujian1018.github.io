@@ -1,7 +1,3 @@
----
-title: "./bytes/Replace.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Replace(s, old, new []byte, n int) []byte
 
 参数列表

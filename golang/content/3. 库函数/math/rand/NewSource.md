@@ -1,7 +1,3 @@
----
-title: "./math/rand/NewSource.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewSource(seed int64) Source
 
 参数列表:

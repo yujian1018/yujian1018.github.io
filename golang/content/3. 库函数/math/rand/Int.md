@@ -1,7 +1,3 @@
----
-title: "./math/rand/Int.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Int() int
 
 返回值：

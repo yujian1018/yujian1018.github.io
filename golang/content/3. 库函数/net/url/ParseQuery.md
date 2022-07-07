@@ -1,7 +1,3 @@
----
-title: "./net/url/ParseQuery.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func ParseQuery(query string) (m Values, err error)
 
 [参数列表]：

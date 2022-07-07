@@ -1,7 +1,3 @@
----
-title: "./errors/New.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func New(text string) error
 
 参数列表

@@ -1,8 +1,3 @@
----
-title: "erts"
-date: 2019-08-30T10:56:29+08:00
-chapter: true
----
 
 ![图片](/images/screenshot_1534592557765.png)
 

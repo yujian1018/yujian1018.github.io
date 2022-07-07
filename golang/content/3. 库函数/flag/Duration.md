@@ -1,7 +1,3 @@
----
-title: "./flag/Duration.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Duration(name string, value time.Duration, usage string) *time.Duration
 
 参数列表

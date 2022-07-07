@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # encoding/binary
 
 此包实现了对数据与byte之间的转换，以及varint的编解码。

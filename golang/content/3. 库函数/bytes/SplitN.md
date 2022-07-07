@@ -1,7 +1,3 @@
----
-title: "./bytes/SplitN.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SplitN(s, sep []byte, n int) [][]byte
 
 参数列表

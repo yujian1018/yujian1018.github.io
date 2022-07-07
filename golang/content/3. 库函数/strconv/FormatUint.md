@@ -1,7 +1,3 @@
----
-title: "./strconv/FormatUint.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func FormatUint(i uint64, base int) string
 
 参数列表

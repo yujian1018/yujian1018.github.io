@@ -1,7 +1,3 @@
----
-title: "./io/WriteString.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func WriteString(w Writer, s string) (n int, err error)
 
 参数：

@@ -1,7 +1,3 @@
----
-title: "./math/rand/Rand-Int63n.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (*Rand) Int63n(n int64) int64
 
 参数列表

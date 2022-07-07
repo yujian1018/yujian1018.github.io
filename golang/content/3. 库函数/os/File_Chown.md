@@ -1,7 +1,3 @@
----
-title: "./os/File_Chown.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) Chown(uid, gid int) error
 
 参数列表

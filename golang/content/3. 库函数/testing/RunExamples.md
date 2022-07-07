@@ -1,7 +1,3 @@
----
-title: "./testing/RunExamples.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func RunExamples(matchString func(pat, str string) (bool, error), examples []InternalExample) (ok bool)
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./os/File_WriteString.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (f *File) WriteString(s string) (ret int, err error)
 
 参数列表

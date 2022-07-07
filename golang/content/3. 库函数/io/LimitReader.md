@@ -1,7 +1,3 @@
----
-title: "./io/LimitReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func LimitReader(r Reader, n int64) Reader
 
 参数：

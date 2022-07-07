@@ -1,7 +1,3 @@
----
-title: "./bufio/Reader_ReadLine.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Reader) ReadLine() (line []byte, isPrefix bool, err error)
 
 返回值

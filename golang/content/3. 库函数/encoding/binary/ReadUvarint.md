@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/ReadUvarint.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ReadUvarint(r io.ByteReader) (uint64, error)
 
 ###参数列表

@@ -1,7 +1,3 @@
----
-title: "./net/http/StatusText.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func StatusText(code int) string 
 
 参数列表

@@ -1,7 +1,3 @@
----
-title: "./strings/TrimRight.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func TrimRight(s string, cutset string) string
 
 参数列表

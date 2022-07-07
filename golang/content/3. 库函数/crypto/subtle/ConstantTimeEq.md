@@ -1,7 +1,3 @@
----
-title: "./crypto/subtle/ConstantTimeEq.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ConstantTimeEq(x, y int32) int
 
 参数列表

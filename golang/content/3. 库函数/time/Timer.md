@@ -1,7 +1,3 @@
----
-title: "./time/Timer.md"
-date: 2022-05-12T14:13:01+08:00
----
 # type Timer Struct {
 #		C <-Time
 # }

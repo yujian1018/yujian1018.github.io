@@ -1,7 +1,3 @@
----
-title: "./bytes/Index.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Index(s, sep []byte) int
 
 参数列表

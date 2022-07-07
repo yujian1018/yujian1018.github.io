@@ -1,7 +1,3 @@
----
-title: "./encoding/base32/NewEncoder.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewEncoder(enc *Encoding, w io.Writer) io.WriteCloser
 
 参数列表：

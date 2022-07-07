@@ -1,7 +1,3 @@
----
-title: "./os/File_NewFile.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func NewFile(fd uintptr, name string) *File
 
 参数列表

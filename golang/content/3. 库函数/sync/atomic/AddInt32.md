@@ -1,7 +1,3 @@
----
-title: "./sync/atomic/AddInt32.md"
-date: 2022-05-12T14:13:01+08:00
----
 # fuc AddInt32(val *int32, delta int32) (new int32)
 
 

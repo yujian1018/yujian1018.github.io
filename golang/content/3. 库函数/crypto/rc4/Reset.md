@@ -1,7 +1,3 @@
----
-title: "./crypto/rc4/Reset.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (c *Cipher) Reset()
 
 参数列表

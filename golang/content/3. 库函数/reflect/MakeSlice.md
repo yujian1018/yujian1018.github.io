@@ -1,7 +1,3 @@
----
-title: "./reflect/MakeSlice.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func MakeSlice(typ Type, len, cap int) Valu
 
 参数列表

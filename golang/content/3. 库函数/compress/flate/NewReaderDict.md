@@ -1,7 +1,3 @@
----
-title: "./compress/flate/NewReaderDict.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func NewReaderDict(r io.Reader, dict []byte) io.ReadCloser
 
 参数列表

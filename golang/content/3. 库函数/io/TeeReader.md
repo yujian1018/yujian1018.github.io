@@ -1,7 +1,3 @@
----
-title: "./io/TeeReader.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func TeeReader(r Reader, w Writer) Reader
 
 参数：

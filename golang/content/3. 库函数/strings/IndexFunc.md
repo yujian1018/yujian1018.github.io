@@ -1,7 +1,3 @@
----
-title: "./strings/IndexFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func IndexFunc(s string, f func(rune) bool) int
 
 参数列表

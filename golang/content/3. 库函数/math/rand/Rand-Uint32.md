@@ -1,7 +1,3 @@
----
-title: "./math/rand/Rand-Uint32.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (*Rand) Uint32() uint32
 
 返回值：

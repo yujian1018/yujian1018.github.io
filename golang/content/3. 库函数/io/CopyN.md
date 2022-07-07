@@ -1,7 +1,3 @@
----
-title: "./io/CopyN.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func CopyN(dst Writer, src Reader, n int64) (written int64, err error)
 
 参数：

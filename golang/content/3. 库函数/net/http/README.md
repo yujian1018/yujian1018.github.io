@@ -1,7 +1,3 @@
----
-title: "./net/http/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # net http
 - [func CanonicalHeaderKey(s string) string](CanonicalHeaderKey.md)
 - [func DetectContentType(data []byte) string](DetectContentType.md)

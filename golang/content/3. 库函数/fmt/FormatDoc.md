@@ -1,7 +1,3 @@
----
-title: "./fmt/FormatDoc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # package fmt
 ## package 中的 format 说明
 

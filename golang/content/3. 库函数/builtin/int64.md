@@ -1,7 +1,3 @@
----
-title: "./builtin/int64.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type int64 int64
 
 功能说明：

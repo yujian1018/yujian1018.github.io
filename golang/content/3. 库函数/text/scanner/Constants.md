@@ -1,7 +1,3 @@
----
-title: "./text/scanner/Constants.md"
-date: 2022-05-12T14:13:01+08:00
----
 	const (
     	ScanIdents     = 1 << -Ident
     	ScanInts       = 1 << -Int

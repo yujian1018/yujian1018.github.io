@@ -1,7 +1,3 @@
----
-title: "./net/LookupIP.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func LookupIP(host string) (addrs []IP, err error)
 
 参数列表:

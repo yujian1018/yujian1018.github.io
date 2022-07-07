@@ -1,7 +1,3 @@
----
-title: "./strconv/ParseBool.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func ParseBool(str string) (value bool, err error)
 
 参数列表

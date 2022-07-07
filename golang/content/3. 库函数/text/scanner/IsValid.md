@@ -1,7 +1,3 @@
----
-title: "./text/scanner/IsValid.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (pos *Position) IsValid() bool
 
 参数列表：

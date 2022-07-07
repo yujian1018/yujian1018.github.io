@@ -1,7 +1,3 @@
----
-title: "./text/scanner/Next.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (s *Scanner) Next() rune
 
 参数列表：

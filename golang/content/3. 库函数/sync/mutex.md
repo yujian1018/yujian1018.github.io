@@ -1,7 +1,3 @@
----
-title: "./sync/mutex.md"
-date: 2022-05-12T14:13:01+08:00
----
 #Mutex
 
 Mutex是对Locker的一个实现。结构如下：

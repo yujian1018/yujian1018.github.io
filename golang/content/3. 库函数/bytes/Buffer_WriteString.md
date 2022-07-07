@@ -1,7 +1,3 @@
----
-title: "./bytes/Buffer_WriteString.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (b *Buffer) WriteString(s string) (n int, err error)
 
 参数列表

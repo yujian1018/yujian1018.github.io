@@ -1,7 +1,3 @@
----
-title: "./net/IPv4Mask.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func IPv4Mask(a, b, c, d byte) IPMask
 
 参数列表:

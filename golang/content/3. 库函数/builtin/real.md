@@ -1,7 +1,3 @@
----
-title: "./builtin/real.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func real(c ComplexType) FloatType
 
 参数列表：

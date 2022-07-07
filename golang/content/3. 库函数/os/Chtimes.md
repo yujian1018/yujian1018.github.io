@@ -1,7 +1,3 @@
----
-title: "./os/Chtimes.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Chtimes(name string, atime time.Time, mtime time.Time) error
 
 参数列表

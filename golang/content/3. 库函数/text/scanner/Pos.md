@@ -1,7 +1,3 @@
----
-title: "./text/scanner/Pos.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (s *Scanner) Pos() (pos Position)
 
 参数列表：

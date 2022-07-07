@@ -1,7 +1,3 @@
----
-title: "./strings/NewReplacer.md"
-date: 2022-05-12T14:13:01+08:00
----
 # type Replacer
 这是一个字符串替换的对象
 

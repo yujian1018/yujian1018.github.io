@@ -1,7 +1,3 @@
----
-title: "./reflect/DeepEqual.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func DeepEqual(a1, a2 interface{}) bool
 
 参数列表

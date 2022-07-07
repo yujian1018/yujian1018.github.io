@@ -1,7 +1,3 @@
----
-title: "./encoding/binary/PutUvarint.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func PutUvarint(buf []byte, x uint64) int
 
 ###参数列表

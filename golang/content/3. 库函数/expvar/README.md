@@ -1,7 +1,3 @@
----
-title: "./expvar/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # expvar包
 
 expvar包提供了一组标准接口，将服务器内部的公共变量，通过HTTP协议，及json格式，暴露出来，可访问 /debug/vars 获取。

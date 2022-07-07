@@ -1,7 +1,3 @@
----
-title: "./os/ProcessState_SysUsage.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (p *ProcessState) SysUsage() interface{}
 
 参数列表

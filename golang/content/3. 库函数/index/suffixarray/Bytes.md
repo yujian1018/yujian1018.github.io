@@ -1,7 +1,3 @@
----
-title: "./index/suffixarray/Bytes.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (x *Index) Bytes() []byte
 参数列表
 

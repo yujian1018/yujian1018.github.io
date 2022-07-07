@@ -1,7 +1,3 @@
----
-title: "./io/SectionReader.ReadAt.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func (s *SectionReader) ReadAt(p []byte, off int64) (n int, err error)
 
 参数：

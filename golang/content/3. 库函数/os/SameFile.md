@@ -1,7 +1,3 @@
----
-title: "./os/SameFile.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SameFile(fi1, fi2 FileInfo) bool
 
 参数列表

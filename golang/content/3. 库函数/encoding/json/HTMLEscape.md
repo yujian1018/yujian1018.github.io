@@ -1,7 +1,3 @@
----
-title: "./encoding/json/HTMLEscape.md"
-date: 2022-05-12T14:13:01+08:00
----
 ##func HTMLEscape(dst *bytes.Buffer, src []byte) error
 
 参数列表:

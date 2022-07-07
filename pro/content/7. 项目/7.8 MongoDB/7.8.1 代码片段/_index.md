@@ -1,9 +1,3 @@
----
-title: "7.8.1 代码片段"
-weight: 07080100
-date: 2019-08-30T15:13:01+08:00
-chapter: true
----
 
 ```mongo
 # rs.initiate(config),需要连接入某个节点

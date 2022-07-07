@@ -1,7 +1,3 @@
----
-title: "./compress/flate/Writer.Reset.md"
-date: 2022-05-12T14:13:01+08:00
----
 ﻿# func (w *Writer) Reset(dst io.Writer)
 
 参数列表：

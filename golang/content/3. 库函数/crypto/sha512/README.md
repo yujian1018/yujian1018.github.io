@@ -1,7 +1,3 @@
----
-title: "./crypto/sha512/README.md"
-date: 2022-05-12T14:13:01+08:00
----
 # crypto/sha512包函数列表
 
 - [func New() hash.Hash](New.md) 

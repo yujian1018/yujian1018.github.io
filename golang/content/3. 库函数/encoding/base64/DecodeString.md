@@ -1,7 +1,3 @@
----
-title: "./encoding/base64/DecodeString.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (enc *Encoding) DecodeString(s string) ([]byte, error)
 
 参数列表：

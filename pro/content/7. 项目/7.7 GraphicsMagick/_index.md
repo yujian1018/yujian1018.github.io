@@ -1,9 +1,3 @@
----
-title: "7.7 GraphicsMagick"
-date: 2019-08-30T10:56:29+08:00
-weight: 07070000
-chapter: true
----
 
 ## 开源的图像处理软件
 

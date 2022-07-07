@@ -1,7 +1,3 @@
----
-title: "./html/template/HTMLEscape.md"
-date: 2022-05-12T14:13:01+08:00
----
 #func HTMLEscape(w io.Writer, b []byte)
 
 ##参数

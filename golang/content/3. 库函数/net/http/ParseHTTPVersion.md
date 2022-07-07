@@ -1,7 +1,3 @@
----
-title: "./net/http/ParseHTTPVersion.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func ParseHTTPVersion(vers string) (major, minor int, ok bool) 
 
 参数

@@ -1,9 +1,3 @@
----
-title: "7.8 MongoDB"
-weight: 07080000
-date: 2019-08-30T15:13:01+08:00
-chapter: true
----
 <https://docs.mongodb.org>
 
 a) mongod - Mongodb服务通过执行该文件启动。启动时可指定数据存放目录及日志存放目录等。

@@ -1,7 +1,3 @@
----
-title: "./net/DialTimeout.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func DialTimeout(net, addr string, timeout time.Duration) (Conn, error)
 
 参数列表:

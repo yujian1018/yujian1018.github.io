@@ -1,7 +1,3 @@
----
-title: "./net/SplitHostPort.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func SplitHostPort(hostport string) (host, port string, err error)
 
 参数列表:

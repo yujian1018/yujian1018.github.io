@@ -1,7 +1,3 @@
----
-title: "./encoding/gob/struct.md"
-date: 2022-05-12T14:13:01+08:00
----
 
 ```go
 // A Decoder manages the receipt of type and data information read from the

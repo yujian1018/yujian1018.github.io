@@ -1,7 +1,3 @@
----
-title: "./index/suffixarray/Read.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (x *Index) Read(r io.Reader) error
 参数列表
 

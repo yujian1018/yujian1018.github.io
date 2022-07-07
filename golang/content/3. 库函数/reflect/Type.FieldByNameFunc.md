@@ -1,7 +1,3 @@
----
-title: "./reflect/Type.FieldByNameFunc.md"
-date: 2022-05-12T14:13:01+08:00
----
 # FieldByNameFunc(match func(string) bool) (StructField, bool)
 
 参数列表

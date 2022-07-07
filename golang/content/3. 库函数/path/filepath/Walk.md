@@ -1,7 +1,3 @@
----
-title: "./path/filepath/Walk.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Walk(root string, walkFunc WalkFunc) error
 
 参数列表:

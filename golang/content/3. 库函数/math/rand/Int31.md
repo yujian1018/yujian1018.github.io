@@ -1,7 +1,3 @@
----
-title: "./math/rand/Int31.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func Int31() int32
 
 返回值：

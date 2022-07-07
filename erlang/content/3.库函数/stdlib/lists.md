@@ -1,7 +1,3 @@
----
-title: "list"
-date: 2019-08-30T15:13:01+08:00
----
 
 * lists模块的reverse/1经过高度优化，可以在重排lists元素顺序时考虑使用
 * 如果两个list都拥有很多数据，那么请不要使用'--'，而是将数据转化到ordsets，然后调用ordsets:substract/2

@@ -1,7 +1,3 @@
----
-title: "./os/FileMode_IsDir.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (m FileMode) IsDir() bool
 
 参数列表

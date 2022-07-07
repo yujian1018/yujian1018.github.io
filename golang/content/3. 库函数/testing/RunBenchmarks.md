@@ -1,7 +1,3 @@
----
-title: "./testing/RunBenchmarks.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func RunBenchmarks(matchString func(pat, str string) (bool, error), benchmarks []InternalBenchmark)
 
 参数列表

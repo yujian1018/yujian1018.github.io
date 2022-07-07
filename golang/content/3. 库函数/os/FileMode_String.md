@@ -1,7 +1,3 @@
----
-title: "./os/FileMode_String.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## func (m FileMode) String() string
 
 参数列表

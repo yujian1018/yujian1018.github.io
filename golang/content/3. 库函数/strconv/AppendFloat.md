@@ -1,7 +1,3 @@
----
-title: "./strconv/AppendFloat.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func AppendFloat(dst []byte, f float64, fmt byte, prec int, bitSize int) []byte
 
 参数列表

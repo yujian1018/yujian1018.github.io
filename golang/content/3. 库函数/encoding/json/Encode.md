@@ -1,7 +1,3 @@
----
-title: "./encoding/json/Encode.md"
-date: 2022-05-12T14:13:01+08:00
----
 func (enc *Encoder) Encode(v interface{}) error
 
 参数列表:

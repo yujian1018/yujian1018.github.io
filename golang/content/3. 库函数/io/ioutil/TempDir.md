@@ -1,7 +1,3 @@
----
-title: "./io/ioutil/TempDir.md"
-date: 2022-05-12T14:13:01+08:00
----
 # func TempDir(dir, prefix string) (name string, err error)
 
 参数列表

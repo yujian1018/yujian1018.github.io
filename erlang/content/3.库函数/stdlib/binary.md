@@ -1,7 +1,3 @@
----
-title: "binary"
-date: 2019-08-30T15:13:01+08:00
----
 ```erlang
 at(Subject, Pos) -> byte() 
 返回一个二进制数据里指定位置（从 0 开始）的数据（整数的形式），如果 Pos >= byte_size(Subject)，则会发生一个 badarg 的异常错误。

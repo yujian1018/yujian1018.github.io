@@ -1,7 +1,3 @@
----
-title: "./testing/InternalExample.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## type InternalBenchmark
 
 结构：

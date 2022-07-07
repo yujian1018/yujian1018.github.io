@@ -1,7 +1,3 @@
----
-title: "net_kernel"
-date: 2019-08-30T15:13:01+08:00
----
 
 
 net_kernel:monitor_nodes(Flag).%调用这个方法来订阅节点状态变动的消息.一个节点加入的时候会向所有的订阅进程发送一个nodeup消息,一个节点断开的时候会发送nodedown消息.  

@@ -1,7 +1,3 @@
----
-title: "./os/exec/Output.md"
-date: 2022-05-12T14:13:01+08:00
----
 ## (c *Cmd) Output() ([]byte, error)
 
 参数列表
