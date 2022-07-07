@@ -32,5 +32,5 @@ gen_tcp:listen中使用的options
 %%{packet, 4} 表示每一个消息都是从一个4字节长的头部开始 意味着每个包有4个字节的包头，代表长度
 ```
 
-![pic](/imagesscreenshot_1534760515753.png)
-![pic](/imagesscreenshot_1534760522141.png)
+![pic](/images/screenshot_1534760515753.png)
+![pic](/images/screenshot_1534760522141.png)

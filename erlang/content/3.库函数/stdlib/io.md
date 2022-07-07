@@ -1,6 +1,6 @@
 
 
-![pic](/imagesscreenshot_1534761017270.png)
+![pic](/images/screenshot_1534761017270.png)
 
 ```erlang
 io:get_line

@@ -1,49 +1,49 @@
-# func (l *List) Remove(e *Element) interface{}
+# func (l *List) Remove(e*Element) interface{}
 
-²ÎÊıÁĞ±í£º
+å‚æ•°åˆ—è¡¨ï¼š
 
-- `e`£º½«±»É¾³ıµÄ½Úµã£¬¸Ã½Úµã±ØĞëÊÇÊôÓÚÁ´±í`l`µÄ
+- `e`ï¼šå°†è¢«åˆ é™¤çš„èŠ‚ç‚¹ï¼Œè¯¥èŠ‚ç‚¹å¿…é¡»æ˜¯å±äºé“¾è¡¨`l`çš„
 
-·µ»ØÖµ£º
+è¿”å›å€¼ï¼š
 
-- `interface{}`£º±»É¾³ıµÄ½ÚµãµÄÄÚÈİ
+- `interface{}`ï¼šè¢«åˆ é™¤çš„èŠ‚ç‚¹çš„å†…å®¹
 
-¹¦ÄÜËµÃ÷£º
+åŠŸèƒ½è¯´æ˜ï¼š
 
-É¾³ıÖ¸¶¨µÄ½Úµã£¬²¢·µ»ØÕâ¸ö½ÚµãµÄÄÚÈİ
+åˆ é™¤æŒ‡å®šçš„èŠ‚ç‚¹ï¼Œå¹¶è¿”å›è¿™ä¸ªèŠ‚ç‚¹çš„å†…å®¹
 
-´úÂëÊµÀı£º
+ä»£ç å®ä¾‹ï¼š
 
 ```go
 
-	package main
+ package main
 
-	import (
-		"fmt"
-		"container/list"
-	)
+ import (
+  "fmt"
+  "container/list"
+ )
 
-	func main(){
-		l1 := list.New()
-		l1.PushBack("a")
-		l1.PushBack("b")
-		fmt.Println(l1.Len()) // Êä³ö£º2
-		
-		l2 := list.New()
-		l2.PushBack("c")
-		elementFromL2 := l2.PushBack("d")
-		
-		l1.PushBackList(l2) // l2ÖĞËùÓĞ½ÚµãµÄlist×Ö¶Î¶¼ÊÇl2£¬ÔÚl2µÄËùÓĞ½Úµã¶¼¼Óµ½l1µÄÄ©Î²ºó£¬list×Ö¶Î±à³ÌÁËl1
-		fmt.Println(l1.Len()) // Êä³ö£º4
-		
-		elementFromL1 := l1.Back();
-		fmt.Println(elementFromL1.Value) // Êä³ö£ºd
-		l1.Remove(elementFromL2) // elementFromL2ÊÇÊôÓÚl2µÄ£¬²»ÊôÓÚl1£¬ËùÒÔl1²»»áÓĞ½Úµã±»É¾³ı
-		fmt.Println(l1.Len()) // Êä³ö£º4
-		fmt.Println(l1.Back().Value) // Êä³ö£ºd
-		l1.Remove(elementFromL1) // ³É¹¦µÄÉ¾³ı
-		fmt.Println(l1.Len()) // Êä³ö£º3
-		fmt.Println(l1.Back().Value) // Êä³ö£ºc
-	}
+ func main(){
+  l1 := list.New()
+  l1.PushBack("a")
+  l1.PushBack("b")
+  fmt.Println(l1.Len()) // è¾“å‡ºï¼š2
+  
+  l2 := list.New()
+  l2.PushBack("c")
+  elementFromL2 := l2.PushBack("d")
+  
+  l1.PushBackList(l2) // l2ä¸­æ‰€æœ‰èŠ‚ç‚¹çš„listå­—æ®µéƒ½æ˜¯l2ï¼Œåœ¨l2çš„æ‰€æœ‰èŠ‚ç‚¹éƒ½åŠ åˆ°l1çš„æœ«å°¾åï¼Œlistå­—æ®µç¼–ç¨‹äº†l1
+  fmt.Println(l1.Len()) // è¾“å‡ºï¼š4
+  
+  elementFromL1 := l1.Back();
+  fmt.Println(elementFromL1.Value) // è¾“å‡ºï¼šd
+  l1.Remove(elementFromL2) // elementFromL2æ˜¯å±äºl2çš„ï¼Œä¸å±äºl1ï¼Œæ‰€ä»¥l1ä¸ä¼šæœ‰èŠ‚ç‚¹è¢«åˆ é™¤
+  fmt.Println(l1.Len()) // è¾“å‡ºï¼š4
+  fmt.Println(l1.Back().Value) // è¾“å‡ºï¼šd
+  l1.Remove(elementFromL1) // æˆåŠŸçš„åˆ é™¤
+  fmt.Println(l1.Len()) // è¾“å‡ºï¼š3
+  fmt.Println(l1.Back().Value) // è¾“å‡ºï¼šc
+ }
 
 ```

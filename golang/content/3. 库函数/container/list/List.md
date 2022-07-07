@@ -1,23 +1,23 @@
 # type List
 
-## ½á¹¹Ìå´úÂë£º
+## ç»“æ„ä½“ä»£ç 
 
 ```go
 
-	type List struct {
-		front, back *Element
-		len         int
-	}
+ type List struct {
+  front, back *Element
+  len         int
+ }
 
 ```
 
-## ½á¹¹Ìå×Ö¶Î£º
+## ç»“æ„ä½“å­—æ®µ
 
-- `front *Element`£ºÁ´±íÖĞµÄµÚÒ»¸ö½ÚµãµÄÖ¸Õë
-- `back *Element`£ºÁ´±íÖĞ×îºóÒ»¸ö½ÚµãµÄÖ¸Õë
-- `len int`£ºÁ´±íÖĞ½ÚµãµÄ¸öÊı
+- `front *Element`ï¼šé“¾è¡¨ä¸­çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹çš„æŒ‡é’ˆ
+- `back *Element`ï¼šé“¾è¡¨ä¸­æœ€åä¸€ä¸ªèŠ‚ç‚¹çš„æŒ‡é’ˆ
+- `len int`ï¼šé“¾è¡¨ä¸­èŠ‚ç‚¹çš„ä¸ªæ•°
 
-## º¯ÊıÁ´±í£º
+## å‡½æ•°é“¾è¡¨
 
 - [func New() *List](New.md)
 - [func (l *List) Back() *Element](Back.md)

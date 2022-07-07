@@ -1,0 +1,28 @@
+[book]
+authors = ["yujian"]
+language = "zh"
+multilingual = false
+src = "content"
+title = "html5笔记"
+
+[rust]
+edition = "2021"
+
+[output.html]
+mathjax-support = true
+site-url = "/html5/"
+git-repository-url = "https://github.com/yujian1018/yujian1018.github.io/tree/master/html5"
+edit-url-template = "https://github.com/yujian1018/yujian1018.github.io/edit/master/html5/{path}"
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2

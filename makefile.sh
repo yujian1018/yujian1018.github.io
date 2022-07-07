@@ -34,6 +34,9 @@ case ${ARG_1} in
     fi
 
     cd blog && hugo --config config.yaml && cd ../ && rm -rf me && mv blog/public me
+
+
+    
     cd cpp && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/cpp && mv cpp/public book/cpp
     cd erlang && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/erlang && mv erlang/public book/erlang
     cd game && hugo --config ../config.yaml,config.yaml && cd ../ && rm -rf book/game && mv game/public book/game
