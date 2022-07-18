@@ -1,10 +1,3 @@
----
-title: "st"
-menuTitle: "st"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
-
 #!/usr/bin/env bash
 
 DATE=$(date +%F_%H_%M)

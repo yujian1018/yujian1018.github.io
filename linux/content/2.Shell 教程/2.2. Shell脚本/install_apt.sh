@@ -1,9 +1,3 @@
----
-title: "install_apt"
-menuTitle: "install_apt"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
 #!/bin/sh
 
 sudo apt update

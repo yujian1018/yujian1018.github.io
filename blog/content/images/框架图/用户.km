@@ -1,0 +1,82 @@
+{
+    "root": {
+        "data": {
+            "id": "clcn4vzu6x40",
+            "created": 1657523761460,
+            "text": "用户"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "clcn4yrimow0",
+                    "created": 1657523767487,
+                    "text": "个人"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clcn580y15s0",
+                            "created": 1657523787648,
+                            "text": "基础属性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "clcn59gxxi00",
+                            "created": 1657523790792,
+                            "text": "加入、离开"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clcn4zvgk740",
+                    "created": 1657523769902,
+                    "text": "组织"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clcn5etpzjs0",
+                            "created": 1657523802449,
+                            "text": "基础属性"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "clcn5meaq9k0",
+                    "created": 1657523818931,
+                    "text": "应用"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "clcn5nt9yvs0",
+                            "created": 1657523822013,
+                            "text": "权限"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "clcn5t3wls80",
+                                    "created": 1657523833540,
+                                    "text": "角色"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

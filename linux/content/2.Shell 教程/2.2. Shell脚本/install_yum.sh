@@ -1,9 +1,3 @@
----
-title: "install_yum"
-menuTitle: "install_yum"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
 #!/bin/sh
 yum -y update
 

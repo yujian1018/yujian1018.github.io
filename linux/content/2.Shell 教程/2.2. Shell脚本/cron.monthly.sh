@@ -1,9 +1,3 @@
----
-title: "cron"
-menuTitle: "cron"
-weight: 0
-date: 2019-08-30T15:13:01+08:00
----
 #!/bin/sh
 
 #crontab -uroot -e
