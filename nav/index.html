@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>导航页</title>
+    <meta name="theme-color" content="#f9f9f9">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+
+    <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="iconfont-css" href="css/iconfont.css" type="text/css" media="all">
+    <link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="all">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="io-white-mode">
+    <div class="page-container">
+        <div id="sidebar" class="sticky sidebar-nav fade ">
+            <div class="modal-dialog h-100 sidebar-nav-inner">
+                <div class="sidebar-logo border-bottom border-color">
+                    <!-- logo -->
+                    <div class="logo overflow-hidden">
+                        <a href="#" class="logo-expanded">
+                            <img src="logo.png" height="40" alt="">
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                </div>
+                <div class="sidebar-menu flex-fill">
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-menu-inner">
+                            <ul>
+
+                                <li class="sidebar-item"> <a href="javascript:;">
+                                        <i class="fa fa-diamond icon-fw icon-lg mr-2"></i> <span>项目</span>
+                                        <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i> </a>
+                                    <ul>
+                                        <li> <a href="#" class="smooth"><span>生产环境</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>预生产环境</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>测试环境</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>开发环境</span></a> </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item"> <a href="javascript:;"> <i
+                                            class="fa fa-laptop-code icon-fw icon-lg mr-2"></i> <span>API接口</span> <i
+                                            class="iconfont icon-arrow-r-m sidebar-more text-sm"></i> </a>
+                                    <ul>
+                                        <li> <a href="#" class="smooth"><span>医疗助手</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>调度助手</span></a> </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item"> <a href="javascript:;">
+                                        <i class="fa fa-drupal icon-fw icon-lg mr-2"></i> <span>链接</span>
+                                        <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i> </a>
+                                    <ul>
+                                        <li> <a href="#" class="smooth"><span>工具</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>活动</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>协议</span></a> </li>
+                                        <li> <a href="#" class="smooth"><span>帮助</span></a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top py-2 border-color">
+                    <div class="flex-bottom">
+                        <ul>
+                            <li id="menu-item-442"
+                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-442 sidebar-item">
+                                <a href="#">
+                                    <i class="fa fa-question-circle-o icon-fw icon-lg mr-2"></i><span>留言反馈</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content flex-fill">
+            <div id="header" class="page-header big sticky">
+                <div class="navbar navbar-expand-md">
+                    <div class="container-fluid p-0">
+                        <div class="collapse navbar-collapse order-2 order-md-1">
+                            <ul class="navbar-nav site-menu mr-4">
+                                <li id="menu-item-110"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110">
+                                    <a href="#">
+                                        <i class="fa fa-bullhorn icon-fw icon-lg mr-2"></i> <span>站长公告</span></a>
+                                </li>
+                                <li id="menu-item-427"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427">
+                                    <a href="#">
+                                        <i class="fa fa-leanpub icon-fw icon-lg mr-2"></i> <span>资源分享</span></a>
+                                </li>
+                                <li id="menu-item-610"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-610">
+                                    <a href="#"><i class="fa fa-user-circle-o icon-fw icon-lg mr-2"></i>
+                                        <span>关于我们</span></a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-606"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606">
+                                            <a href="#">免责声明</a>
+                                        </li>
+                                        <li id="menu-item-607"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-607">
+                                            <a href="#">本站简介</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-big bg-gradual canvas-fx mb-4">
+                <div id="bulletin_box" class="card my-2"></div>
+            </div>
+            <div id="content" class="content-site customize-site">
+                <div class="item">
+                    <h4 class="text-gray text-lg"> <i class="site-tag iconfont icon-tag icon-lg mr-1"></i> 项目
+                    </h4> <!-- tab模式菜单 -->
+                    <div class="d-flex flex-fill flex-tab">
+                        <div class="overflow-x-auto">
+                            <div class="slider_menu mini_tab ajax-list-home into" slidertab="sliderTab">
+                                <ul class="nav nav-pills menu">
+                                    <li class="anchor"
+                                        style="position: absolute; width: 80px; height: 28px; left: 3px; opacity: 1;">
+                                    </li>
+                                    <li class="pagenumber nav-item"><a class="nav-link active">生产环境</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">预生产环境</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">测试环境</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">开发环境</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- tab模式菜单 end -->
+                </div>
+                <div class="item">
+                    <h4 class="text-gray text-lg"><i class="site-tag iconfont icon-tag icon-lg mr-1"></i>API接口
+                    </h4>
+                    <!-- tab模式菜单 -->
+                    <div class="d-flex flex-fill flex-tab">
+                        <div class="overflow-x-auto">
+                            <div class="slider_menu mini_tab ajax-list-home into" slidertab="sliderTab">
+                                <ul class="nav nav-pills menu">
+                                    <li class="anchor"
+                                        style="position: absolute; width: 66px; height: 28px; left: 3px; opacity: 1;">
+                                    </li>
+                                    <li class="pagenumber nav-item"><a class="nav-link active">医疗助手</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">调度助手</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> <!-- tab模式菜单 end -->
+                </div>
+                <div class="item">
+                    <h4 class="text-gray text-lg"> <i class="site-tag iconfont icon-tag icon-lg mr-1"></i> 链接
+                    </h4> <!-- tab模式菜单 -->
+                    <div class="d-flex flex-fill flex-tab">
+                        <div class="overflow-x-auto">
+                            <div class="slider_menu mini_tab ajax-list-home into" slidertab="sliderTab">
+                                <ul class="nav nav-pills menu">
+                                    <li class="anchor"
+                                        style="position: absolute; width: 52px; height: 28px; left: 3px; opacity: 1;">
+                                    </li>
+                                    <li class="pagenumber nav-item"><a class="nav-link active">工具</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">活动</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">协议</a></li>
+                                    <li class="pagenumber nav-item"><a class="nav-link ">帮助</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-fill"></div> <a class="btn-move tab-move text-xs ml-2"
+                            href="#" style="line-height:34px;display:none">more+</a>
+                    </div> <!-- tab模式菜单 end -->
+                </div>
+                <div class="item">
+                    <h4 class="text-gray text-lg mb-4"> <i class="iconfont icon-book-mark-line icon-lg mr-2"
+                            id="friendlink"></i>友情链接 </h4>
+                    <div class="friendlink text-xs card">
+                        <div class="card-body">
+                            <a href="#" target="_blank">百度</a>
+                            <a href="#" target="_blank" title="更多链接">更多链接</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- main-content end -->
+    </div><!-- page-container end -->
+
+    <script type="text/javascript" src="js/configs.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
