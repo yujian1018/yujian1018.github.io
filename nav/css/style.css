@@ -26,6 +26,8 @@ p{color:#1d232b;margin:0;white-space:normal;word-break:break-all}
 .io{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
 @media (max-width:767.98px){
 }
+/* @media (min-width:1920px){.content-site{max-width:1900px;}
+} */
 @media (min-width:1920px){.content-site{padding: 0 2em;}
 }
 @media (max-width:1919.98px){.content-site{max-width:1840px}
