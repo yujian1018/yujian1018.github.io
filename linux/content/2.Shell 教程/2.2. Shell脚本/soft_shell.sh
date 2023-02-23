@@ -13,3 +13,9 @@ date "+%Y-%m-%d %H:%M:%S"
 #
 nohup cmd &
 
+
+# 
+fun_erl() {
+    echo erl -name "$NAME" -config config/sys -config config/${APP_NAME}_"$CONFIG" -args_file config/vm.args -args_file config/${APP_NAME}_vm.args
+    erl -name "$NAME" -config config/sys -config config/${APP_NAME}_"$CONFIG" -args_file config/vm.args -args_file config/${APP_NAME}_vm.args
+}

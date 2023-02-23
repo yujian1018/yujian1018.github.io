@@ -145,6 +145,9 @@ rar() {
     rm -rf "${VERSION}"/_build/default/lib/*/doc
 
     tar -zcf "${APP_NAME}"_"${VERSION}"_"${DATE}".tar.gz "${VERSION}"
+    # tar -I zstd -cvf nginx.tar.zst /etc/nginx
+    # tar -I zstd -xvf a.zst
+
     rm -rf "${VERSION}"
     echo "${VERSION}"
 }
