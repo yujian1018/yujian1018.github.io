@@ -36,6 +36,17 @@ var configs = [
                     {}
                 ]
             },
+            {
+                "title": "印路科技销售工具",
+                "notice": "系统 road",
+                "icon": "maintenance.png",
+                "links": [
+                    { "link_name": "产品原型图", "url": "https://9f4v38.axshare.com/#id=qa9s4k&p=%E7%99%BB%E5%BD%95%E9%A1%B5" },
+                    { "link_name": "cloudflow", "url": "http://hybridsoftware.net.cn:9090/" },
+                    {},
+                    {}
+                ]
+            },
         ]
     },
     {
