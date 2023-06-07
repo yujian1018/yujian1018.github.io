@@ -47,6 +47,16 @@ var configs = [
                     {}
                 ]
             },
+            {
+                "title": "官网",
+                "notice": "官方站点",
+                "icon": "maintenance.png",
+                "links": [
+                    { "link_name": "www1", "url": "https://www1.qingxuai.com" },
+                    { "link_name": "www2", "url": "https://www2.qingxuai.com" },
+                    {}
+                ]
+            },
         ]
     },
     {
