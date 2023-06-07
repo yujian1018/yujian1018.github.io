@@ -1,6 +1,0 @@
-{
-    "files.exclude": {
-        "*/book/": true,
-        "me": true
-    },
-}
