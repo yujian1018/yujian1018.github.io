@@ -5,7 +5,7 @@
 # erlang
 ###=====================================================
 #ubuntu
-sudo apt install -y libncurses-dev libwxgtk3.0-dev m4;
+sudo apt install -y libncurses-dev libwxgtk3.0-gtk3-dev m4;
 #centOS
 yum -y install m4 ncurses-devel;
 
