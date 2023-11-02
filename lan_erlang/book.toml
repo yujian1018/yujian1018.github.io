@@ -1,6 +1,6 @@
 [book]
 authors = ["yujian"]
-language = "zh"
+language = "zh-CN"
 multilingual = false
 src = "content"
 title = "Erlang笔记"
@@ -13,6 +13,7 @@ mathjax-support = true
 site-url = "/erlang/"
 git-repository-url = "https://github.com/yujian1018/yujian1018.github.io/tree/master/erlang"
 edit-url-template = "https://github.com/yujian1018/yujian1018.github.io/edit/master/erlang/{path}"
+
 
 [output.html.playground]
 editable = true
