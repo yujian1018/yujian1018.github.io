@@ -2,7 +2,7 @@
 
 sudo apt update
 
-sudo apt install -y make gcc g++ openssl libssl-dev ssh autoconf;
+sudo apt install -y make gcc g++ openssl libssl-dev ssh autoconf pkg-config;
 
 sudo apt install -y vim git tmux curl rsync;
 
