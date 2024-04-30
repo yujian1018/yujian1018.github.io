@@ -1,18 +1,26 @@
 var configs = [
     {
-        "nav_name": "内部项目导航",
+        "nav_name": "DOING",
         "items": [
-
             {
                 "title": "印路科技",
                 "notice": "印路项目",
+                "icon": "printroad.png",
+                "links": [
+                    { "link_name": "导航页", "url": "https://oss.qingxuai.com/website/nav.printroad.cn/index.html" },
+                ]
+            },
+            {
+                "title": "协企链",
+                "notice": "协企链项目",
                 "icon": "maintenance.png",
                 "links": [
-                    { "link_name": "导航页", "url": "https://oss.qingxuai.com/website/nav.qingxuai.com/index.html" },
+                    { "link_name": "导航页", "url": "https://oss.qingxuai.com/website/nav.xieqichain.com/index.html" },
                 ]
             },
         ]
     },
+
     {
         "nav_name": "工具",
         "items": [
@@ -33,15 +41,36 @@ var configs = [
                 ]
             },
             {
+                "title": "原型图",
+                "notice": "原型图",
+                "icon": "oss.png",
+                "links": [
+                    { "link_name": "原型图v1", "url": "#" },
+                ]
+            },
+            {
+                "title": "蓝湖",
+                "notice": "产品设计",
+                "icon": "lanhuapp.ico",
+                "links": [
+                    { "link_name": "", "url": "https://lanhuapp.com/" },
+                ]
+            },
+            {
                 "title": "minio",
                 "notice": "文件存储",
                 "icon": "oss.png",
                 "links": [
-                    { "link_name": "测试环境", "url": "https://ossadmin.qingxuai.com/" },
-                    { "link_name": "正式环境", "url": "https://ossadmin.qingxuai.com/" },
+                    { "link_name": "地址", "url": "https://ossadmin.qingxuai.com/" },
                     { "link_name": "官网", "url": "https://min.io" },
                 ]
             },
+        ]
+    },
+    {
+        "nav_name": "2024",
+        "items": [
+
         ]
     },
     {
