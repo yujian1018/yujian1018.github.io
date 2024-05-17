@@ -18,6 +18,14 @@ var configs = [
                     { "link_name": "导航页", "url": "https://oss.qingxuai.com/website/nav.xieqichain.com/index.html" },
                 ]
             },
+            {
+                "title": "产教行",
+                "notice": "产教行项目",
+                "icon": "logo03.png",
+                "links": [
+                    { "link_name": "导航页", "url": "https://oss.qingxuai.com/website/nav.365cjx.com/index.html" },
+                ]
+            },
         ]
     },
 

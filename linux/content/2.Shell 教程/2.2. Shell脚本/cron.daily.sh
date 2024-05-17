@@ -32,7 +32,7 @@ fun_sync_file() {
     #--delete:删除那些DST中SRC没有的文件
     #-progress:在传输时现实传输过程。
     rsync -azue ssh --delete /root/git root@1.2.3.4:/root/
-    rsync -azuev ssh --delete /var/www/media /var/www/voice                          #本地拷贝目录
+    rsync -azuev ssh --delete /var/www/media /var/www/voice                         #本地拷贝目录
     rsync -azuev ssh --delete --progress /var/www/media root@1.2.3.4:/var/www/media #将本地目录拷贝到远程服务器 -e "ssh -p 你的SSH端口"
 }
 
